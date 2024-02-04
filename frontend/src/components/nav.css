@@ -1,0 +1,8 @@
+.main-nav {
+    @apply ml-5;
+    color: #c4c5b4;
+}
+
+.main-nav a:hover {
+    color: #970700;
+}

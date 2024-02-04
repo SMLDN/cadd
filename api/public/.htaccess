@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteCond %{HTTP:Accept-Encoding} gzip
+RewriteCond %{REQUEST_URI} ^/static/bundle/.*(\.js|\.css)$
+RewriteCond %{REQUEST_FILENAME}.gz -s
+RewriteRule .* %{REQUEST_URI}.gz [last]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [QSA,L]
+RewriteRule .* - [env=HTTP_AUTHORIZATION:%{HTTP:Authorization}]

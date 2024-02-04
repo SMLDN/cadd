@@ -1,0 +1,10 @@
+.main-container {
+    background-image: url('/static/img/ui/bg4.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1113px;
+    height: 711px;
+    display: flex;
+    margin: 0 auto;
+}

@@ -1,0 +1,31 @@
+.noi-cong-tag,
+.kinh-mach-tag {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 70px;
+  height: 50px;
+}
+
+.noi-cong-tag {
+  background-image: url("/static/img/ui/noi-cong-out.png");
+}
+
+.kinh-mach-tag {
+  background-image: url("/static/img/ui/kinh-mach-out.png");
+}
+
+.tag-element:hover .noi-cong-tag,
+.noi-cong-tag.actived {
+  background-image: url("/static/img/ui/noi-cong-in.png");
+}
+
+.tag-element:hover .kinh-mach-tag,
+.kinh-mach-tag.actived {
+  background-image: url("/static/img/ui/kinh-mach-in.png");
+}
+
+.tag-element {
+  @apply mt-5;
+  @apply -ml-5;
+}

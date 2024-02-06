@@ -1,25 +1,29 @@
 .inner-header {
-    font-size: 14px;
-    background-image: url('/static/img/ui/rbtn-in.png');
-    background-repeat: no-repeat;
-    color: #705f4a;
-    font-weight: 700;
-    height: 33px;
-    width: 148px;
-    margin-top: 5px;
-    text-align: center;
-    white-space: nowrap;
-    /* overflow:hidden; */
-    /* text-overflow: ellipsis; */
-    cursor: pointer;
+  font-size: 14px;
+  background-image: url("/static/img/ui/rbtn-in.png");
+  background-repeat: no-repeat;
+  color: #705f4a;
+  font-weight: 700;
+  height: 33px;
+  width: 148px;
+  margin-top: 5px;
+  text-align: center;
+  white-space: nowrap;
+  /* overflow:hidden; */
+  /* text-overflow: ellipsis; */
+  cursor: pointer;
 }
 
 .inner-item {
-    @apply pl-4;
-    @apply text-sm;
-    @apply cursor-pointer;
-    color: #705f4a;
-    font-weight: 600;
-    font-size: 13px;
-    margin-bottom: 2px;
+  @apply pl-4;
+  @apply text-sm;
+  @apply cursor-pointer;
+  color: #705f4a;
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+
+.inner-item:hover, .inner-item.actived {
+  color: #970700;
 }

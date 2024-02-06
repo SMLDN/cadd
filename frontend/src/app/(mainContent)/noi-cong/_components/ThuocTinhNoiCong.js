@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
-export default function ({ inner }) {
+export default function ThuocTinhNoiCong ({ inner }) {
   const { detail } = inner;
   const getThucLuc = () => {
     let thucLuc = "Bất Kham Nhất Kích";

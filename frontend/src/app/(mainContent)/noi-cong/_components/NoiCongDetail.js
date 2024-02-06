@@ -1,6 +1,7 @@
+import Image from "next/image";
 import ThuocTinhNoiCong from "./ThuocTinhNoiCong";
 import "./noiCongDetail.css";
-export default function ({ inner }) {
+export default function NoiCongDetail({ inner }) {
   const detail = inner.detail;
 
   const dmgByType = (type) => {
@@ -69,23 +70,53 @@ export default function ({ inner }) {
     if (inner.type === "0") {
       return (
         <div>
-          <img src={`/static/img/ui/duong.png`} title="Dương" />
-          <img src={`/static/img/ui/cuong.png`} title="Cương" />
+          <Image
+            src={`/static/img/ui/duong.png`}
+            title="Dương"
+            alt="Dương"
+            width={24}
+            height={24}
+          />
+          <Image
+            src={`/static/img/ui/cuong.png`}
+            title="Cương"
+            alt="Cương"
+            width={24}
+            height={24}
+          />
         </div>
       );
     }
     if (inner.type === "1") {
       return (
         <div>
-          <img src={`/static/img/ui/am.png`} title="Âm" />
-          <img src={`/static/img/ui/nhu.png`} title="Nhu" />
+          <Image
+            src={`/static/img/ui/am.png`}
+            title="Âm"
+            alt="Âm"
+            width={24}
+            height={24}
+          />
+          <Image
+            src={`/static/img/ui/nhu.png`}
+            title="Nhu"
+            alt="Nhu"
+            width={24}
+            height={24}
+          />
         </div>
       );
     }
 
     return (
       <div>
-        <img src={`/static/img/ui/thai-cuc.png`} title="Thái cực" />
+        <Image
+          src={`/static/img/ui/thai-cuc.png`}
+          title="Thái cực"
+          alt="Thái cực"
+          width={24}
+          height={24}
+        />
       </div>
     );
   };
@@ -97,7 +128,10 @@ export default function ({ inner }) {
       {/* prop box */}
       <div className="propBox font-medium mb-3 mt-2" style={{}}>
         <div className="inner-bg">
-          <img
+          <Image
+            width={60}
+            height={60}
+            alt={`${inner.name}`}
             src={`/static/img/noi-cong/${inner.school.slug}-${inner.rank}.png`}
           />
         </div>

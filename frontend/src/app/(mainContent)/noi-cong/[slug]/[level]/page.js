@@ -1,13 +1,25 @@
-async function getNoiCongInfo(slug, level) {
-    const req = await fetch(`http://localhost/api/noi-cong/${slug}/${level}`);
-    return await req.json();
+import NoiCongSideBar from "@/app/(mainContent)/noi-cong/_components/NoiCongSideBar";
+import { useFrame } from "@/app/(mainContent)/Frame";
+
+async function getSchoolInnerList() {
+  const req = await fetch("http://localhost/api/school/");
+  return await req.json();
 }
 
-export default async function Home({ params }) {
-    const { slug, level } = params;
-    const noiCongInfo = await getNoiCongInfo(slug, level);
-    console.log(noiCongInfo);
-    return (
-        <div>Nội công</div>
-    );
+export default async function NoiCongPage({ params }) {
+  const schoolList = await getSchoolInnerList();
+
+  const defaultSchool = schoolList.find((school) => {
+    return school.innerList.find((inner) => {
+      return inner.slug === params.slug;
+    });
+  });
+
+  const layout = useFrame(
+    <NoiCongSideBar defaultSchoolId={defaultSchool.id} schoolList={schoolList} />,
+    <div>info noi con</div>,
+    <div>main frame</div>
+  );
+
+  return layout;
 }

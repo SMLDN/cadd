@@ -1,9 +1,11 @@
-import SideBar from "@/components/(mainContent)/SideBar";
-import './mainContent.css'
+import Nav from "@/components/Nav";
+import "./mainContent.css";
 
 export default function MainContentLayout({ children }) {
-    return (<div className="main-container">
-        <SideBar />
-        {children}
-    </div>);
+  return (
+    <>
+      <Nav />
+      <div className="main-container">{children}</div>
+    </>
+  );
 }

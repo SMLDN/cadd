@@ -1,5 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
 import noiCongSlice from "./slice/noiCongSlice";
+import kinhMachSlice from "./slice/kinhMachSlice";
 import {
   useDispatch as useAppDispatch,
   useSelector as useAppSelector,
@@ -8,6 +9,7 @@ import {
 const store = configureStore({
   reducer: {
     noiCong: noiCongSlice,
+    kinhMach: kinhMachSlice,
   },
 });
 

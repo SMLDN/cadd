@@ -40,6 +40,6 @@ class NoiCongController
                 return $response->withJson($inner);
             }
         }
-        return $response->withError("Request Error");
+        return $response->withError("Param error");
     }
 }

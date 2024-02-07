@@ -62,7 +62,7 @@ class ZdnBaseModel extends Model
         $camelArray = [];
         $arrays = $this->toArray();
         foreach ($arrays as $key => $values) {
-            if ($values == null) {
+            if (is_null($values)) {
                 continue;
             }
             $camelArray[ZdnString::camel($key)] = $this->recursiveToCamel($values);
@@ -81,10 +81,13 @@ class ZdnBaseModel extends Model
         if (!\is_array($values)) {
             return $values;
         }
-
         $ret = [];
         foreach ($values as $k => $v) {
-            $ret[ZdnString::camel($k)] = $this->recursiveToCamel($v);
+            $res = $this->recursiveToCamel($v);
+            if (is_null($res)){
+                continue;
+            }
+                $ret[ZdnString::camel($k)] = $this->recursiveToCamel($v);
         }
         return $ret;
     }

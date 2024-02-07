@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ThuocTinhNoiCong from "./ThuocTinhNoiCong";
+import NoiCongNavigation from "./NoiCongNavigation";
 import "./noiCongDetail.css";
 export default function NoiCongDetail({ inner }) {
   const detail = inner.detail;
@@ -136,7 +136,7 @@ export default function NoiCongDetail({ inner }) {
           />
         </div>
         <div>
-          <ThuocTinhNoiCong inner={inner} />
+          <NoiCongNavigation inner={inner} />
         </div>
         <div>
           Thuộc về: {`${inner.school.name}`}
@@ -145,7 +145,7 @@ export default function NoiCongDetail({ inner }) {
           <br />
           Tu vi tiến cấp:{" "}
           <span className="text-green-600">
-            {detail.tuViTienCap.toLocaleString()}
+            {detail.tuViTienCap?.toLocaleString()}
           </span>
           <br />
           Tổng tu vi:{" "}

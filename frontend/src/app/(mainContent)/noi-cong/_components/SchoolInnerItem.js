@@ -23,21 +23,17 @@ export default function SchoolInnerItem({ school, show, initInnerSlug }) {
       <div className={show ? null : "hidden"}>
         {innerList.map((inner) => {
           return (
-            <div
+            <Link
               key={inner.slug}
-              className="mb-2"
               id={initInnerSlug === inner.slug ? "selected-inner" : null}
+              className={
+                "inner-item mb-2 block" +
+                (inner.slug === initInnerSlug ? " actived" : "")
+              }
+              href={`/noi-cong/${inner.slug}/${inner.maxLevel}#selected-inner`}
             >
-              <Link
-                className={
-                  "inner-item" +
-                  (inner.slug === initInnerSlug ? " actived" : "")
-                }
-                href={`/noi-cong/${inner.slug}/${inner.maxLevel}#selected-inner`}
-              >
-                {inner.name}
-              </Link>
-            </div>
+              {inner.name}
+            </Link>
           );
         })}
       </div>

@@ -1,0 +1,46 @@
+.first {
+  color: #ff3030;
+}
+
+.second {
+  color: #9932cd;
+}
+
+.third {
+  color: #cfb53b;
+}
+
+.detail {
+  line-height: 1.2em;
+}
+
+.propBox {
+  @apply flex;
+  @apply items-center;
+  @apply justify-around;
+}
+
+.propBox .inner-bg {
+  background-image: url(/static/img/ui/skill-border.png);
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: #cfb53b 1px solid;
+}
+
+.propBox .inner-bg > img {
+  margin: 3px 2px 2px 4px;
+  width: 51px;
+  height: 51px;
+  border-radius: 4px;
+}
+
+.detail-header {
+  @apply text-center;
+  @apply text-lg;
+  @apply font-semibold;
+  @apply bg-no-repeat;
+  @apply bg-center;
+  background-image: url(/static/img/ui/title.png);
+}

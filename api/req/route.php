@@ -3,6 +3,7 @@
 use Zdn\Utility\ZdnString;
 use Zdn\Controller\HomeController;
 use Slim\Routing\RouteCollectorProxy;
+use Zdn\Controller\KinhMachController;
 use Zdn\Controller\NoiCongController;
 use Zdn\Controller\SchoolController;
 
@@ -18,5 +19,12 @@ $app->group("/api", function (RouteCollectorProxy $apiGroup) {
 
     $apiGroup->group("/school", function (RouteCollectorProxy $schoolGroup) {
         $schoolGroup->get("/", SchoolController::class . ":getAll");
+    });
+
+    $apiGroup->group("/kinh-mach", function (RouteCollectorProxy $kmGroup) {
+        $kmGroup->get("/", KinhMachController::class . ":getAll");
+        $kmGroup->group("/{kinhMach:" . ZdnString::SLUG_PATTERN . "}", function (RouteCollectorProxy $g) {
+            $g->get("/{level:[0-9]*}", KinhMachController::class . ":detail");
+        });
     });
 });

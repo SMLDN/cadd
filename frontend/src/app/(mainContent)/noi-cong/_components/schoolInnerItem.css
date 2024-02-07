@@ -1,17 +1,19 @@
 .inner-header {
-  font-size: 14px;
+  @apply ml-2;
+  font-size: 1em;
   background-image: url("/static/img/ui/rbtn-in.png");
   background-repeat: no-repeat;
   color: #705f4a;
   font-weight: 700;
   height: 33px;
-  width: 148px;
+  width: 160px;
   margin-top: 5px;
   text-align: center;
   white-space: nowrap;
   /* overflow:hidden; */
   /* text-overflow: ellipsis; */
   cursor: pointer;
+  background-size: contain;
 }
 
 .inner-item {

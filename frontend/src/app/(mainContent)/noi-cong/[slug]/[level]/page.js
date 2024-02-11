@@ -1,6 +1,6 @@
-import NoiCongSideBar from "@/app/(mainContent)/noi-cong/_components/NoiCongSideBar";
-import NoiCongInfo from "@/app/(mainContent)/noi-cong/_components/NoiCongInfo";
-import NoiCongDetail from "@/app/(mainContent)/noi-cong/_components/NoiCongDetail";
+import NoiCongSideBar from "@/app/(mainContent)/noi-cong/_component/NoiCongSideBar";
+import NoiCongInfo from "@/app/(mainContent)/noi-cong/_component/NoiCongInfo";
+import NoiCongDetail from "@/app/(mainContent)/noi-cong/_component/NoiCongDetail";
 import { useFrame } from "@/app/(mainContent)/Frame";
 import { useSwitchTag } from "@/app/(mainContent)/SwitchTag";
 

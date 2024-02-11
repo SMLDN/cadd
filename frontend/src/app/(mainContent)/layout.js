@@ -6,14 +6,14 @@ export default function MainContentLayout({ children }) {
   return (
     <>
       <Nav />
-
-      <div className="main-container">
+      <div className="main-container relative">
         <Image
           src="/static/img/ui/bg4.png"
-          width={1113}
-          height={711}
+          fill
           className="absolute -z-10"
           alt="cửu âm đại điển"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 100vw"
+          priority
         ></Image>
         {children}
       </div>

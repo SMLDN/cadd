@@ -1,0 +1,31 @@
+.vo-cong-header {
+  @apply ml-2;
+  font-size: 1em;
+  background-image: url("/static/img/ui/rbtn-in.png");
+  background-repeat: no-repeat;
+  color: #705f4a;
+  font-weight: 700;
+  height: 33px;
+  width: 160px;
+  margin-top: 5px;
+  text-align: center;
+  white-space: nowrap;
+  /* overflow:hidden; */
+  /* text-overflow: ellipsis; */
+  cursor: pointer;
+  background-size: contain;
+}
+
+.vo-cong-item {
+  @apply pl-4;
+  @apply text-sm;
+  @apply cursor-pointer;
+  color: #705f4a;
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+
+.vo-cong-item:hover, .vo-cong-item.actived {
+  color: #970700;
+}

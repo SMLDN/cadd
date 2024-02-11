@@ -1,6 +1,6 @@
 "use client";
 import { useSelector } from "@/lib/store";
-import SchoolInnerItem from "@/app/(mainContent)/noi-cong/_components/SchoolInnerItem";
+import SchoolInnerItem from "@/app/(mainContent)/noi-cong/_component/SchoolInnerItem";
 
 export default function NoiCongSideBar({
   initSchoolId,

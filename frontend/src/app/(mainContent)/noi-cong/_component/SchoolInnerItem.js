@@ -27,7 +27,7 @@ export default function SchoolInnerItem({ school, show, initInnerSlug }) {
               key={inner.slug}
               id={initInnerSlug === inner.slug ? "selected-inner" : null}
               className={
-                "inner-item mb-2 block" +
+                "inner-item block" +
                 (inner.slug === initInnerSlug ? " actived" : "")
               }
               href={`/noi-cong/${inner.slug}/${inner.maxLevel}#selected-inner`}

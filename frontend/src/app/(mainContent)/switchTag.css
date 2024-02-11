@@ -1,5 +1,6 @@
 .noi-cong-tag,
-.kinh-mach-tag {
+.kinh-mach-tag,
+.vo-cong-tag {
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,6 +16,10 @@
   background-image: url("/static/img/ui/kinh-mach-out.png");
 }
 
+.vo-cong-tag {
+  background-image: url("/static/img/ui/vo-cong-out.png");
+}
+
 .tag-element:hover .noi-cong-tag,
 .noi-cong-tag.actived {
   background-image: url("/static/img/ui/noi-cong-in.png");
@@ -23,6 +28,11 @@
 .tag-element:hover .kinh-mach-tag,
 .kinh-mach-tag.actived {
   background-image: url("/static/img/ui/kinh-mach-in.png");
+}
+
+.tag-element:hover .vo-cong-tag,
+.vo-cong-tag.actived {
+  background-image: url("/static/img/ui/vo-cong-in.png");
 }
 
 .tag-element {

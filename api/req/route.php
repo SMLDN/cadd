@@ -6,6 +6,7 @@ use Slim\Routing\RouteCollectorProxy;
 use Zdn\Controller\KinhMachController;
 use Zdn\Controller\NoiCongController;
 use Zdn\Controller\SchoolController;
+use Zdn\Controller\VoCongController;
 
 $app->group("/api", function (RouteCollectorProxy $apiGroup) {
     $apiGroup->get("/", HomeController::class . ":index");
@@ -25,6 +26,16 @@ $app->group("/api", function (RouteCollectorProxy $apiGroup) {
         $kmGroup->get("/", KinhMachController::class . ":getAll");
         $kmGroup->group("/{kinhMach:" . ZdnString::SLUG_PATTERN . "}", function (RouteCollectorProxy $g) {
             $g->get("/{level:[0-9]*}", KinhMachController::class . ":detail");
+        });
+    });
+
+    $apiGroup->group("/set", function (RouteCollectorProxy $schoolGroup) {
+        $schoolGroup->get("/", VoCongController::class . ":getAllSet");
+    });
+
+    $apiGroup->group("/vo-cong", function (RouteCollectorProxy $vcGroup) {
+        $vcGroup->group("/{voCong:" . ZdnString::SLUG_PATTERN . "}", function (RouteCollectorProxy $g) {
+            $g->get("/{level:[0-9]*}", VoCongController::class . ":detail");
         });
     });
 });

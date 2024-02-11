@@ -14,6 +14,13 @@ export function useSwitchTag(tag) {
         </Link>
       </div>
       <div className="tag-element">
+        <Link href="/vo-cong/phien-thien-phach-dia/20" prefetch={false}>
+          <div
+            className={tag === "voCong" ? "vo-cong-tag actived" : "vo-cong-tag"}
+          ></div>
+        </Link>
+      </div>
+      <div className="tag-element">
         <Link href="/kinh-mach/thu-thai-am-phe/216" prefetch={false}>
           <div
             className={

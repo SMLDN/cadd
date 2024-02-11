@@ -1,0 +1,10 @@
+.img-container {
+  @apply relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+
+.img-container img {
+  border: 1px solid greenyellow;
+  border-radius: 5px;
+}

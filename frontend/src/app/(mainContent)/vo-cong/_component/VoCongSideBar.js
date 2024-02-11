@@ -16,15 +16,15 @@ export default function VoCongSideBar({ setList, initSet }) {
     "cs_aq",
     "cs_qmtaolu",
   ];
-  const setId = useSelector((state) => {
-    return state.voCong.selectedId;
+  const setType = useSelector((state) => {
+    return state.voCong.selectedType;
   });
 
   return (
     <>
       {typeList.map((set) => {
         let show = false;
-        if ((setId == null && set === initSet.type) || set === setId) {
+        if ((setType == null && set === initSet.type) || set === setType) {
           show = true;
         }
         return (

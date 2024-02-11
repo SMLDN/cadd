@@ -1,12 +1,15 @@
 "use client";
-import Link from "next/link";
 import { useDispatch, useSelector } from "@/lib/store";
-import { changeSelectId } from "@/lib/slice/voCongSlice";
+import { changeSelectType } from "@/lib/slice/voCongSlice";
 import "./voCongItem.css";
+import VoCongItemLink from "./VoCongItemLink";
 
 export default function VoCongItem({ setList, setType, initSetId, show }) {
   const dispatch = useDispatch();
-  const selectedId = useSelector((state) => state.voCong.selectedId);
+  const selectedType = useSelector((state) => state.voCong.selectedType);
+  const selectedSkillSlug = useSelector(
+    (state) => state.voCong.selectedSkill?.slug
+  );
 
   const setTypeName = {
     cs_ks: "Bộ Đồ Thủ",
@@ -23,27 +26,29 @@ export default function VoCongItem({ setList, setType, initSetId, show }) {
   };
 
   const onClick = () => {
-    if (selectedId === setType) {
+    if (selectedType === setType) {
       return;
     }
-    dispatch(changeSelectId(setType));
+    dispatch(changeSelectType(setType));
   };
 
   const getSetSkillComponents = () => {
     const filteredSet = setList.filter((set) => {
       return set.type === setType;
     });
+
     return filteredSet.map((set) => {
       return (
-        <Link
+        <VoCongItemLink
           key={set.id}
-          className={
-            "vo-cong-item block" + (initSetId === set.id ? " actived" : "")
+          slug={set.initSkill.slug}
+          maxLevel={set.initSkill.maxLevel}
+          activedFlg={
+            (selectedSkillSlug == null && initSetId === set.id) ||
+            selectedSkillSlug === set.initSkill.slug
           }
-          href={`/vo-cong/${set.initSkill.slug}/${set.initSkill.maxLevel}`}
-        >
-          {set.name}
-        </Link>
+          label={set.name}
+        />
       );
     });
   };

@@ -25,7 +25,7 @@ export default async function NoiCongPage({ params }) {
   const layout = useFrame(
     switchTag,
     <VoCongSideBar initSet={skillDetail.set} setList={setList}></VoCongSideBar>,
-    <VoCongInfo set={skillDetail.set} skillDetail={skillDetail}></VoCongInfo>,
+    <VoCongInfo initSkillDetail={skillDetail}></VoCongInfo>,
     <></>
   );
 

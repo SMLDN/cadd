@@ -20,7 +20,8 @@ final class SkillDetail extends AbstractMigration
     public function change(): void
     {
         $table = $this->table("skill_detail");
-        $table->addColumn("skillId", "integer", ["null" => true])
+        $table->addColumn("skill_id", "integer", ["null" => true])
+            ->addIndex("skill_id")
             ->addColumn("level", "integer", ["null" => true])
             ->addColumn("hit_shape_para2", "integer", ["null" => true])
             ->addColumn("consume_mp", "integer", ["null" => true])

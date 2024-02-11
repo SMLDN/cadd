@@ -21,6 +21,7 @@ final class Skill extends AbstractMigration
     {
         $table = $this->table("skill");
         $table->addColumn("set_id", "integer", ["null" => true])
+            ->addIndex("set_id")
             ->addColumn("slug", "string", ["null" => true, "limit" => 256])
             ->addColumn("name", "string", ["null" => true, "limit" => 256])
             ->addColumn("effect_type", "string", ["null" => true, "limit" => 1])

@@ -4,7 +4,7 @@ namespace Zdn\Utility;
 
 use Illuminate\Support\Carbon;
 
-class Time extends Carbon
+class ZdnTime extends Carbon
 {
     /**
      * Giờ hiện tại theo timestamp

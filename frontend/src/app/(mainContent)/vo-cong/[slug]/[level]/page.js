@@ -2,6 +2,7 @@ import { useFrame } from "@/app/(mainContent)/Frame";
 import { useSwitchTag } from "@/app/(mainContent)/SwitchTag";
 import VoCongSideBar from "../../_component/VoCongSideBar";
 import VoCongInfo from "../../_component/VoCongInfo";
+import VoCongDetail from "../../_component/VoCongDetail";
 
 async function getSetList() {
   const req = await fetch("http://localhost/api/set/");
@@ -19,14 +20,13 @@ export default async function NoiCongPage({ params }) {
     getSkillDetail(params.slug, params.level),
   ]);
 
-
   const switchTag = useSwitchTag("voCong");
 
   const layout = useFrame(
     switchTag,
     <VoCongSideBar initSet={skillDetail.set} setList={setList}></VoCongSideBar>,
     <VoCongInfo initSkillDetail={skillDetail}></VoCongInfo>,
-    <></>
+    <VoCongDetail initSkillDetail={skillDetail}/>
   );
 
   return layout;

@@ -1,9 +1,7 @@
 "use client";
-import { useDispatch, useSelector } from "@/lib/store";
-import { fetchSkillList } from "@/lib/slice/voCongSlice";
+import { useSelector } from "@/lib/store";
 
 export default function VoCongItemLink({ activedFlg, slug, maxLevel, label }) {
-  const dispatch = useDispatch();
   const selectedSkillSlug = useSelector(
     (state) => state.voCong.selectedSkill?.slug
   );
@@ -13,7 +11,6 @@ export default function VoCongItemLink({ activedFlg, slug, maxLevel, label }) {
     if (selectedSkillSlug === slug) {
       return;
     }
-    dispatch(fetchSkillList({ slug: slug, level: maxLevel }));
     window.history.pushState(null, "", `/vo-cong/${slug}/${maxLevel}`);
   };
 

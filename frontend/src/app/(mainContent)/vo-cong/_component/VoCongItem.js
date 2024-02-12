@@ -4,26 +4,27 @@ import { changeSelectType } from "@/lib/slice/voCongSlice";
 import "./voCongItem.css";
 import VoCongItemLink from "./VoCongItemLink";
 
+const setTypeName = {
+  cs_ks: "Bộ Đồ Thủ",
+  cs_dj: "Bộ Đơn Kiếm",
+  cs_sj: "Bộ Song Kiếm",
+  cs_dd: "Bộ Đơn Đao",
+  cs_sd: "Bộ Song Đao",
+  cs_bs: "Bộ Đoản Kiếm",
+  cs_sc: "Bộ Song  Thích",
+  cs_cg: "Bộ Trường Côn",
+  cs_dg: "Bộ Đoản Côn",
+  cs_aq: "Bộ Ám Khí",
+  cs_qmtaolu: "Bộ Kỳ Môn",
+};
+
 export default function VoCongItem({ setList, setType, initSetId, show }) {
   const dispatch = useDispatch();
+
   const selectedType = useSelector((state) => state.voCong.selectedType);
   const selectedSkillSlug = useSelector(
     (state) => state.voCong.selectedSkill?.slug
   );
-
-  const setTypeName = {
-    cs_ks: "Bộ Đồ Thủ",
-    cs_dj: "Bộ Đơn Kiếm",
-    cs_sj: "Bộ Song Kiếm",
-    cs_dd: "Bộ Đơn Đao",
-    cs_sd: "Bộ Song Đao",
-    cs_bs: "Bộ Đoản Kiếm",
-    cs_sc: "Bộ Song  Thích",
-    cs_cg: "Bộ Trường Côn",
-    cs_dg: "Bộ Đoản Côn",
-    cs_aq: "Bộ Ám Khí",
-    cs_qmtaolu: "Bộ Kỳ Môn",
-  };
 
   const onClick = () => {
     if (selectedType === setType) {

@@ -19,6 +19,7 @@ const voCongSlice = createSlice({
   extraReducers: (builder) => {
     builder.addCase(fetchSkillList.fulfilled, (state, action) => {
       state.selectedSkill = action.payload;
+      state.selectedType = action.payload.set.type;
     });
   },
 });

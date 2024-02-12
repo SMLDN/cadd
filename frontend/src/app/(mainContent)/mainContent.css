@@ -5,3 +5,18 @@
   margin: 0 auto;
   padding: 0;
 }
+
+.user-prop input {
+  @apply w-14;
+  @apply p-1;
+  @apply rounded-sm;
+  @apply mr-1;
+  @apply outline-none;
+  @apply border-b-2;
+  @apply border-gray-300;
+  @apply text-xs;
+}
+
+.user-prop td {
+  @apply p-1;
+}

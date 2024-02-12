@@ -1,13 +1,16 @@
 "use client";
-import { useDispatch, useSelector } from "@/lib/store";
-import { fetchSkillList } from "@/lib/slice/voCongSlice";
+import { useSelector } from "@/lib/store";
 import Image from "next/image";
 
 export default function VoCongInfoLink({ skill }) {
   const { slug, maxLevel, name, photo } = skill;
-  const dispatch = useDispatch();
+
   const selectedSkillSlug = useSelector(
     (state) => state.voCong.selectedSkill?.slug
+  );
+
+  const selectedSet = useSelector(
+    (state) => state.voCong.selectedSkill?.set.id
   );
 
   const onClick = (e) => {
@@ -15,7 +18,6 @@ export default function VoCongInfoLink({ skill }) {
     if (selectedSkillSlug === slug) {
       return;
     }
-    dispatch(fetchSkillList({ slug: slug, level: maxLevel }));
     window.history.pushState(null, "", `/vo-cong/${slug}/${maxLevel}`);
   };
 

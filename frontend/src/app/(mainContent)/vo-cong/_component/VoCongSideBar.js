@@ -1,8 +1,14 @@
 "use client";
 import { useSelector } from "@/lib/store";
 import VoCongItem from "./VoCongItem";
+import { fetchSkillList } from "@/lib/slice/voCongSlice";
+import { usePathname } from "next/navigation";
+import { useEffect } from "react";
+import { useDispatch } from "@/lib/store";
 
 export default function VoCongSideBar({ setList, initSet }) {
+  const dispatch = useDispatch();
+
   const typeList = [
     "cs_ks",
     "cs_dj",
@@ -16,9 +22,25 @@ export default function VoCongSideBar({ setList, initSet }) {
     "cs_aq",
     "cs_qmtaolu",
   ];
+
+  const pathName = usePathname();
+
   const setType = useSelector((state) => {
     return state.voCong.selectedType;
   });
+
+  const slug = useSelector((state) => state.voCong.selectedSkill?.slug);
+
+  useEffect(() => {
+    const paths = pathName.split("/");
+    if (paths[1] != "vo-cong") {
+      return;
+    }
+    if (paths[2] === slug) {
+      return;
+    }
+    dispatch(fetchSkillList({ slug: paths[2], level: paths[3] }));
+  }, [pathName]);
 
   return (
     <>

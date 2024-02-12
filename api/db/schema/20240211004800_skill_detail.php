@@ -23,6 +23,7 @@ final class SkillDetail extends AbstractMigration
         $table->addColumn("skill_id", "integer", ["null" => true])
             ->addIndex("skill_id")
             ->addColumn("level", "integer", ["null" => true])
+            ->addColumn("cool_down_time", "integer", ["null" => true])
             ->addColumn("hit_shape_para2", "integer", ["null" => true])
             ->addColumn("consume_mp", "integer", ["null" => true])
             ->addColumn("consume_sp", "integer", ["null" => true])

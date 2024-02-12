@@ -1,12 +1,10 @@
 "use client";
 import { useState } from "react";
-import { useRouter } from "next/navigation";
 
 export default function VoCongNavigation({ skill }) {
   const { detail } = skill;
 
   const [inputLevel, setInputLevel] = useState(detail.level);
-  const router = useRouter();
 
   const onSubmit = (e) => {
     e.preventDefault();

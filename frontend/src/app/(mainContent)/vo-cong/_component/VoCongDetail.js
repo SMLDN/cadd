@@ -29,6 +29,10 @@ export default function VoCongDetail({ initSkillDetail }) {
 
   const dmgTypeText = {
     PhyDamage: "Ngoại công",
+    NegDamage: "Âm",
+    MasDamage: "Dương",
+    StiDamage: "Cương",
+    JujDamage: "Nhu",
   };
 
   const getFormulaJson = () => {
@@ -129,7 +133,7 @@ export default function VoCongDetail({ initSkillDetail }) {
       const dmg = weaponDmg + addedDmgTotal + binhLuc;
       return Math.round(dmg / formula.hitCount);
     };
-
+    console.log(formula.damageType);
     const dmgStr = `<font color="#ffff00">(${getWeaponDmgStr()})</font>${getAddedDmgStr()}<font color="#f728ff">(+${binhLuc})</font> ${
       dmgTypeText[formula.damageType]
     } sát thương (tổng <font color="#ffff00">${

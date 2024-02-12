@@ -5,7 +5,9 @@ import { useSelector } from "@/lib/store";
 import "./voCongDetail.css";
 
 export default function VoCongDetail({ initSkillDetail }) {
-  const skill = initSkillDetail;
+  const selectedSkill = useSelector((state) => state.voCong.selectedSkill);
+
+  const skill = selectedSkill != null ? selectedSkill : initSkillDetail;
   const { detail } = skill;
 
   const satThuongVuKhiMin = useSelector(
@@ -124,10 +126,8 @@ export default function VoCongDetail({ initSkillDetail }) {
       } else {
         weaponDmg = (minDmg + maxDmg) / 2;
       }
-
-      return Math.round(
-        (weaponDmg + addedDmgTotal + binhLuc) / formula.hitCount
-      );
+      const dmg = weaponDmg + addedDmgTotal + binhLuc;
+      return Math.round(dmg / formula.hitCount);
     };
 
     const dmgStr = `<font color="#ffff00">(${getWeaponDmgStr()})</font>${getAddedDmgStr()}<font color="#f728ff">(+${binhLuc})</font> ${
@@ -137,6 +137,58 @@ export default function VoCongDetail({ initSkillDetail }) {
     }</font>, mỗi đòn <font color="#ffff00">${normalizeDmg()}</font> sát thương)`;
 
     return desc.replace("__ZDN_DMG__", dmgStr);
+  };
+
+  const getTotalDmg = () => {
+    if (formula == null) {
+      return 0;
+    }
+    const propValue = {
+      MinMeleeDamage: satThuongVuKhiMin,
+      MaxMeleeDamage: satThuongVuKhiMax,
+      MinShotDamage: satThuongXaKichMin,
+      MaxShotDamage: satThuongXaKichMax,
+      MagicPower: uyLucNoiCong,
+      MagicPowerAdd: 0,
+      MeleePower: uyLucCanThan,
+      MeleePowerAdd: 0,
+      ShotPower: uyLucTamXa,
+      ShotPowerAdd: 0,
+    };
+    const argv = [0, formula.baseDmg, formula.multiplier, formula.hitCount];
+    const prop = [0];
+    for (let i = 1; i < 12; i++) {
+      if (formula["prop" + i] != null) {
+        prop[i] = propValue[formula["prop" + i]];
+      } else {
+        prop[i] = 0;
+      }
+    }
+
+    const minDmg = Math.floor(eval(formula["minDmgFormula"]));
+    const maxDmg = Math.floor(eval(formula["maxDmgFormula"]));
+
+    let weaponDmg = 0;
+    if (formula["minDmgFormula"] === formula["maxDmgFormula"]) {
+      weaponDmg = minDmg;
+    } else {
+      weaponDmg = (minDmg + maxDmg) / 2;
+    }
+
+    let addedDmgTotal = 0;
+
+    let cnt = 1;
+    while (true) {
+      const f = formula["addedDmgFormula" + cnt];
+      if (f == null) {
+        break;
+      }
+      cnt += 1;
+      const addedDmg = Math.floor(eval(f));
+      addedDmgTotal += addedDmg;
+    }
+
+    return Math.floor(weaponDmg + addedDmgTotal + binhLuc);
   };
 
   const getChiSoChinh = () => {
@@ -228,6 +280,8 @@ export default function VoCongDetail({ initSkillDetail }) {
         {formula != null && (
           <>
             Số đòn: {formula.hitCount}
+            <br />
+            Tổng sát thương: {getTotalDmg()}
             <br />
           </>
         )}

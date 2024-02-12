@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 
@@ -20,7 +19,27 @@ export default function VoCongNavigation({ skill }) {
       return;
     }
 
-    router.push(`/vo-cong/${skill.slug}/${inputLevel}`);
+    window.history.pushState(null, "", `/vo-cong/${skill.slug}/${inputLevel}`);
+  };
+
+  const onPrev = (e) => {
+    e.preventDefault();
+
+    window.history.pushState(
+      null,
+      "",
+      `/vo-cong/${skill.slug}/${detail.level - 1}`
+    );
+  };
+
+  const onNext = (e) => {
+    e.preventDefault();
+
+    window.history.pushState(
+      null,
+      "",
+      `/vo-cong/${skill.slug}/${detail.level + 1}`
+    );
   };
 
   return (
@@ -29,14 +48,24 @@ export default function VoCongNavigation({ skill }) {
       <div>
         <b className="pl-3 pr-3 text-lg">
           {detail.level > 1 ? (
-            <Link href={`/vo-cong/${skill.slug}/${detail.level - 1}`}>-</Link>
+            <a
+              onClick={onPrev}
+              href={`/vo-cong/${skill.slug}/${detail.level - 1}`}
+            >
+              -
+            </a>
           ) : (
             <span className="text-gray-400">-</span>
           )}
         </b>
         <b className="plg-3 pr-3 text-lg">
           {detail.level < skill.maxLevel ? (
-            <Link href={`/vo-cong/${skill.slug}/${detail.level + 1}`}>+</Link>
+            <a
+              onClick={onNext}
+              href={`/vo-cong/${skill.slug}/${detail.level + 1}`}
+            >
+              +
+            </a>
           ) : (
             <span className="text-gray-400">+</span>
           )}

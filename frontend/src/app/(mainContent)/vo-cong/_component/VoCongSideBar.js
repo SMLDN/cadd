@@ -30,13 +30,14 @@ export default function VoCongSideBar({ setList, initSet }) {
   });
 
   const slug = useSelector((state) => state.voCong.selectedSkill?.slug);
+  const level = useSelector((state) => state.voCong.selectedSkill?.detail.level);
 
   useEffect(() => {
     const paths = pathName.split("/");
     if (paths[1] != "vo-cong") {
       return;
     }
-    if (paths[2] === slug) {
+    if (paths[2] === slug && paths[3] === level) {
       return;
     }
     dispatch(fetchSkillList({ slug: paths[2], level: paths[3] }));

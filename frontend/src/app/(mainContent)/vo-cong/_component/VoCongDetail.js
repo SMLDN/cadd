@@ -274,9 +274,9 @@ export default function VoCongDetail({ initSkillDetail }) {
             <br />
           </>
         )}
-        {detail.consumeAp > 0 && (
+        {detail.consumeSp > 0 && (
           <>
-            Nộ khí mất: {detail.consumeAp}
+            Nộ khí mất: {detail.consumeSp}
             <br />
           </>
         )}

@@ -3,7 +3,7 @@ import "./switchTag.css";
 
 export function useSwitchTag(tag) {
   return (
-    <div className="flewRow mt-10">
+    <div className="mt-10">
       <div className="tag-element">
         <Link href="/noi-cong/thien-dinh-cong/36" prefetch={false}>
           <div

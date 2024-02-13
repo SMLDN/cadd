@@ -6,12 +6,12 @@ import VoCongDetail from "../../_component/VoCongDetail";
 import { notFound } from "next/navigation";
 
 async function getSetList() {
-  const req = await fetch("http://localhost/api/set/");
+  const req = await fetch("http://localhost:3001/api/set/");
   return await req.json();
 }
 
 async function getSkillDetail(slug, level) {
-  const req = await fetch(`http://localhost/api/vo-cong/${slug}/${level}`);
+  const req = await fetch(`http://localhost:3001/api/vo-cong/${slug}/${level}`);
   return await req.json();
 }
 

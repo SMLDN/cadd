@@ -6,12 +6,12 @@ import { useSwitchTag } from "@/app/(mainContent)/SwitchTag";
 import { notFound } from "next/navigation";
 
 async function getSchoolInnerList() {
-  const req = await fetch("http://localhost/api/school/");
+  const req = await fetch("http://localhost:3001/api/school/");
   return await req.json();
 }
 
 async function getInnerDetail(slug, level) {
-  const req = await fetch(`http://localhost/api/noi-cong/${slug}/${level}`);
+  const req = await fetch(`http://localhost:3001/api/noi-cong/${slug}/${level}`);
   return await req.json();
 }
 

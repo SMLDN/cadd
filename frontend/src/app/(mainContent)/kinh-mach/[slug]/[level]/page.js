@@ -5,12 +5,12 @@ import KinhMachDetail from "@/app/(mainContent)/kinh-mach/_component/KinhMachDet
 import { notFound } from "next/navigation";
 
 async function getKinhMachList() {
-  const req = await fetch("http://localhost/api/kinh-mach/");
+  const req = await fetch("http://localhost:3001/api/kinh-mach/");
   return await req.json();
 }
 
 async function getKinhMachDetail(slug, level) {
-  const req = await fetch(`http://localhost/api/kinh-mach/${slug}/${level}`);
+  const req = await fetch(`http://localhost:3001/api/kinh-mach/${slug}/${level}`);
   return await req.json();
 }
 

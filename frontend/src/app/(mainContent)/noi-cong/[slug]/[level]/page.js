@@ -32,8 +32,10 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function NoiCongPage({ params }) {
-  const schoolList = await getSchoolInnerList();
-  const innerDetail = await getInnerDetail(params.slug, params.level);
+  const [schoolList, innerDetail] = await Promise.all([
+    getSchoolInnerList(),
+    getInnerDetail(params.slug, params.level),
+  ]);
 
   if (innerDetail["Error"] != null) {
     notFound();

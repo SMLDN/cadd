@@ -1395,19 +1395,19 @@ class Skill extends AbstractSeed
             [
                 "id" => 126,
                 "set_id" => 14,
-                "slug" => "vo-ky",
-                "name" => " (Võ kỹ)",
-                "effect_type" => "",
+                "slug" => "duong-ti-pha-xa-khong-trung-vo-ky",
+                "name" => "Đường Tí Phá Xa (Không trung) (Võ kỹ)",
+                "effect_type" => "1",
                 "lock_flg" => "0",
-                "max_level" => 1,
+                "max_level" => 12,
                 "power" => 0,
-                "photo" => ""
+                "photo" => "wuji/493.png"
             ],
             [
                 "id" => 127,
                 "set_id" => 14,
-                "slug" => "duong-lang-bo-thien",
-                "name" => "Đường Lang Bộ Thiền",
+                "slug" => "duong-lang-bo-thien-bien-chieu",
+                "name" => "Đường Lang Bộ Thiền (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 19,
@@ -2055,13 +2055,13 @@ class Skill extends AbstractSeed
             [
                 "id" => 186,
                 "set_id" => 21,
-                "slug" => "",
-                "name" => "",
-                "effect_type" => "",
+                "slug" => "doc-chiem-ngao-dau-khong-trung",
+                "name" => "Độc Chiêm Ngao Đầu (không trung)",
+                "effect_type" => "1",
                 "lock_flg" => "0",
-                "max_level" => 1,
+                "max_level" => 13,
                 "power" => 0,
-                "photo" => ""
+                "photo" => "skill/cs_jh_kxtd_02_2.png"
             ],
             [
                 "id" => 187,
@@ -2099,8 +2099,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 190,
                 "set_id" => 21,
-                "slug" => "pha-dang-long-mon",
-                "name" => "Phả Đăng Long Môn",
+                "slug" => "pha-dang-long-mon-bien-chieu",
+                "name" => "Phả Đăng Long Môn (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 13,
@@ -2407,8 +2407,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 218,
                 "set_id" => 24,
-                "slug" => "quai-ly-toan-tat",
-                "name" => "Quải Lý Toàn Tất",
+                "slug" => "quai-ly-toan-tat-bien-chieu",
+                "name" => "Quải Lý Toàn Tất (Biến chiêu)",
                 "effect_type" => "",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -2506,13 +2506,13 @@ class Skill extends AbstractSeed
             [
                 "id" => 227,
                 "set_id" => 25,
-                "slug" => "",
-                "name" => "",
-                "effect_type" => "",
+                "slug" => "phong-ho-van-long-vo-ky",
+                "name" => "Phong Hổ Vân Long (Võ kỹ)",
+                "effect_type" => "1",
                 "lock_flg" => "0",
-                "max_level" => 1,
+                "max_level" => 12,
                 "power" => 0,
-                "photo" => ""
+                "photo" => "wuji/532_1.png"
             ],
             [
                 "id" => 228,
@@ -2836,8 +2836,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 257,
                 "set_id" => 29,
-                "slug" => "khong-tuong-vo-tuong",
-                "name" => "Không Tương Vô Tương",
+                "slug" => "khong-tuong-vo-tuong-bien-chieu",
+                "name" => "Không Tương Vô Tương (Biến chiêu)",
                 "effect_type" => "0",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -2990,24 +2990,24 @@ class Skill extends AbstractSeed
             [
                 "id" => 271,
                 "set_id" => 31,
-                "slug" => "",
-                "name" => "",
-                "effect_type" => "",
+                "slug" => "than-hau-dang-khong-tren-khong",
+                "name" => "Thần Hầu Đằng Không (Trên không)",
+                "effect_type" => "1",
                 "lock_flg" => "0",
-                "max_level" => 1,
+                "max_level" => 20,
                 "power" => 0,
-                "photo" => ""
+                "photo" => "skill/cs_nj_tq03_hide .png"
             ],
             [
                 "id" => 272,
                 "set_id" => 31,
-                "slug" => "",
-                "name" => "",
-                "effect_type" => "",
-                "lock_flg" => "0",
-                "max_level" => 1,
+                "slug" => "son-than-quyen-tho-tren-khong",
+                "name" => "Sơn Thần Quyển Thổ (Trên không)",
+                "effect_type" => "1",
+                "lock_flg" => "1",
+                "max_level" => 20,
                 "power" => 0,
-                "photo" => ""
+                "photo" => "skill/cs_nj_tq05.png"
             ],
             [
                 "id" => 273,
@@ -3562,8 +3562,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 323,
                 "set_id" => 36,
-                "slug" => "chien-long-tai-da-phan-thu-vi-cong",
-                "name" => "Chiến Long Tại Dã (Phản thủ vi công)",
+                "slug" => "chien-long-tai-da-phan-thu-vi-cong-bien-chieu",
+                "name" => "Chiến Long Tại Dã (Phản thủ vi công) (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 10,
@@ -4024,8 +4024,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 365,
                 "set_id" => 41,
-                "slug" => "nhiep-hon-pha",
-                "name" => "Nhiếp Hồn Phá",
+                "slug" => "nhiep-hon-pha-bien-chieu",
+                "name" => "Nhiếp Hồn Phá (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -4046,8 +4046,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 367,
                 "set_id" => 41,
-                "slug" => "dong-de-dap-phan-thu-vi-cong",
-                "name" => "Đồng Đề Đạp (Phản thủ vi công)",
+                "slug" => "dong-de-dap-phan-thu-vi-cong-bien-chieu",
+                "name" => "Đồng Đề Đạp (Phản thủ vi công) (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 12,
@@ -4156,8 +4156,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 377,
                 "set_id" => 42,
-                "slug" => "duong-hoa-khoi-trap-phan-thu-vi-cong",
-                "name" => "Dương Hòa Khởi Trập (Phản Thủ Vi Công)",
+                "slug" => "duong-hoa-khoi-trap-phan-thu-vi-cong-bien-chieu",
+                "name" => "Dương Hòa Khởi Trập (Phản Thủ Vi Công) (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 12,
@@ -4167,8 +4167,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 378,
                 "set_id" => 42,
-                "slug" => "dai-tai-can-nguyen",
-                "name" => "Đại Tai Càn Nguyên",
+                "slug" => "dai-tai-can-nguyen-bien-chieu",
+                "name" => "Đại Tai Càn Nguyên (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -4244,8 +4244,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 385,
                 "set_id" => 43,
-                "slug" => "ho-tieu-phong-sinh",
-                "name" => "Hổ Tiếu Phong Sinh",
+                "slug" => "ho-tieu-phong-sinh-bien-chieu",
+                "name" => "Hổ Tiếu Phong Sinh (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 13,
@@ -4255,8 +4255,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 386,
                 "set_id" => 43,
-                "slug" => "ho-the-hac-minh",
-                "name" => "Hổ Thế Hạc Minh",
+                "slug" => "ho-the-hac-minh-bien-chieu",
+                "name" => "Hổ Thế Hạc Minh (Biến chiêu)",
                 "effect_type" => "3",
                 "lock_flg" => "0",
                 "max_level" => 13,
@@ -4343,8 +4343,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 394,
                 "set_id" => 44,
-                "slug" => "nhu-mao-am-huyet",
-                "name" => "Như Mao Ẩm Huyết",
+                "slug" => "nhu-mao-am-huyet-bien-chieu",
+                "name" => "Như Mao Ẩm Huyết (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 12,
@@ -4629,13 +4629,13 @@ class Skill extends AbstractSeed
             [
                 "id" => 420,
                 "set_id" => 47,
-                "slug" => "vo-ky",
-                "name" => " (Võ kỹ)",
-                "effect_type" => "",
+                "slug" => "troc-kinh-thanh-vi-khong-trung-vo-ky",
+                "name" => "Trọc Kính Thanh Vị (Không trung) (Võ kỹ)",
+                "effect_type" => "1",
                 "lock_flg" => "0",
-                "max_level" => 1,
+                "max_level" => 20,
                 "power" => 0,
-                "photo" => ""
+                "photo" => "wuji/121.png"
             ],
             [
                 "id" => 421,
@@ -4651,13 +4651,13 @@ class Skill extends AbstractSeed
             [
                 "id" => 422,
                 "set_id" => 47,
-                "slug" => "vo-ky",
-                "name" => " (Võ kỹ)",
-                "effect_type" => "",
+                "slug" => "kich-troc-duong-thanh-vo-ky",
+                "name" => "Kích Trọc Dương Thanh (Võ kỹ)",
+                "effect_type" => "1",
                 "lock_flg" => "0",
-                "max_level" => 1,
-                "power" => 0,
-                "photo" => ""
+                "max_level" => 20,
+                "power" => 4,
+                "photo" => "wuji/123.png"
             ],
             [
                 "id" => 423,
@@ -4992,13 +4992,13 @@ class Skill extends AbstractSeed
             [
                 "id" => 453,
                 "set_id" => 50,
-                "slug" => "vo-ky",
-                "name" => " (Võ kỹ)",
-                "effect_type" => "",
+                "slug" => "phung-khuc-truong-minh-don-kiem-vo-ky-bien-chieu",
+                "name" => "Phụng Khúc Trường Minh (Đơn Kiếm) (Võ kỹ) (Biến chiêu)",
+                "effect_type" => "1",
                 "lock_flg" => "0",
-                "max_level" => 1,
+                "max_level" => 10,
                 "power" => 0,
-                "photo" => ""
+                "photo" => "wuji/443.png"
             ],
             [
                 "id" => 454,
@@ -6147,8 +6147,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 558,
                 "set_id" => 61,
-                "slug" => "van-chung-phuc-tru",
-                "name" => "Vạn Chúng Phục Tru",
+                "slug" => "van-chung-phuc-tru-bien-chieu",
+                "name" => "Vạn Chúng Phục Tru (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 19,
@@ -6411,13 +6411,13 @@ class Skill extends AbstractSeed
             [
                 "id" => 582,
                 "set_id" => 63,
-                "slug" => "",
-                "name" => "",
-                "effect_type" => "",
+                "slug" => "thuy-nhuoc-kinh-binh",
+                "name" => "Thủy Nhược Kính Bình",
+                "effect_type" => "1",
                 "lock_flg" => "0",
-                "max_level" => 1,
+                "max_level" => 12,
                 "power" => 0,
-                "photo" => ""
+                "photo" => "skill/cs_th_bhcs08_hide03.png"
             ],
             [
                 "id" => 583,
@@ -6510,8 +6510,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 591,
                 "set_id" => 64,
-                "slug" => "kim-xa-tham-dau",
-                "name" => "Kim Xà Thám Đầu",
+                "slug" => "kim-xa-tham-dau-bien-chieu",
+                "name" => "Kim Xà Thám Đầu (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 19,
@@ -6521,8 +6521,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 592,
                 "set_id" => 64,
-                "slug" => "xa-khon-sau-thanh",
-                "name" => "Xà Khốn Sầu Thành",
+                "slug" => "xa-khon-sau-thanh-bien-chieu",
+                "name" => "Xà Khốn Sầu Thành (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 8,
@@ -6620,8 +6620,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 601,
                 "set_id" => 65,
-                "slug" => "phi-hong-an-tuyet",
-                "name" => "Phi Hồng Ấn Tuyết",
+                "slug" => "phi-hong-an-tuyet-bien-chieu",
+                "name" => "Phi Hồng Ấn Tuyết (Biến chiêu)",
                 "effect_type" => "",
                 "lock_flg" => "1",
                 "max_level" => 20,
@@ -6631,8 +6631,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 602,
                 "set_id" => 65,
-                "slug" => "kiem-khi-tieu-tam",
-                "name" => "Kiếm Khí Tiêu Tâm",
+                "slug" => "kiem-khi-tieu-tam-bien-chieu",
+                "name" => "Kiếm Khí Tiêu Tâm (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 20,
@@ -6642,8 +6642,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 603,
                 "set_id" => 65,
-                "slug" => "binh-bo-thanh-tieu",
-                "name" => "Bình Bộ Thanh Tiêu",
+                "slug" => "binh-bo-thanh-tieu-bien-chieu",
+                "name" => "Bình Bộ Thanh Tiêu (Biến chiêu)",
                 "effect_type" => "2",
                 "lock_flg" => "0",
                 "max_level" => 20,
@@ -6730,8 +6730,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 611,
                 "set_id" => 66,
-                "slug" => "nghich",
-                "name" => "Nghịch",
+                "slug" => "nghich-bien-chieu",
+                "name" => "Nghịch (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 19,
@@ -7115,8 +7115,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 646,
                 "set_id" => 70,
-                "slug" => "mai-tho-ky-huong",
-                "name" => "Mai Thổ Kỳ Hương",
+                "slug" => "mai-tho-ky-huong-bien-chieu",
+                "name" => "Mai Thổ Kỳ Hương (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 20,
@@ -7214,8 +7214,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 655,
                 "set_id" => 71,
-                "slug" => "thuong-tung-nghenh-khach-phan-thu-vi-cong",
-                "name" => "Thương Tùng Nghênh Khách (Phản thủ vi công)",
+                "slug" => "thuong-tung-nghenh-khach-phan-thu-vi-cong-bien-chieu",
+                "name" => "Thương Tùng Nghênh Khách (Phản thủ vi công) (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 13,
@@ -7313,8 +7313,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 664,
                 "set_id" => 72,
-                "slug" => "phong-tri-van-quyen",
-                "name" => "Phong Trì Vân Quyển",
+                "slug" => "phong-tri-van-quyen-bien-chieu",
+                "name" => "Phong Trì Vân Quyển (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 19,
@@ -7324,8 +7324,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 665,
                 "set_id" => 72,
-                "slug" => "bang-phong-ta-luc-phan-thu-vi-cong",
-                "name" => "Bằng Phong Tá Lực (Phản thủ vi công)",
+                "slug" => "bang-phong-ta-luc-phan-thu-vi-cong-bien-chieu",
+                "name" => "Bằng Phong Tá Lực (Phản thủ vi công) (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 19,
@@ -7599,8 +7599,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 690,
                 "set_id" => 75,
-                "slug" => "ba-phan-kiem-phan-thu-vi-cong",
-                "name" => "Ba Phản Kiếm (Phản thủ vi công)",
+                "slug" => "ba-phan-kiem-phan-thu-vi-cong-bien-chieu",
+                "name" => "Ba Phản Kiếm (Phản thủ vi công) (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 19,
@@ -7819,8 +7819,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 710,
                 "set_id" => 77,
-                "slug" => "lanh-mai-phat-son",
-                "name" => "Lãnh Mai Phất Sơn",
+                "slug" => "lanh-mai-phat-son-bien-chieu",
+                "name" => "Lãnh Mai Phất Sơn (Biến chiêu)",
                 "effect_type" => "3",
                 "lock_flg" => "0",
                 "max_level" => 6,
@@ -8380,8 +8380,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 761,
                 "set_id" => 83,
-                "slug" => "cuu-cung-bat-phong",
-                "name" => "Cửu Cung Bát Phong",
+                "slug" => "cuu-cung-bat-phong-bien-chieu",
+                "name" => "Cửu Cung Bát Phong (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 12,
@@ -8875,8 +8875,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 806,
                 "set_id" => 89,
-                "slug" => "cap-tuyet-vu-hoi-phong",
-                "name" => "Cấp Tuyết Vũ Hồi Phong",
+                "slug" => "cap-tuyet-vu-hoi-phong-bien-chieu",
+                "name" => "Cấp Tuyết Vũ Hồi Phong (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 10,
@@ -9722,8 +9722,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 883,
                 "set_id" => 98,
-                "slug" => "van-long-tam-hien",
-                "name" => "Vân Long tam Hiện",
+                "slug" => "van-long-tam-hien-bien-chieu",
+                "name" => "Vân Long tam Hiện (Biến chiêu)",
                 "effect_type" => "2",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -9733,8 +9733,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 884,
                 "set_id" => 98,
-                "slug" => "trien-than-trich-tam",
-                "name" => "Triền Thân Trích Tâm",
+                "slug" => "trien-than-trich-tam-bien-chieu",
+                "name" => "Triền Thân Trích Tâm (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 12,
@@ -9744,8 +9744,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 885,
                 "set_id" => 98,
-                "slug" => "uyen-uong-lien-hoan",
-                "name" => "Uyên Ương Liên Hoàn",
+                "slug" => "uyen-uong-lien-hoan-bien-chieu",
+                "name" => "Uyên Ương Liên Hoàn (Biến chiêu)",
                 "effect_type" => "2",
                 "lock_flg" => "1",
                 "max_level" => 12,
@@ -9843,8 +9843,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 894,
                 "set_id" => 99,
-                "slug" => "binh-tra-phan-thu-vi-cong",
-                "name" => "Binh Trá (Phản thủ vi công)",
+                "slug" => "binh-tra-phan-thu-vi-cong-bien-chieu",
+                "name" => "Binh Trá (Phản thủ vi công) (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 12,
@@ -10305,8 +10305,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 936,
                 "set_id" => 104,
-                "slug" => "huyet-ca",
-                "name" => "Huyết Ca",
+                "slug" => "huyet-ca-bien-chieu",
+                "name" => "Huyết Ca (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -10393,8 +10393,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 944,
                 "set_id" => 105,
-                "slug" => "kinh-han-nhat-phach",
-                "name" => "Kinh Hàn Nhất Phách",
+                "slug" => "kinh-han-nhat-phach-bien-chieu",
+                "name" => "Kinh Hàn Nhất Phách (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -10404,8 +10404,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 945,
                 "set_id" => 105,
-                "slug" => "bang-phong-tam-xich",
-                "name" => "Băng Phong Tam Xích",
+                "slug" => "bang-phong-tam-xich-bien-chieu",
+                "name" => "Băng Phong Tam Xích (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 12,
@@ -10492,8 +10492,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 953,
                 "set_id" => 106,
-                "slug" => "cuong-man-cap-dien-phan-thu-vi-cong",
-                "name" => "Cuồng Man Cấp Điện (Phản thủ vi công)",
+                "slug" => "cuong-man-cap-dien-phan-thu-vi-cong-bien-chieu",
+                "name" => "Cuồng Man Cấp Điện (Phản thủ vi công) (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 12,
@@ -10965,8 +10965,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 996,
                 "set_id" => 111,
-                "slug" => "minh-dao-song-luu-pha",
-                "name" => "Minh Đao-Song Lưu Phá",
+                "slug" => "minh-dao-song-luu-pha-bien-chieu",
+                "name" => "Minh Đao-Song Lưu Phá (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -10976,8 +10976,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 997,
                 "set_id" => 111,
-                "slug" => "minh-dao-yen-hoi",
-                "name" => "Minh Đao-Yến Hồi",
+                "slug" => "minh-dao-yen-hoi-bien-chieu",
+                "name" => "Minh Đao-Yến Hồi (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -10987,8 +10987,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 998,
                 "set_id" => 111,
-                "slug" => "minh-dao-le-tam-tram",
-                "name" => "Minh Đao-Lệ Tâm Trảm",
+                "slug" => "minh-dao-le-tam-tram-bien-chieu",
+                "name" => "Minh Đao-Lệ Tâm Trảm (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 12,
@@ -11163,8 +11163,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1014,
                 "set_id" => 113,
-                "slug" => "thien-giao-diem-chat-vi-quyen-thuoc",
-                "name" => "Thiên Giáo Diễm Chất Vi Quyến Thuộc",
+                "slug" => "thien-giao-diem-chat-vi-quyen-thuoc-bien-chieu",
+                "name" => "Thiên Giáo Diễm Chất Vi Quyến Thuộc (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 12,
@@ -11174,8 +11174,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1015,
                 "set_id" => 113,
-                "slug" => "thanh-phong-dan-boi-ha-dao-dai",
-                "name" => "Thanh Phong Dẫn Bội Hạ Dao Đài",
+                "slug" => "thanh-phong-dan-boi-ha-dao-dai-bien-chieu",
+                "name" => "Thanh Phong Dẫn Bội Hạ Dao Đài (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 12,
@@ -11185,8 +11185,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1016,
                 "set_id" => 113,
-                "slug" => "dao-quang-yen-anh-khong-tuoc-binh",
-                "name" => "Đao Quang Yển Ánh Khổng Tước Bình",
+                "slug" => "dao-quang-yen-anh-khong-tuoc-binh-bien-chieu",
+                "name" => "Đao Quang Yển Ánh Khổng Tước Bình (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -11196,8 +11196,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1017,
                 "set_id" => 113,
-                "slug" => "bich-tieu-thanh-li-song-minh-phung",
-                "name" => "Bích Tiêu Thanh Lí Song Minh Phụng",
+                "slug" => "bich-tieu-thanh-li-song-minh-phung-bien-chieu",
+                "name" => "Bích Tiêu Thanh Lí Song Minh Phụng (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -11207,19 +11207,19 @@ class Skill extends AbstractSeed
             [
                 "id" => 1018,
                 "set_id" => 113,
-                "slug" => "",
-                "name" => "",
-                "effect_type" => "",
+                "slug" => "anh-hung-vo-song-phong-luu-te-bien-chieu",
+                "name" => "Anh Hùng Vô Song Phong Lưu Tế (Biến chiêu)",
+                "effect_type" => "3",
                 "lock_flg" => "0",
-                "max_level" => 1,
+                "max_level" => 12,
                 "power" => 0,
-                "photo" => ""
+                "photo" => "skill/cs_jh_yydf06_hide.png"
             ],
             [
                 "id" => 1019,
                 "set_id" => 113,
-                "slug" => "thien-kim-nhat-khac-khanh-luong-tieu",
-                "name" => "Thiên Kim Nhất Khắc Khánh Lương Tiêu",
+                "slug" => "thien-kim-nhat-khac-khanh-luong-tieu-bien-chieu",
+                "name" => "Thiên Kim Nhất Khắc Khánh Lương Tiêu (Biến chiêu)",
                 "effect_type" => "2",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -11504,13 +11504,13 @@ class Skill extends AbstractSeed
             [
                 "id" => 1045,
                 "set_id" => 116,
-                "slug" => "",
-                "name" => "",
-                "effect_type" => "",
+                "slug" => "son-bang-vo-ky",
+                "name" => "Sơn Băng (Võ kỹ)",
+                "effect_type" => "1",
                 "lock_flg" => "0",
-                "max_level" => 1,
+                "max_level" => 19,
                 "power" => 0,
-                "photo" => ""
+                "photo" => "wuji/242_2.png"
             ],
             [
                 "id" => 1046,
@@ -11526,13 +11526,13 @@ class Skill extends AbstractSeed
             [
                 "id" => 1047,
                 "set_id" => 116,
-                "slug" => "",
-                "name" => "",
-                "effect_type" => "",
+                "slug" => "thien-kinh-vo-ky-bien-chieu",
+                "name" => "Thiên Kinh (Võ kỹ) (Biến chiêu)",
+                "effect_type" => "1",
                 "lock_flg" => "0",
-                "max_level" => 1,
+                "max_level" => 19,
                 "power" => 0,
-                "photo" => ""
+                "photo" => "wuji/245_1.png"
             ],
             [
                 "id" => 1048,
@@ -11691,19 +11691,19 @@ class Skill extends AbstractSeed
             [
                 "id" => 1062,
                 "set_id" => 118,
-                "slug" => "",
-                "name" => "",
-                "effect_type" => "",
-                "lock_flg" => "0",
-                "max_level" => 1,
-                "power" => 0,
-                "photo" => ""
+                "slug" => "hao-nguyet-vo-song",
+                "name" => "Hạo Nguyệt Vô Song",
+                "effect_type" => "1",
+                "lock_flg" => "1",
+                "max_level" => 12,
+                "power" => 6,
+                "photo" => "skill/cs_jh_yydld02_hide.png"
             ],
             [
                 "id" => 1063,
                 "set_id" => 118,
-                "slug" => "bat-van-kien-nguyet",
-                "name" => "Bát Vân Kiến Nguyệt",
+                "slug" => "bat-van-kien-nguyet-bien-chieu",
+                "name" => "Bát Vân Kiến Nguyệt (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -11801,8 +11801,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1072,
                 "set_id" => 119,
-                "slug" => "khai-thien-tich-dia",
-                "name" => "Khai Thiên Tịch Địa",
+                "slug" => "khai-thien-tich-dia-bien-chieu",
+                "name" => "Khai Thiên Tịch Địa (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 10,
@@ -12395,13 +12395,13 @@ class Skill extends AbstractSeed
             [
                 "id" => 1126,
                 "set_id" => 126,
-                "slug" => "",
-                "name" => "",
-                "effect_type" => "",
+                "slug" => "tu-ly-can-khon-vo-ky-bien-chieu",
+                "name" => "Tụ Lý Càn Khôn (Võ kỹ) (Biến chiêu)",
+                "effect_type" => "1",
                 "lock_flg" => "0",
-                "max_level" => 1,
+                "max_level" => 13,
                 "power" => 0,
-                "photo" => ""
+                "photo" => "wuji/537.png"
             ],
             [
                 "id" => 1127,
@@ -12516,19 +12516,19 @@ class Skill extends AbstractSeed
             [
                 "id" => 1137,
                 "set_id" => 127,
-                "slug" => "",
-                "name" => "",
-                "effect_type" => "",
+                "slug" => "vu-loan-phung-nghenh",
+                "name" => "Vũ Loan Phùng Nghênh",
+                "effect_type" => "1",
                 "lock_flg" => "0",
-                "max_level" => 1,
+                "max_level" => 12,
                 "power" => 0,
-                "photo" => ""
+                "photo" => "skill/cs_jh_sfj01_2.png"
             ],
             [
                 "id" => 1138,
                 "set_id" => 127,
-                "slug" => "long-nguyet-ngam-phong-phan-thu-vi-cong",
-                "name" => "Lộng Nguyệt Ngâm Phong (Phản Thủ Vi Công)",
+                "slug" => "long-nguyet-ngam-phong-phan-thu-vi-cong-bien-chieu",
+                "name" => "Lộng Nguyệt Ngâm Phong (Phản Thủ Vi Công) (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 12,
@@ -12538,8 +12538,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1139,
                 "set_id" => 127,
-                "slug" => "sat-tra-phong-van-phan-thu-vi-cong",
-                "name" => "Sất Trá Phong Vân (Phản Thủ Vi Công)",
+                "slug" => "sat-tra-phong-van-phan-thu-vi-cong-bien-chieu",
+                "name" => "Sất Trá Phong Vân (Phản Thủ Vi Công) (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 12,
@@ -12637,8 +12637,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1148,
                 "set_id" => 128,
-                "slug" => "dao-son-hoa-hai",
-                "name" => "Đao Sơn Hỏa Hải",
+                "slug" => "dao-son-hoa-hai-bien-chieu",
+                "name" => "Đao Sơn Hỏa Hải (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -12725,8 +12725,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1156,
                 "set_id" => 129,
-                "slug" => "trieu-sinh-mo-tu",
-                "name" => "Triều Sinh Mộ Tử",
+                "slug" => "trieu-sinh-mo-tu-bien-chieu",
+                "name" => "Triều Sinh Mộ Tử (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 20,
@@ -12736,8 +12736,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1157,
                 "set_id" => 129,
-                "slug" => "thu-than-vo-gian-phan-thu-vi-cong",
-                "name" => "Thụ Thân Vô Gian (Phản thủ vi công)",
+                "slug" => "thu-than-vo-gian-phan-thu-vi-cong-bien-chieu",
+                "name" => "Thụ Thân Vô Gian (Phản thủ vi công) (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 20,
@@ -12835,8 +12835,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1166,
                 "set_id" => 130,
-                "slug" => "to-li-thuong-an",
-                "name" => "Tố Li Thương (Ẩn)",
+                "slug" => "to-li-thuong-an-bien-chieu",
+                "name" => "Tố Li Thương (Ẩn) (Biến chiêu)",
                 "effect_type" => "0",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -12846,8 +12846,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1167,
                 "set_id" => 130,
-                "slug" => "hong-nhan-le-an",
-                "name" => "Hồng Nhan Lệ (Ẩn)",
+                "slug" => "hong-nhan-le-an-bien-chieu",
+                "name" => "Hồng Nhan Lệ (Ẩn) (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 12,
@@ -13121,8 +13121,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1192,
                 "set_id" => 133,
-                "slug" => "man-thien-qua-hai",
-                "name" => "Mạn Thiên Quá Hải",
+                "slug" => "man-thien-qua-hai-bien-chieu",
+                "name" => "Mạn Thiên Quá Hải (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 12,
@@ -13220,8 +13220,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1201,
                 "set_id" => 134,
-                "slug" => "chuong-tinh-nhieu",
-                "name" => "Chưởng Tình Nhiễu",
+                "slug" => "chuong-tinh-nhieu-bien-chieu",
+                "name" => "Chưởng Tình Nhiễu (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -13396,8 +13396,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1217,
                 "set_id" => 136,
-                "slug" => "bai-van-quyet",
-                "name" => "Bài Vân Quyết",
+                "slug" => "bai-van-quyet-bien-chieu",
+                "name" => "Bài Vân Quyết (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 19,
@@ -13407,8 +13407,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1218,
                 "set_id" => 136,
-                "slug" => "phien-cao-y",
-                "name" => "Phiên Cảo Y",
+                "slug" => "phien-cao-y-bien-chieu",
+                "name" => "Phiên Cảo Y (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 19,
@@ -13418,8 +13418,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1219,
                 "set_id" => 136,
-                "slug" => "luu-hoan-to",
-                "name" => "Lưu Hoàn Tố",
+                "slug" => "luu-hoan-to-bien-chieu",
+                "name" => "Lưu Hoàn Tố (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 19,
@@ -13429,8 +13429,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1220,
                 "set_id" => 136,
-                "slug" => "trao-thanh-la",
-                "name" => "Trạo Thanh La",
+                "slug" => "trao-thanh-la-bien-chieu",
+                "name" => "Trạo Thanh La (Biến chiêu)",
                 "effect_type" => "2",
                 "lock_flg" => "0",
                 "max_level" => 19,
@@ -13440,8 +13440,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1221,
                 "set_id" => 136,
-                "slug" => "sach-dong-hoa-phan-thu-vi-cong",
-                "name" => "Sách Đồng Hoa (Phản Thủ Vi Công)",
+                "slug" => "sach-dong-hoa-phan-thu-vi-cong-bien-chieu",
+                "name" => "Sách Đồng Hoa (Phản Thủ Vi Công) (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 19,
@@ -13451,8 +13451,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1222,
                 "set_id" => 136,
-                "slug" => "lac-so-vu",
-                "name" => "Lạc Sơ Vũ",
+                "slug" => "lac-so-vu-bien-chieu",
+                "name" => "Lạc Sơ Vũ (Biến chiêu)",
                 "effect_type" => "0",
                 "lock_flg" => "0",
                 "max_level" => 19,
@@ -13561,8 +13561,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1232,
                 "set_id" => 137,
-                "slug" => "lieu-thien-sa",
-                "name" => "Liêu Thiền Sa",
+                "slug" => "lieu-thien-sa-bien-chieu",
+                "name" => "Liêu Thiền Sa (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 20,
@@ -13649,8 +13649,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1240,
                 "set_id" => 138,
-                "slug" => "han-thu-tru",
-                "name" => "Hàn Thử Trứ",
+                "slug" => "han-thu-tru-bien-chieu",
+                "name" => "Hàn Thử Trứ (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -13737,8 +13737,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1248,
                 "set_id" => 139,
-                "slug" => "duong-lieu-khuc-phan-thu-vi-cong",
-                "name" => "Dương Liễu Khúc (Phản thủ vi công)",
+                "slug" => "duong-lieu-khuc-phan-thu-vi-cong-bien-chieu",
+                "name" => "Dương Liễu Khúc (Phản thủ vi công) (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 12,
@@ -14001,8 +14001,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1272,
                 "set_id" => 142,
-                "slug" => "tam-co-truy-nguyet",
-                "name" => "Tâm Cổ Truy Nguyệt",
+                "slug" => "tam-co-truy-nguyet-bien-chieu",
+                "name" => "Tâm Cổ Truy Nguyệt (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -14012,13 +14012,13 @@ class Skill extends AbstractSeed
             [
                 "id" => 1273,
                 "set_id" => 142,
-                "slug" => "",
-                "name" => "",
-                "effect_type" => "",
+                "slug" => "tinh-co-dao-nguyet",
+                "name" => "Tình Cổ Đảo Nguyệt",
+                "effect_type" => "1",
                 "lock_flg" => "0",
-                "max_level" => 1,
-                "power" => 0,
-                "photo" => ""
+                "max_level" => 12,
+                "power" => 11,
+                "photo" => "skill/cs_wxj_gyxhj05_hide_02.png"
             ],
             [
                 "id" => 1274,
@@ -14188,8 +14188,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1289,
                 "set_id" => 144,
-                "slug" => "thanh-tinh-hoa-phan-thu-vi-cong",
-                "name" => "Thanh Tịnh Hòa(Phản thủ vi công)",
+                "slug" => "thanh-tinh-hoa-phan-thu-vi-cong-bien-chieu",
+                "name" => "Thanh Tịnh Hòa(Phản thủ vi công) (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 12,
@@ -14353,8 +14353,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1304,
                 "set_id" => 146,
-                "slug" => "khieu-tung-thu",
-                "name" => "Khiêu Tung Thủ",
+                "slug" => "khieu-tung-thu-bien-chieu",
+                "name" => "Khiêu Tung Thủ (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 12,
@@ -14892,8 +14892,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1353,
                 "set_id" => 152,
-                "slug" => "thoi-son-the",
-                "name" => "Thôi Sơn Thế",
+                "slug" => "thoi-son-the-bien-chieu",
+                "name" => "Thôi Sơn Thế (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -14980,8 +14980,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1361,
                 "set_id" => 153,
-                "slug" => "son-dau-ta-duong",
-                "name" => "Sơn Đầu Tà Dương",
+                "slug" => "son-dau-ta-duong-bien-chieu",
+                "name" => "Sơn Đầu Tà Dương (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -14991,19 +14991,19 @@ class Skill extends AbstractSeed
             [
                 "id" => 1362,
                 "set_id" => 153,
-                "slug" => "",
-                "name" => "",
-                "effect_type" => "",
+                "slug" => "truc-truong-mang-hai-khong-trung",
+                "name" => "Trúc Trượng Mang Hài (Không trung)",
+                "effect_type" => "2",
                 "lock_flg" => "0",
-                "max_level" => 1,
+                "max_level" => 12,
                 "power" => 0,
-                "photo" => ""
+                "photo" => "skill/cs_jh_fbg03_hide.png"
             ],
             [
                 "id" => 1363,
                 "set_id" => 153,
-                "slug" => "ngam-tieu-tu-hanh",
-                "name" => "Ngâm Tiếu Từ Hành",
+                "slug" => "ngam-tieu-tu-hanh-bien-chieu",
+                "name" => "Ngâm Tiếu Từ Hành (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -15013,8 +15013,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1364,
                 "set_id" => 153,
-                "slug" => "phong-ba-bat-dinh",
-                "name" => "Phong Ba Bất Định",
+                "slug" => "phong-ba-bat-dinh-bien-chieu",
+                "name" => "Phong Ba Bất Định (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -15024,8 +15024,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1365,
                 "set_id" => 153,
-                "slug" => "yen-vu-nhiem-binh-sinh",
-                "name" => "Yên Vũ Nhiệm Bình Sinh",
+                "slug" => "yen-vu-nhiem-binh-sinh-bien-chieu",
+                "name" => "Yên Vũ Nhiệm Bình Sinh (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -15123,8 +15123,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1374,
                 "set_id" => 154,
-                "slug" => "nhat-di-nguyet-thu",
-                "name" => "Nhật Dị Nguyệt Thù",
+                "slug" => "nhat-di-nguyet-thu-bien-chieu",
+                "name" => "Nhật Dị Nguyệt Thù (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 10,
@@ -15134,8 +15134,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1375,
                 "set_id" => 154,
-                "slug" => "lo-qua-huy-nhat",
-                "name" => "Lỗ Qua Huy Nhật",
+                "slug" => "lo-qua-huy-nhat-bien-chieu",
+                "name" => "Lỗ Qua Huy Nhật (Biến chiêu)",
                 "effect_type" => "2",
                 "lock_flg" => "0",
                 "max_level" => 10,
@@ -15145,8 +15145,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1376,
                 "set_id" => 154,
-                "slug" => "hao-nguyet-truong-khong",
-                "name" => "Hạo Nguyệt Trường Không",
+                "slug" => "hao-nguyet-truong-khong-bien-chieu",
+                "name" => "Hạo Nguyệt Trường Không (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 10,
@@ -15156,8 +15156,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1377,
                 "set_id" => 154,
-                "slug" => "hoi-thien-van-nhat",
-                "name" => "Hồi Thiên Vãn Nhật",
+                "slug" => "hoi-thien-van-nhat-bien-chieu",
+                "name" => "Hồi Thiên Vãn Nhật (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 10,
@@ -15167,8 +15167,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1378,
                 "set_id" => 154,
-                "slug" => "phien-giang-lac-nguyet",
-                "name" => "Phiên Giang Lạc Nguyệt",
+                "slug" => "phien-giang-lac-nguyet-bien-chieu",
+                "name" => "Phiên Giang Lạc Nguyệt (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 10,
@@ -15178,8 +15178,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1379,
                 "set_id" => 154,
-                "slug" => "nhat-nguyet-trung-quang",
-                "name" => "Nhật Nguyệt Trùng Quang",
+                "slug" => "nhat-nguyet-trung-quang-bien-chieu",
+                "name" => "Nhật Nguyệt Trùng Quang (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 10,
@@ -15277,8 +15277,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1388,
                 "set_id" => 155,
-                "slug" => "no-long-toa-nguyet",
-                "name" => "Nộ Long Tỏa Nguyệt",
+                "slug" => "no-long-toa-nguyet-bien-chieu",
+                "name" => "Nộ Long Tỏa Nguyệt (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 12,
@@ -15288,8 +15288,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1389,
                 "set_id" => 155,
-                "slug" => "thuong-long-dac-thuy-phan-thu-vi-cong",
-                "name" => "Thương Long Đắc Thủy (Phản Thủ Vi Công)",
+                "slug" => "thuong-long-dac-thuy-phan-thu-vi-cong-bien-chieu",
+                "name" => "Thương Long Đắc Thủy (Phản Thủ Vi Công) (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 12,
@@ -16058,8 +16058,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1459,
                 "set_id" => 163,
-                "slug" => "tay-hiep-tung",
-                "name" => "[Tây Hiệp Tụng]",
+                "slug" => "tay-hiep-tung-bien-chieu",
+                "name" => "[Tây Hiệp Tụng] (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -16157,8 +16157,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1468,
                 "set_id" => 164,
-                "slug" => "ngung-han-boc",
-                "name" => "Ngưng Hàn Bộc",
+                "slug" => "ngung-han-boc-bien-chieu",
+                "name" => "Ngưng Hàn Bộc (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -16729,13 +16729,13 @@ class Skill extends AbstractSeed
             [
                 "id" => 1520,
                 "set_id" => 170,
-                "slug" => "",
-                "name" => "",
-                "effect_type" => "",
-                "lock_flg" => "0",
-                "max_level" => 1,
+                "slug" => "so-nhi-bat-lau",
+                "name" => "Sơ Nhi Bất Lậu",
+                "effect_type" => "1",
+                "lock_flg" => "1",
+                "max_level" => 10,
                 "power" => 0,
-                "photo" => ""
+                "photo" => "skill/cs_jy_tdshs05_hide.png"
             ],
             [
                 "id" => 1521,
@@ -16905,8 +16905,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1536,
                 "set_id" => 172,
-                "slug" => "quyen-van-trien-phan-thu-vi-cong",
-                "name" => "Quyển Vân Triền (Phản thủ vi công)",
+                "slug" => "quyen-van-trien-phan-thu-vi-cong-bien-chieu",
+                "name" => "Quyển Vân Triền (Phản thủ vi công) (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 12,
@@ -17004,8 +17004,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1545,
                 "set_id" => 173,
-                "slug" => "nhap-moc-tam-phan",
-                "name" => "Nhập Mộc Tam Phân",
+                "slug" => "nhap-moc-tam-phan-bien-chieu",
+                "name" => "Nhập Mộc Tam Phân (Biến chiêu)",
                 "effect_type" => "0",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -17015,8 +17015,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1546,
                 "set_id" => 173,
-                "slug" => "khat-ki-bon-tuyen",
-                "name" => "Khát Kí Bôn Tuyền",
+                "slug" => "khat-ki-bon-tuyen-bien-chieu",
+                "name" => "Khát Kí Bôn Tuyền (Biến chiêu)",
                 "effect_type" => "0",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -17367,19 +17367,19 @@ class Skill extends AbstractSeed
             [
                 "id" => 1578,
                 "set_id" => 177,
-                "slug" => "",
-                "name" => "",
-                "effect_type" => "",
+                "slug" => "phong-khoi-van-ca",
+                "name" => "Phong Khởi Vân Ca",
+                "effect_type" => "1",
                 "lock_flg" => "0",
-                "max_level" => 1,
-                "power" => 0,
-                "photo" => ""
+                "max_level" => 12,
+                "power" => 9,
+                "photo" => "skill/cs_jh_yfjb04_hide02.png"
             ],
             [
                 "id" => 1579,
                 "set_id" => 177,
-                "slug" => "phong-dam-van-nhan",
-                "name" => "Phong Đạm Vân Nhàn",
+                "slug" => "phong-dam-van-nhan-bien-chieu",
+                "name" => "Phong Đạm Vân Nhàn (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 12,
@@ -17389,8 +17389,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1580,
                 "set_id" => 177,
-                "slug" => "phong-duong-van-hien-phan-thu-vi-cong",
-                "name" => "Phong Dương Vân Hiện (Phản thủ vi công)",
+                "slug" => "phong-duong-van-hien-phan-thu-vi-cong-bien-chieu",
+                "name" => "Phong Dương Vân Hiện (Phản thủ vi công) (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "1",
                 "max_level" => 12,
@@ -17576,8 +17576,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1597,
                 "set_id" => 179,
-                "slug" => "thien-am-tan-phach",
-                "name" => "Thiên Âm Tán Phách",
+                "slug" => "thien-am-tan-phach-bien-chieu",
+                "name" => "Thiên Âm Tán Phách (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -17675,13 +17675,13 @@ class Skill extends AbstractSeed
             [
                 "id" => 1606,
                 "set_id" => 180,
-                "slug" => "",
-                "name" => "",
-                "effect_type" => "",
+                "slug" => "phong-kinh-cung-minh-vo-ky-bien-chieu",
+                "name" => "Phong Kình Cung Minh (Võ kỹ) (Biến chiêu)",
+                "effect_type" => "1",
                 "lock_flg" => "0",
-                "max_level" => 1,
+                "max_level" => 13,
                 "power" => 0,
-                "photo" => ""
+                "photo" => "wuji/175_1.png"
             ],
             [
                 "id" => 1607,
@@ -17807,13 +17807,13 @@ class Skill extends AbstractSeed
             [
                 "id" => 1618,
                 "set_id" => 181,
-                "slug" => "vo-ky",
-                "name" => " (Võ kỹ)",
-                "effect_type" => "",
+                "slug" => "hung-cu-liep-ho-tren-khong-vo-ky",
+                "name" => "Hùng Cừ Liệp Hổ (Trên không) (Võ kỹ)",
+                "effect_type" => "1",
                 "lock_flg" => "0",
-                "max_level" => 1,
+                "max_level" => 10,
                 "power" => 0,
-                "photo" => ""
+                "photo" => "wuji/482.png"
             ],
             [
                 "id" => 1619,
@@ -17917,8 +17917,8 @@ class Skill extends AbstractSeed
             [
                 "id" => 1628,
                 "set_id" => 182,
-                "slug" => "loan-vu-gia-thien",
-                "name" => "Loạn Vụ Già Thiên",
+                "slug" => "loan-vu-gia-thien-bien-chieu",
+                "name" => "Loạn Vụ Già Thiên (Biến chiêu)",
                 "effect_type" => "1",
                 "lock_flg" => "0",
                 "max_level" => 12,
@@ -18002,7 +18002,6 @@ class Skill extends AbstractSeed
                 "power" => 8,
                 "photo" => "skill/cs_jh_mhz08.png"
             ],
-        
         ];
         $table = $this->table("skill");
         $table->truncate();

@@ -47,7 +47,8 @@ export default async function VoCongPage({ params }) {
     switchTag,
     <VoCongSideBar initSet={skillDetail.set} setList={setList}></VoCongSideBar>,
     <VoCongInfo initSkillDetail={skillDetail}></VoCongInfo>,
-    <VoCongDetail initSkillDetail={skillDetail} />
+    <VoCongDetail initSkillDetail={skillDetail} />,
+    true
   );
 
   return layout;

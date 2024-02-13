@@ -56,8 +56,8 @@ export default async function NoiCongPage({ params }) {
       initInnerSlug={params.slug}
       schoolList={schoolList}
     />,
-    <NoiCongInfo inner={innerDetail} />,
-    <NoiCongDetail inner={innerDetail} />
+    <NoiCongInfo initInner={innerDetail} />,
+    <NoiCongDetail initInner={innerDetail} />
   );
 
   return layout;

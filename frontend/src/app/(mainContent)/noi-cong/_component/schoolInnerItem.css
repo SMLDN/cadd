@@ -15,17 +15,3 @@
   cursor: pointer;
   background-size: contain;
 }
-
-.inner-item {
-  @apply pl-4;
-  @apply text-sm;
-  @apply cursor-pointer;
-  color: #705f4a;
-  font-weight: 600;
-  font-size: 13px;
-  margin-bottom: 2px;
-}
-
-.inner-item:hover, .inner-item.actived {
-  color: #970700;
-}

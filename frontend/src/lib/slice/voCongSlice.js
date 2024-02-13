@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
 export const fetchSkillList = createAsyncThunk(
-  "voCong.fetchSkillList",
+  "voCong/fetchSkillList",
   async ({ slug, level }) => {
     const response = await fetch(`/api/vo-cong?slug=${slug}&level=${level}`);
     return (await response.json()).data;

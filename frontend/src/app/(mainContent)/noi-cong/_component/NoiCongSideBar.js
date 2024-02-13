@@ -1,15 +1,37 @@
 "use client";
 import { useSelector } from "@/lib/store";
 import SchoolInnerItem from "@/app/(mainContent)/noi-cong/_component/SchoolInnerItem";
+import { usePathname } from "next/navigation";
+import { useEffect } from "react";
+import { useDispatch } from "@/lib/store";
+import { fetchNoiCongList } from "@/lib/slice/noiCongSlice";
 
 export default function NoiCongSideBar({
   initSchoolId,
-  schoolList,
   initInnerSlug,
+  schoolList,
 }) {
   const schoolId = useSelector((state) => {
     return state.noiCong.selectedSchoolId;
   });
+  const pathName = usePathname();
+  const dispatch = useDispatch();
+
+  const slug = useSelector((state) => state.noiCong.selectedNoiCong?.slug);
+  const level = useSelector(
+    (state) => state.noiCong.selectedNoiCong?.detail.level
+  );
+
+  useEffect(() => {
+    const paths = pathName.split("/");
+    if (paths[1] != "noi-cong") {
+      return;
+    }
+    if (paths[2] === slug && paths[3] === level) {
+      return;
+    }
+    dispatch(fetchNoiCongList({ slug: paths[2], level: paths[3] }));
+  }, [pathName]);
 
   return (
     <>
@@ -25,7 +47,7 @@ export default function NoiCongSideBar({
           <SchoolInnerItem
             key={school.slug}
             school={school}
-            show={show}
+            initShowFlg={show}
             initInnerSlug={initInnerSlug}
           />
         );

@@ -1,8 +1,15 @@
+"use client";
 import Image from "next/image";
 import NoiCongNavigation from "./NoiCongNavigation";
+import { useSelector } from "@/lib/store";
 import "./noiCongDetail.css";
-export default function NoiCongDetail({ inner }) {
-  const detail = inner.detail;
+
+export default function NoiCongDetail({ initInner }) {
+  const selectedNoiCong = useSelector((state) => state.noiCong.selectedNoiCong);
+  const getInner = () =>
+    selectedNoiCong != null ? selectedNoiCong : initInner;
+  const inner = getInner();
+  const { detail } = inner;
 
   const dmgByType = (type) => {
     if (type === "0") {
@@ -155,27 +162,41 @@ export default function NoiCongDetail({ inner }) {
       </div>
       {/* detail box */}
       <div className="text-white bg-zinc-950 p-2 opacity-75">
-        Lực Tay: +{`${detail.lucTay}`}<br />
-        Thân Pháp: +{`${detail.thanPhap}`}<br />
-        Nội Tức: +{`${detail.noiTuc}`}<br />
-        Canh Khí: +{`${detail.canhKhi}`}<br />
-        Thể Phách: +{`${detail.thePhach}`}<br />
+        Lực Tay: +{`${detail.lucTay}`}
+        <br />
+        Thân Pháp: +{`${detail.thanPhap}`}
+        <br />
+        Nội Tức: +{`${detail.noiTuc}`}
+        <br />
+        Canh Khí: +{`${detail.canhKhi}`}
+        <br />
+        Thể Phách: +{`${detail.thePhach}`}
+        <br />
         <div className="text-yellow-400 mt-2">
           <b>Nội công phát huy tối đa thực lực trang bị</b>
           <br />
-          Lực Tay: +{`${Math.floor(detail.lucTay * 1.5)}`}<br />
-          Thân Pháp: +{`${Math.floor(detail.thanPhap * 1.5)}`}<br />
-          Nội Tức: +{`${Math.floor(detail.noiTuc * 1.5)}`}<br />
-          Canh Khí: +{`${Math.floor(detail.canhKhi * 1.5)}`}<br />
-          Thể Phách: +{`${Math.floor(detail.thePhach * 1.5)}`}<br />
+          Lực Tay: +{`${Math.floor(detail.lucTay * 1.5)}`}
+          <br />
+          Thân Pháp: +{`${Math.floor(detail.thanPhap * 1.5)}`}
+          <br />
+          Nội Tức: +{`${Math.floor(detail.noiTuc * 1.5)}`}
+          <br />
+          Canh Khí: +{`${Math.floor(detail.canhKhi * 1.5)}`}
+          <br />
+          Thể Phách: +{`${Math.floor(detail.thePhach * 1.5)}`}
+          <br />
         </div>
         <div className="mt-2">
           <b>Vận hành kích hoạt:</b>
           <div className="text-gray-400">
-            Khí huyết cực hạn +{`${detail.maxHp}`}<br />
-            Nội lực tối đa +{`${detail.maxMp}`}<br />
-            Sức đỡ đòn cực hạn +{`${detail.maxParry}`}<br />
-            Nội công phòng +{`${detail.innerDef}`}<br />
+            Khí huyết cực hạn +{`${detail.maxHp}`}
+            <br />
+            Nội lực tối đa +{`${detail.maxMp}`}
+            <br />
+            Sức đỡ đòn cực hạn +{`${detail.maxParry}`}
+            <br />
+            Nội công phòng +{`${detail.innerDef}`}
+            <br />
             {dmgPropText()}
           </div>
         </div>

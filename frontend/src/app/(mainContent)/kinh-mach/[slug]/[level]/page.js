@@ -2,6 +2,7 @@ import { useFrame } from "@/app/(mainContent)/Frame";
 import { useSwitchTag } from "@/app/(mainContent)/SwitchTag";
 import KinhMachSideBar from "@/app/(mainContent)/kinh-mach/_component/KinhMachSideBar";
 import KinhMachDetail from "@/app/(mainContent)/kinh-mach/_component/KinhMachDetail";
+import { notFound } from "next/navigation";
 
 async function getKinhMachList() {
   const req = await fetch("http://localhost/api/kinh-mach/");
@@ -16,6 +17,11 @@ async function getKinhMachDetail(slug, level) {
 export default async function KinhMachPage({ params }) {
   const kinhMachList = await getKinhMachList();
   const kinhMachDetail = await getKinhMachDetail(params.slug, params.level);
+
+  if (kinhMachDetail["Error"] != null) {
+    notFound();
+  }
+
   const switchTag = useSwitchTag("kinhMach");
 
   const layout = useFrame(

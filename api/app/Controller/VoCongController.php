@@ -28,11 +28,12 @@ class VoCongController
             $voCong = Skill::with(["detail" => function ($query) use ($level) {
                 $query->where("level", $level);
             }])->where("slug", "=", $voCong)->firstOrFail()->toArrayCamel();
-            $voCong["detail"] = $voCong["detail"][0];
-
-            $set = Set::with("skillListAll")->findOrFail($voCong["setId"])->toArrayCamel();
-            $voCong["set"] = $set;
-            return $response->withJson($voCong);
+            if (isset($voCong["detail"]) && isset($voCong["detail"][0])) {
+                $voCong["detail"] = $voCong["detail"][0];
+                $set = Set::with("skillListAll")->findOrFail($voCong["setId"])->toArrayCamel();
+                $voCong["set"] = $set;
+                return $response->withJson($voCong);
+            }
         }
         return $response->withError("Param error");
     }

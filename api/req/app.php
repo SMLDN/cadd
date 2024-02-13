@@ -2,6 +2,7 @@
 
 use Slim\Factory\AppFactory;
 use Zdn\Core\ResponseFactory;
+use Zdn\Core\ZdnErrorHandler;
 use Slim\Middleware\ErrorMiddleware;
 
 
@@ -19,3 +20,7 @@ $errorMiddleware = new ErrorMiddleware(
 );
 
 $app->add($errorMiddleware);
+
+// if ($_ENV["MODE"] == "production") {
+    $errorMiddleware->setDefaultErrorHandler(new ZdnErrorHandler($app->getResponseFactory()));
+// }

@@ -4,10 +4,6 @@ import StoreProvider from "./StoreProvider";
 
 const inter = Inter({ subsets: ["vietnamese"] });
 
-export const metadata = {
-  title: "Cửu âm đại điển",
-};
-
 export default function RootLayout({ children }) {
   return (
     <StoreProvider>

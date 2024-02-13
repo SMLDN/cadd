@@ -12,7 +12,7 @@ export default function Nav() {
           <a href="/noi-cong/thien-dinh-cong/36">Nội Công</a>
         </li>
         <li>
-          <a href="/vo-cong">Võ Công</a>
+          <a href="/vo-cong/phien-thien-phach-dia/20">Võ Công</a>
         </li>
         <li>
           <a href="/kinh-mach/thu-thai-am-phe/216">Kinh Mạch</a>

@@ -10,6 +10,7 @@ export default function RootLayout({ children }) {
     <html lang="vi">
       <body className={inter.className}>
         {children}
+        <div className="text-right mr-10 text-white">ZDN@2024</div>
       </body>
     </html>
     </StoreProvider>

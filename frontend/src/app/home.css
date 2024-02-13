@@ -1,0 +1,68 @@
+h1 {
+  color: #c4c5b4;
+  font-size: 3em;
+  text-align: center;
+}
+
+.content-list {
+  display: flex;
+  justify-content: center;
+}
+
+.content-list a {
+  font-size: 1.5em;
+  color: #c4c5b4;
+  text-decoration: none;
+}
+
+.content-list .item {
+  @apply m-6;
+}
+
+.content-list .item div {
+  margin: 0 auto;
+}
+
+.content-list .kinh-mach-btn,
+.content-list .vo-cong-btn,
+.content-list .noi-cong-btn {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 59px;
+  height: 45px;
+}
+
+.content-list .noi-cong-btn {
+  background-image: url("/static/img/ui/noi-cong-out.png");
+}
+
+.content-list .kinh-mach-btn {
+  background-image: url("/static/img/ui/kinh-mach-out.png");
+}
+
+.content-list .vo-cong-btn {
+  background-image: url("/static/img/ui/vo-cong-out.png");
+}
+
+.item.noi-cong:hover a,
+.item.vo-cong:hover a,
+.item.kinh-mach:hover a {
+  color: #970700;
+}
+
+.item.noi-cong:hover .noi-cong-btn {
+  background-image: url("/static/img/ui/noi-cong-in.png");
+}
+
+.item.kinh-mach:hover .kinh-mach-btn {
+  background-image: url("/static/img/ui/kinh-mach-in.png");
+}
+
+.item.vo-cong:hover .vo-cong-btn {
+  background-image: url("/static/img/ui/vo-cong-in.png");
+}
+
+.zdn-color {
+  color: #c4c5b4;
+}

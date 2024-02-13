@@ -1,4 +1,4 @@
-import { useFrame } from "@/app/(mainContent)/Frame";
+import { getFrame } from "@/app/(mainContent)/Frame";
 import { useSwitchTag } from "@/app/(mainContent)/SwitchTag";
 import VoCongSideBar from "../../_component/VoCongSideBar";
 import VoCongInfo from "../../_component/VoCongInfo";
@@ -18,7 +18,12 @@ async function getSkillDetail(slug, level) {
 export async function generateMetadata({ params }) {
   const skillDetail = await getSkillDetail(params.slug, params.level);
 
+  if (skillDetail["Error"] != null) {
+    return notFound();
+  }
+
   return {
+    metadataBase: new URL("https://cuuamdaidien.com"),
     title: `${skillDetail.name} - Cửu Âm Đại Điển`,
     description: `Thông tin nội công ${skillDetail.name} tầng ${skillDetail.detail.level} - Cửu Âm Đại Điển`,
     keywords: `${skillDetail.name} tầng ${skillDetail.detail.level}, auto cửu âm, auto 9yin, auto cack, cửu âm đại điển, cadd, cửu âm chân kinh, cửu âm, cack, nội công, kinh mạch, võ học`,
@@ -36,14 +41,13 @@ export default async function VoCongPage({ params }) {
     getSetList(),
     getSkillDetail(params.slug, params.level),
   ]);
+  const switchTag = useSwitchTag("voCong");
 
   if (skillDetail["Error"] != null) {
     return notFound();
   }
 
-  const switchTag = useSwitchTag("voCong");
-
-  const layout = useFrame(
+  const layout = getFrame(
     switchTag,
     <VoCongSideBar initSet={skillDetail.set} setList={setList}></VoCongSideBar>,
     <VoCongInfo initSkillDetail={skillDetail}></VoCongInfo>,

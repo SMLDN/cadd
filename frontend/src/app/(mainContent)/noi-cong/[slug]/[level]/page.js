@@ -1,7 +1,7 @@
 import NoiCongSideBar from "@/app/(mainContent)/noi-cong/_component/NoiCongSideBar";
 import NoiCongInfo from "@/app/(mainContent)/noi-cong/_component/NoiCongInfo";
 import NoiCongDetail from "@/app/(mainContent)/noi-cong/_component/NoiCongDetail";
-import { useFrame } from "@/app/(mainContent)/Frame";
+import { getFrame } from "@/app/(mainContent)/Frame";
 import { useSwitchTag } from "@/app/(mainContent)/SwitchTag";
 import { notFound } from "next/navigation";
 
@@ -18,7 +18,12 @@ async function getInnerDetail(slug, level) {
 export async function generateMetadata({ params }) {
   const inner = await getInnerDetail(params.slug, params.level);
 
+  if (inner["Error"] != null) {
+    return notFound();
+  }
+
   return {
+    metadataBase: new URL("https://cuuamdaidien.com"),
     title: `${inner.name} - Cửu Âm Đại Điển`,
     description: `Thông tin nội công ${inner.name} tầng ${inner.detail.level} - Cửu Âm Đại Điển`,
     keywords: `${inner.name} tầng ${inner.detail.level}, auto cửu âm, auto 9yin, auto cack, cửu âm đại điển, cadd, cửu âm chân kinh, cửu âm, cack, nội công, kinh mạch, võ học`,
@@ -36,6 +41,7 @@ export default async function NoiCongPage({ params }) {
     getSchoolInnerList(),
     getInnerDetail(params.slug, params.level),
   ]);
+  const switchTag = useSwitchTag("noiCong");
 
   if (innerDetail["Error"] != null) {
     notFound();
@@ -47,9 +53,7 @@ export default async function NoiCongPage({ params }) {
     });
   });
 
-  const switchTag = useSwitchTag("noiCong");
-
-  const layout = useFrame(
+  const layout = getFrame(
     switchTag,
     <NoiCongSideBar
       initSchoolId={initSchool.id}

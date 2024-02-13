@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 
 export const fetchNoiCongList = createAsyncThunk(
-  "voCong/fetchNoiCongList",
+  "noiCong/fetchNoiCongList",
   async ({ slug, level }) => {
     const response = await fetch(`/api/noi-cong?slug=${slug}&level=${level}`);
     return (await response.json()).data;

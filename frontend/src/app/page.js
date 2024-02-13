@@ -1,6 +1,7 @@
 import "./home.css";
 
 export const metadata = {
+  metadataBase: new URL("https://cuuamdaidien.com"),
   title: "Cửu Âm Đại Điển",
   description:
     "Cửu Âm Chân Kinh Đại Từ Điển - Thông tin nội công, kinh mạch, võ học game Cửu Âm Chân Kinh |Auto cửu âm",

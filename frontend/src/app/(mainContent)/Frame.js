@@ -1,5 +1,5 @@
 import UserProp from "./_component/UserProp";
-export function useFrame(
+export function getFrame(
   switchTag,
   sideBar,
   infoFrame,

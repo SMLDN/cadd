@@ -12,6 +12,7 @@ export default function RootLayout({ children }) {
         {children}
         <div className="text-right mr-10 text-white">ZDN@2024</div>
       </body>
+      <GoogleAnalytics gaId="G-7X3R39YR6Z" />
     </html>
     </StoreProvider>
   );

@@ -19,7 +19,7 @@ export default function KinhMachNavigation({ kinhMach }) {
       return;
     }
 
-    router.push(`/noi-cong/${kinhMach.slug}/${inputLevel}`);
+    router.push(`/kinh-mach/${kinhMach.slug}/${inputLevel}`);
   };
 
   return (

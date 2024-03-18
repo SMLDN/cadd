@@ -3,11 +3,10 @@ import Image from "next/image";
 import VoCongNavigation from "./VoCongNavigation";
 import { useSelector } from "@/lib/store";
 import "./voCongDetail.css";
+import useSkill from "../_hook/GetSkill";
 
 export default function VoCongDetail({ initSkillDetail }) {
-  const selectedSkill = useSelector((state) => state.voCong.selectedSkill);
-
-  const skill = selectedSkill != null ? selectedSkill : initSkillDetail;
+  const { skill } = useSkill({ initSkill: initSkillDetail });
   const { detail } = skill;
 
   const satThuongVuKhiMin = useSelector(

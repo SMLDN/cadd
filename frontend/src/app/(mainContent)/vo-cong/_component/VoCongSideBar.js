@@ -6,23 +6,22 @@ import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 import { useDispatch } from "@/lib/store";
 
+const typeList = [
+  "cs_ks",
+  "cs_dj",
+  "cs_sj",
+  "cs_dd",
+  "cs_sd",
+  "cs_bs",
+  "cs_sc",
+  "cs_cg",
+  "cs_dg",
+  "cs_aq",
+  "cs_qmtaolu",
+];
+
 export default function VoCongSideBar({ setList, initSet }) {
   const dispatch = useDispatch();
-
-  const typeList = [
-    "cs_ks",
-    "cs_dj",
-    "cs_sj",
-    "cs_dd",
-    "cs_sd",
-    "cs_bs",
-    "cs_sc",
-    "cs_cg",
-    "cs_dg",
-    "cs_aq",
-    "cs_qmtaolu",
-  ];
-
   const pathName = usePathname();
 
   const setType = useSelector((state) => {
@@ -30,7 +29,9 @@ export default function VoCongSideBar({ setList, initSet }) {
   });
 
   const slug = useSelector((state) => state.voCong.selectedSkill?.slug);
-  const level = useSelector((state) => state.voCong.selectedSkill?.detail.level);
+  const level = useSelector(
+    (state) => state.voCong.selectedSkill?.detail.level
+  );
 
   useEffect(() => {
     const paths = pathName.split("/");

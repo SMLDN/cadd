@@ -5,15 +5,14 @@ import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 import { useDispatch } from "@/lib/store";
 import { fetchNoiCongList } from "@/lib/slice/noiCongSlice";
+import useInnerSideBar from "../_hook/GetInnerSideBar";
 
 export default function NoiCongSideBar({
   initSchoolId,
   initInnerSlug,
   schoolList,
 }) {
-  const schoolId = useSelector((state) => {
-    return state.noiCong.selectedSchoolId;
-  });
+  const { schoolId } = useInnerSideBar({ initSchoolId });
   const pathName = usePathname();
   const dispatch = useDispatch();
 
@@ -36,18 +35,11 @@ export default function NoiCongSideBar({
   return (
     <>
       {schoolList.map((school) => {
-        let show = false;
-        if (
-          (schoolId == null && school.id === initSchoolId) ||
-          school.id === schoolId
-        ) {
-          show = true;
-        }
         return (
           <SchoolInnerItem
             key={school.slug}
             school={school}
-            initShowFlg={show}
+            initShowFlg={school.id === schoolId}
             initInnerSlug={initInnerSlug}
           />
         );

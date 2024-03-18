@@ -3,13 +3,11 @@ import Image from "next/image";
 import NoiCongNavigation from "./NoiCongNavigation";
 import { useSelector } from "@/lib/store";
 import "./noiCongDetail.css";
+import useInner from "../_hook/GetInner";
 
 export default function NoiCongDetail({ initInner }) {
-  const selectedNoiCong = useSelector((state) => state.noiCong.selectedNoiCong);
-  const getInner = () =>
-    selectedNoiCong != null ? selectedNoiCong : initInner;
-  const inner = getInner();
-  const { detail } = inner;
+  const { inner } = useInner({ initInner });
+  const { detail, school, type, name, rank, maxRage } = inner;
 
   const dmgByType = (type) => {
     if (type === "0") {
@@ -24,11 +22,11 @@ export default function NoiCongDetail({ initInner }) {
     return (
       <>
         Sát thương của chiêu thức mang thuộc tính{" "}
-        <span className="text-pink-400">{dmgByType(inner.type)}</span> +20%
+        <span className="text-pink-400">{dmgByType(type)}</span> +20%
         <br />
         Sát thương của chiêu thức mang thuộc tính{" "}
         <span className="text-pink-400">
-          {inner.type === "2" ? "Dương, Cương, Âm, Nhu" : "Thái Cực"}
+          {type === "2" ? "Dương, Cương, Âm, Nhu" : "Thái Cực"}
         </span>{" "}
         +16%
       </>
@@ -74,7 +72,7 @@ export default function NoiCongDetail({ initInner }) {
   };
 
   const getInnerTypeBg = () => {
-    if (inner.type === "0") {
+    if (type === "0") {
       return (
         <div>
           <Image
@@ -94,7 +92,7 @@ export default function NoiCongDetail({ initInner }) {
         </div>
       );
     }
-    if (inner.type === "1") {
+    if (type === "1") {
       return (
         <div>
           <Image
@@ -131,24 +129,24 @@ export default function NoiCongDetail({ initInner }) {
   return (
     <div className="detail">
       {/* inner name */}
-      <h1 className="detail-header">{inner.name}</h1>
+      <h1 className="detail-header">{name}</h1>
       {/* prop box */}
       <div className="propBox font-medium mb-3 mt-2" style={{}}>
         <div className="inner-bg">
           <Image
             width={60}
             height={60}
-            alt={`${inner.name}`}
-            src={`/static/img/noi-cong/${inner.school.slug}-${inner.rank}.png`}
+            alt={`${name}`}
+            src={`/static/img/noi-cong/${school.slug}-${rank}.png`}
           />
         </div>
         <div>
           <NoiCongNavigation inner={inner} />
         </div>
         <div>
-          Thuộc về: {`${inner.school.name}`}
+          Thuộc về: {`${school.name}`}
           <br />
-          Nộ khí tối đa: {`${inner.maxRage}`}
+          Nộ khí tối đa: {`${maxRage}`}
           <br />
           Tu vi tiến cấp:{" "}
           <span className="text-green-600">

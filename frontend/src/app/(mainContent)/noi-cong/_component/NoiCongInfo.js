@@ -1,11 +1,7 @@
 "use client";
-import { useSelector } from "@/lib/store";
+import useInner from "../_hook/GetInner";
 
 export default function NoiCongInfo({ initInner }) {
-  const selectedNoiCong = useSelector((state) => state.noiCong.selectedNoiCong);
-  const getInner = () => {
-    return selectedNoiCong != null ? selectedNoiCong : initInner;
-  };
-  const inner = getInner();
+  const { inner } = useInner({ initInner });
   return <div>{inner.desc}</div>;
 }

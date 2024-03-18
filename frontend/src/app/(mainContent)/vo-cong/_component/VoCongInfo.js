@@ -1,23 +1,14 @@
 "use client";
-import Image from "next/image";
-import { useSelector } from "@/lib/store";
 import "./voCongInfo.css";
 import VoCongInfoLink from "./VoCongInfoLink";
+import useSkill from "../_hook/GetSkill";
 
 export default function VoCongInfo({ initSkillDetail }) {
-  const skillList = useSelector(
-    (state) => state.voCong.selectedSkill?.set.skillListAll
-  );
+  const { skill } = useSkill({ initSkill: initSkillDetail });
 
   const skillComponent = (skill) => {
     return <VoCongInfoLink key={skill.slug} skill={skill} />;
   };
 
-  return (
-    <div>
-      {skillList
-        ? skillList.map((s) => skillComponent(s))
-        : initSkillDetail.set.skillListAll.map((s) => skillComponent(s))}
-    </div>
-  );
+  return <div>{skill?.set?.skillListAll.map((s) => skillComponent(s))}</div>;
 }

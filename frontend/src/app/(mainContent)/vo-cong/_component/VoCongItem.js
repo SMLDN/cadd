@@ -22,8 +22,8 @@ export default function VoCongItem({ setList, setType, initSetId, show }) {
   const dispatch = useDispatch();
 
   const selectedType = useSelector((state) => state.voCong.selectedType);
-  const selectedSkillSlug = useSelector(
-    (state) => state.voCong.selectedSkill?.slug
+  const selectedSkillSetId = useSelector(
+    (state) => state.voCong.selectedSkill?.setId
   );
 
   const onClick = () => {
@@ -45,8 +45,8 @@ export default function VoCongItem({ setList, setType, initSetId, show }) {
           slug={set.initSkill.slug}
           maxLevel={set.initSkill.maxLevel}
           activedFlg={
-            (selectedSkillSlug == null && initSetId === set.id) ||
-            selectedSkillSlug === set.initSkill.slug
+            (selectedSkillSetId == null && initSetId === set.id) ||
+            selectedSkillSetId === set.id
           }
           label={set.name}
         />

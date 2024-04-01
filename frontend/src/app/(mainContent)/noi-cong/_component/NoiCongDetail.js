@@ -99,7 +99,7 @@ export default function NoiCongDetail({ initInner }) {
             width={60}
             height={60}
             alt={`${name}`}
-            src={`/static/img/noi-cong/${photo}`}
+            src={`/static/img/icon/${photo}`}
           />
         </div>
         <div>

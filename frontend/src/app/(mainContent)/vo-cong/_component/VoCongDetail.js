@@ -234,7 +234,7 @@ export default function VoCongDetail({ initSkillDetail }) {
             width={60}
             height={60}
             alt={`${skill.name}`}
-            src={`/static/img/vo-cong/${skill.photo}`}
+            src={`/static/img/icon/${skill.photo}`}
           />
         </div>
         <div>

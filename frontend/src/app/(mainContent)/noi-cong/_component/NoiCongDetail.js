@@ -7,7 +7,7 @@ import useInner from "../_hook/GetInner";
 
 export default function NoiCongDetail({ initInner }) {
   const { inner } = useInner({ initInner });
-  const { detail, school, type, name, rank, maxRage } = inner;
+  const { detail, school, type, name, rank, maxRage, photo } = inner;
 
   const dmgByType = (type) => {
     if (type === "0") {
@@ -31,44 +31,6 @@ export default function NoiCongDetail({ initInner }) {
         +16%
       </>
     );
-  };
-
-  const effectInfoText = () => {
-    if (detail.effectInfo?.length > 0) {
-      return <>{`${detail.effectInfo}`}</>;
-    }
-    const textColor = ["first", "second", "third"];
-    let cnt = 0;
-    return detail.effectExtInfo.map((effect) => {
-      const idx = effect.indexOf(":");
-      if (idx < 0) {
-        return (
-          <div key={`effect${cnt++}`}>
-            {effect}
-            <br />
-          </div>
-        );
-      }
-
-      const key = effect.substring(0, idx);
-      const value = effect.substring(idx, effect.length);
-      const color = textColor[cnt++];
-      if (color == null) {
-        return (
-          <div key={`effect${cnt++}`}>
-            {effect}
-            <br />
-          </div>
-        );
-      }
-
-      return (
-        <div key={`effect${cnt++}`}>
-          <span className={color}>{key}</span>
-          {value} <br />
-        </div>
-      );
-    });
   };
 
   const getInnerTypeBg = () => {
@@ -137,7 +99,7 @@ export default function NoiCongDetail({ initInner }) {
             width={60}
             height={60}
             alt={`${name}`}
-            src={`/static/img/noi-cong/${school.slug}-${rank}.png`}
+            src={`/static/img/noi-cong/${photo}`}
           />
         </div>
         <div>
@@ -145,8 +107,6 @@ export default function NoiCongDetail({ initInner }) {
         </div>
         <div>
           Thuộc về: {`${school.name}`}
-          <br />
-          Nộ khí tối đa: {`${maxRage}`}
           <br />
           Tu vi tiến cấp:{" "}
           <span className="text-green-600">
@@ -198,11 +158,14 @@ export default function NoiCongDetail({ initInner }) {
             {dmgPropText()}
           </div>
         </div>
-        {(detail.effectInfo?.length > 0 ||
-          detail.effectExtInfo?.length > 0) && (
+        {detail.effectInfo?.length > 0 && (
           <div className="mt-2">
             <b>Đặc hiệu:</b>
-            <div className="text-gray-400">{effectInfoText()}</div>
+            <div className="text-gray-400">
+              <span
+                dangerouslySetInnerHTML={{ __html: detail.effectInfo }}
+              ></span>
+            </div>
           </div>
         )}
       </div>

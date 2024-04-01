@@ -31,12 +31,6 @@ class NoiCongController
                     unset($inner["effect"]);
                 }
 
-                $effectExt = json_decode($inner["effectExt"] ?? null, false);
-                if ($effectExt != null) {
-                    $inner["detail"]["effectExtInfo"] = $effectExt[$detail["effectLevel"]];
-                    unset($inner["effectExt"]);
-                }
-
                 return $response->withJson($inner);
             }
         }

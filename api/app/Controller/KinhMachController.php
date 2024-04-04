@@ -29,8 +29,8 @@ class KinhMachController
         }, "school"])->where("slug", "=", $kinhMach)->orderBy("id")->firstOrFail()->toArrayCamel();
 
         if ($kinhMach != null && !empty($kinhMach["detail"])) {
-            $detail = $kinhMach["detail"][0];
-            $kinhMach["detail"] = $detail;
+            // $detail = $kinhMach["detail"][0];
+            // $kinhMach["detail"] = $detail;
             return $response->withJson($kinhMach);
         }
         

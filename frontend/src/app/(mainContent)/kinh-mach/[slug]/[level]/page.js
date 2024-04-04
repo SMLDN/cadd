@@ -10,7 +10,9 @@ async function getKinhMachList() {
 }
 
 async function getKinhMachDetail(slug, level) {
-  const req = await fetch(`http://localhost:3001/api/kinh-mach/${slug}/${level}`);
+  const req = await fetch(
+    `http://localhost:3001/api/kinh-mach/${slug}/${level}`
+  );
   return await req.json();
 }
 
@@ -50,7 +52,7 @@ export default async function KinhMachPage({ params }) {
       initKinhMachId={kinhMachDetail.id}
       kinhMachList={kinhMachList}
     />,
-    <div>{kinhMachDetail.desc}</div>,
+    <></>,
     <KinhMachDetail kinhMach={kinhMachDetail} />
   );
 

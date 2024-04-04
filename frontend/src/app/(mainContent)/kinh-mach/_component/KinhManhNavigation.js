@@ -4,7 +4,8 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 
 export default function KinhMachNavigation({ kinhMach }) {
-  const { detail } = kinhMach;
+  let { detail } = kinhMach;
+  detail = detail[0];
   const [inputLevel, setInputLevel] = useState(detail.level);
   const router = useRouter();
 

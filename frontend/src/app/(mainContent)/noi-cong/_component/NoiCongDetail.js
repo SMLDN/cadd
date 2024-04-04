@@ -7,7 +7,8 @@ import useInner from "../_hook/GetInner";
 
 export default function NoiCongDetail({ initInner }) {
   const { inner } = useInner({ initInner });
-  const { detail, school, type, name, rank, maxRage, photo } = inner;
+  const { detail, school, type, name, rank, maxRage } = inner;
+  const photo = inner.photo.replace(/\\/g, "/");
 
   const dmgByType = (type) => {
     if (type === "0") {

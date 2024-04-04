@@ -29,7 +29,7 @@ export default function VoCongInfoLink({ skill }) {
     >
       <div className="img-container">
         <Image
-          src={`/static/img/vo-cong/${photo}`}
+          src={`/static/img/icon/${photo}`}
           alt={name}
           width={50}
           height={50}

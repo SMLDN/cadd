@@ -295,7 +295,7 @@ class KinhMach extends AbstractSeed
                 "desc" => 'Bắt đầu ở Thừa Khấp chỗ cánh mũi, men theo họng xuống Đại Chùy, vào Khuyết Bồn, đi sâu vào khoang, từ môn vị chỗ dạ dày chia ra, men theo ổ bụng đến Khí Xung, xuống sườn trước bắp đùi, đến xương bánh chè, men theo xương ống đến bàn chân, vào mặt ngoài xương ngón chân (Lệ Đoái Huyệt).br>Tiến cử người chơi bộ ngoại công (Sát thương ngoại công) khai thông;<br>Chỉ số tiến cử người chơi nội công: ★★  <br>Chỉ số tiến cử người chơi ngoại công: ★★★★★',
                 "photo" => 'jingmai\jm_zuyangming_ni.png',
             ],
-        
+
         ];
         $table = $this->table("kinh_mach");
         $table->truncate();

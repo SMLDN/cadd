@@ -119,6 +119,18 @@ class School extends AbstractSeed
                 "type" => "1",
                 "slug" => "van-thu-son-trang",
             ],
+            [
+                "id" => 26,
+                "name" => "Thiên Luân Tự",
+                "type" => "1",
+                "slug" => "thien-luan-tu",
+            ],
+            [
+                "id" => 27,
+                "name" => "Thanh Y Các",
+                "type" => "1",
+                "slug" => "thanh-y-cac",
+            ],
             // ----
             [
                 "id" => 40,

@@ -100,7 +100,7 @@ class Inner extends AbstractSeed
                 "max_level" => 49,
                 "school_id" => 3,
                 "type" => "1",
-                "effect" => '["","<font color=\"#FF3030\">Hoa Khai Hữu Thời<\/font>: Mỗi lần công kích hoặc bị công kích sẽ nhận được 1 tầng trạng thái \"Hoa Khai\", lặp đến tầng 6 xong sẽ xóa đồng thời nhận được trạng thái \"Hoa Khai\" khiến bản thân khi bị công kích ngăn chặn 15% sát thương và khi sát thương mục tiêu kèm theo 15% sát thương nhu, tổng số thời gian công kích và bị công kích đạt đến 3 lần xong sẽ xóa.<br><font color=\"#9932CD\">Thanh Liên Tụ Hồn<\/font>: Ngăn chặn 1 lần sát thương chí tử, lập tức hồi phục 8% khí huyết, thời gian hồi 45s.","<font color=\"#FF3030\">Hoa Khai Hữu Thời<\/font>: Mỗi lần công kích hoặc bị công kích sẽ nhận được 1 tầng trạng thái \"Hoa Khai\", lặp đến tầng 6 xong sẽ xóa đồng thời nhận được trạng thái \"Hoa Khai\" khiến bản thân khi bị công kích ngăn chặn 18% sát thương và khi sát thương mục tiêu kèm theo 18% sát thương nhu, tổng số thời gian công kích và bị công kích đạt đến 3 lần sẽ xóa.<br><font color=\"#9932CD\">Thanh Liên Tụ Hồn<\/font>: Ngăn chặn 1 lần sát thương chí mạng, lập tức hồi phục 9% khí huyết, thời gian hồi 45s.","<font color=\"#FF3030\">Hoa Khai Hữu Thời<\/font>: Mỗi lần công kích hoặc bị công kích sẽ nhận được 1 tầng trạng thái \"Hoa Khai\", lặp đến tầng 6 xong sẽ xóa đồng thời nhận được trạng thái \"Hoa Khai\" khiến bản thân khi bị công kích ngăn chặn 21% sát thương và khi sát thương mục tiêu kèm theo 21% sát thương nhu, tổng số thời gian công kích và bị công kích đạt đến 3 lần sẽ xóa.<br><font color=\"#9932CD\">Thanh Liên Tụ Hồn<\/font>: Ngăn chặn 1 lần sát thương chí tử, lập tức hồi phục 10% khí huyết, thời gian hồi 45s.","<font color=\"#FF3030\">Hoa Khai Hữu Thời<\/font>: Mỗi lần công kích hoặc bị công kích sẽ nhận được 1 tầng trạng thái \"Hoa Khai\", lặp đến tầng 6 xong sẽ xóa bỏ đồng thời nhận được trạng thái \"Hoa Khai\" khiến bản thân khi bị công kích ngăn chặn 25% sát thương và khi sát thương mục tiêu kèm theo 25% sát thương nhu, tổng số thời gian công kích và bị công kích đạt đến 3 lần sẽ xóa bỏ.<br><font color=\"#9932CD\">Thanh Liên Tụ Hồn<\/font>: Ngăn chặn 1 lần sát thương chí tử, lập tức hồi phục 12% khí huyết, thời gian hồi 45s.","<font color=\"#FF3030\">Hoa Khai Hữu Thời<\/font>: Mỗi lần công kích hoặc bị công kích sẽ nhận được 1 tầng trạng thái \"Hoa Khai\", lặp đến tầng 6 xong sẽ xóa bỏ đồng thời nhận được trạng thái \"Hoa Khai\" khiến bản thân khi bị công kích ngăn chặn 30% sát thương và khi sát thương mục tiêu kèm theo 30% sát thương nhu, tổng số thời gian công kích và bị công kích đạt đến 3 lần sẽ xóa bỏ.<br><font color=\"#9932CD\">Thanh Liên Tụ Hồn<\/font>: Ngăn chặn 1 lần sát thương chí tử, lập tức hồi phục 15% khí huyết, thoát khỏi mục tiêu kẻ địch xung quanh và làm mục tiêu định thân 3s, thời gian hồi 45s."]',
+                "effect" => '["","<font color=\"#FF3030\">Hoa Khai Hữu Thời<\/font>: Mỗi lần công kích hoặc bị công kích sẽ nhận được 1 tầng trạng thái \"Hoa Khai\", lặp đến tầng 6 xong sẽ xóa đồng thời nhận được trạng thái \"Hoa Khai\" khiến bản thân khi bị công kích ngăn chặn 15% sát thương và khi sát thương mục tiêu kèm theo 15% sát thương nhu, tổng số thời gian công kích và bị công kích đạt đến 3 lần xong sẽ xóa.<br><font color=\"#9932CD\">Thanh Liên Tụ Hồn<\/font>: Ngăn chặn 1 lần sát thương chí tử, lập tức hồi phục 8% khí huyết, thời gian hồi 45s."]',
                 "desc" => 'Ban đầu là võ học Đạo Gia, sau thêm vào các huyền bí tinh diệu của Phật Pháp. Tâm pháp nói "Thanh liên hoa khai, khả tụ hương hồn", nội công này chú trọng phòng thủ, nghiên cứu tìm kiếm cơ hội sống trong bước đường cùng.',
                 "photo" => 'neigong\ng_em_006.png',
             ],
@@ -111,7 +111,7 @@ class Inner extends AbstractSeed
                 "max_level" => 5,
                 "school_id" => 3,
                 "type" => "1",
-                "effect" => '["","<font color=\"#FF3030\">Thư Hoạt Kinh Mạch<\/font>: Mỗi lần xuất chiêu trong 5s Khí huyết hồi phục tối đa 2% Khí huyết, có xác suất phục hồi Khí huyết x2<br\/><font color=\"#FF3030\">Linh Không Hoàn Khí<\/font>:sau khi Xuyên Vân Tung có thể Linh Không Hoàn Khí, trong 3s có thể Xuyên Vân Tung liên tục","Đối thủ khi tấn công sẽ có xác suất bị \"Hàn Ý Xâm Tập\", phá chiêu thức mục tiêu, đơ trong thời gian ngắn.<br\/>Khi bị công kích, có xác suất thi triển <font color=\"#FF3030\">Ngọc Khiết Băng Thanh:<\/font> loại bỏ hầu hết trạng thái xấu, hồi phục 1 ít sức đỡ đòn, đỡ ngoại công và hóa giải nội công +18, trong 15s tấn công thêm sát thương âm.","<font color=\"#FF3030\">Niết Bàn Hóa Cảnh<\/font>：Công kích hoặc bị công kích đều nhận được Hộ Thể Thuẫn, hấp thu sát thương đồng thời tạo sát thương dương và làm giảm nội công phòng ngự của mục tiêu xung quanh, duy trì 10s<br><font color=\"#9932CD\">Cho dù khiên hộ thân có thể , đều tạo ra sát thương nổ xung quanh, khiến những mục tiêu bị thương sẽ giảm 30% sát thương, duy trì 10s.<\/font>","<font color=\"#FF3030\">Hoa Khai Hữu Thời<\/font>: Mỗi lần công kích hoặc bị công kích sẽ nhận được 1 tầng trạng thái \"Hoa Khai\", lặp đến tầng 6 xong sẽ xóa bỏ đồng thời nhận được trạng thái \"Hoa Khai\" khiến bản thân khi bị công kích ngăn chặn 30% sát thương và khi sát thương mục tiêu kèm theo 30% sát thương nhu, tổng số thời gian công kích và bị công kích đạt đến 3 lần sẽ xóa bỏ.<br><font color=\"#9932CD\">Thanh Liên Tụ Hồn<\/font>: Ngăn chặn 1 lần sát thương chí tử, lập tức hồi phục 15% khí huyết, thoát khỏi mục tiêu kẻ địch xung quanh và làm mục tiêu định thân 3s, thời gian hồi 45s."]',
+                "effect" => '["","<font color=\"#FF3030\">Thư Hoạt Kinh Mạch<\/font>: Mỗi lần xuất chiêu trong 5s Khí huyết hồi phục tối đa 2% Khí huyết, có xác suất phục hồi Khí huyết x2<br\/><font color=\"#FF3030\">Linh Không Hoàn Khí<\/font>:sau khi Xuyên Vân Tung có thể Linh Không Hoàn Khí, trong 3s có thể Xuyên Vân Tung liên tục","Đối thủ khi tấn công sẽ có xác suất bị \"Hàn Ý Xâm Tập\", phá chiêu thức mục tiêu, đơ trong thời gian ngắn.<br\/>Khi bị công kích, có xác suất thi triển <font color=\"#FF3030\">Ngọc Khiết Băng Thanh:<\/font> loại bỏ hầu hết trạng thái xấu, hồi phục 1 ít sức đỡ đòn, đỡ ngoại công và hóa giải nội công +18, trong 15s tấn công thêm sát thương âm.","<font color=\"#FF3030\">Niết Bàn Hóa Cảnh<\/font>：Công kích hoặc bị công kích đều nhận được Hộ Thể Thuẫn, hấp thu sát thương đồng thời tạo sát thương dương và làm giảm nội công phòng ngự của mục tiêu xung quanh, duy trì 10s<br><font color=\"#9932CD\">Cho dù khiên hộ thân có thể , đều tạo ra sát thương nổ xung quanh, khiến những mục tiêu bị thương sẽ giảm 30% sát thương, duy trì 10s.<\/font>","<font color=\"#FF3030\">Hoa Khai Hữu Thời<\/font>: Mỗi lần tấn công có thể nhận được 1 tầng trạng thái “Hoa Khai”, chồng 6 tầng xong sẽ xóa và nhận được trạng thái “Hoa Khai Hữu Thời”giúp sát thương bản thân tăng 15%, sát thương bạo kích tăng 30%, bạo kích kẻ địch hồi phục cho bản thân 5% khí huyết đã mất, sau khi tổng lượt tấn công đạt 3 lần sẽ xóa (Dùng võ học không phải Nga My sẽ xóa tan “Hoa Khai” và “Hoa Khai Hữu Thời”).<br><font color=\"#FF3030\">Hoa Lạc Vô Kỳ<\/font>: Mỗi lần bị tấn công nhận được 1 tầng trạng thái “Hoa Lạc”, cộng dồn 6 tầng xong sẽ xóa và nhận được trạng thái \"Hoa Lạc Vô Kỳ\" khiến bản thân bị tấn công cản được 30% sát thương, sau khi tổng lượt bị tấn công đạt 3 lần xong sẽ xóa.<br><font color=\"#9932CD\">Thanh Liên Tụ Hồn<\/font>: Đỡ 1 lần sát thương chí tử, lập tức hồi phục 30% khí huyết, và thi triển cho bản thân 1 lần [Kim Đỉnh Phật Quang] và 2 giây hiệu quả bá thể, đồng thời đánh lui phe địch xung quanh và khiến phe địch định thân 3 giây, điều tức 120 giây. (Cứ định thân 1 mục tiêu phe địch đều có thể khiến điều tức của Thanh Liên Tụ Hồn giảm 5s, tối đa giảm 70s)."]',
                 "desc" => 'Nghiên cứu nội dung, càng lên cao, càng theo đuổi “ôn tập”, “hội ý”. Ôn tập kiến thức cũ, mỗi khi học được điều mới, những gì học được là của ta, kiến thức là vô tận.',
                 "photo" => 'neigong\ng_em_101.png',
             ],
@@ -177,7 +177,7 @@ class Inner extends AbstractSeed
                 "max_level" => 49,
                 "school_id" => 4,
                 "type" => "0",
-                "effect" => '["","<font color=\"#FF3030\">Thạch Phá Thiên Kinh<\/font>: Khi công kích có xác suất khiến bản thân bỏ qua tất cả miễn giảm phòng ngự tăng 15% trong 8s.<br><font color=\"#9932CD\">Phần Nguyệt Quy Nguyên<\/font>: Khi công kích có xác suất nhất định tạo ra sát thương dương vào mục tiêu.","<font color=\"#FF3030\">Thạch Phá Thiên Kinh<\/font>: Khi công kích có xác suất nhất định khiến bản thân bỏ qua tất cả miễn giảm phòng ngự tăng 18% trong 9s.<br><font color=\"#9932CD\">Phần Nguyệt Quy Nguyên<\/font>: Khi công kích có xác suất nhất định tạo ra sát thương dương vào mục tiêu.","<font color=\"#FF3030\">Thạch Phá Thiên Kinh<\/font>: Khi công kích có xác suất nhất định khiến bản thân bỏ qua tất cả miễn giảm phòng ngự tăng 21% trong 10s.<br><font color=\"#9932CD\">Phần Nguyệt Quy Nguyên<\/font>: Khi công kích có xác suất nhất định tạo ra sát thương dương vào mục tiêu.","<font color=\"#FF3030\">Thạch Phá Thiên Kinh<\/font>: Khi công kích có xác suất nhất định khiến bản thân bỏ qua tất cả miễn giảm phòng ngự tăng 25% trong 11s.<br><font color=\"#9932CD\">Phần Nguyệt Quy Nguyên<\/font>: Khi công kích có xác suất nhất định tạo ra sát thương dương vào mục tiêu.","<font color=\"#FF3030\">Thạch Phá Thiên Kinh<\/font>: Khi công kích có xác suất nhất định khiến bản thân bỏ qua tất cả miễn giảm phòng ngự tăng 30% trong 12s.<br><font color=\"#9932CD\">Phần Nguyệt Quy Nguyên<\/font>: Khi công kích có xác suất nhất định tạo ra sát thương dương vào mục tiêu.<br><font color=\"#CFB53B\">Thiên Nguyên Phá Võ<\/font>: Khi bị công kích có xác suất nhất định loại bỏ hiệu quả loại công kích trên người đối phương như kèm theo sát thương, bỏ qua miễn giảm phòng ngự...Trạng thái có thể trực tiếp hoặc gián tiếp tăng mạnh sát thương."]',
+                "effect" => '["","<font color=\"#FF3030\">Thạch Phá Thiên Kinh<\/font>: Khi công kích có xác suất khiến bản thân bỏ qua tất cả miễn giảm phòng ngự tăng 15% trong 8s.<br><font color=\"#9932CD\">Phần Nguyệt Quy Nguyên<\/font>: Khi công kích có xác suất nhất định tạo ra sát thương dương vào mục tiêu."]',
                 "desc" => 'Thiên Nguyên Tâm Pháp là tâm pháp nội công chí cao truyền đời của Cái Bang, là 1 trong những công pháp rất bá đạo, người thiên nguyên, chí cao vô thượng, lấy linh hồn vạn vật làm dung môi, tinh tú nhật nguyệt làm vũ khí, hải ngự bách xuyên, tụ hội trong cơ thể, khi đại thừa lấy khí ngự vật, thắng lợi ngoài 3 trượng.',
                 "photo" => 'neigong\ng_gb_006.png',
             ],
@@ -474,7 +474,7 @@ class Inner extends AbstractSeed
                 "max_level" => 49,
                 "school_id" => 6,
                 "type" => "2",
-                "effect" => '["","<font color=\"#FF3030\">Cô Lang Thôn Nguyệt<\/font>: Trong thời gian ngắn công kích cùng một mục tiêu 6 lần, 3 lần tiếp theo công kích mục tiêu có thể hấp thu khí huyết bằng 30% sát thương.<br><font color=\"#9932CD\">Phệ Quang Lưu Ảnh<\/font>: Khi huyết lượng bản thân cao hơn 70%, công kích mục tiêu có xác suất nhất định nhận được 1 tầng trạng thái \"Ngưng Huyết\", khiến bản thân khi xuất chiêu giảm 2% tiêu hao nội lực, duy trì 100s, có thể lặp tối đa đến 8 tầng, trạng thái này khi huyết lượng bản thân thấp dưới 30% bị công kích sẽ tiêu hao tất cả trạng thái ngưng huyết hồi phục khí huyết, số tầng càng nhiều, lượng hồi phục càng nhiều.","<font color=\"#FF3030\">Cô Lang Thôn Nguyệt<\/font>: Trong thời gian ngắn công kích cùng một mục tiêu 6 lần, 3 lần tiếp theo công kích mục tiêu có thể hấp thu khí huyết bằng 36% sát thương.<br><font color=\"#9932CD\">Phệ Quang Lưu Ảnh<\/font>: Khi huyết lượng bản thân cao hơn 70%, công kích mục tiêu có xác suất nhất định nhận được 1 tầng trạng thái \"Ngưng Huyết\", khiến bản thân khi xuất chiêu giảm 2% tiêu hao nội lực, duy trì 100s, có thể lặp tối đa đến 9 tầng, trạng thái này khi huyết lượng bản thân dưới 30% bị công kích sẽ tiêu hao tất cả trạng thái ngưng huyết hồi phục khí huyết, số tầng càng nhiều, lượng hồi phục càng nhiều.","<font color=\"#FF3030\">Cô Lang Thôn Nguyệt<\/font>: Trong thời gian ngắn công kích cùng một mục tiêu 6 lần, 3 lần tiếp theo công kích mục tiêu có thể hấp thu khí huyết bằng 42% sát thương.<br><font color=\"#9932CD\">Phệ Quang Lưu Ảnh<\/font>: Khi huyết lượng bản thân cao hơn 70%, công kích mục tiêu có xác suất nhất định nhận được 1 tầng trạng thái \"Ngưng Huyết\", khiến bản thân khi xuất chiêu giảm 2% tiêu hao nội lực, duy trì 100s, có thể lặp tối đa đến 10 tầng, trạng thái này khi huyết lượng bản thân dưới 30% bị công kích sẽ tiêu hao tất cả trạng thái ngưng huyết hồi phục khí huyết, số tầng càng nhiều, lượng hồi phục càng nhiều.","<font color=\"#FF3030\">Cô Lang Thôn Nguyệt<\/font>: Trong thời gian ngắn công kích cùng một mục tiêu 6 lần, 3 lần tiếp theo công kích mục tiêu có thể hấp thu khí huyết bằng 50% sát thương.<br><font color=\"#9932CD\">Phệ Quang Lưu Ảnh<\/font>: Khi huyết lượng bản thân cao hơn 70%, công kích mục tiêu có xác suất nhận định nhận được 1 tầng trạng thái \"Ngưng Huyết\", làm mục tiêu khi xuất chiêu giảm 2% tiêu hao nội lực, duy trì 100s, có thể lặp tối đa đến 12 tầng, trạng thái này khi huyết lượng bản thân dưới 30% bị công kích sẽ tiêu hao tất cả trạng thái ngưng huyết hồi phục khí huyết, số tầng càng nhiều, lượng hồi phục càng nhiều.","<font color=\"#FF3030\">Cô Lang Thôn Nguyệt<\/font>: Trong thời gian ngắn tấn công mục tiêu liên tục 6 lần, 3 lần sau liên tục tấn công có thể hấp thu sát thương bằng 60% khí huyết.<br><font color=\"#9932CD\">Phệ Quang Lưu Ảnh<\/font>: Khi khí huyết bản thân cao hơn 70%, tấn công mục tiêu có tỷ lệ nhận 1 tầng trạng thái \"Ngưng Huyết\", khi xuất chiêu sẽ giảm 2% nội lực tiêu hao, duy trì 100s, tối đa chồng 15 tầng, nếu ở trạng thái này và khí huyết bản thân thấp hơn 30% khi bị tấn công sẽ tiêu hao tất cả trạng thái Ngưng Huyết hồi phục khí huyết và nội khí, lượng hồi phục tăng theo số tầng."]',
+                "effect" => '["","<font color=\"#FF3030\">Cô Lang Thôn Nguyệt<\/font>: Trong thời gian ngắn công kích cùng một mục tiêu 6 lần, 3 lần tiếp theo công kích mục tiêu có thể hấp thu khí huyết bằng 30% sát thương.<br><font color=\"#9932CD\">Phệ Quang Lưu Ảnh<\/font>: Khi huyết lượng bản thân cao hơn 70%, công kích mục tiêu có xác suất nhất định nhận được 1 tầng trạng thái \"Ngưng Huyết\", khiến bản thân khi xuất chiêu giảm 2% tiêu hao nội lực, duy trì 100s, có thể lặp tối đa đến 8 tầng, trạng thái này khi huyết lượng bản thân thấp dưới 30% bị công kích sẽ tiêu hao tất cả trạng thái ngưng huyết hồi phục khí huyết, số tầng càng nhiều, lượng hồi phục càng nhiều."]',
                 "desc" => 'Là tâm pháp đại thừa trong giang hồ, nghe nói là diễn biến từ công pháp Cực Lạc Cốc mà thành. Khi vận hành nội công này, bản thân phát sức mạnh "Phệ nguyệt", quản lý phe địch, giống như sói đói bắt thỏ ở nơi hoang dã, đánh đến tử vong mới thôi, khiến nội tức kẻ địch rối loạn, tinh huyết tràn ra, quả là tà công đệ nhất thiên hạ.',
                 "photo" => 'neigong\ng_jl_006.png',
             ],
@@ -551,7 +551,7 @@ class Inner extends AbstractSeed
                 "max_level" => 49,
                 "school_id" => 7,
                 "type" => "0",
-                "effect" => '["","<font color=\"#FF3030\">Tu La Lâm Thế<\/font>: Khi công kích có xác suất nhất định khiến bản thân trong 6s công kích mục tiêu chưa đỡ đòn sẽ kèm theo 21% sát thương âm.<br><font color=\"#9932CD\">Huyết Tế Hung Linh<\/font>: Khi công kích có xác suất nhất định làm mục tiêu rơi vào trạng thái \"Huyết Tế\", khi kết thúc mục tiêu này sẽ nhận được 15% tổng lượng sát thương âm bị sát thương 6s trước đó.","<font color=\"#FF3030\">Tu La Lâm Thế<\/font>: Khi công kích có xác suất nhất định khiến bản thân trong 7s công kích mục tiêu chưa đỡ đòn sẽ kèm theo 25% sát thương âm.<br><font color=\"#9932CD\">Huyết Tế Hung Linh<\/font>: Khi công kích có xác suất nhất định làm mục tiêu rơi vào trạng thái \"Huyết Tế\", khi kết thúc mục tiêu này sẽ nhận được 18% tổng lượng sát thương âm bị sát thương 7s trước đó.","<font color=\"#FF3030\">Tu La Lâm Thế<\/font>: Khi công kích có xác suất nhất định khiến bản thân trong 8s công kích mục tiêu chưa đỡ đòn sẽ kèm theo 30% sát thương âm.<br><font color=\"#9932CD\">Huyết Tế Hung Linh<\/font>: Khi công kích có xác suất nhất định làm mục tiêu rơi vào trạng thái \"Huyết Tế\", khi kết thúc mục tiêu này sẽ nhận được 21% tổng lượng sát thương âm bị sát thương 8s trước đó.","<font color=\"#FF3030\">Tu La Lâm Thế<\/font>: Khi công kích có xác suất nhất định khiến bản thân trong 9s công kích mục tiêu chưa đỡ đòn sẽ kèm theo 36% sát thương âm.<br><font color=\"#9932CD\">Huyết Tế Hung Linh<\/font>: Khi công kích có xác suất nhất định làm mục tiêu rơi vào trạng thái \"Huyết Tế\", khi kết thúc mục tiêu này sẽ nhận được 25% tổng lượng sát thương âm bị sát thương 9s trước đó.","<font color=\"#FF3030\">Tu La Lâm Thế<\/font>: Khi công kích có xác suất nhất định khiến bản thân trong 10s công kích mục tiêu chưa đỡ đòn sẽ kèm theo 42% sát thương âm, nếu khí huyết của mục tiêu cao hơn 50%, sẽ đỡ đòn bỏ qua sát thương thêm.<br><font color=\"#9932CD\">Huyết Tế Hung Linh<\/font>: Khi công kích có xác suất nhất định làm mục tiêu rơi vào trạng thái \"Huyết Tế\", khi kết thúc mục tiêu này sẽ nhận được 30% tổng lượng sát thương âm bị sát thương 10s trước đó và có xác suất nhất định khóa chiêu 2s."]',
+                "effect" => '["","<font color=\"#FF3030\">Tu La Lâm Thế<\/font>: Khi công kích có xác suất nhất định khiến bản thân trong 6s công kích mục tiêu chưa đỡ đòn sẽ kèm theo 21% sát thương âm.<br><font color=\"#9932CD\">Huyết Tế Hung Linh<\/font>: Khi công kích có xác suất nhất định làm mục tiêu rơi vào trạng thái \"Huyết Tế\", khi kết thúc mục tiêu này sẽ nhận được 15% tổng lượng sát thương âm bị sát thương 6s trước đó."]',
                 "desc" => 'Ai sáng tạo không rõ, chỉ biết nội công này là Hoàng Phủ Dao khi truy sát 1 tội phạm vô tình có được, nội công vô danh, Hoàng Phủ Dao nghiên cứu xong phát hiện nội công này rất hung tàn bá đạo, giống như được chí bảo. Vì vận hành tâm pháp này xong nếu Tu La giáng thế, sát phạt lục đạo, nên có tên: Tu La Võ Kinh.',
                 "photo" => 'neigong\ng_jy_006.png',
             ],
@@ -639,7 +639,7 @@ class Inner extends AbstractSeed
                 "max_level" => 49,
                 "school_id" => 8,
                 "type" => "1",
-                "effect" => '["","<font color=\"#FF3030\">Hàn Nguyệt Kinh Hồn<\/font>: Công kích hoặc bị công kích có xác suất nhất định nhận được 5 tầng trạng thái \"Hàn Nguyệt\", mỗi tầng tất cả sát thương chiêu thức tăng 6%, bị công kích miễn thương 6%, mỗi lần công kích hoặc bị công kích đều sẽ xóa 1 tầng, duy trì 15s.<br><font color=\"#9932CD\">Ám Hương Tẩm Cốt<\/font>: Khi đỡ đòn công kích hoặc công kích bị đỡ đòn có xác suất nhất định nhận được 5 tầng trạng thái \"Ám Hương\", mỗi tầng giảm miễn đỡ đòn tăng 6%, bỏ qua giảm miễn đỡ đòn tăng 6%, mỗi lần đỡ đòn công kích hoặc công kích bị đỡ đòn đều sẽ xóa 1 tầng, duy trì 15s.","<font color=\"#FF3030\">Hàn Nguyệt Kinh Hồn<\/font>: Công kích hoặc bị công kích có xác suất nhất định nhận được 5 tầng trạng thái \"Hàn Nguyệt\", mỗi tầng tất cả sát thương chiêu thức tăng 7%, bị công kích miễn thương 7%, mỗi lần công kích hoặc bị công kích đều sẽ xóa 1 tầng, duy trì 15s.<br><font color=\"#9932CD\">Ám Hương Tẩm Cốt<\/font>: Khi đỡ đòn công kích hoặc công kích bị đỡ đòn có xác suất nhất định nhận được 5 tầng trạng thái \"Ám Hương\", mỗi tầng giảm miễn đỡ đòn tăng 7%, bỏ qua giảm miễn đỡ đòn tăng 7%, mỗi lần đỡ đòn công kích hoặc công kích bị đỡ đòn đều sẽ xóa 1 tầng, duy trì 15s.","<font color=\"#FF3030\">Hàn Nguyệt Kinh Hồn<\/font>: Công kích hoặc bị công kích có xác suất nhất định nhận được 5 tầng trạng thái \"Hàn Nguyệt\", mỗi tầng tất cả sát thương chiêu thức tăng 8%, bị công kích miễn thương 8%, mỗi lần công kích hoặc bị công kích đều sẽ xóa 1 tầng, duy trì 15s.<br><font color=\"#9932CD\">Ám Hương Tẩm Cốt<\/font>: Khi đỡ đòn công kích hoặc công kích bị đỡ đòn có xác suất nhất định nhận được 5 tầng trạng thái \"Ám Hương\", mỗi tầng giảm miễn đỡ đòn tăng 8%, bỏ qua giảm miễn đỡ đòn tăng 8%, mỗi lần đỡ đòn công kích hoặc công kích bị đỡ đòn đều sẽ xóa 1 tầng, duy trì 15s.","<font color=\"#FF3030\">Hàn Nguyệt Kinh Hồn<\/font>: Công kích hoặc bị công kích có xác suất nhất định nhận được 5 tầng trạng thái \"Hàn Nguyệt\", mỗi tầng tất cả sát thương chiêu thức tăng 9%, bị công kích miễn thương 9%, mỗi lần công kích hoặc bị công kích đều sẽ xóa 1 tầng, duy trì 15s.<br><font color=\"#9932CD\">Ám Hương Tẩm Cốt<\/font>: Khi đỡ đòn công kích hoặc công kích bị đỡ đòn có xác suất nhất định nhận được 5 tầng trạng thái \"Ám Hương\", mỗi tầng giảm miễn đỡ đòn tăng 9%, bỏ qua giảm miễn đỡ đòn tăng 9%, mỗi lần đỡ đòn công kích hoặc công kích bị đỡ đòn đều sẽ xóa 1 tầng, duy trì 15s.","<font color=\"#FF3030\">Hàn Nguyệt Kinh Hồn<\/font>: Công kích hoặc bị công kích có xác suất nhất định nhận được 5 tầng trạng thái \"Hàn Nguyệt\", mỗi tầng tất cả sát thương chiêu thức tăng 10%, bị công kích giảm miễn sát thương 10%, mỗi lần công kích hoặc bị công kích đều có xác suất xóa 1 tầng, duy trì 15s.<br><font color=\"#9932CD\">Ám Hương Tẩm Cốt<\/font>: Khi đỡ đòn công kích hoặc công kích bị đỡ đòn có xác suất nhất định nhận được 5 tầng trạng thái \"Ám Hương\", mỗi tầng giảm miễn đỡ đòn tăng 10%, bỏ qua giảm miễn đỡ đòn tăng 10%, mỗi lần đỡ đòn công kích hoặc công kích bị đỡ đòn đều có xác suất xóa 1 tầng, duy trì 15s."]',
+                "effect" => '["","<font color=\"#FF3030\">Hàn Nguyệt Kinh Hồn<\/font>: Công kích hoặc bị công kích có xác suất nhất định nhận được 5 tầng trạng thái \"Hàn Nguyệt\", mỗi tầng tất cả sát thương chiêu thức tăng 6%, bị công kích miễn thương 6%, mỗi lần công kích hoặc bị công kích đều sẽ xóa 1 tầng, duy trì 15s.<br><font color=\"#9932CD\">Ám Hương Tẩm Cốt<\/font>: Khi đỡ đòn công kích hoặc công kích bị đỡ đòn có xác suất nhất định nhận được 5 tầng trạng thái \"Ám Hương\", mỗi tầng giảm miễn đỡ đòn tăng 6%, bỏ qua giảm miễn đỡ đòn tăng 6%, mỗi lần đỡ đòn công kích hoặc công kích bị đỡ đòn đều sẽ xóa 1 tầng, duy trì 15s."]',
                 "desc" => 'Tâm pháp trấn phái Quân Tử Đường, người quân tử, khi "Chẩm thạch khê bạn, thính vũ nguy lâu, thủy nguyệt hoa hương vô tận sầu", nội công này luyện đại thành, giống như quân tử du ngoạn sơn thủy, chân khí thoải mái, thủ công đầy đủ, là nội công tâm pháp phóng khoáng đệ nhất thiên hạ.',
                 "photo" => 'neigong\ng_jz_006.png',
             ],
@@ -755,6 +755,17 @@ class Inner extends AbstractSeed
             ],
             [
                 "id" => 100,
+                "name" => "Thanh Bích Hà Thiên Quyết",
+                "slug" => "thanh-bich-ha-thien-quyet",
+                "max_level" => 72,
+                "school_id" => 27,
+                "type" => "2",
+                "effect" => '["","Khi vận nội công, dùng Nhạn Hành Công sẽ hoàn trả 1 điểm Khinh Công. <br><font color=\"#FF3030\">Thanh Y Thân Pháp<\/font>: Sau khi dùng Nhạn Hành Công, trong 12s tiếp theo tăng 10% sát thương nội ngoại công, điều tức 60s.<br><font color=\"#9932CD\">Nhiếp Tâm Phách<\/font>: Mỗi tần tấn công gây ra bạo kích giảm thời gian điều tức của \"Thanh Y Thân Pháp\" 1s (Tối đa kích hoạt 10 lần), và khiến cho đòn tiếp theo kèm theo sát thương thêm.","Khi vận nội công, dùng Nhạn Hành Công sẽ hoàn trả 2 điểm Khinh Công. <br><font color=\"#FF3030\">Thanh Y Thân Pháp<\/font>: Sau khi dùng Nhạn Hành Công, trong 12s tiếp theo tăng 12% sát thương nội ngoại công, điều tức 60s.<br><font color=\"#9932CD\">Nhiếp Tâm Phách<\/font>: Mỗi tần tấn công gây ra bạo kích giảm thời gian điều tức của \"Thanh Y Thân Pháp\" 1s (Tối đa kích hoạt 10 lần), và khiến cho đòn tiếp theo kèm theo sát thương thêm.","Khi vận nội công, dùng Nhạn Hành Công sẽ hoàn trả 2 điểm Khinh Công. <br><font color=\"#FF3030\">Thanh Y Thân Pháp<\/font>: Sau khi dùng Nhạn Hành Công, trong 12s tiếp theo tăng 15% sát thương nội ngoại công, điều tức 60s.<br><font color=\"#9932CD\">Nhiếp Tâm Phách<\/font>: Mỗi tần tấn công gây ra bạo kích giảm thời gian điều tức của \"Thanh Y Thân Pháp\" 1.5s (Tối đa kích hoạt 10 lần), và khiến cho đòn tiếp theo kèm theo sát thương thêm.","Khi vận nội công, dùng Nhạn Hành Công sẽ hoàn trả 3 điểm Khinh Công. <br><font color=\"#FF3030\">Thanh Y Thân Pháp<\/font>: Sau khi dùng Nhạn Hành Công, trong 12s tiếp theo tăng 18% sát thương nội ngoại công, điều tức 60s.<br><font color=\"#9932CD\">Nhiếp Tâm Phách<\/font>: Mỗi tần tấn công gây ra bạo kích giảm thời gian điều tức của \"Thanh Y Thân Pháp\" 1.5s (Tối đa kích hoạt 10 lần), và khiến cho đòn tiếp theo kèm theo sát thương thêm.","Khi vận nội công, dùng Nhạn Hành Công sẽ hoàn trả 3 điểm Khinh Công. <br><font color=\"#FF3030\">Thanh Y Thân Pháp<\/font>: Sau khi dùng Nhạn Hành Công, trong 12s tiếp theo tăng 22% sát thương nội ngoại công, điều tức 60s.<br><font color=\"#9932CD\">Nhiếp Tâm Phách<\/font>: Mỗi tần tấn công gây ra bạo kích giảm thời gian điều tức của \"Thanh Y Thân Pháp\" 1.5s (Tối đa kích hoạt 10 lần), và khiến cho đòn tiếp theo kèm theo sát thương thêm.","Khi vận nội công, dùng Nhạn Hành Công sẽ hoàn trả 3 điểm Khinh Công. <br><font color=\"#FF3030\">Thanh Y Thân Pháp<\/font>: Sau khi dùng Nhạn Hành Công, trong 12s tiếp theo tăng 26% sát thương nội ngoại công, điều tức 60s.<br><font color=\"#9932CD\">Nhiếp Tâm Phách<\/font>: Mỗi tần tấn công gây ra bạo kích giảm thời gian điều tức của \"Thanh Y Thân Pháp\" 1.5s (Tối đa kích hoạt 10 lần), và khiến cho đòn tiếp theo kèm theo sát thương thêm.","Khi vận nội công, dùng Nhạn Hành Công sẽ hoàn trả 4 điểm Khinh Công. <br><font color=\"#FF3030\">Thanh Y Thân Pháp<\/font>: Sau khi dùng Nhạn Hành Công, trong 12s tiếp theo tăng 30% sát thương nội ngoại công, điều tức 60s.<br><font color=\"#9932CD\">Nhiếp Tâm Phách<\/font>: Mỗi tần tấn công gây ra bạo kích giảm thời gian điều tức của \"Thanh Y Thân Pháp\" 2s (Tối đa kích hoạt 10 lần), và khiến cho đòn tiếp theo kèm theo sát thương thêm. <br><font color=\"#CFB53B\">Thanh Y-Ảnh<\/font>: Khi số lần bạo kích tích lũy đủ 20 lần, sử dụng Nhạn Hành tiếp theo kích hoạt \"Thanh Y Thân Pháp\" đồng thời bản thân ẩn hình 1 giây (Không thể bị khóa)"]',
+                "desc" => 'Thanh Bích Hà Thiên Quyết là nội công tuyệt diệu do Vua Thích Khách Nhiếp Chính sáng tạo ra, mấy ngàn năm qua hậu nhân Nhiếp Gia may mắn luyện thành rất ít. Người tu luyện cần có tài trí, thể chất của siêu nhân, ở nơi tăm tối vắng vẻ ngày ngày tu luyện, không được gián đoạn. Người tu tập đoạn tuyệt lo lắng, dùng khí thế cương trực giữ vững tinh thần, phòng tránh tẩu hỏa nhập ma. Đợi Nội Tức trong kỳ kinh bát mạch không còn chướng ngại, tùy ý lưu chuyển mới đạt đến cảnh giới thành công.',
+                "photo" => 'neigong\ng_qy_001.png',
+            ],
+            [
+                "id" => 101,
                 "name" => "Thiền Định Công",
                 "slug" => "thien-dinh-cong",
                 "max_level" => 36,
@@ -765,7 +776,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_sl_001.png',
             ],
             [
-                "id" => 101,
+                "id" => 102,
                 "name" => "Nhị Chỉ Thiền",
                 "slug" => "nhi-chi-thien",
                 "max_level" => 36,
@@ -776,7 +787,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_sl_002.png',
             ],
             [
-                "id" => 102,
+                "id" => 103,
                 "name" => "La Hán Phục Ma Công",
                 "slug" => "la-han-phuc-ma-cong",
                 "max_level" => 36,
@@ -787,7 +798,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_sl_003.png',
             ],
             [
-                "id" => 103,
+                "id" => 104,
                 "name" => "Chiên Đàn Thần Công",
                 "slug" => "chien-dan-than-cong",
                 "max_level" => 49,
@@ -798,7 +809,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_sl_004.png',
             ],
             [
-                "id" => 104,
+                "id" => 105,
                 "name" => "Tẩy Tủy Kinh",
                 "slug" => "tay-tuy-kinh",
                 "max_level" => 49,
@@ -809,18 +820,18 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_sl_005.png',
             ],
             [
-                "id" => 105,
+                "id" => 106,
                 "name" => "Khổ Hạnh Thiền Công",
                 "slug" => "kho-hanh-thien-cong",
                 "max_level" => 49,
                 "school_id" => 1,
                 "type" => "0",
-                "effect" => '["","<font color=\"#FF3030\">Khổ Độ Chúng Sanh<\/font>: Khi công kích có xác suất nhất định khiến bản thân trong 8s tất cả chiêu thức tăng 8% sát thương, phòng ngự tăng 8%.<br><font color=\"#9932CD\">Khô Thiền Độc Ẩm<\/font>: Khi đỡ đòn thành công có xác suất nhất định khiến bản thân duy trì hồi phục khí huyết và điểm đỡ đòn trong 8s.","<font color=\"#FF3030\">Khổ Độ Chúng Sanh<\/font>: Khi công kích có xác suất nhất định khiến tất cả chiêu thức bản thân tăng 9% sát thương trong 9s, phòng ngự tăng 9%.<br><font color=\"#9932CD\">Khô Thiền Độc Ẩm<\/font>: Khi đỡ đòn thành công có xác suất nhất định khiến bản thân hồi phục khí huyết và điểm đỡ đòn trong 9s.","<font color=\"#FF3030\">Khổ Độ Chúng Sanh<\/font>: Khi công kích có xác suất nhất định khiến tất cả chiêu thức bản thân tăng 10% sát thương trong 10s, phòng ngự tăng 10%.<br><font color=\"#9932CD\">Khô Thiền Độc Ẩm<\/font>: Khi đỡ đòn thành công có xác suất nhất định khiến bản thân duy trì hồi phục khí huyết và điểm đỡ đòn trong 10s.","<font color=\"#FF3030\">Khổ Độ Chúng Sanh<\/font>: Khi công kích có xác suất nhất định khiến tất cả chiêu thức bản thân tăng 12% sát thương trong 12s, phòng ngự tăng 12%.<br><font color=\"#9932CD\">Khô Thiền Độc Ẩm<\/font>: Khi đỡ đòn thành công có xác suất nhất định khiến bản thân duy trì hồi phục khí huyết và điểm đỡ đòn trong 12s.","<font color=\"#FF3030\">Khổ Độ Chúng Sanh<\/font>: Khi công kích có xác suất nhất định khiến tất cả chiêu thức bản thân tăng 15% sát thương trong 15s, phòng ngự tăng 15%.<br><font color=\"#9932CD\">Khô Thiền Độc Ẩm<\/font>: Khi đỡ đòn thành công có xác suất nhất định khiến bản thân trong 15s duy trì hồi phục khí huyết và điểm đỡ đòn.<br><font color=\"#CFB53B\">Hành Giả Vô Cương<\/font>: Khi bị công kích có xác suất nhất định loại bỏ phần lớn trạng thái phá phòng, hôn mê và khóa chiêu của bản thân."]',
+                "effect" => '["","<font color=\"#FF3030\">Khổ Độ Chúng Sanh<\/font>: Khi công kích có xác suất nhất định khiến bản thân trong 8s tất cả chiêu thức tăng 8% sát thương, phòng ngự tăng 8%.<br><font color=\"#9932CD\">Khô Thiền Độc Ẩm<\/font>: Khi đỡ đòn thành công có xác suất nhất định khiến bản thân duy trì hồi phục khí huyết và điểm đỡ đòn trong 8s."]',
                 "desc" => 'Nội công độc môn Thiếu Lâm, người luyện công này, cam chịu cực khổ, rèn luyện cân cốt, nên có tên là "Khổ Hạnh Thiền Công", luyện đến đại thành, tâm kiên chí khố, tà ác bất xâm, ẩn chứa sức mạnh "Kim cương bất hoại".',
                 "photo" => 'neigong\ng_sl_006.png',
             ],
             [
-                "id" => 106,
+                "id" => 107,
                 "name" => "Thiếu Lâm Hội Ý Công",
                 "slug" => "thieu-lam-hoi-y-cong",
                 "max_level" => 5,
@@ -831,7 +842,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_sl_101.png',
             ],
             [
-                "id" => 107,
+                "id" => 108,
                 "name" => "Tạo Hoá Công",
                 "slug" => "tao-hoa-cong",
                 "max_level" => 1,
@@ -842,7 +853,18 @@ class Inner extends AbstractSeed
                 "photo" => 'skill\skill_ng003.png',
             ],
             [
-                "id" => 108,
+                "id" => 109,
+                "name" => "Thường Tương Chiếu",
+                "slug" => "thuong-tuong-chieu",
+                "max_level" => 72,
+                "school_id" => 26,
+                "type" => "0",
+                "effect" => '["","Khi vận hành nội công này tọa thiền, hiệu quả hồi phục nội lực khí huyết tăng 1 lần. <br><font color=\"#FF3030\">Phật Tính Thiền Tâm<\/font>: Khi gây ra sát thương cho mục tiêu, có tỉ lệ bản thân thêm 4 tầng \"Phật Tính Thiền Tâm\", mỗi lần gây sát thương kèm thêm Sát Thương Cương và xóa tan 1 tầng, duy trì 15 giây.<br><font color=\"#9932CD\">Phật Quang Tây Lai<\/font>: Khi bị tấn công, có tỉ lệ thêm cho bản thân hộ thân khí, khiến sát thương phải chịu giảm 20%, duy trì 15 giây. (Khi bản thân bị đánh bay, đánh ngã hoặc hôn mê, phong chiêu bị tấn công thì lập tức xóa tan khí hộ thân)","Khi vận hành nội công này tọa thiền, hiệu quả hồi phục nội lực khí huyết tăng 1 lần. <br><font color=\"#FF3030\">Phật Tính Thiền Tâm<\/font>: Khi gây ra sát thương cho mục tiêu, có tỉ lệ bản thân thêm 4 tầng \"Phật Tính Thiền Tâm\", mỗi lần gây sát thương kèm thêm Sát Thương Cương và xóa tan 1 tầng, duy trì 15 giây.<br><font color=\"#9932CD\">Phật Quang Tây Lai<\/font>: Khi bị tấn công, có tỉ lệ thêm cho bản thân hộ thân khí, khiến sát thương phải chịu giảm 25%, duy trì 15 giây. (Khi bản thân bị đánh bay, đánh ngã hoặc hôn mê, phong chiêu bị tấn công thì lập tức xóa tan khí hộ thân)","Khi vận hành nội công này tọa thiền, hiệu quả hồi phục nội lực khí huyết tăng 1 lần. <br><font color=\"#FF3030\">Phật Tính Thiền Tâm<\/font>: Khi gây ra sát thương cho mục tiêu, có tỉ lệ thêm cho bản thân 5 tầng \"Phật Tính Thiền Tâm\", mỗi lần gây ra sát thương có thể kèm thêm sát thương cương và xóa tan 1 tầng, duy trì 15 giây.<br><font color=\"#9932CD\">Phật Quang Tây Lai<\/font>: Khi bị tấn công, có tỉ lệ thêm cho bản thân hộ thân khí, khiến sát thương phải chịu giảm 30%, duy trì 15 giây. (Khi bản thân bị đánh bay, đánh ngã hoặc hôn mê, phong chiêu bị tấn công thì lập tức xóa tan khí hộ thân)","Khi vận hành nội công này tọa thiền, hiệu quả hồi phục nội lực khí huyết tăng 1 lần. <br><font color=\"#FF3030\">Phật Tính Thiền Tâm<\/font>: Khi gây ra sát thương cho mục tiêu, có tỉ lệ thêm cho bản thân 5 tầng \"Phật Tính Thiền Tâm\", mỗi lần gây ra sát thương có thể kèm thêm sát thương cương và xóa tan 1 tầng, duy trì 15 giây.<br><font color=\"#9932CD\">Phật Quang Tây Lai<\/font>: Khi bị tấn công, có tỉ lệ thêm cho bản thân hộ thân khí, khiến sát thương phải chịu giảm 35%, duy trì 15 giây. (Khi bản thân bị đánh bay, đánh ngã hoặc hôn mê, phong chiêu bị tấn công thì lập tức xóa tan khí hộ thân)","Khi vận hành nội công này tọa thiền, hiệu quả hồi phục nội lực khí huyết tăng 1 lần. <br><font color=\"#FF3030\">Phật Tính Thiền Tâm<\/font>: Khi gây ra sát thương cho mục tiêu, có tỉ lệ thêm cho bản thân 6 tầng \"Phật Tính Thiền Tâm\", mỗi lần gây ra sát thương có thể kèm thêm sát thương cương và xóa tan 1 tầng, duy trì 15 giây.<br><font color=\"#9932CD\">Phật Quang Tây Lai<\/font>: Khi bị tấn công, có tỉ lệ thêm cho bản thân hộ thân khí, khiến sát thương phải chịu giảm 40%, duy trì 15 giây. (Khi bản thân bị đánh bay, đánh ngã hoặc hôn mê, phong chiêu bị tấn công thì lập tức xóa tan khí hộ thân)","Khi vận hành nội công này tọa thiền, hiệu quả hồi phục nội lực khí huyết tăng 1 lần. <br><font color=\"#FF3030\">Phật Tính Thiền Tâm<\/font>: Khi gây ra sát thương cho mục tiêu, có tỉ lệ thêm cho bản thân 6 tầng \"Phật Tính Thiền Tâm\", mỗi lần gây ra sát thương có thể kèm thêm sát thương cương và xóa tan 1 tầng, duy trì 15 giây.<br><font color=\"#9932CD\">Phật Quang Tây Lai<\/font>: Khi bị tấn công, có tỉ lệ thêm cho bản thân hộ thân khí, khiến sát thương phải chịu giảm 45%, duy trì 15 giây. (Khi bản thân bị đánh bay, đánh ngã hoặc hôn mê, phong chiêu bị tấn công thì lập tức xóa tan khí hộ thân)<br><font color=\"#CFB53B\">Nội Chiếu<\/font>: sau khi \"Phật Quang Tây Lai\" biến mất có thể nhận được hiệu quả này, khiến đòn sau kèm thêm cho bản thân Sát Thương Cương bằng 8% khí huyết đã mất và hồi phục khí huyết tương đồng (Sát thương bỏ qua phòng ngự).","Khi vận hành nội công này tọa thiền, hiệu quả hồi phục nội lực khí huyết tăng 1 lần. <br><font color=\"#FF3030\">Phật Tính Thiền Tâm<\/font>: Khi gây ra sát thương cho mục tiêu, có tỉ lệ thêm cho bản thân 7 tầng \"Phật Tính Thiền Tâm\", mỗi lần gây ra sát thương có thể kèm thêm sát thương cương và xóa tan 1 tầng, duy trì 15 giây.<br><font color=\"#9932CD\">Phật Quang Tây Lai<\/font>: Khi bị tấn công, có tỉ lệ thêm cho bản thân hộ thân khí, khiến sát thương phải chịu giảm 50%, duy trì 15 giây. (Khi bản thân bị đánh bay, đánh ngã hoặc hôn mê, phong chiêu bị tấn công thì lập tức xóa tan khí hộ thân)<br><font color=\"#CFB53B\">Nội Chiếu<\/font>: \"Phật Quang Tây Lai\" biến mất có thể nhận được hiệu quả này, khiến đòn sau kèm thêm cho bản thân Sát Thương Cương bằng 10% khí huyết và hồi phục khí huyết giống nhau (Sát thương bỏ qua phòng ngự)."]',
+                "desc" => 'Nội công vô thượng do Thiên Luân Minh Vương Hồng Hải Đại Sư sáng tạo ra. Tham ngộ tâm pháp Phật Môn này, Phật Quang phổ chiếu khắp nơi, dưới xuống A Tì Địa Ngục, trên lên A Già Ni Tra Thiên. Công pháp này cần người tu luyện là cơ thể bé trai qua vài năm khổ tư mới có thể đạt đến. Nội Lực sinh sôi không ngừng. Khi thi triển khí thế mạnh mẽ, dù bị trọng thương, chỉ cần nghỉ ngơi sẽ lập tức tinh thần phấn chấn, mạnh mẽ.',
+                "photo" => 'neigong\ng_tl_001.png',
+            ],
+            [
+                "id" => 110,
                 "name" => "Thất Tuyệt Kinh",
                 "slug" => "that-tuyet-kinh",
                 "max_level" => 36,
@@ -853,7 +875,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_tm_001.png',
             ],
             [
-                "id" => 109,
+                "id" => 111,
                 "name" => "Lục Hợp Kinh",
                 "slug" => "luc-hop-kinh",
                 "max_level" => 36,
@@ -864,7 +886,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_tm_002.png',
             ],
             [
-                "id" => 110,
+                "id" => 112,
                 "name" => "Ngũ Độc Kỳ Kinh",
                 "slug" => "ngu-doc-ky-kinh",
                 "max_level" => 36,
@@ -875,7 +897,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_tm_003.png',
             ],
             [
-                "id" => 111,
+                "id" => 113,
                 "name" => "Thái Tổ Âm Công",
                 "slug" => "thai-to-am-cong",
                 "max_level" => 49,
@@ -886,7 +908,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_tm_004.png',
             ],
             [
-                "id" => 112,
+                "id" => 114,
                 "name" => "Tâm Mạch Âm Công",
                 "slug" => "tam-mach-am-cong",
                 "max_level" => 49,
@@ -897,18 +919,18 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_tm_005.png',
             ],
             [
-                "id" => 113,
+                "id" => 115,
                 "name" => "Thiên Ma Bảo Lục",
                 "slug" => "thien-ma-bao-luc",
                 "max_level" => 49,
                 "school_id" => 5,
                 "type" => "1",
-                "effect" => '["","<font color=\"#FF3030\">Mãn Quý Yêu Đằng<\/font>: Khi tấn công có tỷ lệ tăng 2% tất cả sát thương bạo kích cho bản thân, và khiến đối phương giảm 2% tất cả sát thương bạo kích, duy trì 30s, tối đa tồn tại 5 tầng.<br><font color=\"#9932CD\">Nộ Cực Phốc Sát<\/font>: Khi tấn công có tỷ lệ giúp tỷ lệ bạo kích bản thân tăng 2% trong 10s, tất cả sát thương chiêu thức tăng 2%, trong thời gian tất công mục tiêu có tỷ lệ chồng 1 tầng, chồng 5 tầng sẽ xóa.","<font color=\"#FF3030\">Mãn Quý Yêu Đằng<\/font>: Khi tấn công có tỷ lệ tăng 3% tất cả sát thương bạo kích cho bản thân, và khiến đối phương giảm 3% tất cả sát thương bạo kích, duy trì 30s, tối đa tồn tại 5 tầng.<br><font color=\"#9932CD\">Nộ Cực Phốc Sát<\/font>: Khi tấn công có tỷ lệ giúp tỷ lệ bạo kích bản thân tăng 3% trong 10s, tất cả sát thương chiêu thức tăng 3%, trong thời gian tất công mục tiêu có tỷ lệ chồng 1 tầng, chồng 5 tầng sẽ xóa.","<font color=\"#FF3030\">Mãn Quý Yêu Đằng<\/font>: Khi tấn công có tỷ lệ tăng 4% tất cả sát thương bạo kích cho bản thân, và khiến đối phương giảm 4% tất cả sát thương bạo kích, duy trì 30s, tối đa tồn tại 5 tầng.<br><font color=\"#9932CD\">Nộ Cực Phốc Sát<\/font>: Khi tấn công có tỷ lệ giúp tỷ lệ bạo kích bản thân tăng 4% trong 10s, tất cả sát thương chiêu thức tăng 4%, trong thời gian tất công mục tiêu có tỷ lệ chồng 1 tầng, chồng 5 tầng sẽ xóa.","<font color=\"#FF3030\">Mãn Quý Yêu Đằng<\/font>: Khi tấn công có tỷ lệ tăng 5% tất cả sát thương bạo kích cho bản thân, và khiến đối phương giảm 5% tất cả sát thương bạo kích, duy trì 30s, tối đa tồn tại 5 tầng.<br><font color=\"#9932CD\">Nộ Cực Phốc Sát<\/font>: Khi tấn công có tỷ lệ giúp tỷ lệ bạo kích bản thân tăng 5% trong 10s, tất cả sát thương chiêu thức tăng 5%, trong thời gian tất công mục tiêu có tỷ lệ chồng 1 tầng, chồng 5 tầng sẽ xóa.","<font color=\"#FF3030\">Mãn Quý Yêu Đằng<\/font>: Khi tấn công có tỷ lệ tăng 6% tất cả sát thương bạo kích cho bản thân, và khiến đối phương giảm 6% tất cả sát thương bạo kích, duy trì 30s, tối đa tồn tại 5 tầng.<br><font color=\"#9932CD\">Nộ Cực Phốc Sát<\/font>: Khi tấn công có tỷ lệ giúp tỷ lệ bạo kích bản thân tăng 6% trong 10s, tất cả sát thương chiêu thức tăng 6%, trong thời gian tất công mục tiêu có tỷ lệ chồng 1 tầng, chồng 5 tầng sẽ xóa.<br><font color=\"#CFB53B\">Thôi Hình Hóa Khí<\/font>: Khi tấn công có tỷ lệ xóa đa số hiệu quả loại hộ thể của mục tiêu như hấp thu sát thương, trạng thái trực tiếp giảm sát thương."]',
+                "effect" => '["","<font color=\"#FF3030\">Mãn Quý Yêu Đằng<\/font>: Khi tấn công có tỷ lệ tăng 2% tất cả sát thương bạo kích cho bản thân, và khiến đối phương giảm 2% tất cả sát thương bạo kích, duy trì 30s, tối đa tồn tại 5 tầng.<br><font color=\"#9932CD\">Nộ Cực Phốc Sát<\/font>: Khi tấn công có tỷ lệ giúp tỷ lệ bạo kích bản thân tăng 2% trong 10s, tất cả sát thương chiêu thức tăng 2%, trong thời gian tất công mục tiêu có tỷ lệ chồng 1 tầng, chồng 5 tầng sẽ xóa."]',
                 "desc" => 'Tâm pháp độc môn của Đường Môn, tương truyền "Thiên Ma Bí" thoát thai ở Ma Môn, nên có tên là: Thiên Ma Bảo Lục. Nội công này luyện đại thành, giống như Thiên Ma, tấn công mạnh mẽ, thân như ma quỷ, không nắm bắt được, là kỳ công vô thượng.',
                 "photo" => 'neigong\ng_tm_006.png',
             ],
             [
-                "id" => 114,
+                "id" => 116,
                 "name" => "Đường Môn Hội Ý Công",
                 "slug" => "duong-mon-hoi-y-cong",
                 "max_level" => 5,
@@ -919,7 +941,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_tm_101.png',
             ],
             [
-                "id" => 115,
+                "id" => 117,
                 "name" => "Lưỡng Nghi Hộ Tâm Công",
                 "slug" => "luong-nghi-ho-tam-cong",
                 "max_level" => 36,
@@ -930,7 +952,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_wd_001.png',
             ],
             [
-                "id" => 116,
+                "id" => 118,
                 "name" => "Nội Đan Thuật",
                 "slug" => "noi-dan-thuat",
                 "max_level" => 36,
@@ -941,7 +963,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_wd_002.png',
             ],
             [
-                "id" => 117,
+                "id" => 119,
                 "name" => "Thượng Thanh Vô Cực Công",
                 "slug" => "thuong-thanh-vo-cuc-cong",
                 "max_level" => 36,
@@ -952,7 +974,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_wd_003.png',
             ],
             [
-                "id" => 118,
+                "id" => 120,
                 "name" => "Thuần Dương Vô Cực Công",
                 "slug" => "thuan-duong-vo-cuc-cong",
                 "max_level" => 49,
@@ -963,7 +985,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_wd_004.png',
             ],
             [
-                "id" => 119,
+                "id" => 121,
                 "name" => "Ỷ Thiên Đồ Long Công",
                 "slug" => "y-thien-do-long-cong",
                 "max_level" => 49,
@@ -974,18 +996,18 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_wd_005.png',
             ],
             [
-                "id" => 120,
+                "id" => 122,
                 "name" => "Thái Cực Thần Công",
                 "slug" => "thai-cuc-than-cong",
                 "max_level" => 49,
                 "school_id" => 2,
                 "type" => "2",
-                "effect" => '["","<font color=\"#FF3030\">Hoa Khí<\/font>: Khi bị công kích có xác suất nhất định Hoa Kình hấp thu 15% sát thương, đồng thời bản thân hồi phục khí huyết nhất định.<br><font color=\"#9932CD\">Dẫn Kình<\/font>: Khi công kích có xác suất nhất định Khiên Dẫn loại bỏ 15% sát thương, đồng thời tạo ra sát thương nhu vào đối phương.","<font color=\"#FF3030\">Hoa Khí<\/font>: Khi bị công kích có xác suất nhất định Hoa Kình hấp thu 18% sát thương, đồng thời bản thân hồi phục khí huyết nhất định.<br><font color=\"#9932CD\">Dẫn Kình<\/font>: Khi công kích có xác suất nhất định Khiên Dẫn loại bỏ 18% sát thương, đồng thời tạo ra sát thương nhu vào đối phương.","<font color=\"#FF3030\">Hoa Khí<\/font>: Khi bị công kích có xác suất nhất định Hoa Kình hấp thu 21% sát thương, đồng thời bản thân hồi phục khí huyết nhất định.<br><font color=\"#9932CD\">Dẫn Kình<\/font>: Khi công kích có xác suất nhất định Khiên Dẫn loại bỏ 21% sát thương, đồng thời tạo ra sát thương nhu vào đối phương.","<font color=\"#FF3030\">Hoa Khí<\/font>: Khi bị công kích có xác suất nhất định Hoa Kình hấp thu 25% sát thương, đồng thời bản thân hồi phục khí huyết nhất định.<br><font color=\"#9932CD\">Dẫn Kình<\/font>: Khi công kích có xác suất nhất định Khiên Dẫn loại bỏ 25% sát thương, đồng thời tạo ra sát thương nhu vào đối phương.","<font color=\"#FF3030\">Hoa Khí<\/font>: Khi bị công kích có xác suất nhất định Hoa Kình hấp thu 30% sát thương, đồng thời bản thân hồi phục khí huyết nhất định.<br><font color=\"#9932CD\">Dẫn Kình<\/font>: Khi công kích có xác suất nhất định Khiên Dẫn loại bỏ 30% sát thương, đồng thời tạo ra sát thương nhu vào đối phương.<br><font color=\"#CFB53B\">Thái Cực Vi Đạo<\/font>: Khi kích phát \"Hoa Khí\" và \"Dẫn Kình\" đều có xác suất nhất định khiến tất cả chiêu thức bản thân tăng 10% sát thương, có thể lặp tối đa 5 tầng, công kích xong mất đi, duy trì 10s."]',
+                "effect" => '["","<font color=\"#FF3030\">Hoa Khí<\/font>: Khi bị công kích có xác suất nhất định Hoa Kình hấp thu 15% sát thương, đồng thời bản thân hồi phục khí huyết nhất định.<br><font color=\"#9932CD\">Dẫn Kình<\/font>: Khi công kích có xác suất nhất định Khiên Dẫn loại bỏ 15% sát thương, đồng thời tạo ra sát thương nhu vào đối phương."]',
                 "desc" => 'Điểm cực cao trong tâm pháp nội công Đạo Gia, là: "Dị hữu thái cực, thủy sinh lưỡng nghi, lưỡng nghi sinh tứ tượng, tứ tượng sinh bát quái, bát quái suy diễn vạn vật." Nội công này coi trọng vận dụng thành thạo khái niệm chuyển hóa tương sinh "Thái Cực Âm Dương Nhị Khí", mượn lực đánh lực, là nội công cao nhất về "Vô vi" của Đạo Gia. Nội công này luyện thành, công tham tạo hóa, lực ngự vạn vật, luôn bất bại!',
                 "photo" => 'neigong\ng_wd_006.png',
             ],
             [
-                "id" => 121,
+                "id" => 123,
                 "name" => "Võ Đang Hội Ý Công",
                 "slug" => "vo-dang-hoi-y-cong",
                 "max_level" => 5,
@@ -996,7 +1018,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_wd_101.png',
             ],
             [
-                "id" => 122,
+                "id" => 124,
                 "name" => "Hỗn Thiên Bảo Giám",
                 "slug" => "hon-thien-bao-giam",
                 "max_level" => 72,
@@ -1007,7 +1029,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_wg_001.png',
             ],
             [
-                "id" => 123,
+                "id" => 125,
                 "name" => "Phục Dưỡng Khí Công",
                 "slug" => "phuc-duong-khi-cong",
                 "max_level" => 84,
@@ -1018,7 +1040,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_ws_001.png',
             ],
             [
-                "id" => 124,
+                "id" => 126,
                 "name" => "Tam Thanh Chân Khí",
                 "slug" => "tam-thanh-chan-khi",
                 "max_level" => 108,
@@ -1029,7 +1051,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_xj_001.png',
             ],
             [
-                "id" => 125,
+                "id" => 127,
                 "name" => "Minh Ngọc Thần Công",
                 "slug" => "minh-ngoc-than-cong",
                 "max_level" => 72,
@@ -1040,7 +1062,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_yh_001.png',
             ],
             [
-                "id" => 126,
+                "id" => 128,
                 "name" => "Bích Ba Tâm Kinh",
                 "slug" => "bich-ba-tam-kinh",
                 "max_level" => 72,
@@ -1051,7 +1073,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_th_001.png',
             ],
             [
-                "id" => 127,
+                "id" => 129,
                 "name" => "Kim Quan Ngọc Tỏa Quyết",
                 "slug" => "kim-quan-ngoc-toa-quyet",
                 "max_level" => 96,
@@ -1062,7 +1084,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_sj_001.png',
             ],
             [
-                "id" => 128,
+                "id" => 130,
                 "name" => "Ngọc Nữ Tâm Kinh",
                 "slug" => "ngoc-nu-tam-kinh",
                 "max_level" => 72,
@@ -1073,7 +1095,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_gm_001.png',
             ],
             [
-                "id" => 129,
+                "id" => 131,
                 "name" => "Hàn Ngọc Quyết",
                 "slug" => "han-ngoc-quyet",
                 "max_level" => 49,
@@ -1084,7 +1106,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_gm_002.png',
             ],
             [
-                "id" => 130,
+                "id" => 132,
                 "name" => "Huyết Ma Tâm Kinh",
                 "slug" => "huyet-ma-tam-kinh",
                 "max_level" => 72,
@@ -1095,7 +1117,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_xd_001.png',
             ],
             [
-                "id" => 131,
+                "id" => 133,
                 "name" => "Đồ Lục Thần Công",
                 "slug" => "do-luc-than-cong",
                 "max_level" => 49,
@@ -1106,7 +1128,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_xd_002.png',
             ],
             [
-                "id" => 132,
+                "id" => 134,
                 "name" => "Huyền Nguyên Khống Thủy Quyết",
                 "slug" => "huyen-nguyen-khong-thuy-quyet",
                 "max_level" => 49,
@@ -1117,7 +1139,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_ssg_001.png',
             ],
             [
-                "id" => 133,
+                "id" => 135,
                 "name" => "Thương Lan Bí Phổ",
                 "slug" => "thuong-lan-bi-pho",
                 "max_level" => 72,
@@ -1128,7 +1150,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_ssg_002.png',
             ],
             [
-                "id" => 134,
+                "id" => 136,
                 "name" => "Bão Nguyên Kình",
                 "slug" => "bao-nguyen-kinh",
                 "max_level" => 49,
@@ -1139,7 +1161,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_hs_001.png',
             ],
             [
-                "id" => 135,
+                "id" => 137,
                 "name" => "Tử Khí Thiên La",
                 "slug" => "tu-khi-thien-la",
                 "max_level" => 72,
@@ -1150,7 +1172,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_hs_002.png',
             ],
             [
-                "id" => 148,
+                "id" => 150,
                 "name" => "Cổ Thần Quyết",
                 "slug" => "co-than-quyet",
                 "max_level" => 49,
@@ -1161,7 +1183,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_wx_001.png',
             ],
             [
-                "id" => 149,
+                "id" => 151,
                 "name" => "Hoa Vũ Ngũ Linh Điển",
                 "slug" => "hoa-vu-ngu-linh-dien",
                 "max_level" => 72,
@@ -1172,7 +1194,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_wx_002.png',
             ],
             [
-                "id" => 150,
+                "id" => 152,
                 "name" => "Ma Ha Tâm Kinh",
                 "slug" => "ma-ha-tam-kinh",
                 "max_level" => 49,
@@ -1183,7 +1205,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_dm_001.png',
             ],
             [
-                "id" => 151,
+                "id" => 153,
                 "name" => "Bối Diệp Thiền Kinh",
                 "slug" => "boi-diep-thien-kinh",
                 "max_level" => 72,
@@ -1194,7 +1216,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_dm_002.png',
             ],
             [
-                "id" => 152,
+                "id" => 154,
                 "name" => "Xích Hỏa Công",
                 "slug" => "xi-ch-ho-a-cong",
                 "max_level" => 36,
@@ -1205,7 +1227,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_mj_001.png',
             ],
             [
-                "id" => 153,
+                "id" => 155,
                 "name" => "Dương Viêm Công",
                 "slug" => "duong-viem-cong",
                 "max_level" => 36,
@@ -1216,7 +1238,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_mj_002.png',
             ],
             [
-                "id" => 154,
+                "id" => 156,
                 "name" => "Sí Nhật Tâm Kinh",
                 "slug" => "si-nhat-tam-kinh",
                 "max_level" => 36,
@@ -1227,7 +1249,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_mj_003.png',
             ],
             [
-                "id" => 155,
+                "id" => 157,
                 "name" => "Liêu Nguyên Thần Công",
                 "slug" => "lieu-nguyen-than-cong",
                 "max_level" => 49,
@@ -1238,7 +1260,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_mj_004.png',
             ],
             [
-                "id" => 156,
+                "id" => 158,
                 "name" => "Minh Vương Bảo Sách",
                 "slug" => "minh-vuong-bao-sach",
                 "max_level" => 49,
@@ -1249,7 +1271,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_mj_005.png',
             ],
             [
-                "id" => 157,
+                "id" => 159,
                 "name" => "Di Thiên Phần Hải Quyết",
                 "slug" => "di-thien-phan-hai-quyet",
                 "max_level" => 49,
@@ -1260,7 +1282,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_mj_006.png',
             ],
             [
-                "id" => 158,
+                "id" => 160,
                 "name" => "Minh Giáo Hội Ý Công",
                 "slug" => "minh-giao-hoi-y-cong",
                 "max_level" => 5,
@@ -1271,7 +1293,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_mj_101.png',
             ],
             [
-                "id" => 160,
+                "id" => 162,
                 "name" => "Định Quân Võ Lược",
                 "slug" => "dinh-quan-vo-luoc",
                 "max_level" => 49,
@@ -1282,7 +1304,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_sjy_001.png',
             ],
             [
-                "id" => 161,
+                "id" => 163,
                 "name" => "Quỷ Cốc Huyền Công Lục",
                 "slug" => "quy-coc-huyen-cong-luc",
                 "max_level" => 72,
@@ -1293,7 +1315,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_sjy_002.png',
             ],
             [
-                "id" => 162,
+                "id" => 164,
                 "name" => "Hàn Phách Quyết",
                 "slug" => "han-phach-quyet",
                 "max_level" => 36,
@@ -1304,7 +1326,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_ts_001.png',
             ],
             [
-                "id" => 163,
+                "id" => 165,
                 "name" => "Nguyệt Lạc Lục",
                 "slug" => "nguyet-lac-luc",
                 "max_level" => 36,
@@ -1315,7 +1337,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_ts_002.png',
             ],
             [
-                "id" => 164,
+                "id" => 166,
                 "name" => "Linh Nhạn Lục",
                 "slug" => "linh-nhan-luc",
                 "max_level" => 36,
@@ -1326,7 +1348,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_ts_003.png',
             ],
             [
-                "id" => 165,
+                "id" => 167,
                 "name" => "Mai Ảnh Sao",
                 "slug" => "mai-anh-sao",
                 "max_level" => 49,
@@ -1337,7 +1359,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_ts_004.png',
             ],
             [
-                "id" => 166,
+                "id" => 168,
                 "name" => "Vân Thiên Phổ",
                 "slug" => "van-thien-pho",
                 "max_level" => 49,
@@ -1348,7 +1370,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_ts_005.png',
             ],
             [
-                "id" => 167,
+                "id" => 169,
                 "name" => "Lôi Âm Thần Điển",
                 "slug" => "loi-am-than-dien",
                 "max_level" => 49,
@@ -1359,7 +1381,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_ts_006.png',
             ],
             [
-                "id" => 168,
+                "id" => 170,
                 "name" => "Thiên Sơn Hội Ý Công",
                 "slug" => "thien-son-hoi-y-cong",
                 "max_level" => 5,
@@ -1370,7 +1392,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_ts_101.png',
             ],
             [
-                "id" => 169,
+                "id" => 171,
                 "name" => "Bích Du Quyết",
                 "slug" => "bich-du-quyet",
                 "max_level" => 49,
@@ -1381,7 +1403,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_tyhg_001.png',
             ],
             [
-                "id" => 170,
+                "id" => 172,
                 "name" => "Thiên Du Quyết",
                 "slug" => "thien-du-quyet",
                 "max_level" => 72,
@@ -1392,7 +1414,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_tyhg_002.png',
             ],
             [
-                "id" => 171,
+                "id" => 173,
                 "name" => "Phong Ảo Lục",
                 "slug" => "phong-ao-luc",
                 "max_level" => 49,
@@ -1403,7 +1425,7 @@ class Inner extends AbstractSeed
                 "photo" => 'neigong\ng_xmg_001.png',
             ],
             [
-                "id" => 172,
+                "id" => 174,
                 "name" => "Ảnh Lưu Quyết",
                 "slug" => "anh-luu-quyet",
                 "max_level" => 72,

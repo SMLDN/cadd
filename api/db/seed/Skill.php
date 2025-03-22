@@ -11416,6 +11416,127 @@ class Skill extends AbstractSeed
             [
                 "id" => 1037,
                 "set_id" => 116,
+                "slug" => "thuc-thuc-lat-phong",
+                "name" => "Thúc Thúc Lạt Phong",
+                "effect_type" => "1",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 7,
+                "photo" => "skill/cs_jh_lldf01.png"
+            ],
+            [
+                "id" => 1038,
+                "set_id" => 116,
+                "slug" => "man-dia-hoang-hoa",
+                "name" => "Mãn Địa Hoàng Hoa",
+                "effect_type" => "1",
+                "lock_flg" => "1",
+                "max_level" => 12,
+                "power" => 8,
+                "photo" => "skill/cs_jh_lldf02.png"
+            ],
+            [
+                "id" => 1039,
+                "set_id" => 116,
+                "slug" => "nhat-xuyen-hong-diep",
+                "name" => "Nhất Xuyên Hồng Diệp",
+                "effect_type" => "2",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 7,
+                "photo" => "skill/cs_jh_lldf03.png"
+            ],
+            [
+                "id" => 1040,
+                "set_id" => 116,
+                "slug" => "truc-nhap-co-son",
+                "name" => "Trực Nhập Cố Sơn",
+                "effect_type" => "1",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 9,
+                "photo" => "skill/cs_jh_lldf04.png"
+            ],
+            [
+                "id" => 1041,
+                "set_id" => 116,
+                "slug" => "lao-thu-thuong-yen",
+                "name" => "Lão Thụ Thương Yên",
+                "effect_type" => "3",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 10,
+                "photo" => "skill/cs_jh_lldf05.png"
+            ],
+            [
+                "id" => 1042,
+                "set_id" => 116,
+                "slug" => "son-tiet-hai-doan",
+                "name" => "Sơn Tiệt Hải Đoạn",
+                "effect_type" => "0",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 10,
+                "photo" => "skill/cs_jh_lldf06.png"
+            ],
+            [
+                "id" => 1043,
+                "set_id" => 116,
+                "slug" => "le-thap-chinh-bao",
+                "name" => "Lệ Thấp Chinh Bào",
+                "effect_type" => "1",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 9,
+                "photo" => "skill/cs_jh_lldf07.png"
+            ],
+            [
+                "id" => 1044,
+                "set_id" => 116,
+                "slug" => "van-vat-vo-that",
+                "name" => "Vạn Vật Vô Thất",
+                "effect_type" => "1",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 12,
+                "photo" => "skill/cs_jh_lldf08.png"
+            ],
+            [
+                "id" => 1045,
+                "set_id" => 116,
+                "slug" => "tan-quy-bat-hoang-bien-chieu",
+                "name" => "Tận Quy Bát Hoang (Biến chiêu)",
+                "effect_type" => "1",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 9,
+                "photo" => "skill/cs_jh_lldf01_hide.png"
+            ],
+            [
+                "id" => 1046,
+                "set_id" => 116,
+                "slug" => "han-au-luoc-ba-bien-chieu",
+                "name" => "Hàn Âu Lược Ba (Biến chiêu)",
+                "effect_type" => "2",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 10,
+                "photo" => "skill/cs_jh_lldf03_hide.png"
+            ],
+            [
+                "id" => 1047,
+                "set_id" => 116,
+                "slug" => "trich-tam-tang-dao-bien-chieu",
+                "name" => "Trích Tâm Tàng Đao (Biến chiêu)",
+                "effect_type" => "1",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 13,
+                "photo" => "skill/cs_jh_lldf08_hide.png"
+            ],
+            [
+                "id" => 1048,
+                "set_id" => 117,
                 "slug" => "vo-song",
                 "name" => "Vô song",
                 "effect_type" => "1",
@@ -11425,8 +11546,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_jhdf01.png"
             ],
             [
-                "id" => 1038,
-                "set_id" => 116,
+                "id" => 1049,
+                "set_id" => 117,
                 "slug" => "toan-phong-no-tram",
                 "name" => "Toàn Phong Nộ Trảm",
                 "effect_type" => "1",
@@ -11436,8 +11557,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_jhdf02.png"
             ],
             [
-                "id" => 1039,
-                "set_id" => 116,
+                "id" => 1050,
+                "set_id" => 117,
                 "slug" => "thien-quan-truy",
                 "name" => "Thiên Quân Trụy",
                 "effect_type" => "1",
@@ -11447,8 +11568,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_jhdf03.png"
             ],
             [
-                "id" => 1040,
-                "set_id" => 116,
+                "id" => 1051,
+                "set_id" => 117,
                 "slug" => "thoi-tam-trao",
                 "name" => "Thôi Tâm Trảo",
                 "effect_type" => "1",
@@ -11458,8 +11579,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_jhdf04.png"
             ],
             [
-                "id" => 1041,
-                "set_id" => 116,
+                "id" => 1052,
+                "set_id" => 117,
                 "slug" => "nhu-anh-tuy-hinh",
                 "name" => "Như Ảnh Tùy Hình",
                 "effect_type" => "2",
@@ -11469,8 +11590,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_jhdf05.png"
             ],
             [
-                "id" => 1042,
-                "set_id" => 116,
+                "id" => 1053,
+                "set_id" => 117,
                 "slug" => "quan-lenh-phan-kich",
                 "name" => "Quân lệnh.Phản kích",
                 "effect_type" => "3",
@@ -11480,8 +11601,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_jhdf06.png"
             ],
             [
-                "id" => 1043,
-                "set_id" => 116,
+                "id" => 1054,
+                "set_id" => 117,
                 "slug" => "bun-xuan-bao-ve-hoa",
                 "name" => "Bùn xuân bảo vệ hoa",
                 "effect_type" => "0",
@@ -11491,8 +11612,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_jhdf07.png"
             ],
             [
-                "id" => 1044,
-                "set_id" => 116,
+                "id" => 1055,
+                "set_id" => 117,
                 "slug" => "dao-nhan-phong-bao",
                 "name" => "Đao Nhẫn Phong Bạo",
                 "effect_type" => "1",
@@ -11502,8 +11623,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_jhdf08.png"
             ],
             [
-                "id" => 1045,
-                "set_id" => 117,
+                "id" => 1056,
+                "set_id" => 118,
                 "slug" => "thien-giao-diem-chat-vi-quyen-thuoc",
                 "name" => "Thiên Giáo Diễm Chất Vi Quyến Thuộc",
                 "effect_type" => "1",
@@ -11513,8 +11634,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yydf01.png"
             ],
             [
-                "id" => 1046,
-                "set_id" => 117,
+                "id" => 1057,
+                "set_id" => 118,
                 "slug" => "thanh-phong-dan-boi-ha-dao-dai",
                 "name" => "Thanh Phong Dẫn Bội Hạ Dao Đài",
                 "effect_type" => "1",
@@ -11524,8 +11645,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yydf02.png"
             ],
             [
-                "id" => 1047,
-                "set_id" => 117,
+                "id" => 1058,
+                "set_id" => 118,
                 "slug" => "dao-quang-yen-anh-khong-tuoc-binh",
                 "name" => "Đao Quang Yển Ánh Khổng Tước Bình",
                 "effect_type" => "1",
@@ -11535,8 +11656,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yydf03.png"
             ],
             [
-                "id" => 1048,
-                "set_id" => 117,
+                "id" => 1059,
+                "set_id" => 118,
                 "slug" => "bich-tieu-thanh-li-song-minh-phung",
                 "name" => "Bích Tiêu Thanh Lí Song Minh Phụng",
                 "effect_type" => "1",
@@ -11546,8 +11667,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yydf04.png"
             ],
             [
-                "id" => 1049,
-                "set_id" => 117,
+                "id" => 1060,
+                "set_id" => 118,
                 "slug" => "chiem-doan-nhan-gian-thien-thuong-phuc",
                 "name" => "Chiêm Đoạn Nhân Gian Thiên Thượng Phúc",
                 "effect_type" => "0",
@@ -11557,8 +11678,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yydf05.png"
             ],
             [
-                "id" => 1050,
-                "set_id" => 117,
+                "id" => 1061,
+                "set_id" => 118,
                 "slug" => "anh-hung-vo-song-phong-luu-te",
                 "name" => "Anh Hùng Vô Song Phong Lưu Tế",
                 "effect_type" => "3",
@@ -11568,8 +11689,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yydf06.png"
             ],
             [
-                "id" => 1051,
-                "set_id" => 117,
+                "id" => 1062,
+                "set_id" => 118,
                 "slug" => "thien-kim-nhat-khac-khanh-luong-tieu",
                 "name" => "Thiên Kim Nhất Khắc Khánh Lương Tiêu",
                 "effect_type" => "2",
@@ -11579,8 +11700,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yydf07.png"
             ],
             [
-                "id" => 1052,
-                "set_id" => 117,
+                "id" => 1063,
+                "set_id" => 118,
                 "slug" => "thien-giao-diem-chat-vi-quyen-thuoc-bien-chieu",
                 "name" => "Thiên Giáo Diễm Chất Vi Quyến Thuộc (Biến chiêu)",
                 "effect_type" => "1",
@@ -11590,8 +11711,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yydf01_hide.png"
             ],
             [
-                "id" => 1053,
-                "set_id" => 117,
+                "id" => 1064,
+                "set_id" => 118,
                 "slug" => "thanh-phong-dan-boi-ha-dao-dai-bien-chieu",
                 "name" => "Thanh Phong Dẫn Bội Hạ Dao Đài (Biến chiêu)",
                 "effect_type" => "1",
@@ -11601,8 +11722,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yydf02_hide.png"
             ],
             [
-                "id" => 1054,
-                "set_id" => 117,
+                "id" => 1065,
+                "set_id" => 118,
                 "slug" => "dao-quang-yen-anh-khong-tuoc-binh-bien-chieu",
                 "name" => "Đao Quang Yển Ánh Khổng Tước Bình (Biến chiêu)",
                 "effect_type" => "1",
@@ -11612,8 +11733,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yydf03_hide.png"
             ],
             [
-                "id" => 1055,
-                "set_id" => 117,
+                "id" => 1066,
+                "set_id" => 118,
                 "slug" => "bich-tieu-thanh-li-song-minh-phung-bien-chieu",
                 "name" => "Bích Tiêu Thanh Lí Song Minh Phụng (Biến chiêu)",
                 "effect_type" => "1",
@@ -11623,8 +11744,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yydf04_hide.png"
             ],
             [
-                "id" => 1056,
-                "set_id" => 117,
+                "id" => 1067,
+                "set_id" => 118,
                 "slug" => "anh-hung-vo-song-phong-luu-te-bien-chieu",
                 "name" => "Anh Hùng Vô Song Phong Lưu Tế (Biến chiêu)",
                 "effect_type" => "3",
@@ -11634,8 +11755,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yydf06_hide.png"
             ],
             [
-                "id" => 1057,
-                "set_id" => 117,
+                "id" => 1068,
+                "set_id" => 118,
                 "slug" => "thien-kim-nhat-khac-khanh-luong-tieu-bien-chieu",
                 "name" => "Thiên Kim Nhất Khắc Khánh Lương Tiêu (Biến chiêu)",
                 "effect_type" => "2",
@@ -11645,8 +11766,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yydf07_hide.png"
             ],
             [
-                "id" => 1058,
-                "set_id" => 118,
+                "id" => 1069,
+                "set_id" => 119,
                 "slug" => "uyen-he-thanh-duong",
                 "name" => "Uyển Hề Thanh Dương",
                 "effect_type" => "1",
@@ -11656,8 +11777,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_xld01.png"
             ],
             [
-                "id" => 1059,
-                "set_id" => 118,
+                "id" => 1070,
+                "set_id" => 119,
                 "slug" => "duc-tieu-hoan-tan",
                 "name" => "Dục Tiếu Hoàn Tần",
                 "effect_type" => "3",
@@ -11667,8 +11788,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_xld02.png"
             ],
             [
-                "id" => 1060,
-                "set_id" => 118,
+                "id" => 1071,
+                "set_id" => 119,
                 "slug" => "da-xoa-tham-hai",
                 "name" => "Dạ Xoa Thám Hải",
                 "effect_type" => "1",
@@ -11678,8 +11799,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_xld03.png"
             ],
             [
-                "id" => 1061,
-                "set_id" => 118,
+                "id" => 1072,
+                "set_id" => 119,
                 "slug" => "vu-da-le-hoa",
                 "name" => "Vũ Đả Lê Hoa",
                 "effect_type" => "2",
@@ -11689,8 +11810,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_xld05.png"
             ],
             [
-                "id" => 1062,
-                "set_id" => 118,
+                "id" => 1073,
+                "set_id" => 119,
                 "slug" => "de-quyen-khap-huyet",
                 "name" => "Đề Quyên Khấp Huyết",
                 "effect_type" => "1",
@@ -11700,8 +11821,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_xld06.png"
             ],
             [
-                "id" => 1063,
-                "set_id" => 118,
+                "id" => 1074,
+                "set_id" => 119,
                 "slug" => "sinh-tu-khe-khoat",
                 "name" => "Sinh Tử Khế Khoát",
                 "effect_type" => "1",
@@ -11711,8 +11832,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_xld08.png"
             ],
             [
-                "id" => 1064,
-                "set_id" => 118,
+                "id" => 1075,
+                "set_id" => 119,
                 "slug" => "kim-tich-ha-tich",
                 "name" => "Kim Tịch Hà Tịch",
                 "effect_type" => "1",
@@ -11722,8 +11843,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_xld04.png"
             ],
             [
-                "id" => 1065,
-                "set_id" => 118,
+                "id" => 1076,
+                "set_id" => 119,
                 "slug" => "tam-duyet-quan-he",
                 "name" => "Tâm Duyệt Quân Hề",
                 "effect_type" => "1",
@@ -11733,8 +11854,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_xld09.png"
             ],
             [
-                "id" => 1066,
-                "set_id" => 119,
+                "id" => 1077,
+                "set_id" => 120,
                 "slug" => "nhat-phu-tram-pha-giang-ho-doan",
                 "name" => "Nhất Phủ Trảm Phá Giang Hồ Đoạn",
                 "effect_type" => "1",
@@ -11744,8 +11865,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_by_xlxf01.png"
             ],
             [
-                "id" => 1067,
-                "set_id" => 119,
+                "id" => 1078,
+                "set_id" => 120,
                 "slug" => "nhi-hop-tung-hoanh-thien-dia-phan",
                 "name" => "Nhị Hợp Tung Hoành Thiên Địa Phân",
                 "effect_type" => "1",
@@ -11755,8 +11876,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_by_xlxf02.png"
             ],
             [
-                "id" => 1068,
-                "set_id" => 119,
+                "id" => 1079,
+                "set_id" => 120,
                 "slug" => "tam-tam-bat-tan-can-khon-chuyen",
                 "name" => "Tam Tam Bất Tận Càn Khôn Chuyển",
                 "effect_type" => "1",
@@ -11766,8 +11887,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_by_xlxf03.png"
             ],
             [
-                "id" => 1069,
-                "set_id" => 119,
+                "id" => 1080,
+                "set_id" => 120,
                 "slug" => "tu-phan-ngu-liet-phong-van-bien",
                 "name" => "Tứ Phân Ngũ Liệt Phong Vân Biến",
                 "effect_type" => "2",
@@ -11777,8 +11898,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_by_xlxf04.png"
             ],
             [
-                "id" => 1070,
-                "set_id" => 119,
+                "id" => 1081,
+                "set_id" => 120,
                 "slug" => "ngu-nhac-bai-son-kinh-thien-the",
                 "name" => "Ngũ Nhạc Bài Sơn Kinh Thiên Thế",
                 "effect_type" => "3",
@@ -11788,8 +11909,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_by_xlxf05.png"
             ],
             [
-                "id" => 1071,
-                "set_id" => 119,
+                "id" => 1082,
+                "set_id" => 120,
                 "slug" => "luc-dao-vo-thuong-khung-thuong-diet",
                 "name" => "Lục Đạo Vô Thường Khung Thương Diệt",
                 "effect_type" => "0",
@@ -11799,8 +11920,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_by_xlxf06.png"
             ],
             [
-                "id" => 1072,
-                "set_id" => 119,
+                "id" => 1083,
+                "set_id" => 120,
                 "slug" => "that-sat-cuong-lang-van-chung-chu",
                 "name" => "Thất Sát Cuồng Lãng Vạn Chúng Chu",
                 "effect_type" => "1",
@@ -11810,8 +11931,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_by_xlxf07.png"
             ],
             [
-                "id" => 1073,
-                "set_id" => 119,
+                "id" => 1084,
+                "set_id" => 120,
                 "slug" => "nhat-phu-tram-pha-giang-ho-doan-vo-ky",
                 "name" => "Nhất Phủ Trảm Phá Giang Hồ Đoạn (Võ kỹ)",
                 "effect_type" => "1",
@@ -11821,8 +11942,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/517.png"
             ],
             [
-                "id" => 1074,
-                "set_id" => 119,
+                "id" => 1085,
+                "set_id" => 120,
                 "slug" => "tam-tam-bat-tan-can-khon-chuyen-vo-ky",
                 "name" => "Tam Tam Bất Tận Càn Khôn Chuyển (Võ kỹ)",
                 "effect_type" => "1",
@@ -11832,8 +11953,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/518.png"
             ],
             [
-                "id" => 1075,
-                "set_id" => 119,
+                "id" => 1086,
+                "set_id" => 120,
                 "slug" => "that-sat-cuong-lang-van-chung-chu-vo-ky",
                 "name" => "Thất Sát Cuồng Lãng Vạn Chúng Chu (Võ kỹ)",
                 "effect_type" => "1",
@@ -11843,8 +11964,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/519.png"
             ],
             [
-                "id" => 1076,
-                "set_id" => 120,
+                "id" => 1087,
+                "set_id" => 121,
                 "slug" => "loi-dinh",
                 "name" => "Lôi đình",
                 "effect_type" => "1",
@@ -11854,8 +11975,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xy_jlsd01.png"
             ],
             [
-                "id" => 1077,
-                "set_id" => 120,
+                "id" => 1088,
+                "set_id" => 121,
                 "slug" => "dia-no",
                 "name" => "Địa Nộ",
                 "effect_type" => "1",
@@ -11865,8 +11986,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xy_jlsd02.png"
             ],
             [
-                "id" => 1078,
-                "set_id" => 120,
+                "id" => 1089,
+                "set_id" => 121,
                 "slug" => "phong-bao",
                 "name" => "Phong Bạo",
                 "effect_type" => "1",
@@ -11876,8 +11997,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xy_jlsd03.png"
             ],
             [
-                "id" => 1079,
-                "set_id" => 120,
+                "id" => 1090,
+                "set_id" => 121,
                 "slug" => "son-bang",
                 "name" => "Sơn Băng",
                 "effect_type" => "1",
@@ -11887,8 +12008,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xy_jlsd04.png"
             ],
             [
-                "id" => 1080,
-                "set_id" => 120,
+                "id" => 1091,
+                "set_id" => 121,
                 "slug" => "pha-hai",
                 "name" => "Phá Hải",
                 "effect_type" => "2",
@@ -11898,8 +12019,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xy_jlsd05.png"
             ],
             [
-                "id" => 1081,
-                "set_id" => 120,
+                "id" => 1092,
+                "set_id" => 121,
                 "slug" => "liet-hoa",
                 "name" => "Liệt Hỏa",
                 "effect_type" => "3",
@@ -11909,8 +12030,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xy_jlsd06.png"
             ],
             [
-                "id" => 1082,
-                "set_id" => 120,
+                "id" => 1093,
+                "set_id" => 121,
                 "slug" => "thien-kinh",
                 "name" => "Thiên Kinh",
                 "effect_type" => "0",
@@ -11920,8 +12041,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xy_jlsd08.png"
             ],
             [
-                "id" => 1083,
-                "set_id" => 120,
+                "id" => 1094,
+                "set_id" => 121,
                 "slug" => "son-bang-vo-ky",
                 "name" => "Sơn Băng (Võ kỹ)",
                 "effect_type" => "1",
@@ -11931,8 +12052,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/242_2.png"
             ],
             [
-                "id" => 1084,
-                "set_id" => 120,
+                "id" => 1095,
+                "set_id" => 121,
                 "slug" => "liet-hoa-vo-ky",
                 "name" => "[Liệt Hỏa] (Võ kỹ)",
                 "effect_type" => "3",
@@ -11942,8 +12063,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/243.png"
             ],
             [
-                "id" => 1085,
-                "set_id" => 120,
+                "id" => 1096,
+                "set_id" => 121,
                 "slug" => "thien-kinh-vo-ky-bien-chieu",
                 "name" => "Thiên Kinh (Võ kỹ) (Biến chiêu)",
                 "effect_type" => "1",
@@ -11953,8 +12074,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/245_1.png"
             ],
             [
-                "id" => 1086,
-                "set_id" => 121,
+                "id" => 1097,
+                "set_id" => 122,
                 "slug" => "hon-phi-phach-dang",
                 "name" => "Hồn Phi Phách Đãng",
                 "effect_type" => "1",
@@ -11964,8 +12085,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xd_dyshd01.png"
             ],
             [
-                "id" => 1087,
-                "set_id" => 121,
+                "id" => 1098,
+                "set_id" => 122,
                 "slug" => "quyet-nguc-doan-hinh",
                 "name" => "Quyết Ngục Đoạn Hình",
                 "effect_type" => "1",
@@ -11975,8 +12096,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xd_dyshd02.png"
             ],
             [
-                "id" => 1088,
-                "set_id" => 121,
+                "id" => 1099,
+                "set_id" => 122,
                 "slug" => "nhiep-uy-thien-the",
                 "name" => "Nhiếp Uy Thiện Thế",
                 "effect_type" => "3",
@@ -11986,8 +12107,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xd_dyshd03.png"
             ],
             [
-                "id" => 1089,
-                "set_id" => 121,
+                "id" => 1100,
+                "set_id" => 122,
                 "slug" => "thien-dia-tru-luc",
                 "name" => "Thiên Địa Tru Lục",
                 "effect_type" => "2",
@@ -11997,8 +12118,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xd_dyshd04.png"
             ],
             [
-                "id" => 1090,
-                "set_id" => 121,
+                "id" => 1101,
+                "set_id" => 122,
                 "slug" => "phong-tam-nhiep-hanh",
                 "name" => "Phòng Tâm Nhiếp Hành",
                 "effect_type" => "0",
@@ -12008,8 +12129,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xd_dyshd05.png"
             ],
             [
-                "id" => 1091,
-                "set_id" => 121,
+                "id" => 1102,
+                "set_id" => 122,
                 "slug" => "hon-lao-mong-doan",
                 "name" => "Hồn Lao Mộng Đoạn",
                 "effect_type" => "1",
@@ -12019,8 +12140,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xd_dyshd06.png"
             ],
             [
-                "id" => 1092,
-                "set_id" => 121,
+                "id" => 1103,
+                "set_id" => 122,
                 "slug" => "a-ti-dia-nguc",
                 "name" => "A Tị Địa Ngục",
                 "effect_type" => "1",
@@ -12030,8 +12151,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xd_dyshd07.png"
             ],
             [
-                "id" => 1093,
-                "set_id" => 122,
+                "id" => 1104,
+                "set_id" => 123,
                 "slug" => "phi-hong-kien-nhat",
                 "name" => "Phi Hồng Kiến Nhật",
                 "effect_type" => "2",
@@ -12041,8 +12162,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yydld01.png"
             ],
             [
-                "id" => 1094,
-                "set_id" => 122,
+                "id" => 1105,
+                "set_id" => 123,
                 "slug" => "hao-nhat-thien-no",
                 "name" => "Hạo Nhật Thiên Nộ",
                 "effect_type" => "1",
@@ -12052,8 +12173,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yydld02.png"
             ],
             [
-                "id" => 1095,
-                "set_id" => 122,
+                "id" => 1106,
+                "set_id" => 123,
                 "slug" => "nhat-diem-quyen-van",
                 "name" => "Nhật Diệm Quyển Vân",
                 "effect_type" => "1",
@@ -12063,8 +12184,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yydld03.png"
             ],
             [
-                "id" => 1096,
-                "set_id" => 122,
+                "id" => 1107,
+                "set_id" => 123,
                 "slug" => "nguyet-anh-luu-thoa",
                 "name" => "Nguyệt Ảnh Lưu Thoa",
                 "effect_type" => "1",
@@ -12074,8 +12195,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yydld04.png"
             ],
             [
-                "id" => 1097,
-                "set_id" => 122,
+                "id" => 1108,
+                "set_id" => 123,
                 "slug" => "hac-dao-bai-nhat",
                 "name" => "Hắc Đao Bái Nhật",
                 "effect_type" => "1",
@@ -12085,8 +12206,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yydld05.png"
             ],
             [
-                "id" => 1098,
-                "set_id" => 122,
+                "id" => 1109,
+                "set_id" => 123,
                 "slug" => "truc-nhat-nhiep-nguyet",
                 "name" => "Trục Nhật Nhiếp Nguyệt",
                 "effect_type" => "0",
@@ -12096,8 +12217,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yydld06.png"
             ],
             [
-                "id" => 1099,
-                "set_id" => 122,
+                "id" => 1110,
+                "set_id" => 123,
                 "slug" => "nhat-nguyet-dong-huy",
                 "name" => "Nhật Nguyệt Đồng Huy",
                 "effect_type" => "1",
@@ -12107,8 +12228,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yydld07.png"
             ],
             [
-                "id" => 1100,
-                "set_id" => 122,
+                "id" => 1111,
+                "set_id" => 123,
                 "slug" => "hao-nguyet-vo-song",
                 "name" => "Hạo Nguyệt Vô Song",
                 "effect_type" => "1",
@@ -12118,8 +12239,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yydld02_hide.png"
             ],
             [
-                "id" => 1101,
-                "set_id" => 122,
+                "id" => 1112,
+                "set_id" => 123,
                 "slug" => "bat-van-kien-nguyet-bien-chieu",
                 "name" => "Bát Vân Kiến Nguyệt (Biến chiêu)",
                 "effect_type" => "1",
@@ -12129,8 +12250,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yydld05_hide.png"
             ],
             [
-                "id" => 1102,
-                "set_id" => 123,
+                "id" => 1113,
+                "set_id" => 124,
                 "slug" => "canh-cong-cau-vu",
                 "name" => "Cảnh Công Cầu Vũ",
                 "effect_type" => "2",
@@ -12140,8 +12261,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jl_bmjs01.png"
             ],
             [
-                "id" => 1103,
-                "set_id" => 123,
+                "id" => 1114,
+                "set_id" => 124,
                 "slug" => "do-te-thanh-nguyen",
                 "name" => "Đỗ Tệ Thanh Nguyên",
                 "effect_type" => "1",
@@ -12151,8 +12272,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jl_bmjs02.png"
             ],
             [
-                "id" => 1104,
-                "set_id" => 123,
+                "id" => 1115,
+                "set_id" => 124,
                 "slug" => "thuong-cung-chi-dieu",
                 "name" => "Thương Cung Chi Điểu",
                 "effect_type" => "1",
@@ -12162,8 +12283,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jl_bmjs03.png"
             ],
             [
-                "id" => 1105,
-                "set_id" => 123,
+                "id" => 1116,
+                "set_id" => 124,
                 "slug" => "huu-binh-bai-chien",
                 "name" => "Hưu Binh Bãi Chiến",
                 "effect_type" => "1",
@@ -12173,8 +12294,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jl_bmjs04.png"
             ],
             [
-                "id" => 1106,
-                "set_id" => 123,
+                "id" => 1117,
+                "set_id" => 124,
                 "slug" => "sinh-nhuc-kho-cot",
                 "name" => "Sinh Nhục Khô Cốt",
                 "effect_type" => "0",
@@ -12184,8 +12305,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jl_bmjs05.png"
             ],
             [
-                "id" => 1107,
-                "set_id" => 123,
+                "id" => 1118,
+                "set_id" => 124,
                 "slug" => "kinh-hong-diem-anh",
                 "name" => "Kinh Hồng Diễm Ảnh",
                 "effect_type" => "3",
@@ -12195,8 +12316,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jl_bmjs06.png"
             ],
             [
-                "id" => 1108,
-                "set_id" => 123,
+                "id" => 1119,
+                "set_id" => 124,
                 "slug" => "khai-thien-tich-dia",
                 "name" => "Khai Thiên Tịch Địa",
                 "effect_type" => "1",
@@ -12206,8 +12327,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jl_bmjs07.png"
             ],
             [
-                "id" => 1109,
-                "set_id" => 123,
+                "id" => 1120,
+                "set_id" => 124,
                 "slug" => "tu-vo-tang-so",
                 "name" => "Tử Vô Táng Sở",
                 "effect_type" => "1",
@@ -12217,8 +12338,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jl_bmjs08.png"
             ],
             [
-                "id" => 1110,
-                "set_id" => 123,
+                "id" => 1121,
+                "set_id" => 124,
                 "slug" => "khai-thien-tich-dia-bien-chieu",
                 "name" => "Khai Thiên Tịch Địa (Biến chiêu)",
                 "effect_type" => "1",
@@ -12228,8 +12349,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jl_bmjs07_hide.png"
             ],
             [
-                "id" => 1111,
-                "set_id" => 124,
+                "id" => 1122,
+                "set_id" => 125,
                 "slug" => "am-huyet-van-lo",
                 "name" => "Ẩm Huyết Vấn Lộ",
                 "effect_type" => "1",
@@ -12239,8 +12360,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_dtd01.png"
             ],
             [
-                "id" => 1112,
-                "set_id" => 124,
+                "id" => 1123,
+                "set_id" => 125,
                 "slug" => "khon-long-phoc-dia",
                 "name" => "Khốn Long Phọc Địa",
                 "effect_type" => "2",
@@ -12250,8 +12371,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_dtd02.png"
             ],
             [
-                "id" => 1113,
-                "set_id" => 124,
+                "id" => 1124,
+                "set_id" => 125,
                 "slug" => "dao-quang-diep-anh",
                 "name" => "Đao Quang Điệp Ảnh",
                 "effect_type" => "3",
@@ -12261,8 +12382,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_dtd03.png"
             ],
             [
-                "id" => 1114,
-                "set_id" => 124,
+                "id" => 1125,
+                "set_id" => 125,
                 "slug" => "dao-xuyen-hong-luu",
                 "name" => "Đao Xuyên Hồng Lưu",
                 "effect_type" => "1",
@@ -12272,8 +12393,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_dtd05.png"
             ],
             [
-                "id" => 1115,
-                "set_id" => 124,
+                "id" => 1126,
+                "set_id" => 125,
                 "slug" => "tung-tram-hoanh-ha",
                 "name" => "Tung Trảm Hoành Hà",
                 "effect_type" => "1",
@@ -12283,8 +12404,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_dtd04.png"
             ],
             [
-                "id" => 1116,
-                "set_id" => 124,
+                "id" => 1127,
+                "set_id" => 125,
                 "slug" => "toan-phong-dao-nhan",
                 "name" => "Toàn Phong Đạo Nhẫn",
                 "effect_type" => "1",
@@ -12294,8 +12415,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_dtd06.png"
             ],
             [
-                "id" => 1117,
-                "set_id" => 124,
+                "id" => 1128,
+                "set_id" => 125,
                 "slug" => "bat-phuong-hong-hoang",
                 "name" => "Bát Phương Hồng Hoang",
                 "effect_type" => "1",
@@ -12305,8 +12426,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_dtd07.png"
             ],
             [
-                "id" => 1118,
-                "set_id" => 125,
+                "id" => 1129,
+                "set_id" => 126,
                 "slug" => "dai-mac-cung-thu",
                 "name" => "Đại Mạc Cùng Thu",
                 "effect_type" => "1",
@@ -12316,8 +12437,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yylcd01.png"
             ],
             [
-                "id" => 1119,
-                "set_id" => 125,
+                "id" => 1130,
+                "set_id" => 126,
                 "slug" => "luc-tan-quan-son",
                 "name" => "Lực Tận Quan Sơn",
                 "effect_type" => "2",
@@ -12327,8 +12448,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yylcd02.png"
             ],
             [
-                "id" => 1120,
-                "set_id" => 125,
+                "id" => 1131,
+                "set_id" => 126,
                 "slug" => "chinh-nhan-hoi-thu",
                 "name" => "Chinh Nhân Hồi Thủ",
                 "effect_type" => "1",
@@ -12338,8 +12459,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yylcd03.png"
             ],
             [
-                "id" => 1121,
-                "set_id" => 125,
+                "id" => 1132,
+                "set_id" => 126,
                 "slug" => "bien-phong-tuyet-canh",
                 "name" => "Biên Phong Tuyệt Cảnh",
                 "effect_type" => "1",
@@ -12349,8 +12470,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yylcd04.png"
             ],
             [
-                "id" => 1122,
-                "set_id" => 125,
+                "id" => 1133,
+                "set_id" => 126,
                 "slug" => "sat-khi-han-thanh",
                 "name" => "Sát Khí Hàn Thanh",
                 "effect_type" => "1",
@@ -12360,8 +12481,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yylcd05.png"
             ],
             [
-                "id" => 1123,
-                "set_id" => 125,
+                "id" => 1134,
+                "set_id" => 126,
                 "slug" => "liep-hoa-lang-son",
                 "name" => "Liệp Hỏa Lang Sơn",
                 "effect_type" => "3",
@@ -12371,8 +12492,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yylcd06.png"
             ],
             [
-                "id" => 1124,
-                "set_id" => 125,
+                "id" => 1135,
+                "set_id" => 126,
                 "slug" => "yen-van-phi-tran",
                 "name" => "Yến Vân Phi Trần",
                 "effect_type" => "1",
@@ -12382,8 +12503,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yylcd07.png"
             ],
             [
-                "id" => 1125,
-                "set_id" => 126,
+                "id" => 1136,
+                "set_id" => 127,
                 "slug" => "lan-tiem",
                 "name" => "Lân Tiềm",
                 "effect_type" => "1",
@@ -12393,8 +12514,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tm_jsc01.png"
             ],
             [
-                "id" => 1126,
-                "set_id" => 126,
+                "id" => 1137,
+                "set_id" => 127,
                 "slug" => "tho-tin",
                 "name" => "Thổ Tín",
                 "effect_type" => "1",
@@ -12404,8 +12525,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_tm0104.png"
             ],
             [
-                "id" => 1127,
-                "set_id" => 126,
+                "id" => 1138,
+                "set_id" => 127,
                 "slug" => "tuy-hanh",
                 "name" => "Tùy hành",
                 "effect_type" => "0",
@@ -12415,8 +12536,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_tm0102.png"
             ],
             [
-                "id" => 1128,
-                "set_id" => 126,
+                "id" => 1139,
+                "set_id" => 127,
                 "slug" => "suy-vi",
                 "name" => "Súy Vĩ",
                 "effect_type" => "2",
@@ -12426,8 +12547,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_tm0402.png"
             ],
             [
-                "id" => 1129,
-                "set_id" => 126,
+                "id" => 1140,
+                "set_id" => 127,
                 "slug" => "trien-than",
                 "name" => "Triền Thân",
                 "effect_type" => "3",
@@ -12437,8 +12558,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_tm0103.png"
             ],
             [
-                "id" => 1130,
-                "set_id" => 126,
+                "id" => 1141,
+                "set_id" => 127,
                 "slug" => "thon-kinh",
                 "name" => "Thôn Kình",
                 "effect_type" => "1",
@@ -12448,8 +12569,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_tm0105.png"
             ],
             [
-                "id" => 1131,
-                "set_id" => 126,
+                "id" => 1142,
+                "set_id" => 127,
                 "slug" => "phan-phe",
                 "name" => "Phản Phệ",
                 "effect_type" => "1",
@@ -12459,8 +12580,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_tm0504.png"
             ],
             [
-                "id" => 1132,
-                "set_id" => 126,
+                "id" => 1143,
+                "set_id" => 127,
                 "slug" => "tuy-hanh-vo-ky",
                 "name" => "Tùy Hành (Võ kỹ)",
                 "effect_type" => "0",
@@ -12470,8 +12591,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/161.png"
             ],
             [
-                "id" => 1133,
-                "set_id" => 126,
+                "id" => 1144,
+                "set_id" => 127,
                 "slug" => "suy-vi-vo-ky",
                 "name" => "Sủy Vĩ (Võ kỹ)",
                 "effect_type" => "2",
@@ -12481,8 +12602,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/162.png"
             ],
             [
-                "id" => 1134,
-                "set_id" => 126,
+                "id" => 1145,
+                "set_id" => 127,
                 "slug" => "thon-kinh-vo-ky",
                 "name" => "Thôn Kình (Võ kỹ)",
                 "effect_type" => "1",
@@ -12492,8 +12613,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/163.png"
             ],
             [
-                "id" => 1135,
-                "set_id" => 127,
+                "id" => 1146,
+                "set_id" => 128,
                 "slug" => "ham-sa-xa-anh",
                 "name" => "Hàm Sa Xạ Ảnh",
                 "effect_type" => "1",
@@ -12503,8 +12624,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/zhaoshi051.png"
             ],
             [
-                "id" => 1136,
-                "set_id" => 127,
+                "id" => 1147,
+                "set_id" => 128,
                 "slug" => "hoa-thu-ngan-hoa",
                 "name" => "Hỏa Thụ Ngân Hoa",
                 "effect_type" => "1",
@@ -12514,8 +12635,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_tm0403.png"
             ],
             [
-                "id" => 1137,
-                "set_id" => 127,
+                "id" => 1148,
+                "set_id" => 128,
                 "slug" => "muc-loan-tinh-me",
                 "name" => "Mục Loạn Tình Mê",
                 "effect_type" => "2",
@@ -12525,8 +12646,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_tm0404.png"
             ],
             [
-                "id" => 1138,
-                "set_id" => 127,
+                "id" => 1149,
+                "set_id" => 128,
                 "slug" => "di-bo-hoan-hinh",
                 "name" => "Di Bộ Hoán Hình",
                 "effect_type" => "3",
@@ -12536,8 +12657,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_tm0405.png"
             ],
             [
-                "id" => 1139,
-                "set_id" => 127,
+                "id" => 1150,
+                "set_id" => 128,
                 "slug" => "tiem-tung-niep-tich",
                 "name" => "Tiềm Tung Niếp Tích",
                 "effect_type" => "0",
@@ -12547,8 +12668,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_tm0401.png"
             ],
             [
-                "id" => 1140,
-                "set_id" => 127,
+                "id" => 1151,
+                "set_id" => 128,
                 "slug" => "bo-phong-troc-anh",
                 "name" => "Bộ Phong Tróc Ảnh",
                 "effect_type" => "1",
@@ -12558,8 +12679,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_tm0406.png"
             ],
             [
-                "id" => 1141,
-                "set_id" => 127,
+                "id" => 1152,
+                "set_id" => 128,
                 "slug" => "phu-quang-luoc-anh",
                 "name" => "Phù Quang Lược Ảnh",
                 "effect_type" => "1",
@@ -12569,8 +12690,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_tm0505.png"
             ],
             [
-                "id" => 1142,
-                "set_id" => 128,
+                "id" => 1153,
+                "set_id" => 129,
                 "slug" => "doat-menh-cuong-ho",
                 "name" => "Đoạt Mệnh Cuồng Hô",
                 "effect_type" => "1",
@@ -12580,8 +12701,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ghqd06.png"
             ],
             [
-                "id" => 1143,
-                "set_id" => 128,
+                "id" => 1154,
+                "set_id" => 129,
                 "slug" => "doat-hon-cau-hon",
                 "name" => "Đoạt Hồn Câu Hồn",
                 "effect_type" => "1",
@@ -12591,8 +12712,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ghqd02.png"
             ],
             [
-                "id" => 1144,
-                "set_id" => 128,
+                "id" => 1155,
+                "set_id" => 129,
                 "slug" => "ly-hoa-doat-phach",
                 "name" => "Ly Hỏa Đoạt Phách",
                 "effect_type" => "1",
@@ -12602,8 +12723,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ghqd04.png"
             ],
             [
-                "id" => 1145,
-                "set_id" => 128,
+                "id" => 1156,
+                "set_id" => 129,
                 "slug" => "toan-phong-doat-menh",
                 "name" => "Toàn Phong Đoạt Mệnh",
                 "effect_type" => "1",
@@ -12613,8 +12734,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ghqd03.png"
             ],
             [
-                "id" => 1146,
-                "set_id" => 128,
+                "id" => 1157,
+                "set_id" => 129,
                 "slug" => "tu-trien-bat-huu",
                 "name" => "Tử Triền Bất Hưu",
                 "effect_type" => "2",
@@ -12624,8 +12745,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ghqd05.png"
             ],
             [
-                "id" => 1147,
-                "set_id" => 128,
+                "id" => 1158,
+                "set_id" => 129,
                 "slug" => "cau-hon-doat-phach",
                 "name" => "Câu Hồn Đoạt Phách",
                 "effect_type" => "3",
@@ -12635,8 +12756,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ghqd01.png"
             ],
             [
-                "id" => 1148,
-                "set_id" => 128,
+                "id" => 1159,
+                "set_id" => 129,
                 "slug" => "dai-nguc-luan-hoi",
                 "name" => "Đại Ngục Luân Hồi",
                 "effect_type" => "1",
@@ -12646,8 +12767,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ghqd07.png"
             ],
             [
-                "id" => 1149,
-                "set_id" => 129,
+                "id" => 1160,
+                "set_id" => 130,
                 "slug" => "quan-yeu-loan-vu",
                 "name" => "Quần Yêu Loạn Vũ",
                 "effect_type" => "1",
@@ -12657,8 +12778,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_dpgx01.png"
             ],
             [
-                "id" => 1150,
-                "set_id" => 129,
+                "id" => 1161,
+                "set_id" => 130,
                 "slug" => "vong-luong-doat-phach",
                 "name" => "Võng Lượng Đoạt Phách",
                 "effect_type" => "1",
@@ -12668,8 +12789,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_dpgx02.png"
             ],
             [
-                "id" => 1151,
-                "set_id" => 129,
+                "id" => 1162,
+                "set_id" => 130,
                 "slug" => "mi-anh-phe-hon",
                 "name" => "Mị Ảnh Phệ Hồn",
                 "effect_type" => "2",
@@ -12679,8 +12800,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_dpgx03.png"
             ],
             [
-                "id" => 1152,
-                "set_id" => 129,
+                "id" => 1163,
+                "set_id" => 130,
                 "slug" => "van-quy-cau-tam",
                 "name" => "Vạn Quỷ Câu Tâm",
                 "effect_type" => "1",
@@ -12690,8 +12811,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_dpgx04.png"
             ],
             [
-                "id" => 1153,
-                "set_id" => 129,
+                "id" => 1164,
+                "set_id" => 130,
                 "slug" => "ta-diet-tu-phuong",
                 "name" => "Tà Diệt Tứ Phương",
                 "effect_type" => "3",
@@ -12701,8 +12822,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_dpgx05.png"
             ],
             [
-                "id" => 1154,
-                "set_id" => 129,
+                "id" => 1165,
+                "set_id" => 130,
                 "slug" => "ac-linh-pha-nao",
                 "name" => "Ác Linh Phá Não",
                 "effect_type" => "0",
@@ -12712,8 +12833,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_dpgx06.png"
             ],
             [
-                "id" => 1155,
-                "set_id" => 129,
+                "id" => 1166,
+                "set_id" => 130,
                 "slug" => "nhiep-linh-huyet-vu",
                 "name" => "Nhiếp Linh Huyết Vũ",
                 "effect_type" => "0",
@@ -12723,8 +12844,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_dpgx07.png"
             ],
             [
-                "id" => 1156,
-                "set_id" => 129,
+                "id" => 1167,
+                "set_id" => 130,
                 "slug" => "giang-the-viem-ma",
                 "name" => "Giáng Thế Viêm Ma",
                 "effect_type" => "0",
@@ -12734,8 +12855,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_dpgx08.png"
             ],
             [
-                "id" => 1157,
-                "set_id" => 130,
+                "id" => 1168,
+                "set_id" => 131,
                 "slug" => "doan-mac-tan-chu",
                 "name" => "Đoạn Mặc Tàn Chử",
                 "effect_type" => "1",
@@ -12745,8 +12866,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xjz_wmcf01.png"
             ],
             [
-                "id" => 1158,
-                "set_id" => 130,
+                "id" => 1169,
+                "set_id" => 131,
                 "slug" => "dac-thon-tien-thuoc",
                 "name" => "Đắc Thốn Tiến Thước",
                 "effect_type" => "1",
@@ -12756,8 +12877,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xjz_wmcf02.png"
             ],
             [
-                "id" => 1159,
-                "set_id" => 130,
+                "id" => 1170,
+                "set_id" => 131,
                 "slug" => "tu-li-can-khon",
                 "name" => "Tụ Lí Càn Khôn",
                 "effect_type" => "3",
@@ -12767,8 +12888,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xjz_wmcf03.png"
             ],
             [
-                "id" => 1160,
-                "set_id" => 130,
+                "id" => 1171,
+                "set_id" => 131,
                 "slug" => "nhat-thuoc-tuyet-khong",
                 "name" => "Nhất Thước Tuyệt Không",
                 "effect_type" => "2",
@@ -12778,8 +12899,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xjz_wmcf04.png"
             ],
             [
-                "id" => 1161,
-                "set_id" => 130,
+                "id" => 1172,
+                "set_id" => 131,
                 "slug" => "van-tung-vo-dinh",
                 "name" => "Vân Tung Vô Định",
                 "effect_type" => "1",
@@ -12789,8 +12910,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xjz_wmcf05.png"
             ],
             [
-                "id" => 1162,
-                "set_id" => 130,
+                "id" => 1173,
+                "set_id" => 131,
                 "slug" => "chi-thuoc-thien-nhai",
                 "name" => "Chỉ Thước Thiên Nhai",
                 "effect_type" => "1",
@@ -12800,8 +12921,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xjz_wmcf06.png"
             ],
             [
-                "id" => 1163,
-                "set_id" => 130,
+                "id" => 1174,
+                "set_id" => 131,
                 "slug" => "o-mac-doanh-thuoc",
                 "name" => "Ô Mặc Doanh Thước",
                 "effect_type" => "1",
@@ -12811,8 +12932,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xjz_wmcf07.png"
             ],
             [
-                "id" => 1164,
-                "set_id" => 130,
+                "id" => 1175,
+                "set_id" => 131,
                 "slug" => "tu-ly-can-khon-vo-ky-bien-chieu",
                 "name" => "Tụ Lý Càn Khôn (Võ kỹ) (Biến chiêu)",
                 "effect_type" => "1",
@@ -12822,8 +12943,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/537.png"
             ],
             [
-                "id" => 1165,
-                "set_id" => 130,
+                "id" => 1176,
+                "set_id" => 131,
                 "slug" => "chi-xich-thien-nhai-vo-ky",
                 "name" => "Chỉ Xích Thiên Nhai (Võ kỹ)",
                 "effect_type" => "1",
@@ -12833,8 +12954,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/538.png"
             ],
             [
-                "id" => 1166,
-                "set_id" => 130,
+                "id" => 1177,
+                "set_id" => 131,
                 "slug" => "o-mac-doanh-thuoc-vo-ky",
                 "name" => "Ô Mặc Doanh Thước (Võ kỹ)",
                 "effect_type" => "1",
@@ -12844,8 +12965,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/536.png"
             ],
             [
-                "id" => 1167,
-                "set_id" => 131,
+                "id" => 1178,
+                "set_id" => 132,
                 "slug" => "vu-loan-phung-nghenh",
                 "name" => "Vũ Loan Phùng Nghênh",
                 "effect_type" => "1",
@@ -12855,8 +12976,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_sfj01.png"
             ],
             [
-                "id" => 1168,
-                "set_id" => 131,
+                "id" => 1179,
+                "set_id" => 132,
                 "slug" => "phi-liem-bon-thuoc",
                 "name" => "Phi Liêm Bôn Thuộc",
                 "effect_type" => "1",
@@ -12866,8 +12987,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_sfj02.png"
             ],
             [
-                "id" => 1169,
-                "set_id" => 131,
+                "id" => 1180,
+                "set_id" => 132,
                 "slug" => "biet-chi-kinh-tuoc",
                 "name" => "Biệt Chi Kinh Tước",
                 "effect_type" => "2",
@@ -12877,8 +12998,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_sfj03.png"
             ],
             [
-                "id" => 1170,
-                "set_id" => 131,
+                "id" => 1181,
+                "set_id" => 132,
                 "slug" => "long-nguyet-ngam-phong",
                 "name" => "Lộng Nguyệt Ngâm Phong",
                 "effect_type" => "1",
@@ -12888,8 +13009,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_sfj04.png"
             ],
             [
-                "id" => 1171,
-                "set_id" => 131,
+                "id" => 1182,
+                "set_id" => 132,
                 "slug" => "sat-tra-phong-van",
                 "name" => "Sất Trá Phong Vân",
                 "effect_type" => "1",
@@ -12899,8 +13020,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_sfj05.png"
             ],
             [
-                "id" => 1172,
-                "set_id" => 131,
+                "id" => 1183,
+                "set_id" => 132,
                 "slug" => "than-nhan-khi-dinh",
                 "name" => "Thần Nhàn Khí Định",
                 "effect_type" => "3",
@@ -12910,8 +13031,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_sfj06.png"
             ],
             [
-                "id" => 1173,
-                "set_id" => 131,
+                "id" => 1184,
+                "set_id" => 132,
                 "slug" => "co-phan-than-phi",
                 "name" => "Cố Phán Thần Phi",
                 "effect_type" => "1",
@@ -12921,8 +13042,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_sfj07.png"
             ],
             [
-                "id" => 1174,
-                "set_id" => 131,
+                "id" => 1185,
+                "set_id" => 132,
                 "slug" => "than-diet-hinh-tieu",
                 "name" => "Thần Diệt Hình Tiêu",
                 "effect_type" => "1",
@@ -12932,8 +13053,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_sfj08.png"
             ],
             [
-                "id" => 1175,
-                "set_id" => 131,
+                "id" => 1186,
+                "set_id" => 132,
                 "slug" => "vu-loan-phung-nghenh",
                 "name" => "Vũ Loan Phùng Nghênh",
                 "effect_type" => "1",
@@ -12943,8 +13064,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_sfj01_2.png"
             ],
             [
-                "id" => 1176,
-                "set_id" => 131,
+                "id" => 1187,
+                "set_id" => 132,
                 "slug" => "long-nguyet-ngam-phong-phan-thu-vi-cong-bien-chieu",
                 "name" => "Lộng Nguyệt Ngâm Phong (Phản Thủ Vi Công) (Biến chiêu)",
                 "effect_type" => "1",
@@ -12954,8 +13075,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_sfj04.png"
             ],
             [
-                "id" => 1177,
-                "set_id" => 131,
+                "id" => 1188,
+                "set_id" => 132,
                 "slug" => "sat-tra-phong-van-phan-thu-vi-cong-bien-chieu",
                 "name" => "Sất Trá Phong Vân (Phản Thủ Vi Công) (Biến chiêu)",
                 "effect_type" => "1",
@@ -12965,8 +13086,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_sfj05.png"
             ],
             [
-                "id" => 1178,
-                "set_id" => 132,
+                "id" => 1189,
+                "set_id" => 133,
                 "slug" => "thach-hoa-dien-quang-co",
                 "name" => "Thạch Hỏa Điện Quang (Cổ)",
                 "effect_type" => "1",
@@ -12976,8 +13097,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xy_shl01.png"
             ],
             [
-                "id" => 1179,
-                "set_id" => 132,
+                "id" => 1190,
+                "set_id" => 133,
                 "slug" => "hoa-trung-thu-lat-co",
                 "name" => "Hỏa Trung Thủ Lật (Cổ)",
                 "effect_type" => "1",
@@ -12987,8 +13108,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xy_shl02.png"
             ],
             [
-                "id" => 1180,
-                "set_id" => 132,
+                "id" => 1191,
+                "set_id" => 133,
                 "slug" => "minh-hoa-chap-truong-co",
                 "name" => "Minh Hỏa Chấp Trượng (Cổ)",
                 "effect_type" => "1",
@@ -12998,8 +13119,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xy_shl03.png"
             ],
             [
-                "id" => 1181,
-                "set_id" => 132,
+                "id" => 1192,
+                "set_id" => 133,
                 "slug" => "cach-ngan-quan-hoa",
                 "name" => "Cách Ngạn Quan Hỏa",
                 "effect_type" => "2",
@@ -13009,8 +13130,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xy_shl04.png"
             ],
             [
-                "id" => 1182,
-                "set_id" => 132,
+                "id" => 1193,
+                "set_id" => 133,
                 "slug" => "da-n-ho-a-thieu-than",
                 "name" => "Dẫn hỏa thiêu thân",
                 "effect_type" => "3",
@@ -13020,8 +13141,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xy_shl05.png"
             ],
             [
-                "id" => 1183,
-                "set_id" => 132,
+                "id" => 1194,
+                "set_id" => 133,
                 "slug" => "phong-hoa-lien-thien-co",
                 "name" => "Phong Hỏa Liên Thiên (Cổ)",
                 "effect_type" => "1",
@@ -13031,8 +13152,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xy_shl06.png"
             ],
             [
-                "id" => 1184,
-                "set_id" => 132,
+                "id" => 1195,
+                "set_id" => 133,
                 "slug" => "dao-son-hoa-hai-co",
                 "name" => "Đao Sơn Hỏa Hải (Cổ)",
                 "effect_type" => "1",
@@ -13042,8 +13163,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xy_shl07.png"
             ],
             [
-                "id" => 1185,
-                "set_id" => 132,
+                "id" => 1196,
+                "set_id" => 133,
                 "slug" => "tinh-hoa-lieu-nguyen-co",
                 "name" => "Tinh Hỏa Liêu Nguyên (Cổ)",
                 "effect_type" => "1",
@@ -13053,8 +13174,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xy_shl08.png"
             ],
             [
-                "id" => 1186,
-                "set_id" => 132,
+                "id" => 1197,
+                "set_id" => 133,
                 "slug" => "dao-son-hoa-hai-bien-chieu",
                 "name" => "Đao Sơn Hỏa Hải (Biến chiêu)",
                 "effect_type" => "1",
@@ -13064,8 +13185,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_xy_shl07_hide.png"
             ],
             [
-                "id" => 1187,
-                "set_id" => 133,
+                "id" => 1198,
+                "set_id" => 134,
                 "slug" => "phan-phuong-tuc-niem",
                 "name" => "Phần Phương Tức Niệm",
                 "effect_type" => "1",
@@ -13075,8 +13196,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_gwc01.png"
             ],
             [
-                "id" => 1188,
-                "set_id" => 133,
+                "id" => 1199,
+                "set_id" => 134,
                 "slug" => "bat-thiet-xa-nhan",
                 "name" => "Bạt Thiệt Xạ Nhãn",
                 "effect_type" => "1",
@@ -13086,8 +13207,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_gwc02.png"
             ],
             [
-                "id" => 1189,
-                "set_id" => 133,
+                "id" => 1200,
+                "set_id" => 134,
                 "slug" => "trieu-sinh-mo-tu",
                 "name" => "Triều Sinh Mộ Tử",
                 "effect_type" => "1",
@@ -13097,8 +13218,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_gwc03.png"
             ],
             [
-                "id" => 1190,
-                "set_id" => 133,
+                "id" => 1201,
+                "set_id" => 134,
                 "slug" => "am-ti-tat-bao",
                 "name" => "Âm Ti Tất Báo",
                 "effect_type" => "1",
@@ -13108,8 +13229,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_gwc04.png"
             ],
             [
-                "id" => 1191,
-                "set_id" => 133,
+                "id" => 1202,
+                "set_id" => 134,
                 "slug" => "kho-bat-liem-hinh",
                 "name" => "Khổ Bất Liễm Hình",
                 "effect_type" => "2",
@@ -13119,8 +13240,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_gwc05.png"
             ],
             [
-                "id" => 1192,
-                "set_id" => 133,
+                "id" => 1203,
+                "set_id" => 134,
                 "slug" => "thu-than-vo-gian",
                 "name" => "Thụ Thân Vô Gian",
                 "effect_type" => "3",
@@ -13130,8 +13251,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_gwc06.png"
             ],
             [
-                "id" => 1193,
-                "set_id" => 133,
+                "id" => 1204,
+                "set_id" => 134,
                 "slug" => "thanh-dien-lieu-nha",
                 "name" => "Thanh Diện Liêu Nha",
                 "effect_type" => "1",
@@ -13141,8 +13262,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_gwc07.png"
             ],
             [
-                "id" => 1194,
-                "set_id" => 133,
+                "id" => 1205,
+                "set_id" => 134,
                 "slug" => "trieu-sinh-mo-tu-bien-chieu",
                 "name" => "Triều Sinh Mộ Tử (Biến chiêu)",
                 "effect_type" => "1",
@@ -13152,8 +13273,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_gwc03_hide.png"
             ],
             [
-                "id" => 1195,
-                "set_id" => 133,
+                "id" => 1206,
+                "set_id" => 134,
                 "slug" => "thu-than-vo-gian-phan-thu-vi-cong-bien-chieu",
                 "name" => "Thụ Thân Vô Gian (Phản thủ vi công) (Biến chiêu)",
                 "effect_type" => "1",
@@ -13163,8 +13284,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_gwc06.png"
             ],
             [
-                "id" => 1196,
-                "set_id" => 134,
+                "id" => 1207,
+                "set_id" => 135,
                 "slug" => "duyen-hoa-tan",
                 "name" => "Duyên Hoa Tận",
                 "effect_type" => "1",
@@ -13174,8 +13295,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_nlb_yzx01.png"
             ],
             [
-                "id" => 1197,
-                "set_id" => 134,
+                "id" => 1208,
+                "set_id" => 135,
                 "slug" => "luu-the-thuy",
                 "name" => "Lưu Thệ Thủy",
                 "effect_type" => "1",
@@ -13185,8 +13306,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_nlb_yzx02.png"
             ],
             [
-                "id" => 1198,
-                "set_id" => 134,
+                "id" => 1209,
+                "set_id" => 135,
                 "slug" => "to-li-thuong",
                 "name" => "Tố Li Thương",
                 "effect_type" => "3",
@@ -13196,8 +13317,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_nlb_yzx03.png"
             ],
             [
-                "id" => 1199,
-                "set_id" => 134,
+                "id" => 1210,
+                "set_id" => 135,
                 "slug" => "tieu-doan-truong",
                 "name" => "Tiếu Đoạn Trường",
                 "effect_type" => "2",
@@ -13207,8 +13328,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_nlb_yzx04.png"
             ],
             [
-                "id" => 1200,
-                "set_id" => 134,
+                "id" => 1211,
+                "set_id" => 135,
                 "slug" => "tam-tuong-tu",
                 "name" => "Tâm Tương Tư",
                 "effect_type" => "0",
@@ -13218,8 +13339,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_nlb_yzx05.png"
             ],
             [
-                "id" => 1201,
-                "set_id" => 134,
+                "id" => 1212,
+                "set_id" => 135,
                 "slug" => "tinh-tuong-tuy",
                 "name" => "Tình Tương Túy",
                 "effect_type" => "1",
@@ -13229,8 +13350,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_nlb_yzx06.png"
             ],
             [
-                "id" => 1202,
-                "set_id" => 134,
+                "id" => 1213,
+                "set_id" => 135,
                 "slug" => "sinh-tu-truy",
                 "name" => "Sinh Tử Truy",
                 "effect_type" => "1",
@@ -13240,8 +13361,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_nlb_yzx07.png"
             ],
             [
-                "id" => 1203,
-                "set_id" => 134,
+                "id" => 1214,
+                "set_id" => 135,
                 "slug" => "hong-nhan-le",
                 "name" => "Hồng Nhan Lệ",
                 "effect_type" => "1",
@@ -13251,8 +13372,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_nlb_yzx08.png"
             ],
             [
-                "id" => 1204,
-                "set_id" => 134,
+                "id" => 1215,
+                "set_id" => 135,
                 "slug" => "to-li-thuong-an-bien-chieu",
                 "name" => "Tố Li Thương (Ẩn) (Biến chiêu)",
                 "effect_type" => "0",
@@ -13262,8 +13383,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_nlb_yzx03_hide.png"
             ],
             [
-                "id" => 1205,
-                "set_id" => 134,
+                "id" => 1216,
+                "set_id" => 135,
                 "slug" => "hong-nhan-le-an-bien-chieu",
                 "name" => "Hồng Nhan Lệ (Ẩn) (Biến chiêu)",
                 "effect_type" => "1",
@@ -13273,8 +13394,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_nlb_yzx08_hide.png"
             ],
             [
-                "id" => 1206,
-                "set_id" => 135,
+                "id" => 1217,
+                "set_id" => 136,
                 "slug" => "kinh-hong-nhat-sap",
                 "name" => "Kinh Hồng Nhất Sáp",
                 "effect_type" => "1",
@@ -13284,8 +13405,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tm_ykr01.png"
             ],
             [
-                "id" => 1207,
-                "set_id" => 135,
+                "id" => 1218,
+                "set_id" => 136,
                 "slug" => "toan-vu-hu-khong",
                 "name" => "Toàn Vũ Hư Không",
                 "effect_type" => "2",
@@ -13295,8 +13416,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tm_ykr02.png"
             ],
             [
-                "id" => 1208,
-                "set_id" => 135,
+                "id" => 1219,
+                "set_id" => 136,
                 "slug" => "cuong-phong-giao-van",
                 "name" => "Cuồng Phong Giảo Vân",
                 "effect_type" => "1",
@@ -13306,8 +13427,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tm_ykr03.png"
             ],
             [
-                "id" => 1209,
-                "set_id" => 135,
+                "id" => 1220,
+                "set_id" => 136,
                 "slug" => "quy-khoc-than-hao",
                 "name" => "Quỷ Khốc Thần Hào",
                 "effect_type" => "1",
@@ -13317,8 +13438,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tm_ykr04.png"
             ],
             [
-                "id" => 1210,
-                "set_id" => 135,
+                "id" => 1221,
+                "set_id" => 136,
                 "slug" => "phien-hon-phuc-vu",
                 "name" => "Phiên Hồn Phúc Vũ",
                 "effect_type" => "1",
@@ -13328,8 +13449,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tm_ykr05.png"
             ],
             [
-                "id" => 1211,
-                "set_id" => 135,
+                "id" => 1222,
+                "set_id" => 136,
                 "slug" => "phong-thanh-hac-le",
                 "name" => "Phong Thanh Hạc Lệ",
                 "effect_type" => "3",
@@ -13339,8 +13460,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tm_ykr06.png"
             ],
             [
-                "id" => 1212,
-                "set_id" => 135,
+                "id" => 1223,
+                "set_id" => 136,
                 "slug" => "khoang-da-kinh-loi",
                 "name" => "Khoáng Dã Kinh Lôi",
                 "effect_type" => "1",
@@ -13350,8 +13471,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tm_ykr07.png"
             ],
             [
-                "id" => 1213,
-                "set_id" => 135,
+                "id" => 1224,
+                "set_id" => 136,
                 "slug" => "an-khong-luan-hoi",
                 "name" => "Ẩn Không Luân Hồi",
                 "effect_type" => "1",
@@ -13361,8 +13482,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tm_ykr08.png"
             ],
             [
-                "id" => 1214,
-                "set_id" => 136,
+                "id" => 1225,
+                "set_id" => 137,
                 "slug" => "phu-quang-thuong-anh",
                 "name" => "Phù Quang Thương Ảnh",
                 "effect_type" => "1",
@@ -13372,8 +13493,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_gymmc01.png"
             ],
             [
-                "id" => 1215,
-                "set_id" => 136,
+                "id" => 1226,
+                "set_id" => 137,
                 "slug" => "tran-quang-luoc-anh",
                 "name" => "Trần Quang Lược Ảnh",
                 "effect_type" => "1",
@@ -13383,8 +13504,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_gymmc02.png"
             ],
             [
-                "id" => 1216,
-                "set_id" => 136,
+                "id" => 1227,
+                "set_id" => 137,
                 "slug" => "luu-quang-pha-anh",
                 "name" => "Lưu Quang Phá Ảnh",
                 "effect_type" => "2",
@@ -13394,8 +13515,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_gymmc03.png"
             ],
             [
-                "id" => 1217,
-                "set_id" => 136,
+                "id" => 1228,
+                "set_id" => 137,
                 "slug" => "phong-quang-hoa-anh",
                 "name" => "Phong Quang Hóa Ảnh",
                 "effect_type" => "1",
@@ -13405,8 +13526,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_gymmc04.png"
             ],
             [
-                "id" => 1218,
-                "set_id" => 136,
+                "id" => 1229,
+                "set_id" => 137,
                 "slug" => "thao-quang-uan-anh",
                 "name" => "Thao Quang Uẩn Ảnh",
                 "effect_type" => "3",
@@ -13416,8 +13537,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_gymmc05.png"
             ],
             [
-                "id" => 1219,
-                "set_id" => 136,
+                "id" => 1230,
+                "set_id" => 137,
                 "slug" => "don-quang-luu-anh",
                 "name" => "Độn Quang Lưu Ảnh",
                 "effect_type" => "1",
@@ -13427,8 +13548,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_gymmc06.png"
             ],
             [
-                "id" => 1220,
-                "set_id" => 136,
+                "id" => 1231,
+                "set_id" => 137,
                 "slug" => "tiem-quang-dinh-anh",
                 "name" => "Tiềm Quang Định Ảnh",
                 "effect_type" => "1",
@@ -13438,8 +13559,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_gymmc07.png"
             ],
             [
-                "id" => 1221,
-                "set_id" => 136,
+                "id" => 1232,
+                "set_id" => 137,
                 "slug" => "thon-quang-luc-anh",
                 "name" => "Thôn Quang Lục Ảnh",
                 "effect_type" => "1",
@@ -13449,8 +13570,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_gymmc08.png"
             ],
             [
-                "id" => 1222,
-                "set_id" => 137,
+                "id" => 1233,
+                "set_id" => 138,
                 "slug" => "phu-de-truu-tan",
                 "name" => "Phủ Để Trừu Tân",
                 "effect_type" => "1",
@@ -13460,8 +13581,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_lsbm01.png"
             ],
             [
-                "id" => 1223,
-                "set_id" => 137,
+                "id" => 1234,
+                "set_id" => 138,
                 "slug" => "phan-khach-vi-chu",
                 "name" => "Phản Khách Vi Chủ",
                 "effect_type" => "1",
@@ -13471,8 +13592,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_lsbm02.png"
             ],
             [
-                "id" => 1224,
-                "set_id" => 137,
+                "id" => 1235,
+                "set_id" => 138,
                 "slug" => "ti-thuc-tuu-hu",
                 "name" => "Tị Thực Tựu Hư",
                 "effect_type" => "2",
@@ -13482,8 +13603,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_lsbm03.png"
             ],
             [
-                "id" => 1225,
-                "set_id" => 137,
+                "id" => 1236,
+                "set_id" => 138,
                 "slug" => "binh-bat-yem-tra",
                 "name" => "Binh Bất Yếm Trá",
                 "effect_type" => "1",
@@ -13493,8 +13614,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_lsbm04.png"
             ],
             [
-                "id" => 1226,
-                "set_id" => 137,
+                "id" => 1237,
+                "set_id" => 138,
                 "slug" => "tieu-li-tang-dao",
                 "name" => "Tiếu Lí Tàng Đao",
                 "effect_type" => "3",
@@ -13504,8 +13625,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_lsbm05.png"
             ],
             [
-                "id" => 1227,
-                "set_id" => 137,
+                "id" => 1238,
+                "set_id" => 138,
                 "slug" => "cam-tac-cam-vuong",
                 "name" => "Cầm Tặc Cầm Vương",
                 "effect_type" => "1",
@@ -13515,8 +13636,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_lsbm06.png"
             ],
             [
-                "id" => 1228,
-                "set_id" => 137,
+                "id" => 1239,
+                "set_id" => 138,
                 "slug" => "am-do-tran-thuong",
                 "name" => "Ám Độ Trần Thương",
                 "effect_type" => "0",
@@ -13526,8 +13647,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_lsbm07.png"
             ],
             [
-                "id" => 1229,
-                "set_id" => 137,
+                "id" => 1240,
+                "set_id" => 138,
                 "slug" => "man-thien-qua-hai",
                 "name" => "Mạn Thiên Quá Hải",
                 "effect_type" => "1",
@@ -13537,8 +13658,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_lsbm08.png"
             ],
             [
-                "id" => 1230,
-                "set_id" => 137,
+                "id" => 1241,
+                "set_id" => 138,
                 "slug" => "man-thien-qua-hai-bien-chieu",
                 "name" => "Mạn Thiên Quá Hải (Biến chiêu)",
                 "effect_type" => "1",
@@ -13548,8 +13669,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_lsbm08_hide.png"
             ],
             [
-                "id" => 1231,
-                "set_id" => 138,
+                "id" => 1242,
+                "set_id" => 139,
                 "slug" => "hoa-kieu-cam",
                 "name" => "Hoa Kiều Cấm",
                 "effect_type" => "1",
@@ -13559,8 +13680,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mqc01.png"
             ],
             [
-                "id" => 1232,
-                "set_id" => 138,
+                "id" => 1243,
+                "set_id" => 139,
                 "slug" => "man-ti-ma",
                 "name" => "Mấn Ti Ma",
                 "effect_type" => "1",
@@ -13570,8 +13691,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mqc02.png"
             ],
             [
-                "id" => 1233,
-                "set_id" => 138,
+                "id" => 1244,
+                "set_id" => 139,
                 "slug" => "lang-hoa-hoac",
                 "name" => "Lăng Hoa Hoặc",
                 "effect_type" => "1",
@@ -13581,8 +13702,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mqc03.png"
             ],
             [
-                "id" => 1234,
-                "set_id" => 138,
+                "id" => 1245,
+                "set_id" => 139,
                 "slug" => "hanh-nguyet-thuc",
                 "name" => "Hạnh Nguyệt Thực",
                 "effect_type" => "1",
@@ -13592,8 +13713,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mqc04.png"
             ],
             [
-                "id" => 1235,
-                "set_id" => 138,
+                "id" => 1246,
+                "set_id" => 139,
                 "slug" => "ngung-tam-hoang",
                 "name" => "Ngưng Tâm Hoảng",
                 "effect_type" => "2",
@@ -13603,8 +13724,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mqc05.png"
             ],
             [
-                "id" => 1236,
-                "set_id" => 138,
+                "id" => 1247,
+                "set_id" => 139,
                 "slug" => "si-mi-bac",
                 "name" => "Si Mị Bác",
                 "effect_type" => "1",
@@ -13614,8 +13735,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mqc06.png"
             ],
             [
-                "id" => 1237,
-                "set_id" => 138,
+                "id" => 1248,
+                "set_id" => 139,
                 "slug" => "luu-hoa-yeu",
                 "name" => "Lựu Hoa Yêu",
                 "effect_type" => "3",
@@ -13625,8 +13746,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mqc07.png"
             ],
             [
-                "id" => 1238,
-                "set_id" => 138,
+                "id" => 1249,
+                "set_id" => 139,
                 "slug" => "chiet-giang-son",
                 "name" => "Chiết Giang Sơn",
                 "effect_type" => "1",
@@ -13636,8 +13757,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mqc08.png"
             ],
             [
-                "id" => 1239,
-                "set_id" => 138,
+                "id" => 1250,
+                "set_id" => 139,
                 "slug" => "chuong-tinh-nhieu-bien-chieu",
                 "name" => "Chưởng Tình Nhiễu (Biến chiêu)",
                 "effect_type" => "1",
@@ -13647,8 +13768,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mqc01_hide.png"
             ],
             [
-                "id" => 1240,
-                "set_id" => 139,
+                "id" => 1251,
+                "set_id" => 140,
                 "slug" => "cuu-u-am-phong",
                 "name" => "Cửu U Âm Phong",
                 "effect_type" => "0",
@@ -13658,8 +13779,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jl_shuangci01.png"
             ],
             [
-                "id" => 1241,
-                "set_id" => 139,
+                "id" => 1252,
+                "set_id" => 140,
                 "slug" => "huyen-doc-toa-moc",
                 "name" => "Huyền Độc Tỏa Mộc",
                 "effect_type" => "0",
@@ -13669,8 +13790,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jl_shuangci02.png"
             ],
             [
-                "id" => 1242,
-                "set_id" => 139,
+                "id" => 1253,
+                "set_id" => 140,
                 "slug" => "ac-quy-tranh-thuc",
                 "name" => "Ác Quỷ Tranh Thực",
                 "effect_type" => "0",
@@ -13680,8 +13801,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jl_shuangci03.png"
             ],
             [
-                "id" => 1243,
-                "set_id" => 139,
+                "id" => 1254,
+                "set_id" => 140,
                 "slug" => "doc-xa-tho-tin",
                 "name" => "Độc Xà Thổ Tín",
                 "effect_type" => "1",
@@ -13691,8 +13812,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jl_shuangci04.png"
             ],
             [
-                "id" => 1244,
-                "set_id" => 139,
+                "id" => 1255,
+                "set_id" => 140,
                 "slug" => "am-hon-xuat-khieu",
                 "name" => "Âm Hồn Xuất Khiếu",
                 "effect_type" => "1",
@@ -13702,8 +13823,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_jl0403.png"
             ],
             [
-                "id" => 1245,
-                "set_id" => 139,
+                "id" => 1256,
+                "set_id" => 140,
                 "slug" => "tu-la-hu-cot",
                 "name" => "Tu La Hủ Cốt",
                 "effect_type" => "2",
@@ -13713,8 +13834,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_jl0402.png"
             ],
             [
-                "id" => 1246,
-                "set_id" => 139,
+                "id" => 1257,
+                "set_id" => 140,
                 "slug" => "on-than-tu-dat",
                 "name" => "Ôn Thần Tứ Dật",
                 "effect_type" => "0",
@@ -13724,8 +13845,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jl_shuangci07.png"
             ],
             [
-                "id" => 1247,
-                "set_id" => 139,
+                "id" => 1258,
+                "set_id" => 140,
                 "slug" => "ac-co-toan-tam",
                 "name" => "Ác Cổ Toàn Tâm",
                 "effect_type" => "3",
@@ -13735,8 +13856,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_jl0404.png"
             ],
             [
-                "id" => 1248,
-                "set_id" => 140,
+                "id" => 1259,
+                "set_id" => 141,
                 "slug" => "bai-van-quyet",
                 "name" => "Bài Vân Quyết",
                 "effect_type" => "1",
@@ -13746,8 +13867,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ncd01.png"
             ],
             [
-                "id" => 1249,
-                "set_id" => 140,
+                "id" => 1260,
+                "set_id" => 141,
                 "slug" => "phien-cao-y",
                 "name" => "Phiên Cảo Y",
                 "effect_type" => "1",
@@ -13757,8 +13878,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ncd02.png"
             ],
             [
-                "id" => 1250,
-                "set_id" => 140,
+                "id" => 1261,
+                "set_id" => 141,
                 "slug" => "luu-hoan-to",
                 "name" => "Lưu Hoàn Tố",
                 "effect_type" => "1",
@@ -13768,8 +13889,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ncd03.png"
             ],
             [
-                "id" => 1251,
-                "set_id" => 140,
+                "id" => 1262,
+                "set_id" => 141,
                 "slug" => "trao-thanh-la",
                 "name" => "Trạo Thanh La",
                 "effect_type" => "2",
@@ -13779,8 +13900,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ncd04.png"
             ],
             [
-                "id" => 1252,
-                "set_id" => 140,
+                "id" => 1263,
+                "set_id" => 141,
                 "slug" => "sach-dong-hoa",
                 "name" => "Sách Đồng Hoa",
                 "effect_type" => "3",
@@ -13790,8 +13911,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ncd05.png"
             ],
             [
-                "id" => 1253,
-                "set_id" => 140,
+                "id" => 1264,
+                "set_id" => 141,
                 "slug" => "lac-so-vu",
                 "name" => "Lạc Sơ Vũ",
                 "effect_type" => "0",
@@ -13801,8 +13922,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ncd06.png"
             ],
             [
-                "id" => 1254,
-                "set_id" => 140,
+                "id" => 1265,
+                "set_id" => 141,
                 "slug" => "vu-nghe-thuong",
                 "name" => "Vũ Nghê Thường",
                 "effect_type" => "0",
@@ -13812,8 +13933,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ncd07.png"
             ],
             [
-                "id" => 1255,
-                "set_id" => 140,
+                "id" => 1266,
+                "set_id" => 141,
                 "slug" => "bai-van-quyet-bien-chieu",
                 "name" => "Bài Vân Quyết (Biến chiêu)",
                 "effect_type" => "1",
@@ -13823,8 +13944,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ncd01.png"
             ],
             [
-                "id" => 1256,
-                "set_id" => 140,
+                "id" => 1267,
+                "set_id" => 141,
                 "slug" => "phien-cao-y-bien-chieu",
                 "name" => "Phiên Cảo Y (Biến chiêu)",
                 "effect_type" => "1",
@@ -13834,8 +13955,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ncd02.png"
             ],
             [
-                "id" => 1257,
-                "set_id" => 140,
+                "id" => 1268,
+                "set_id" => 141,
                 "slug" => "luu-hoan-to-bien-chieu",
                 "name" => "Lưu Hoàn Tố (Biến chiêu)",
                 "effect_type" => "1",
@@ -13845,8 +13966,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ncd03.png"
             ],
             [
-                "id" => 1258,
-                "set_id" => 140,
+                "id" => 1269,
+                "set_id" => 141,
                 "slug" => "trao-thanh-la-bien-chieu",
                 "name" => "Trạo Thanh La (Biến chiêu)",
                 "effect_type" => "2",
@@ -13856,8 +13977,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ncd04.png"
             ],
             [
-                "id" => 1259,
-                "set_id" => 140,
+                "id" => 1270,
+                "set_id" => 141,
                 "slug" => "sach-dong-hoa-phan-thu-vi-cong-bien-chieu",
                 "name" => "Sách Đồng Hoa (Phản Thủ Vi Công) (Biến chiêu)",
                 "effect_type" => "1",
@@ -13867,8 +13988,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ncd05.png"
             ],
             [
-                "id" => 1260,
-                "set_id" => 140,
+                "id" => 1271,
+                "set_id" => 141,
                 "slug" => "lac-so-vu-bien-chieu",
                 "name" => "Lạc Sơ Vũ (Biến chiêu)",
                 "effect_type" => "0",
@@ -13878,8 +13999,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ncd06.png"
             ],
             [
-                "id" => 1261,
-                "set_id" => 140,
+                "id" => 1272,
+                "set_id" => 141,
                 "slug" => "sach-dong-hoa",
                 "name" => "Sách Đồng Hoa",
                 "effect_type" => "3",
@@ -13889,8 +14010,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ncd05.png"
             ],
             [
-                "id" => 1262,
-                "set_id" => 141,
+                "id" => 1273,
+                "set_id" => 142,
                 "slug" => "niem-hoa-quyen",
                 "name" => "Niêm Hoa Quyện",
                 "effect_type" => "1",
@@ -13900,8 +14021,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_tlw01.png"
             ],
             [
-                "id" => 1263,
-                "set_id" => 141,
+                "id" => 1274,
+                "set_id" => 142,
                 "slug" => "chuyen-oanh-kieu",
                 "name" => "Chuyển Oanh Kiều",
                 "effect_type" => "1",
@@ -13911,8 +14032,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_tlw02.png"
             ],
             [
-                "id" => 1264,
-                "set_id" => 141,
+                "id" => 1275,
+                "set_id" => 142,
                 "slug" => "dao-bo-tri",
                 "name" => "Dao Bộ Trì",
                 "effect_type" => "1",
@@ -13922,8 +14043,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_tlw03.png"
             ],
             [
-                "id" => 1265,
-                "set_id" => 141,
+                "id" => 1276,
+                "set_id" => 142,
                 "slug" => "nhuan-so-nghien",
                 "name" => "Nhuận Sơ Nghiên",
                 "effect_type" => "1",
@@ -13933,8 +14054,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_tlw04.png"
             ],
             [
-                "id" => 1266,
-                "set_id" => 141,
+                "id" => 1277,
+                "set_id" => 142,
                 "slug" => "truc-nhuyen-thanh",
                 "name" => "Trục Nhuyễn Thanh",
                 "effect_type" => "2",
@@ -13944,8 +14065,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_tlw05.png"
             ],
             [
-                "id" => 1267,
-                "set_id" => 141,
+                "id" => 1278,
+                "set_id" => 142,
                 "slug" => "an-huong-binh",
                 "name" => "Ẩn Hương Bình",
                 "effect_type" => "3",
@@ -13955,8 +14076,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_tlw06.png"
             ],
             [
-                "id" => 1268,
-                "set_id" => 141,
+                "id" => 1279,
+                "set_id" => 142,
                 "slug" => "lieu-thien-sa",
                 "name" => "Liêu Thiền Sa",
                 "effect_type" => "1",
@@ -13966,8 +14087,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_tlw07.png"
             ],
             [
-                "id" => 1269,
-                "set_id" => 141,
+                "id" => 1280,
+                "set_id" => 142,
                 "slug" => "hon-mong-oanh",
                 "name" => "Hồn Mộng Oanh",
                 "effect_type" => "1",
@@ -13977,8 +14098,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_tlw08.png"
             ],
             [
-                "id" => 1270,
-                "set_id" => 141,
+                "id" => 1281,
+                "set_id" => 142,
                 "slug" => "lieu-thien-sa-bien-chieu",
                 "name" => "Liêu Thiền Sa (Biến chiêu)",
                 "effect_type" => "1",
@@ -13988,8 +14109,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_tlw07_hide.png"
             ],
             [
-                "id" => 1271,
-                "set_id" => 142,
+                "id" => 1282,
+                "set_id" => 143,
                 "slug" => "khinh-trong-tru",
                 "name" => "Khinh Trọng Trứ",
                 "effect_type" => "1",
@@ -13999,8 +14120,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_plbz01.png"
             ],
             [
-                "id" => 1272,
-                "set_id" => 142,
+                "id" => 1283,
+                "set_id" => 143,
                 "slug" => "dai-tieu-tru",
                 "name" => "Đại Tiểu Trứ",
                 "effect_type" => "1",
@@ -14010,8 +14131,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_plbz02.png"
             ],
             [
-                "id" => 1273,
-                "set_id" => 142,
+                "id" => 1284,
+                "set_id" => 143,
                 "slug" => "han-thu-tru",
                 "name" => "Hàn Thử Trứ",
                 "effect_type" => "1",
@@ -14021,8 +14142,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_plbz03.png"
             ],
             [
-                "id" => 1274,
-                "set_id" => 142,
+                "id" => 1285,
+                "set_id" => 143,
                 "slug" => "dong-tinh-tru",
                 "name" => "Động Tĩnh Trứ",
                 "effect_type" => "0",
@@ -14032,8 +14153,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_plbz04.png"
             ],
             [
-                "id" => 1275,
-                "set_id" => 142,
+                "id" => 1286,
+                "set_id" => 143,
                 "slug" => "tung-hoanh-tru",
                 "name" => "Tung Hoành Trứ",
                 "effect_type" => "3",
@@ -14043,8 +14164,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_plbz05.png"
             ],
             [
-                "id" => 1276,
-                "set_id" => 142,
+                "id" => 1287,
+                "set_id" => 143,
                 "slug" => "minh-am-tru",
                 "name" => "Minh Ám Trứ",
                 "effect_type" => "2",
@@ -14054,8 +14175,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_plbz06.png"
             ],
             [
-                "id" => 1277,
-                "set_id" => 142,
+                "id" => 1288,
+                "set_id" => 143,
                 "slug" => "hu-thuc-tru",
                 "name" => "Hư Thực Trứ",
                 "effect_type" => "1",
@@ -14065,8 +14186,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_plbz07.png"
             ],
             [
-                "id" => 1278,
-                "set_id" => 142,
+                "id" => 1289,
+                "set_id" => 143,
                 "slug" => "han-thu-tru-bien-chieu",
                 "name" => "Hàn Thử Trứ (Biến chiêu)",
                 "effect_type" => "1",
@@ -14076,8 +14197,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_plbz03_hide.png"
             ],
             [
-                "id" => 1279,
-                "set_id" => 143,
+                "id" => 1290,
+                "set_id" => 144,
                 "slug" => "quan-son-nguyet",
                 "name" => "Quan Sơn Nguyệt",
                 "effect_type" => "1",
@@ -14087,8 +14208,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_by_gxcj01.png"
             ],
             [
-                "id" => 1280,
-                "set_id" => 143,
+                "id" => 1291,
+                "set_id" => 144,
                 "slug" => "mai-hoa-lac",
                 "name" => "Mai Hoa Lạc",
                 "effect_type" => "1",
@@ -14098,8 +14219,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_by_gxcj02.png"
             ],
             [
-                "id" => 1281,
-                "set_id" => 143,
+                "id" => 1292,
+                "set_id" => 144,
                 "slug" => "hau-dinh-hoa",
                 "name" => "Hậu Đình Hoa",
                 "effect_type" => "2",
@@ -14109,8 +14230,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_by_gxcj03.png"
             ],
             [
-                "id" => 1282,
-                "set_id" => 143,
+                "id" => 1293,
+                "set_id" => 144,
                 "slug" => "duong-lieu-khuc",
                 "name" => "Dương Liễu Khúc",
                 "effect_type" => "3",
@@ -14120,8 +14241,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_by_gxcj04.png"
             ],
             [
-                "id" => 1283,
-                "set_id" => 143,
+                "id" => 1294,
+                "set_id" => 144,
                 "slug" => "hanh-lo-nan",
                 "name" => "Hành Lộ Nan",
                 "effect_type" => "1",
@@ -14131,8 +14252,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_by_gxcj05.png"
             ],
             [
-                "id" => 1284,
-                "set_id" => 143,
+                "id" => 1295,
+                "set_id" => 144,
                 "slug" => "uc-giang-nam",
                 "name" => "Ức Giang Nam",
                 "effect_type" => "1",
@@ -14142,8 +14263,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_by_gxcj06.png"
             ],
             [
-                "id" => 1285,
-                "set_id" => 143,
+                "id" => 1296,
+                "set_id" => 144,
                 "slug" => "tuy-hoa-am",
                 "name" => "Túy Hoa Âm",
                 "effect_type" => "1",
@@ -14153,8 +14274,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_by_gxcj07.png"
             ],
             [
-                "id" => 1286,
-                "set_id" => 143,
+                "id" => 1297,
+                "set_id" => 144,
                 "slug" => "duong-lieu-khuc-phan-thu-vi-cong-bien-chieu",
                 "name" => "Dương Liễu Khúc (Phản thủ vi công) (Biến chiêu)",
                 "effect_type" => "1",
@@ -14164,8 +14285,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_by_gxcj04.png"
             ],
             [
-                "id" => 1287,
-                "set_id" => 144,
+                "id" => 1298,
+                "set_id" => 145,
                 "slug" => "tuyet-linh-cuong-phong",
                 "name" => "Tuyết Lĩnh Cuồng Phong",
                 "effect_type" => "1",
@@ -14175,8 +14296,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_ssg_jxc01.png"
             ],
             [
-                "id" => 1288,
-                "set_id" => 144,
+                "id" => 1299,
+                "set_id" => 145,
                 "slug" => "tuyet-hoa-phan-phi",
                 "name" => "Tuyết Hoa Phân Phi",
                 "effect_type" => "1",
@@ -14186,8 +14307,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_ssg_jxc02.png"
             ],
             [
-                "id" => 1289,
-                "set_id" => 144,
+                "id" => 1300,
+                "set_id" => 145,
                 "slug" => "ngung-tuyet-vi-bang",
                 "name" => "Ngưng Tuyết Vi Băng",
                 "effect_type" => "2",
@@ -14197,8 +14318,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_ssg_jxc03.png"
             ],
             [
-                "id" => 1290,
-                "set_id" => 144,
+                "id" => 1301,
+                "set_id" => 145,
                 "slug" => "tich-le-thanh-tuyet",
                 "name" => "Tích Lệ Thành Tuyết",
                 "effect_type" => "1",
@@ -14208,8 +14329,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_ssg_jxc04.png"
             ],
             [
-                "id" => 1291,
-                "set_id" => 144,
+                "id" => 1302,
+                "set_id" => 145,
                 "slug" => "tuyet-vu-phi-duong",
                 "name" => "Tuyết Vũ Phi Dương",
                 "effect_type" => "1",
@@ -14219,8 +14340,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_ssg_jxc05.png"
             ],
             [
-                "id" => 1292,
-                "set_id" => 144,
+                "id" => 1303,
+                "set_id" => 145,
                 "slug" => "pha-tuyet-nhi-lap",
                 "name" => "Phá Tuyết Nhi Lập",
                 "effect_type" => "3",
@@ -14230,8 +14351,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_ssg_jxc06.png"
             ],
             [
-                "id" => 1293,
-                "set_id" => 144,
+                "id" => 1304,
+                "set_id" => 145,
                 "slug" => "ngao-tuyet-kinh-hon",
                 "name" => "Ngạo Tuyết Kinh Hồn",
                 "effect_type" => "1",
@@ -14241,8 +14362,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_ssg_jxc07.png"
             ],
             [
-                "id" => 1294,
-                "set_id" => 144,
+                "id" => 1305,
+                "set_id" => 145,
                 "slug" => "vo-bien-suong-tuyet",
                 "name" => "Vô Biên Sương Tuyết",
                 "effect_type" => "1",
@@ -14252,8 +14373,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_ssg_jxc08.png"
             ],
             [
-                "id" => 1295,
-                "set_id" => 145,
+                "id" => 1306,
+                "set_id" => 146,
                 "slug" => "muoi-hy-vong-ha",
                 "name" => "Muội Hỷ Vong Hạ",
                 "effect_type" => "1",
@@ -14263,8 +14384,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_em_qcc01.png"
             ],
             [
-                "id" => 1296,
-                "set_id" => 145,
+                "id" => 1307,
+                "set_id" => 146,
                 "slug" => "dat-ky-hoac-thuong",
                 "name" => "Đát Kỷ Hoặc Thương",
                 "effect_type" => "3",
@@ -14274,8 +14395,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_em_qcc02.png"
             ],
             [
-                "id" => 1297,
-                "set_id" => 145,
+                "id" => 1308,
+                "set_id" => 146,
                 "slug" => "bao-tu-liet-chu",
                 "name" => "Bao Tự Liệt Chu",
                 "effect_type" => "2",
@@ -14285,8 +14406,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_em_qcc03.png"
             ],
             [
-                "id" => 1298,
-                "set_id" => 145,
+                "id" => 1309,
+                "set_id" => 146,
                 "slug" => "quy-phi-loan-duong",
                 "name" => "Quý Phi Loạn Đường",
                 "effect_type" => "1",
@@ -14296,8 +14417,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_em_qcc04.png"
             ],
             [
-                "id" => 1299,
-                "set_id" => 145,
+                "id" => 1310,
+                "set_id" => 146,
                 "slug" => "tram-ngu-lac-nhan",
                 "name" => "Trầm Ngư Lạc Nhạn",
                 "effect_type" => "1",
@@ -14307,8 +14428,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_em_qcc05.png"
             ],
             [
-                "id" => 1300,
-                "set_id" => 145,
+                "id" => 1311,
+                "set_id" => 146,
                 "slug" => "be-nguyet-tu-hoa",
                 "name" => "Bế Nguyệt Tu Hoa",
                 "effect_type" => "0",
@@ -14318,8 +14439,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_em_qcc06.png"
             ],
             [
-                "id" => 1301,
-                "set_id" => 145,
+                "id" => 1312,
+                "set_id" => 146,
                 "slug" => "nhat-co-khuynh-thanh",
                 "name" => "Nhất Cố Khuynh Thành",
                 "effect_type" => "1",
@@ -14329,8 +14450,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_em_qcc07.png"
             ],
             [
-                "id" => 1302,
-                "set_id" => 145,
+                "id" => 1313,
+                "set_id" => 146,
                 "slug" => "tai-co-khuynh-quoc",
                 "name" => "Tái Cố Khuynh Quốc",
                 "effect_type" => "1",
@@ -14340,8 +14461,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_em_qcc08.png"
             ],
             [
-                "id" => 1303,
-                "set_id" => 146,
+                "id" => 1314,
+                "set_id" => 147,
                 "slug" => "chien-co-thac-nguyet",
                 "name" => "Chiến Cổ Thác Nguyệt",
                 "effect_type" => "1",
@@ -14351,8 +14472,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_wxj_gyxhj01.png"
             ],
             [
-                "id" => 1304,
-                "set_id" => 146,
+                "id" => 1315,
+                "set_id" => 147,
                 "slug" => "an-co-gia-nguyet",
                 "name" => "Ẩn Cổ Già Nguyệt",
                 "effect_type" => "2",
@@ -14362,8 +14483,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_wxj_gyxhj02.png"
             ],
             [
-                "id" => 1305,
-                "set_id" => 146,
+                "id" => 1316,
+                "set_id" => 147,
                 "slug" => "doc-co-tang-nguyet",
                 "name" => "Độc Cổ Táng Nguyệt",
                 "effect_type" => "1",
@@ -14373,8 +14494,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_wxj_gyxhj03.png"
             ],
             [
-                "id" => 1306,
-                "set_id" => 146,
+                "id" => 1317,
+                "set_id" => 147,
                 "slug" => "tam-co-truy-nguyet",
                 "name" => "Tâm Cổ Truy Nguyệt",
                 "effect_type" => "3",
@@ -14384,8 +14505,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_wxj_gyxhj04.png"
             ],
             [
-                "id" => 1307,
-                "set_id" => 146,
+                "id" => 1318,
+                "set_id" => 147,
                 "slug" => "tinh-co-dao-nguyet",
                 "name" => "Tình Cổ Đảo Nguyệt",
                 "effect_type" => "1",
@@ -14395,8 +14516,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_wxj_gyxhj05.png"
             ],
             [
-                "id" => 1308,
-                "set_id" => 146,
+                "id" => 1319,
+                "set_id" => 147,
                 "slug" => "linh-co-kien-nguyet",
                 "name" => "Linh Cổ Kiến Nguyệt",
                 "effect_type" => "1",
@@ -14406,8 +14527,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_wxj_gyxhj06.png"
             ],
             [
-                "id" => 1309,
-                "set_id" => 146,
+                "id" => 1320,
+                "set_id" => 147,
                 "slug" => "bach-co-pha-nguyet",
                 "name" => "Bách Cổ Phá Nguyệt",
                 "effect_type" => "1",
@@ -14417,8 +14538,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_wxj_gyxhj07.png"
             ],
             [
-                "id" => 1310,
-                "set_id" => 146,
+                "id" => 1321,
+                "set_id" => 147,
                 "slug" => "tam-co-truy-nguyet-bien-chieu",
                 "name" => "Tâm Cổ Truy Nguyệt (Biến chiêu)",
                 "effect_type" => "1",
@@ -14428,8 +14549,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_wxj_gyxhj04_hide.png"
             ],
             [
-                "id" => 1311,
-                "set_id" => 146,
+                "id" => 1322,
+                "set_id" => 147,
                 "slug" => "tinh-co-dao-nguyet",
                 "name" => "Tình Cổ Đảo Nguyệt",
                 "effect_type" => "1",
@@ -14439,8 +14560,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_wxj_gyxhj05_hide_02.png"
             ],
             [
-                "id" => 1312,
-                "set_id" => 147,
+                "id" => 1323,
+                "set_id" => 148,
                 "slug" => "thien-ma-tram",
                 "name" => "Thiên Ma Trảm",
                 "effect_type" => "2",
@@ -14450,8 +14571,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mzmyc01.png"
             ],
             [
-                "id" => 1313,
-                "set_id" => 147,
+                "id" => 1324,
+                "set_id" => 148,
                 "slug" => "han-phan-phi",
                 "name" => "Hận Phân Phi",
                 "effect_type" => "1",
@@ -14461,8 +14582,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mzmyc02.png"
             ],
             [
-                "id" => 1314,
-                "set_id" => 147,
+                "id" => 1325,
+                "set_id" => 148,
                 "slug" => "ma-loan-anh",
                 "name" => "Ma Loạn Ảnh",
                 "effect_type" => "1",
@@ -14472,8 +14593,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mzmyc03.png"
             ],
             [
-                "id" => 1315,
-                "set_id" => 147,
+                "id" => 1326,
+                "set_id" => 148,
                 "slug" => "ma-dieu-vu",
                 "name" => "Ma Diệu Vũ",
                 "effect_type" => "1",
@@ -14483,8 +14604,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mzmyc04.png"
             ],
             [
-                "id" => 1316,
-                "set_id" => 147,
+                "id" => 1327,
+                "set_id" => 148,
                 "slug" => "lam-thien-ha",
                 "name" => "Lâm Thiên Hạ",
                 "effect_type" => "3",
@@ -14494,8 +14615,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mzmyc05.png"
             ],
             [
-                "id" => 1317,
-                "set_id" => 147,
+                "id" => 1328,
+                "set_id" => 148,
                 "slug" => "thien-ma-loan-vu",
                 "name" => "Thiên Ma Loạn Vũ",
                 "effect_type" => "1",
@@ -14505,8 +14626,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mzmyc06.png"
             ],
             [
-                "id" => 1318,
-                "set_id" => 147,
+                "id" => 1329,
+                "set_id" => 148,
                 "slug" => "anh-trung-vu",
                 "name" => "Ảnh Trung Vũ",
                 "effect_type" => "1",
@@ -14516,8 +14637,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mzmyc07.png"
             ],
             [
-                "id" => 1319,
-                "set_id" => 148,
+                "id" => 1330,
+                "set_id" => 149,
                 "slug" => "diet-vu-phach",
                 "name" => "Diệt Vũ Phách",
                 "effect_type" => "1",
@@ -14527,8 +14648,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_jgmnc01.png"
             ],
             [
-                "id" => 1320,
-                "set_id" => 148,
+                "id" => 1331,
+                "set_id" => 149,
                 "slug" => "lang-sat-phong",
                 "name" => "Lăng Sất Phong",
                 "effect_type" => "2",
@@ -14538,8 +14659,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_jgmnc02.png"
             ],
             [
-                "id" => 1321,
-                "set_id" => 148,
+                "id" => 1332,
+                "set_id" => 149,
                 "slug" => "duy-kinh-thich",
                 "name" => "Duy Kình Thích",
                 "effect_type" => "1",
@@ -14549,8 +14670,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_jgmnc03.png"
             ],
             [
-                "id" => 1322,
-                "set_id" => 148,
+                "id" => 1333,
+                "set_id" => 149,
                 "slug" => "muoi-ma-vu",
                 "name" => "Muội Ma Vũ",
                 "effect_type" => "1",
@@ -14560,8 +14681,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_jgmnc04.png"
             ],
             [
-                "id" => 1323,
-                "set_id" => 148,
+                "id" => 1334,
+                "set_id" => 149,
                 "slug" => "thien-ma-ba",
                 "name" => "Thiên Ma Ba",
                 "effect_type" => "1",
@@ -14571,8 +14692,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_jgmnc05.png"
             ],
             [
-                "id" => 1324,
-                "set_id" => 148,
+                "id" => 1335,
+                "set_id" => 149,
                 "slug" => "quy-pham-ngam",
                 "name" => "Quy Phàm Ngâm",
                 "effect_type" => "1",
@@ -14582,8 +14703,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_jgmnc06.png"
             ],
             [
-                "id" => 1325,
-                "set_id" => 148,
+                "id" => 1336,
+                "set_id" => 149,
                 "slug" => "thanh-tinh-hoa",
                 "name" => "Thanh Tịnh Hòa",
                 "effect_type" => "3",
@@ -14593,8 +14714,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_jgmnc07.png"
             ],
             [
-                "id" => 1326,
-                "set_id" => 148,
+                "id" => 1337,
+                "set_id" => 149,
                 "slug" => "van-canh-khong",
                 "name" => "Vạn Cảnh Không",
                 "effect_type" => "1",
@@ -14604,8 +14725,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_jgmnc08.png"
             ],
             [
-                "id" => 1327,
-                "set_id" => 148,
+                "id" => 1338,
+                "set_id" => 149,
                 "slug" => "thanh-tinh-hoa-phan-thu-vi-cong-bien-chieu",
                 "name" => "Thanh Tịnh Hòa(Phản thủ vi công) (Biến chiêu)",
                 "effect_type" => "1",
@@ -14615,8 +14736,107 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_jgmnc07.png"
             ],
             [
-                "id" => 1328,
-                "set_id" => 149,
+                "id" => 1339,
+                "set_id" => 150,
+                "slug" => "ngoa-thinh-u-hoang",
+                "name" => "Ngọa Thính U Hoàng",
+                "effect_type" => "1",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 3,
+                "photo" => "skill/cs_qy_lyjyj01.png"
+            ],
+            [
+                "id" => 1340,
+                "set_id" => 150,
+                "slug" => "tien-thao-te-phat",
+                "name" => "Tiễn Thảo Tề Phát",
+                "effect_type" => "1",
+                "lock_flg" => "1",
+                "max_level" => 12,
+                "power" => 5,
+                "photo" => "skill/cs_qy_lyjyj02.png"
+            ],
+            [
+                "id" => 1341,
+                "set_id" => 150,
+                "slug" => "hanh-van-vo-dinh",
+                "name" => "Hành Vân Vô Định",
+                "effect_type" => "1",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 6,
+                "photo" => "skill/cs_qy_lyjyj03.png"
+            ],
+            [
+                "id" => 1342,
+                "set_id" => 150,
+                "slug" => "giao-dinh-thanh-son",
+                "name" => "Giảo Định Thanh Sơn",
+                "effect_type" => "1",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 6,
+                "photo" => "skill/cs_qy_lyjyj04.png"
+            ],
+            [
+                "id" => 1343,
+                "set_id" => 150,
+                "slug" => "nam-vien-phong-vu",
+                "name" => "Nam Viên Phong Vũ",
+                "effect_type" => "1",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 7,
+                "photo" => "skill/cs_qy_lyjyj05.png"
+            ],
+            [
+                "id" => 1344,
+                "set_id" => 150,
+                "slug" => "ngoc-thiem-bat-am",
+                "name" => "Ngọc Thiềm Bất Am",
+                "effect_type" => "1",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 7,
+                "photo" => "skill/cs_qy_lyjyj06.png"
+            ],
+            [
+                "id" => 1345,
+                "set_id" => 150,
+                "slug" => "bich-son-tho-nguyet",
+                "name" => "Bích Sơn Thổ Nguyệt",
+                "effect_type" => "2",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 4,
+                "photo" => "skill/cs_qy_lyjyj07.png"
+            ],
+            [
+                "id" => 1346,
+                "set_id" => 150,
+                "slug" => "doc-toa-kinh-dinh",
+                "name" => "Độc Tọa Kính Đình",
+                "effect_type" => "3",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 5,
+                "photo" => "skill/cs_qy_lyjyj08.png"
+            ],
+            [
+                "id" => 1347,
+                "set_id" => 150,
+                "slug" => "doc-toa-kinh-dinh-phan-thu-vi-cong-bien-chieu",
+                "name" => "Độc Tọa Kính Đình(Phản thủ vi công) (Biến chiêu)",
+                "effect_type" => "1",
+                "lock_flg" => "1",
+                "max_level" => 12,
+                "power" => 0,
+                "photo" => "skill/cs_qy_lyjyj08.png"
+            ],
+            [
+                "id" => 1348,
+                "set_id" => 151,
                 "slug" => "phat-quang-pho-chieu",
                 "name" => "Phật Quang Phổ Chiếu",
                 "effect_type" => "1",
@@ -14626,8 +14846,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_sl0901.png"
             ],
             [
-                "id" => 1329,
-                "set_id" => 149,
+                "id" => 1349,
+                "set_id" => 151,
                 "slug" => "phat-mon-quang-do",
                 "name" => "Phật Môn Quảng Độ",
                 "effect_type" => "1",
@@ -14637,8 +14857,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_sl0904.png"
             ],
             [
-                "id" => 1330,
-                "set_id" => 149,
+                "id" => 1350,
+                "set_id" => 151,
                 "slug" => "pho-do-tu-phuong",
                 "name" => "Phổ Độ Tứ Phương",
                 "effect_type" => "2",
@@ -14648,8 +14868,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_sl0802.png"
             ],
             [
-                "id" => 1331,
-                "set_id" => 149,
+                "id" => 1351,
+                "set_id" => 151,
                 "slug" => "kim-cang-phuc-ma",
                 "name" => "Kim Cang Phục Ma",
                 "effect_type" => "3",
@@ -14659,8 +14879,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_sl0702.png"
             ],
             [
-                "id" => 1332,
-                "set_id" => 149,
+                "id" => 1352,
+                "set_id" => 151,
                 "slug" => "van-phat-quy-tong",
                 "name" => "Vạn Phật Quy Tông",
                 "effect_type" => "1",
@@ -14670,8 +14890,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_sl0805.png"
             ],
             [
-                "id" => 1333,
-                "set_id" => 149,
+                "id" => 1353,
+                "set_id" => 151,
                 "slug" => "phat-phap-vo-bien",
                 "name" => "Phật Pháp Vô Biên",
                 "effect_type" => "1",
@@ -14681,8 +14901,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_sl_dmgf07.png"
             ],
             [
-                "id" => 1334,
-                "set_id" => 149,
+                "id" => 1354,
+                "set_id" => 151,
                 "slug" => "nhu-lai-ha-pham",
                 "name" => "Như Lai Hạ Phàm",
                 "effect_type" => "1",
@@ -14692,8 +14912,19 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_sl0903.png"
             ],
             [
-                "id" => 1335,
-                "set_id" => 150,
+                "id" => 1355,
+                "set_id" => 151,
+                "slug" => "kim-cang-phuc-ma-phan-thu-vi-cong-bien-chieu",
+                "name" => "Kim Cang Phục Ma (Phản thủ vi công) (Biến chiêu)",
+                "effect_type" => "1",
+                "lock_flg" => "1",
+                "max_level" => 20,
+                "power" => 0,
+                "photo" => "skill/wx_sl0702.png"
+            ],
+            [
+                "id" => 1356,
+                "set_id" => 152,
                 "slug" => "luong-thien-thuoc",
                 "name" => "Lượng Thiên Thước",
                 "effect_type" => "1",
@@ -14703,8 +14934,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_wlbgg01.png"
             ],
             [
-                "id" => 1336,
-                "set_id" => 150,
+                "id" => 1357,
+                "set_id" => 152,
                 "slug" => "ky-lan-bo",
                 "name" => "Kỳ Lân Bộ",
                 "effect_type" => "2",
@@ -14714,8 +14945,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_wlbgg02.png"
             ],
             [
-                "id" => 1337,
-                "set_id" => 150,
+                "id" => 1358,
+                "set_id" => 152,
                 "slug" => "thien-tru-cuoc",
                 "name" => "Thiên Trụ Cước",
                 "effect_type" => "1",
@@ -14725,8 +14956,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_wlbgg03.png"
             ],
             [
-                "id" => 1338,
-                "set_id" => 150,
+                "id" => 1359,
+                "set_id" => 152,
                 "slug" => "thap-tu-than",
                 "name" => "Thập Tự Thân",
                 "effect_type" => "3",
@@ -14736,8 +14967,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_wlbgg04.png"
             ],
             [
-                "id" => 1339,
-                "set_id" => 150,
+                "id" => 1360,
+                "set_id" => 152,
                 "slug" => "long-ho-hoi",
                 "name" => "Long Hổ Hội",
                 "effect_type" => "1",
@@ -14747,8 +14978,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_wlbgg05.png"
             ],
             [
-                "id" => 1340,
-                "set_id" => 150,
+                "id" => 1361,
+                "set_id" => 152,
                 "slug" => "khieu-tung-thu",
                 "name" => "Khiêu Tung Thủ",
                 "effect_type" => "1",
@@ -14758,8 +14989,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_wlbgg06.png"
             ],
             [
-                "id" => 1341,
-                "set_id" => 150,
+                "id" => 1362,
+                "set_id" => 152,
                 "slug" => "lien-hoan-thuong",
                 "name" => "Liên Hoàn Thương",
                 "effect_type" => "1",
@@ -14769,8 +15000,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_wlbgg07.png"
             ],
             [
-                "id" => 1342,
-                "set_id" => 150,
+                "id" => 1363,
+                "set_id" => 152,
                 "slug" => "khieu-tung-thu-bien-chieu",
                 "name" => "Khiêu Tung Thủ (Biến chiêu)",
                 "effect_type" => "1",
@@ -14780,8 +15011,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_wlbgg06.png"
             ],
             [
-                "id" => 1343,
-                "set_id" => 151,
+                "id" => 1364,
+                "set_id" => 153,
                 "slug" => "tra-bai-duong-thau",
                 "name" => "Trá Bại Dương Thâu",
                 "effect_type" => "1",
@@ -14791,8 +15022,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_qbgf01.png"
             ],
             [
-                "id" => 1344,
-                "set_id" => 151,
+                "id" => 1365,
+                "set_id" => 153,
                 "slug" => "de-thu-xung-vuong",
                 "name" => "Đê Thủ Xưng Vương",
                 "effect_type" => "1",
@@ -14802,8 +15033,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_qbgf02.png"
             ],
             [
-                "id" => 1345,
-                "set_id" => 151,
+                "id" => 1366,
+                "set_id" => 153,
                 "slug" => "tri-chu-tu-dia",
                 "name" => "Trí Chư Tử Địa",
                 "effect_type" => "2",
@@ -14813,8 +15044,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_qbgf03.png"
             ],
             [
-                "id" => 1346,
-                "set_id" => 151,
+                "id" => 1367,
+                "set_id" => 153,
                 "slug" => "cau-bai-bat-bai",
                 "name" => "Cầu Bại Bất Bại",
                 "effect_type" => "3",
@@ -14824,8 +15055,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_qbgf04.png"
             ],
             [
-                "id" => 1347,
-                "set_id" => 151,
+                "id" => 1368,
+                "set_id" => 153,
                 "slug" => "cam-bai-ha-phong",
                 "name" => "Cam Bái Hạ Phong",
                 "effect_type" => "1",
@@ -14835,8 +15066,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_qbgf05.png"
             ],
             [
-                "id" => 1348,
-                "set_id" => 151,
+                "id" => 1369,
+                "set_id" => 153,
                 "slug" => "phan-bai-vi-thang",
                 "name" => "Phản Bại Vi Thắng",
                 "effect_type" => "0",
@@ -14846,8 +15077,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_qbgf06.png"
             ],
             [
-                "id" => 1349,
-                "set_id" => 151,
+                "id" => 1370,
+                "set_id" => 153,
                 "slug" => "thanh-vuong-bai-khau",
                 "name" => "Thành Vương Bại Khấu",
                 "effect_type" => "1",
@@ -14857,8 +15088,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_qbgf07.png"
             ],
             [
-                "id" => 1350,
-                "set_id" => 151,
+                "id" => 1371,
+                "set_id" => 153,
                 "slug" => "ta-phong-do-than",
                 "name" => "Tà Phong Đồ Thần",
                 "effect_type" => "1",
@@ -14868,8 +15099,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_qbgf08.png"
             ],
             [
-                "id" => 1351,
-                "set_id" => 152,
+                "id" => 1372,
+                "set_id" => 154,
                 "slug" => "dao-vien-tam-ket-nghia",
                 "name" => "Đào Viên Tam Kết Nghĩa",
                 "effect_type" => "3",
@@ -14879,8 +15110,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_wsgf01.png"
             ],
             [
-                "id" => 1352,
-                "set_id" => 152,
+                "id" => 1373,
+                "set_id" => 154,
                 "slug" => "on-tuu-tram-hoa-hung",
                 "name" => "Ôn Tửu Trảm Hoa Hùng",
                 "effect_type" => "1",
@@ -14890,8 +15121,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_wsgf02.png"
             ],
             [
-                "id" => 1353,
-                "set_id" => 152,
+                "id" => 1374,
+                "set_id" => 154,
                 "slug" => "tam-anh-chien-lu-bo",
                 "name" => "Tam Anh Chiến Lữ Bố",
                 "effect_type" => "1",
@@ -14901,8 +15132,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_wsgf03.png"
             ],
             [
-                "id" => 1354,
-                "set_id" => 152,
+                "id" => 1375,
+                "set_id" => 154,
                 "slug" => "thien-ly-tau-don-ky",
                 "name" => "Thiên Lý Tẩu Đơn Kỵ",
                 "effect_type" => "1",
@@ -14912,8 +15143,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_wsgf04.png"
             ],
             [
-                "id" => 1355,
-                "set_id" => 152,
+                "id" => 1376,
+                "set_id" => 154,
                 "slug" => "thuy-yem-that-quan",
                 "name" => "Thủy Yêm Thất Quân",
                 "effect_type" => "1",
@@ -14923,8 +15154,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_wsgf05.png"
             ],
             [
-                "id" => 1356,
-                "set_id" => 152,
+                "id" => 1377,
+                "set_id" => 154,
                 "slug" => "don-dao-pho-hoi",
                 "name" => "Đơn Đao Phó Hội",
                 "effect_type" => "2",
@@ -14934,8 +15165,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_wsgf06.png"
             ],
             [
-                "id" => 1357,
-                "set_id" => 152,
+                "id" => 1378,
+                "set_id" => 154,
                 "slug" => "qua-quan-tram-tuong",
                 "name" => "Qua Quan Trảm Tướng",
                 "effect_type" => "1",
@@ -14945,8 +15176,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_wsgf07.png"
             ],
             [
-                "id" => 1358,
-                "set_id" => 152,
+                "id" => 1379,
+                "set_id" => 154,
                 "slug" => "quan-cong-hien-thanh",
                 "name" => "Quan Công Hiển Thánh",
                 "effect_type" => "0",
@@ -14956,8 +15187,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_wsgf08.png"
             ],
             [
-                "id" => 1359,
-                "set_id" => 153,
+                "id" => 1380,
+                "set_id" => 155,
                 "slug" => "ba-vuong-ta-giap",
                 "name" => "Bá Vương Tạ Giáp",
                 "effect_type" => "1",
@@ -14967,8 +15198,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_cf_bwqf01.png"
             ],
             [
-                "id" => 1360,
-                "set_id" => 153,
+                "id" => 1381,
+                "set_id" => 155,
                 "slug" => "lac-anh-truy-hon",
                 "name" => "Lạc Ảnh Truy Hồn",
                 "effect_type" => "1",
@@ -14978,8 +15209,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_cf_bwqf02.png"
             ],
             [
-                "id" => 1361,
-                "set_id" => 153,
+                "id" => 1382,
+                "set_id" => 155,
                 "slug" => "hoanh-tao-thien-quan",
                 "name" => "Hoành Tảo Thiên Quân",
                 "effect_type" => "1",
@@ -14989,8 +15220,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_cf_bwqf03.png"
             ],
             [
-                "id" => 1362,
-                "set_id" => 153,
+                "id" => 1383,
+                "set_id" => 155,
                 "slug" => "pha-phu-tram-chau",
                 "name" => "Phá Phủ Trầm Châu",
                 "effect_type" => "1",
@@ -15000,8 +15231,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_cf_bwqf04.png"
             ],
             [
-                "id" => 1363,
-                "set_id" => 153,
+                "id" => 1384,
+                "set_id" => 155,
                 "slug" => "luc-bat-son-ha",
                 "name" => "Lực Bạt Sơn Hà",
                 "effect_type" => "1",
@@ -15011,8 +15242,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_cf_bwqf05.png"
             ],
             [
-                "id" => 1364,
-                "set_id" => 153,
+                "id" => 1385,
+                "set_id" => 155,
                 "slug" => "o-truy-duong-de",
                 "name" => "Ô Truy Dương Đề",
                 "effect_type" => "2",
@@ -15022,8 +15253,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_cf_bwqf06.png"
             ],
             [
-                "id" => 1365,
-                "set_id" => 153,
+                "id" => 1386,
+                "set_id" => 155,
                 "slug" => "thoi-bat-loi-he",
                 "name" => "Thời Bất Lợi Hề",
                 "effect_type" => "3",
@@ -15033,8 +15264,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_cf_bwqf07.png"
             ],
             [
-                "id" => 1366,
-                "set_id" => 153,
+                "id" => 1387,
+                "set_id" => 155,
                 "slug" => "ba-vuong-biet-co",
                 "name" => "Bá Vương Biệt Cơ",
                 "effect_type" => "1",
@@ -15044,8 +15275,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_cf_bwqf08.png"
             ],
             [
-                "id" => 1367,
-                "set_id" => 154,
+                "id" => 1388,
+                "set_id" => 156,
                 "slug" => "tieu-tieu-vu-yet",
                 "name" => "Tiêu Tiêu Vũ Yết",
                 "effect_type" => "1",
@@ -15055,8 +15286,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_cf_yjqf01.png"
             ],
             [
-                "id" => 1368,
-                "set_id" => 154,
+                "id" => 1389,
+                "set_id" => 156,
                 "slug" => "dai-mac-co-yen",
                 "name" => "Đại Mạc Cô Yên",
                 "effect_type" => "1",
@@ -15066,8 +15297,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_cf_yjqf02.png"
             ],
             [
-                "id" => 1369,
-                "set_id" => 154,
+                "id" => 1390,
+                "set_id" => 156,
                 "slug" => "truong-khu-ha-lac",
                 "name" => "Trường Khu Hà Lạc",
                 "effect_type" => "1",
@@ -15077,8 +15308,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_cf_yjqf03.png"
             ],
             [
-                "id" => 1370,
-                "set_id" => 154,
+                "id" => 1391,
+                "set_id" => 156,
                 "slug" => "han-kim-minh-da",
                 "name" => "Hàn Kim Minh Dạ",
                 "effect_type" => "1",
@@ -15088,8 +15319,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_cf_yjqf04.png"
             ],
             [
-                "id" => 1371,
-                "set_id" => 154,
+                "id" => 1392,
+                "set_id" => 156,
                 "slug" => "dap-pha-son-khuyet",
                 "name" => "Đạp Phá Sơn Khuyết",
                 "effect_type" => "2",
@@ -15099,8 +15330,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_cf_yjqf05.png"
             ],
             [
-                "id" => 1372,
-                "set_id" => 154,
+                "id" => 1393,
+                "set_id" => 156,
                 "slug" => "gian-giu-cuc-do",
                 "name" => "Giận giữ cực độ",
                 "effect_type" => "0",
@@ -15110,8 +15341,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_cf_yjqf06.png"
             ],
             [
-                "id" => 1373,
-                "set_id" => 154,
+                "id" => 1394,
+                "set_id" => 156,
                 "slug" => "trang-hoai-kich-liet",
                 "name" => "Tráng Hoài Kích Liệt",
                 "effect_type" => "3",
@@ -15121,8 +15352,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_cf_yjqf07.png"
             ],
             [
-                "id" => 1374,
-                "set_id" => 154,
+                "id" => 1395,
+                "set_id" => 156,
                 "slug" => "truong-ha-lac-nhat",
                 "name" => "Trường Hà Lạc Nhật",
                 "effect_type" => "1",
@@ -15132,8 +15363,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_cf_yjqf08.png"
             ],
             [
-                "id" => 1375,
-                "set_id" => 155,
+                "id" => 1396,
+                "set_id" => 157,
                 "slug" => "phat-niem-tam-thien",
                 "name" => "Phật Niệm Tam Thiên",
                 "effect_type" => "1",
@@ -15143,8 +15374,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sl_chpdg01.png"
             ],
             [
-                "id" => 1376,
-                "set_id" => 155,
+                "id" => 1397,
+                "set_id" => 157,
                 "slug" => "phan-thien-cuu-the",
                 "name" => "Phần Thiên Cứu Thế",
                 "effect_type" => "1",
@@ -15154,8 +15385,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sl_chpdg02.png"
             ],
             [
-                "id" => 1377,
-                "set_id" => 155,
+                "id" => 1398,
+                "set_id" => 157,
                 "slug" => "cuc-lac-phat-am",
                 "name" => "Cực Lạc Phật Âm",
                 "effect_type" => "3",
@@ -15165,8 +15396,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sl_chpdg03.png"
             ],
             [
-                "id" => 1378,
-                "set_id" => 155,
+                "id" => 1399,
+                "set_id" => 157,
                 "slug" => "tinh-tho-tu-hang",
                 "name" => "Tịnh Thổ Từ Hàng",
                 "effect_type" => "1",
@@ -15176,8 +15407,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sl_chpdg04.png"
             ],
             [
-                "id" => 1379,
-                "set_id" => 155,
+                "id" => 1400,
+                "set_id" => 157,
                 "slug" => "quan-am-thuy-muc",
                 "name" => "Quan Âm Thùy Mục",
                 "effect_type" => "1",
@@ -15187,8 +15418,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sl_chpdg05.png"
             ],
             [
-                "id" => 1380,
-                "set_id" => 155,
+                "id" => 1401,
+                "set_id" => 157,
                 "slug" => "loi-am-chan-phan",
                 "name" => "Lôi Âm Chấn Phạn",
                 "effect_type" => "2",
@@ -15198,8 +15429,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sl_chpdg06.png"
             ],
             [
-                "id" => 1381,
-                "set_id" => 155,
+                "id" => 1402,
+                "set_id" => 157,
                 "slug" => "ngu-uan-giai-khong",
                 "name" => "Ngũ Uẩn Giai Không",
                 "effect_type" => "0",
@@ -15209,8 +15440,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sl_chpdg07.png"
             ],
             [
-                "id" => 1382,
-                "set_id" => 155,
+                "id" => 1403,
+                "set_id" => 157,
                 "slug" => "pho-do-chung-sinh",
                 "name" => "Phổ Độ Chúng Sinh",
                 "effect_type" => "1",
@@ -15220,8 +15451,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sl_chpdg08.png"
             ],
             [
-                "id" => 1383,
-                "set_id" => 156,
+                "id" => 1404,
+                "set_id" => 158,
                 "slug" => "khai-thien-the",
                 "name" => "Khai Thiên Thế",
                 "effect_type" => "1",
@@ -15231,8 +15462,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_dm_fmgf01.png"
             ],
             [
-                "id" => 1384,
-                "set_id" => 156,
+                "id" => 1405,
+                "set_id" => 158,
                 "slug" => "tich-dia-the",
                 "name" => "Tích Địa Thế",
                 "effect_type" => "1",
@@ -15242,8 +15473,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_dm_fmgf02.png"
             ],
             [
-                "id" => 1385,
-                "set_id" => 156,
+                "id" => 1406,
+                "set_id" => 158,
                 "slug" => "thoi-son-the",
                 "name" => "Thôi Sơn Thế",
                 "effect_type" => "3",
@@ -15253,8 +15484,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_dm_fmgf03.png"
             ],
             [
-                "id" => 1386,
-                "set_id" => 156,
+                "id" => 1407,
+                "set_id" => 158,
                 "slug" => "pha-vu-the",
                 "name" => "Phá Vụ Thế",
                 "effect_type" => "2",
@@ -15264,8 +15495,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_dm_fmgf04.png"
             ],
             [
-                "id" => 1387,
-                "set_id" => 156,
+                "id" => 1408,
+                "set_id" => 158,
                 "slug" => "loi-lac-the",
                 "name" => "Lôi Lạc Thế",
                 "effect_type" => "1",
@@ -15275,8 +15506,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_dm_fmgf05.png"
             ],
             [
-                "id" => 1388,
-                "set_id" => 156,
+                "id" => 1409,
+                "set_id" => 158,
                 "slug" => "xuyen-van-the",
                 "name" => "Xuyên Vân Thế",
                 "effect_type" => "1",
@@ -15286,8 +15517,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_dm_fmgf06.png"
             ],
             [
-                "id" => 1389,
-                "set_id" => 156,
+                "id" => 1410,
+                "set_id" => 158,
                 "slug" => "ho-phuc-the",
                 "name" => "Hổ Phục Thế",
                 "effect_type" => "0",
@@ -15297,8 +15528,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_dm_fmgf07.png"
             ],
             [
-                "id" => 1390,
-                "set_id" => 156,
+                "id" => 1411,
+                "set_id" => 158,
                 "slug" => "long-thon-the",
                 "name" => "Long Thôn Thế",
                 "effect_type" => "1",
@@ -15308,8 +15539,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_dm_fmgf08.png"
             ],
             [
-                "id" => 1391,
-                "set_id" => 156,
+                "id" => 1412,
+                "set_id" => 158,
                 "slug" => "thoi-son-the-bien-chieu",
                 "name" => "Thôi Sơn Thế (Biến chiêu)",
                 "effect_type" => "1",
@@ -15319,8 +15550,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_dm_fmgf03.png"
             ],
             [
-                "id" => 1392,
-                "set_id" => 157,
+                "id" => 1413,
+                "set_id" => 159,
                 "slug" => "lieu-tieu-xuan-phong",
                 "name" => "Liệu Tiếu Xuân Phong",
                 "effect_type" => "1",
@@ -15330,8 +15561,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_fbg01.png"
             ],
             [
-                "id" => 1393,
-                "set_id" => 157,
+                "id" => 1414,
+                "set_id" => 159,
                 "slug" => "son-dau-ta-duong",
                 "name" => "Sơn Đầu Tà Dương",
                 "effect_type" => "1",
@@ -15341,8 +15572,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_fbg02.png"
             ],
             [
-                "id" => 1394,
-                "set_id" => 157,
+                "id" => 1415,
+                "set_id" => 159,
                 "slug" => "truc-truong-mang-hai",
                 "name" => "Trúc Trượng Mang Hài",
                 "effect_type" => "2",
@@ -15352,8 +15583,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_fbg03.png"
             ],
             [
-                "id" => 1395,
-                "set_id" => 157,
+                "id" => 1416,
+                "set_id" => 159,
                 "slug" => "ngam-tieu-tu-hanh",
                 "name" => "Ngâm Tiếu Từ Hành",
                 "effect_type" => "3",
@@ -15363,8 +15594,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_fbg04.png"
             ],
             [
-                "id" => 1396,
-                "set_id" => 157,
+                "id" => 1417,
+                "set_id" => 159,
                 "slug" => "phong-ba-bat-dinh",
                 "name" => "Phong Ba Bất Định",
                 "effect_type" => "1",
@@ -15374,8 +15605,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_fbg05.png"
             ],
             [
-                "id" => 1397,
-                "set_id" => 157,
+                "id" => 1418,
+                "set_id" => 159,
                 "slug" => "yen-vu-nhiem-binh-sinh",
                 "name" => "Yên Vũ Nhiệm Bình Sinh",
                 "effect_type" => "1",
@@ -15385,8 +15616,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_fbg06.png"
             ],
             [
-                "id" => 1398,
-                "set_id" => 157,
+                "id" => 1419,
+                "set_id" => 159,
                 "slug" => "tieu-sat-ban-sinh",
                 "name" => "Tiêu Sắt Bán Sinh",
                 "effect_type" => "1",
@@ -15396,8 +15627,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_fbg07.png"
             ],
             [
-                "id" => 1399,
-                "set_id" => 157,
+                "id" => 1420,
+                "set_id" => 159,
                 "slug" => "son-dau-ta-duong-bien-chieu",
                 "name" => "Sơn Đầu Tà Dương (Biến chiêu)",
                 "effect_type" => "1",
@@ -15407,8 +15638,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_fbg02_hide.png"
             ],
             [
-                "id" => 1400,
-                "set_id" => 157,
+                "id" => 1421,
+                "set_id" => 159,
                 "slug" => "truc-truong-mang-hai-khong-trung",
                 "name" => "Trúc Trượng Mang Hài (Không trung)",
                 "effect_type" => "2",
@@ -15418,8 +15649,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_fbg03_hide.png"
             ],
             [
-                "id" => 1401,
-                "set_id" => 157,
+                "id" => 1422,
+                "set_id" => 159,
                 "slug" => "ngam-tieu-tu-hanh-bien-chieu",
                 "name" => "Ngâm Tiếu Từ Hành (Biến chiêu)",
                 "effect_type" => "1",
@@ -15429,8 +15660,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_fbg04.png"
             ],
             [
-                "id" => 1402,
-                "set_id" => 157,
+                "id" => 1423,
+                "set_id" => 159,
                 "slug" => "phong-ba-bat-dinh-bien-chieu",
                 "name" => "Phong Ba Bất Định (Biến chiêu)",
                 "effect_type" => "1",
@@ -15440,8 +15671,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_fbg05_hide.png"
             ],
             [
-                "id" => 1403,
-                "set_id" => 157,
+                "id" => 1424,
+                "set_id" => 159,
                 "slug" => "yen-vu-nhiem-binh-sinh-bien-chieu",
                 "name" => "Yên Vũ Nhiệm Bình Sinh (Biến chiêu)",
                 "effect_type" => "1",
@@ -15451,8 +15682,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_fbg06.png"
             ],
             [
-                "id" => 1404,
-                "set_id" => 158,
+                "id" => 1425,
+                "set_id" => 160,
                 "slug" => "nhat-di-nguyet-thu",
                 "name" => "Nhật Dị Nguyệt Thù",
                 "effect_type" => "1",
@@ -15462,8 +15693,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_mj_sq01.png"
             ],
             [
-                "id" => 1405,
-                "set_id" => 158,
+                "id" => 1426,
+                "set_id" => 160,
                 "slug" => "lo-qua-huy-nhat",
                 "name" => "Lỗ Qua Huy Nhật",
                 "effect_type" => "2",
@@ -15473,8 +15704,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_mj_sq02.png"
             ],
             [
-                "id" => 1406,
-                "set_id" => 158,
+                "id" => 1427,
+                "set_id" => 160,
                 "slug" => "hao-nguyet-truong-khong",
                 "name" => "Hạo Nguyệt Trường Không",
                 "effect_type" => "1",
@@ -15484,8 +15715,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_mj_sq03.png"
             ],
             [
-                "id" => 1407,
-                "set_id" => 158,
+                "id" => 1428,
+                "set_id" => 160,
                 "slug" => "hoi-thien-van-nhat",
                 "name" => "Hồi Thiên Vãn Nhật",
                 "effect_type" => "1",
@@ -15495,8 +15726,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_mj_sq04.png"
             ],
             [
-                "id" => 1408,
-                "set_id" => 158,
+                "id" => 1429,
+                "set_id" => 160,
                 "slug" => "phien-giang-lac-nguyet",
                 "name" => "Phiên Giang Lạc Nguyệt",
                 "effect_type" => "1",
@@ -15506,8 +15737,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_mj_sq05.png"
             ],
             [
-                "id" => 1409,
-                "set_id" => 158,
+                "id" => 1430,
+                "set_id" => 160,
                 "slug" => "dang-tran-truy-nhat",
                 "name" => "Đãng Trần Truy Nhật",
                 "effect_type" => "0",
@@ -15517,8 +15748,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_mj_sq06.png"
             ],
             [
-                "id" => 1410,
-                "set_id" => 158,
+                "id" => 1431,
+                "set_id" => 160,
                 "slug" => "nhat-dan-nguyet-truong",
                 "name" => "Nhật Dẫn Nguyệt Trường",
                 "effect_type" => "3",
@@ -15528,8 +15759,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_mj_sq07.png"
             ],
             [
-                "id" => 1411,
-                "set_id" => 158,
+                "id" => 1432,
+                "set_id" => 160,
                 "slug" => "nhat-nguyet-trung-quang",
                 "name" => "Nhật Nguyệt Trùng Quang",
                 "effect_type" => "1",
@@ -15539,8 +15770,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_mj_sq08.png"
             ],
             [
-                "id" => 1412,
-                "set_id" => 158,
+                "id" => 1433,
+                "set_id" => 160,
                 "slug" => "nhat-di-nguyet-thu-bien-chieu",
                 "name" => "Nhật Dị Nguyệt Thù (Biến chiêu)",
                 "effect_type" => "1",
@@ -15550,8 +15781,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_mj_sq01_hide.png"
             ],
             [
-                "id" => 1413,
-                "set_id" => 158,
+                "id" => 1434,
+                "set_id" => 160,
                 "slug" => "lo-qua-huy-nhat-bien-chieu",
                 "name" => "Lỗ Qua Huy Nhật (Biến chiêu)",
                 "effect_type" => "2",
@@ -15561,8 +15792,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_mj_sq02_hide.png"
             ],
             [
-                "id" => 1414,
-                "set_id" => 158,
+                "id" => 1435,
+                "set_id" => 160,
                 "slug" => "hao-nguyet-truong-khong-bien-chieu",
                 "name" => "Hạo Nguyệt Trường Không (Biến chiêu)",
                 "effect_type" => "1",
@@ -15572,8 +15803,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_mj_sq03_hide.png"
             ],
             [
-                "id" => 1415,
-                "set_id" => 158,
+                "id" => 1436,
+                "set_id" => 160,
                 "slug" => "hoi-thien-van-nhat-bien-chieu",
                 "name" => "Hồi Thiên Vãn Nhật (Biến chiêu)",
                 "effect_type" => "1",
@@ -15583,8 +15814,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_mj_sq04_hide.png"
             ],
             [
-                "id" => 1416,
-                "set_id" => 158,
+                "id" => 1437,
+                "set_id" => 160,
                 "slug" => "phien-giang-lac-nguyet-bien-chieu",
                 "name" => "Phiên Giang Lạc Nguyệt (Biến chiêu)",
                 "effect_type" => "1",
@@ -15594,8 +15825,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_mj_sq05_hide.png"
             ],
             [
-                "id" => 1417,
-                "set_id" => 158,
+                "id" => 1438,
+                "set_id" => 160,
                 "slug" => "nhat-nguyet-trung-quang-bien-chieu",
                 "name" => "Nhật Nguyệt Trùng Quang (Biến chiêu)",
                 "effect_type" => "1",
@@ -15605,8 +15836,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_mj_sq08_hide.png"
             ],
             [
-                "id" => 1418,
-                "set_id" => 159,
+                "id" => 1439,
+                "set_id" => 161,
                 "slug" => "no-long-toa-nguyet",
                 "name" => "Nộ Long Tỏa Nguyệt",
                 "effect_type" => "1",
@@ -15616,8 +15847,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sjy_klbx01_hide.png"
             ],
             [
-                "id" => 1419,
-                "set_id" => 159,
+                "id" => 1440,
+                "set_id" => 161,
                 "slug" => "hoang-long-chan-dia",
                 "name" => "Hoang Long Chấn Địa",
                 "effect_type" => "1",
@@ -15627,8 +15858,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sjy_klbx02.png"
             ],
             [
-                "id" => 1420,
-                "set_id" => 159,
+                "id" => 1441,
+                "set_id" => 161,
                 "slug" => "sat-long-doat-chau",
                 "name" => "Sát Long Đoạt Châu",
                 "effect_type" => "2",
@@ -15638,8 +15869,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sjy_klbx03.png"
             ],
             [
-                "id" => 1421,
-                "set_id" => 159,
+                "id" => 1442,
+                "set_id" => 161,
                 "slug" => "dang-long-phien-van",
                 "name" => "Đằng Long Phiên Vân",
                 "effect_type" => "1",
@@ -15649,8 +15880,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sjy_klbx04.png"
             ],
             [
-                "id" => 1422,
-                "set_id" => 159,
+                "id" => 1443,
+                "set_id" => 161,
                 "slug" => "thuong-long-dac-thuy",
                 "name" => "Thương Long Đắc Thủy",
                 "effect_type" => "3",
@@ -15660,8 +15891,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sjy_klbx05.png"
             ],
             [
-                "id" => 1423,
-                "set_id" => 159,
+                "id" => 1444,
+                "set_id" => 161,
                 "slug" => "kinh-long-quy-gian",
                 "name" => "Kình Long Quy Giản",
                 "effect_type" => "1",
@@ -15671,8 +15902,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sjy_klbx06.png"
             ],
             [
-                "id" => 1424,
-                "set_id" => 159,
+                "id" => 1445,
+                "set_id" => 161,
                 "slug" => "kinh-long-truong-tieu",
                 "name" => "Kinh Long Trường Tiếu",
                 "effect_type" => "0",
@@ -15682,8 +15913,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sjy_klbx07.png"
             ],
             [
-                "id" => 1425,
-                "set_id" => 159,
+                "id" => 1446,
+                "set_id" => 161,
                 "slug" => "cuong-long-xuyen-hai",
                 "name" => "Cuồng Long Xuyên Hải",
                 "effect_type" => "1",
@@ -15693,8 +15924,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sjy_klbx08.png"
             ],
             [
-                "id" => 1426,
-                "set_id" => 159,
+                "id" => 1447,
+                "set_id" => 161,
                 "slug" => "no-long-toa-nguyet-bien-chieu",
                 "name" => "Nộ Long Tỏa Nguyệt (Biến chiêu)",
                 "effect_type" => "1",
@@ -15704,8 +15935,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sjy_klbx01.png"
             ],
             [
-                "id" => 1427,
-                "set_id" => 159,
+                "id" => 1448,
+                "set_id" => 161,
                 "slug" => "thuong-long-dac-thuy-phan-thu-vi-cong-bien-chieu",
                 "name" => "Thương Long Đắc Thủy (Phản Thủ Vi Công) (Biến chiêu)",
                 "effect_type" => "1",
@@ -15715,8 +15946,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sjy_klbx05.png"
             ],
             [
-                "id" => 1428,
-                "set_id" => 160,
+                "id" => 1449,
+                "set_id" => 162,
                 "slug" => "tu-hoang-du-soc",
                 "name" => "Tứ Hoang Du Sóc",
                 "effect_type" => "1",
@@ -15726,8 +15957,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_wshtz01.png"
             ],
             [
-                "id" => 1429,
-                "set_id" => 160,
+                "id" => 1450,
+                "set_id" => 162,
                 "slug" => "da-tan-hoang-luu",
                 "name" => "Dã Tận Hoang Lưu",
                 "effect_type" => "2",
@@ -15737,8 +15968,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_wshtz02.png"
             ],
             [
-                "id" => 1430,
-                "set_id" => 160,
+                "id" => 1451,
+                "set_id" => 162,
                 "slug" => "thu-ngu-bat-hoang",
                 "name" => "Thú Ngự Bát Hoang",
                 "effect_type" => "3",
@@ -15748,8 +15979,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_wshtz03.png"
             ],
             [
-                "id" => 1431,
-                "set_id" => 160,
+                "id" => 1452,
+                "set_id" => 162,
                 "slug" => "hoang-thien-nhat-nhai",
                 "name" => "Hoang Thiên Nhất Nhai",
                 "effect_type" => "1",
@@ -15759,8 +15990,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_wshtz04.png"
             ],
             [
-                "id" => 1432,
-                "set_id" => 160,
+                "id" => 1453,
+                "set_id" => 162,
                 "slug" => "bon-dang-xuc-liet",
                 "name" => "Bôn Đằng Xúc Liệt",
                 "effect_type" => "1",
@@ -15770,8 +16001,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_wshtz05.png"
             ],
             [
-                "id" => 1433,
-                "set_id" => 160,
+                "id" => 1454,
+                "set_id" => 162,
                 "slug" => "than-lang-cuong-tieu",
                 "name" => "Thần Lãng Cuồng Tiêu",
                 "effect_type" => "1",
@@ -15781,8 +16012,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_wshtz06.png"
             ],
             [
-                "id" => 1434,
-                "set_id" => 160,
+                "id" => 1455,
+                "set_id" => 162,
                 "slug" => "dang-tuong-suat-vu",
                 "name" => "Đằng Tường Suất Vũ",
                 "effect_type" => "1",
@@ -15792,8 +16023,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_wshtz07.png"
             ],
             [
-                "id" => 1435,
-                "set_id" => 160,
+                "id" => 1456,
+                "set_id" => 162,
                 "slug" => "dang-van-bat-mac",
                 "name" => "Đằng Vân Bát Mặc",
                 "effect_type" => "1",
@@ -15803,8 +16034,140 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_wshtz08.png"
             ],
             [
-                "id" => 1436,
-                "set_id" => 161,
+                "id" => 1457,
+                "set_id" => 163,
+                "slug" => "bat-khong-bat-man",
+                "name" => "Bất Không Bất Mãn",
+                "effect_type" => "1",
+                "lock_flg" => "1",
+                "max_level" => 12,
+                "power" => 6,
+                "photo" => "skill/cs_tls_xycd01.png"
+            ],
+            [
+                "id" => 1458,
+                "set_id" => 163,
+                "slug" => "bat-xa-bat-gian",
+                "name" => "Bất Xa Bất Giản",
+                "effect_type" => "1",
+                "lock_flg" => "1",
+                "max_level" => 12,
+                "power" => 6,
+                "photo" => "skill/cs_tls_xycd02.png"
+            ],
+            [
+                "id" => 1459,
+                "set_id" => 163,
+                "slug" => "bat-nhi-bat-dam",
+                "name" => "Bất Nhị Bất Đạm",
+                "effect_type" => "1",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 3,
+                "photo" => "skill/cs_tls_xycd03.png"
+            ],
+            [
+                "id" => 1460,
+                "set_id" => 163,
+                "slug" => "bat-hy-bat-bi",
+                "name" => "Bất Hỷ Bất Bi",
+                "effect_type" => "0",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 5,
+                "photo" => "skill/cs_tls_xycd04.png"
+            ],
+            [
+                "id" => 1461,
+                "set_id" => 163,
+                "slug" => "bat-tinh-bat-dong",
+                "name" => "Bất Tĩnh Bất Động",
+                "effect_type" => "1",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 4,
+                "photo" => "skill/cs_tls_xycd05.png"
+            ],
+            [
+                "id" => 1462,
+                "set_id" => 163,
+                "slug" => "bat-hu-bat-thuc",
+                "name" => "Bất Hư Bất Thực",
+                "effect_type" => "3",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 4,
+                "photo" => "skill/cs_tls_xycd06.png"
+            ],
+            [
+                "id" => 1463,
+                "set_id" => 163,
+                "slug" => "bat-ti-bat-cang",
+                "name" => "Bất Ti Bất Cang",
+                "effect_type" => "2",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 7,
+                "photo" => "skill/cs_tls_xycd07.png"
+            ],
+            [
+                "id" => 1464,
+                "set_id" => 163,
+                "slug" => "bat-sinh-bat-tu",
+                "name" => "Bất Sinh Bất Tử",
+                "effect_type" => "1",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 7,
+                "photo" => "skill/cs_tls_xycd08.png"
+            ],
+            [
+                "id" => 1465,
+                "set_id" => 163,
+                "slug" => "bat-hy-bat-bi-vo-ky",
+                "name" => "Bất Hỷ Bất Bi (Võ kỹ)",
+                "effect_type" => "0",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 0,
+                "photo" => "wuji/581.png"
+            ],
+            [
+                "id" => 1466,
+                "set_id" => 163,
+                "slug" => "bat-hu-bat-thuc-vo-ky",
+                "name" => "Bất Hư Bất Thực (Võ kỹ)",
+                "effect_type" => "3",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 0,
+                "photo" => "wuji/582.png"
+            ],
+            [
+                "id" => 1467,
+                "set_id" => 163,
+                "slug" => "bat-ti-bat-cang-vo-ky",
+                "name" => "Bất Ti Bất Cang (Võ kỹ)",
+                "effect_type" => "2",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 0,
+                "photo" => "wuji/583.png"
+            ],
+            [
+                "id" => 1468,
+                "set_id" => 163,
+                "slug" => "bat-sinh-bat-tu-bien-chieu",
+                "name" => "Bất Sinh Bất Tử (Biến chiêu)",
+                "effect_type" => "1",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 0,
+                "photo" => "skill/cs_tls_xycd08_hide.png"
+            ],
+            [
+                "id" => 1469,
+                "set_id" => 164,
                 "slug" => "xa-ban-thanh-truc",
                 "name" => "Xà Bàn Thanh Trúc",
                 "effect_type" => "1",
@@ -15814,8 +16177,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_jh_lszf01.png"
             ],
             [
-                "id" => 1437,
-                "set_id" => 161,
+                "id" => 1470,
+                "set_id" => 164,
                 "slug" => "long-xa-phi-dong",
                 "name" => "Long Xà Phi Động",
                 "effect_type" => "1",
@@ -15825,8 +16188,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_jh_lszf02.png"
             ],
             [
-                "id" => 1438,
-                "set_id" => 161,
+                "id" => 1471,
+                "set_id" => 164,
                 "slug" => "xa-nhap-thu-huyet",
                 "name" => "Xà Nhập Thử Huyệt",
                 "effect_type" => "1",
@@ -15836,8 +16199,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_jh_lszf06.png"
             ],
             [
-                "id" => 1439,
-                "set_id" => 161,
+                "id" => 1472,
+                "set_id" => 164,
                 "slug" => "xa-khau-phong-cham",
                 "name" => "Xà Khẩu Phong Châm",
                 "effect_type" => "2",
@@ -15847,8 +16210,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_jh_lszf03.png"
             ],
             [
-                "id" => 1440,
-                "set_id" => 161,
+                "id" => 1473,
+                "set_id" => 164,
                 "slug" => "thuong-son-xa-the",
                 "name" => "Thường Sơn Xà Thế",
                 "effect_type" => "3",
@@ -15858,8 +16221,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_jh_lszf05.png"
             ],
             [
-                "id" => 1441,
-                "set_id" => 161,
+                "id" => 1474,
+                "set_id" => 164,
                 "slug" => "phong-thi-truong-xa",
                 "name" => "Phong Thỉ Trường Xà",
                 "effect_type" => "1",
@@ -15869,8 +16232,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_jh_lszf07.png"
             ],
             [
-                "id" => 1442,
-                "set_id" => 161,
+                "id" => 1475,
+                "set_id" => 164,
                 "slug" => "xa-hanh-thu-thoan",
                 "name" => "Xà Hành Thử Thoán",
                 "effect_type" => "0",
@@ -15880,8 +16243,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_jh_lszf04.png"
             ],
             [
-                "id" => 1443,
-                "set_id" => 162,
+                "id" => 1476,
+                "set_id" => 165,
                 "slug" => "khieu-bat-cau-trao-co",
                 "name" => "Khiêu Bát Cẩu Trảo (cổ)",
                 "effect_type" => "1",
@@ -15891,8 +16254,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_gbgp_dgbf01.png"
             ],
             [
-                "id" => 1444,
-                "set_id" => 162,
+                "id" => 1477,
+                "set_id" => 165,
                 "slug" => "ta-da-cau-boi-co",
                 "name" => "Tà Đả Cẩu Bối (cổ)",
                 "effect_type" => "1",
@@ -15902,8 +16265,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_gbgp_dgbf02.png"
             ],
             [
-                "id" => 1445,
-                "set_id" => 162,
+                "id" => 1478,
+                "set_id" => 165,
                 "slug" => "khoai-kich-cau-don-co",
                 "name" => "Khoái Kích Cẩu Đồn (cổ)",
                 "effect_type" => "1",
@@ -15913,8 +16276,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_gbgp_dgbf03.png"
             ],
             [
-                "id" => 1446,
-                "set_id" => 162,
+                "id" => 1479,
+                "set_id" => 165,
                 "slug" => "dan-cau-nhap-trai-co",
                 "name" => "Dẫn Cẩu Nhập Trại (cổ)",
                 "effect_type" => "1",
@@ -15924,8 +16287,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_gbgp_dgbf04.png"
             ],
             [
-                "id" => 1447,
-                "set_id" => 162,
+                "id" => 1480,
+                "set_id" => 165,
                 "slug" => "ap-bien-cau-boi-co",
                 "name" => "Áp Biển Cẩu Bối (cổ)",
                 "effect_type" => "2",
@@ -15935,8 +16298,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_gbgp_dgbf05.png"
             ],
             [
-                "id" => 1448,
-                "set_id" => 162,
+                "id" => 1481,
+                "set_id" => 165,
                 "slug" => "nga-cau-lan-lo-co",
                 "name" => "Ngạ Cẩu Lan Lộ (cổ)",
                 "effect_type" => "3",
@@ -15946,8 +16309,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_gbgp_dgbf06.png"
             ],
             [
-                "id" => 1449,
-                "set_id" => 162,
+                "id" => 1482,
+                "set_id" => 165,
                 "slug" => "bat-cau-trieu-thien-co",
                 "name" => "Bát Cẩu Triều Thiên (cổ)",
                 "effect_type" => "1",
@@ -15957,8 +16320,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_gbgp_dgbf07.png"
             ],
             [
-                "id" => 1450,
-                "set_id" => 162,
+                "id" => 1483,
+                "set_id" => 165,
                 "slug" => "thien-ha-vo-cau-co",
                 "name" => "Thiên Hạ Vô Cẩu (cổ)",
                 "effect_type" => "1",
@@ -15968,8 +16331,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_gbgp_dgbf08.png"
             ],
             [
-                "id" => 1451,
-                "set_id" => 162,
+                "id" => 1484,
+                "set_id" => 165,
                 "slug" => "ta-da-cau-boi-co-vo-ky",
                 "name" => "Tà Đả Cẩu Bối (cổ) (Võ kỹ)",
                 "effect_type" => "1",
@@ -15979,8 +16342,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/227.png"
             ],
             [
-                "id" => 1452,
-                "set_id" => 162,
+                "id" => 1485,
+                "set_id" => 165,
                 "slug" => "bat-cau-trieu-thien-co-vo-ky",
                 "name" => "Bát Cẩu Triều Thiên (cổ) (Võ kỹ)",
                 "effect_type" => "1",
@@ -15990,8 +16353,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/228.png"
             ],
             [
-                "id" => 1453,
-                "set_id" => 162,
+                "id" => 1486,
+                "set_id" => 165,
                 "slug" => "thien-ha-vo-cau-co-vo-ky",
                 "name" => "Thiên Hạ Vô Cẩu (cổ) (Võ kỹ)",
                 "effect_type" => "1",
@@ -16001,8 +16364,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/229.png"
             ],
             [
-                "id" => 1454,
-                "set_id" => 163,
+                "id" => 1487,
+                "set_id" => 166,
                 "slug" => "phong-ma-phe-nhat",
                 "name" => "Phong Ma Phệ Nhật",
                 "effect_type" => "1",
@@ -16012,8 +16375,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_fmzf01.png"
             ],
             [
-                "id" => 1455,
-                "set_id" => 163,
+                "id" => 1488,
+                "set_id" => 166,
                 "slug" => "cuong-ma-ti-hai",
                 "name" => "Cuồng Ma Ti Hải",
                 "effect_type" => "1",
@@ -16023,8 +16386,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_fmzf02.png"
             ],
             [
-                "id" => 1456,
-                "set_id" => 163,
+                "id" => 1489,
+                "set_id" => 166,
                 "slug" => "ta-ma-vo-dinh",
                 "name" => "Tà Ma Vô Định",
                 "effect_type" => "0",
@@ -16034,8 +16397,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_fmzf03.png"
             ],
             [
-                "id" => 1457,
-                "set_id" => 163,
+                "id" => 1490,
+                "set_id" => 166,
                 "slug" => "hung-ma-pha-nhac",
                 "name" => "Hung Ma Phá Nhạc",
                 "effect_type" => "1",
@@ -16045,8 +16408,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_fmzf04.png"
             ],
             [
-                "id" => 1458,
-                "set_id" => 163,
+                "id" => 1491,
+                "set_id" => 166,
                 "slug" => "phong-dien-thanh-tinh",
                 "name" => "Phong Điên Thành Tính",
                 "effect_type" => "3",
@@ -16056,8 +16419,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_fmzf05.png"
             ],
             [
-                "id" => 1459,
-                "set_id" => 163,
+                "id" => 1492,
+                "set_id" => 166,
                 "slug" => "no-ma-toai-giap",
                 "name" => "Nộ Ma Toái Giáp",
                 "effect_type" => "2",
@@ -16067,8 +16430,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_fmzf06.png"
             ],
             [
-                "id" => 1460,
-                "set_id" => 163,
+                "id" => 1493,
+                "set_id" => 166,
                 "slug" => "ma-ton-diet-the",
                 "name" => "Ma Tôn Diệt Thế",
                 "effect_type" => "0",
@@ -16078,8 +16441,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_fmzf07.png"
             ],
             [
-                "id" => 1461,
-                "set_id" => 163,
+                "id" => 1494,
+                "set_id" => 166,
                 "slug" => "phong-ma-loan-vu",
                 "name" => "Phong Ma Loạn Vũ",
                 "effect_type" => "1",
@@ -16089,8 +16452,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_fmzf08.png"
             ],
             [
-                "id" => 1462,
-                "set_id" => 163,
+                "id" => 1495,
+                "set_id" => 166,
                 "slug" => "tam-ma-thoi-hon",
                 "name" => "Tâm Ma Thôi Hồn",
                 "effect_type" => "1",
@@ -16100,8 +16463,41 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_fmzf09.png"
             ],
             [
-                "id" => 1463,
-                "set_id" => 164,
+                "id" => 1496,
+                "set_id" => 166,
+                "slug" => "no-ma-toai-giap-vo-ky",
+                "name" => "Nộ Ma Toái Giáp (Võ kỹ)",
+                "effect_type" => "2",
+                "lock_flg" => "0",
+                "max_level" => 19,
+                "power" => 5,
+                "photo" => "wuji/571.png"
+            ],
+            [
+                "id" => 1497,
+                "set_id" => 166,
+                "slug" => "phong-ma-loan-vu-khong-trung-vo-ky",
+                "name" => "Phong Ma Loạn Vũ (Không trung) (Võ kỹ)",
+                "effect_type" => "1",
+                "lock_flg" => "1",
+                "max_level" => 19,
+                "power" => 0,
+                "photo" => "wuji/572.png"
+            ],
+            [
+                "id" => 1498,
+                "set_id" => 166,
+                "slug" => "tam-ma-thoi-hon-vo-ky",
+                "name" => "Tâm Ma Thôi Hồn (Võ kỹ)",
+                "effect_type" => "1",
+                "lock_flg" => "1",
+                "max_level" => 19,
+                "power" => 6,
+                "photo" => "wuji/573.png"
+            ],
+            [
+                "id" => 1499,
+                "set_id" => 167,
                 "slug" => "khieu-bat-cau-trao",
                 "name" => "Khiêu Bát Cẩu Trảo",
                 "effect_type" => "1",
@@ -16111,8 +16507,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_gb_dgbf01.png"
             ],
             [
-                "id" => 1464,
-                "set_id" => 164,
+                "id" => 1500,
+                "set_id" => 167,
                 "slug" => "ta-da-cau-boi",
                 "name" => "Tà Đả Cẩu Bối",
                 "effect_type" => "1",
@@ -16122,8 +16518,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_gb0804.png"
             ],
             [
-                "id" => 1465,
-                "set_id" => 164,
+                "id" => 1501,
+                "set_id" => 167,
                 "slug" => "khoai-kich-cau-don",
                 "name" => "Khoái Kích Cẩu Đồn",
                 "effect_type" => "1",
@@ -16133,8 +16529,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_gb_dgbf02.png"
             ],
             [
-                "id" => 1466,
-                "set_id" => 164,
+                "id" => 1502,
+                "set_id" => 167,
                 "slug" => "dan-cau-nhap-trai",
                 "name" => "Dẫn Cẩu Nhập Trại",
                 "effect_type" => "1",
@@ -16144,8 +16540,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_gb_dgbf04.png"
             ],
             [
-                "id" => 1467,
-                "set_id" => 164,
+                "id" => 1503,
+                "set_id" => 167,
                 "slug" => "ap-bien-cau-boi",
                 "name" => "Áp Biển Cẩu Bối",
                 "effect_type" => "2",
@@ -16155,8 +16551,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_gb0801.png"
             ],
             [
-                "id" => 1468,
-                "set_id" => 164,
+                "id" => 1504,
+                "set_id" => 167,
                 "slug" => "ac-cau-lan-lo",
                 "name" => "Ác Cẩu Lan Lộ",
                 "effect_type" => "3",
@@ -16166,8 +16562,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_gb0802.png"
             ],
             [
-                "id" => 1469,
-                "set_id" => 164,
+                "id" => 1505,
+                "set_id" => 167,
                 "slug" => "bat-cau-trieu-thien",
                 "name" => "Bát Cẩu Triều Thiên",
                 "effect_type" => "1",
@@ -16177,8 +16573,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_gb_dgbf03.png"
             ],
             [
-                "id" => 1470,
-                "set_id" => 164,
+                "id" => 1506,
+                "set_id" => 167,
                 "slug" => "thien-ha-vo-cau",
                 "name" => "Thiên Hạ Vô Cẩu",
                 "effect_type" => "1",
@@ -16188,8 +16584,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_gb0806.png"
             ],
             [
-                "id" => 1471,
-                "set_id" => 164,
+                "id" => 1507,
+                "set_id" => 167,
                 "slug" => "ta-da-cau-boi-vo-ky",
                 "name" => "Tà Đả Cẩu Bối (Võ kỹ)",
                 "effect_type" => "1",
@@ -16199,8 +16595,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/471.png"
             ],
             [
-                "id" => 1472,
-                "set_id" => 164,
+                "id" => 1508,
+                "set_id" => 167,
                 "slug" => "bat-cau-trieu-thien-vo-ky",
                 "name" => "Bát Cẩu Triều Thiên (Võ kỹ)",
                 "effect_type" => "1",
@@ -16210,8 +16606,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/472.png"
             ],
             [
-                "id" => 1473,
-                "set_id" => 164,
+                "id" => 1509,
+                "set_id" => 167,
                 "slug" => "thien-ha-vo-cau-vo-ky",
                 "name" => "Thiên Hạ Vô Cẩu (Võ kỹ)",
                 "effect_type" => "1",
@@ -16221,8 +16617,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/473.png"
             ],
             [
-                "id" => 1474,
-                "set_id" => 165,
+                "id" => 1510,
+                "set_id" => 168,
                 "slug" => "phong-van-dot-bien",
                 "name" => "Phong Vân Đột Biến",
                 "effect_type" => "1",
@@ -16232,8 +16628,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_flxmz01.png"
             ],
             [
-                "id" => 1475,
-                "set_id" => 165,
+                "id" => 1511,
+                "set_id" => 168,
                 "slug" => "phong-tri-dien-xiet",
                 "name" => "Phong trì điện xiết",
                 "effect_type" => "1",
@@ -16243,8 +16639,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_flxmz02.png"
             ],
             [
-                "id" => 1476,
-                "set_id" => 165,
+                "id" => 1512,
+                "set_id" => 168,
                 "slug" => "loi-lich-phong-hanh",
                 "name" => "Lôi Lịch Phong Hành",
                 "effect_type" => "1",
@@ -16254,8 +16650,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_flxmz03.png"
             ],
             [
-                "id" => 1477,
-                "set_id" => 165,
+                "id" => 1513,
+                "set_id" => 168,
                 "slug" => "dai-sat-phong-canh",
                 "name" => "Đại Sát Phong Cảnh",
                 "effect_type" => "2",
@@ -16265,8 +16661,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_flxmz04.png"
             ],
             [
-                "id" => 1478,
-                "set_id" => 165,
+                "id" => 1514,
+                "set_id" => 168,
                 "slug" => "hung-phong-tra-lang",
                 "name" => "Hưng Phong Trá Lãng",
                 "effect_type" => "3",
@@ -16276,8 +16672,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_flxmz05.png"
             ],
             [
-                "id" => 1479,
-                "set_id" => 165,
+                "id" => 1515,
+                "set_id" => 168,
                 "slug" => "thu-dai-chieu-phong",
                 "name" => "Thụ Đại Chiêu Phong",
                 "effect_type" => "0",
@@ -16287,8 +16683,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_flxmz06.png"
             ],
             [
-                "id" => 1480,
-                "set_id" => 165,
+                "id" => 1516,
+                "set_id" => 168,
                 "slug" => "khong-huyet-lai-phong",
                 "name" => "Không Huyệt Lai Phong",
                 "effect_type" => "1",
@@ -16298,8 +16694,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_flxmz07.png"
             ],
             [
-                "id" => 1481,
-                "set_id" => 165,
+                "id" => 1517,
+                "set_id" => 168,
                 "slug" => "phong-khoi-tuong-dung",
                 "name" => "Phong Khởi Tường Dũng",
                 "effect_type" => "1",
@@ -16309,8 +16705,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_flxmz08.png"
             ],
             [
-                "id" => 1482,
-                "set_id" => 166,
+                "id" => 1518,
+                "set_id" => 169,
                 "slug" => "tam-tieu-luu-tinh",
                 "name" => "Tam Tiếu Lưu Tình",
                 "effect_type" => "1",
@@ -16320,8 +16716,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_szzhg01.png"
             ],
             [
-                "id" => 1483,
-                "set_id" => 166,
+                "id" => 1519,
+                "set_id" => 169,
                 "slug" => "thu-nguyet-dung-dung",
                 "name" => "Thu Nguyệt Dung Dung",
                 "effect_type" => "1",
@@ -16331,8 +16727,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_szzhg02.png"
             ],
             [
-                "id" => 1484,
-                "set_id" => 166,
+                "id" => 1520,
+                "set_id" => 169,
                 "slug" => "huong-yen-nieu-nieu",
                 "name" => "Hương Yên Niễu Niễu",
                 "effect_type" => "1",
@@ -16342,8 +16738,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_szzhg03.png"
             ],
             [
-                "id" => 1485,
-                "set_id" => 166,
+                "id" => 1521,
+                "set_id" => 169,
                 "slug" => "luc-tuu-huu-tu",
                 "name" => "Lục Tửu Hưu Từ",
                 "effect_type" => "1",
@@ -16353,8 +16749,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_szzhg04.png"
             ],
             [
-                "id" => 1486,
-                "set_id" => 166,
+                "id" => 1522,
+                "set_id" => 169,
                 "slug" => "mong-tuy-hoa-mien",
                 "name" => "Mộng Túy Hoa Miên",
                 "effect_type" => "1",
@@ -16364,8 +16760,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_szzhg05.png"
             ],
             [
-                "id" => 1487,
-                "set_id" => 166,
+                "id" => 1523,
+                "set_id" => 169,
                 "slug" => "loan-the-phong-dien",
                 "name" => "Loạn Thế Phong Điên",
                 "effect_type" => "3",
@@ -16375,8 +16771,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_szzhg07.png"
             ],
             [
-                "id" => 1488,
-                "set_id" => 166,
+                "id" => 1524,
+                "set_id" => 169,
                 "slug" => "vo-hoa-vo-tuu",
                 "name" => "Vô Hoa Vô Tửu",
                 "effect_type" => "2",
@@ -16386,8 +16782,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_szzhg06.png"
             ],
             [
-                "id" => 1489,
-                "set_id" => 166,
+                "id" => 1525,
+                "set_id" => 169,
                 "slug" => "thap-tu-tieu-hon",
                 "name" => "Thập Tự Tiêu Hồn",
                 "effect_type" => "1",
@@ -16397,8 +16793,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_szzhg09.png"
             ],
             [
-                "id" => 1490,
-                "set_id" => 167,
+                "id" => 1526,
+                "set_id" => 170,
                 "slug" => "tu-ngon-thiep",
                 "name" => "[Tự Ngôn Thiếp]",
                 "effect_type" => "1",
@@ -16408,8 +16804,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yybtbf01.png"
             ],
             [
-                "id" => 1491,
-                "set_id" => 167,
+                "id" => 1527,
+                "set_id" => 170,
                 "slug" => "thach-mon-tung",
                 "name" => "[Thạch Môn Tụng]",
                 "effect_type" => "1",
@@ -16419,8 +16815,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yybtbf02.png"
             ],
             [
-                "id" => 1492,
-                "set_id" => 167,
+                "id" => 1528,
+                "set_id" => 170,
                 "slug" => "phong-huyen-linh-bi",
                 "name" => "[Phòng Huyền Linh Bi]",
                 "effect_type" => "1",
@@ -16430,8 +16826,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yybtbf03.png"
             ],
             [
-                "id" => 1493,
-                "set_id" => 167,
+                "id" => 1529,
+                "set_id" => 170,
                 "slug" => "tu-tu-thiep",
                 "name" => "[Tự Tự Thiếp]",
                 "effect_type" => "2",
@@ -16441,8 +16837,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yybtbf04.png"
             ],
             [
-                "id" => 1494,
-                "set_id" => 167,
+                "id" => 1530,
+                "set_id" => 170,
                 "slug" => "tay-hiep-tung",
                 "name" => "[Tây Hiệp Tụng]",
                 "effect_type" => "3",
@@ -16452,8 +16848,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yybtbf06.png"
             ],
             [
-                "id" => 1495,
-                "set_id" => 167,
+                "id" => 1531,
+                "set_id" => 170,
                 "slug" => "thien-tu-van",
                 "name" => "[Thiên Tự Văn]",
                 "effect_type" => "1",
@@ -16463,8 +16859,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yybtbf05.png"
             ],
             [
-                "id" => 1496,
-                "set_id" => 167,
+                "id" => 1532,
+                "set_id" => 170,
                 "slug" => "do-thong-thiep",
                 "name" => "[Đỗ Thống Thiếp]",
                 "effect_type" => "1",
@@ -16474,8 +16870,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yybtbf08_hide.png"
             ],
             [
-                "id" => 1497,
-                "set_id" => 167,
+                "id" => 1533,
+                "set_id" => 170,
                 "slug" => "tay-hiep-tung-bien-chieu",
                 "name" => "[Tây Hiệp Tụng] (Biến chiêu)",
                 "effect_type" => "1",
@@ -16485,8 +16881,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yybtbf06_hide.png"
             ],
             [
-                "id" => 1498,
-                "set_id" => 168,
+                "id" => 1534,
+                "set_id" => 171,
                 "slug" => "phong-hanh-sat",
                 "name" => "Phong Hành Sát",
                 "effect_type" => "1",
@@ -16496,8 +16892,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_csgf01.png"
             ],
             [
-                "id" => 1499,
-                "set_id" => 168,
+                "id" => 1535,
+                "set_id" => 171,
                 "slug" => "huyen-minh-khai",
                 "name" => "Huyền Minh Khai",
                 "effect_type" => "2",
@@ -16507,8 +16903,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_csgf02.png"
             ],
             [
-                "id" => 1500,
-                "set_id" => 168,
+                "id" => 1536,
+                "set_id" => 171,
                 "slug" => "le-thuong-khung",
                 "name" => "Lệ Thương Khung",
                 "effect_type" => "1",
@@ -16518,8 +16914,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_csgf03.png"
             ],
             [
-                "id" => 1501,
-                "set_id" => 168,
+                "id" => 1537,
+                "set_id" => 171,
                 "slug" => "kinh-bieu-dang",
                 "name" => "Kinh Biểu Đãng",
                 "effect_type" => "1",
@@ -16529,8 +16925,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_csgf04.png"
             ],
             [
-                "id" => 1502,
-                "set_id" => 168,
+                "id" => 1538,
+                "set_id" => 171,
                 "slug" => "si-mi-khap",
                 "name" => "Si Mị Khấp",
                 "effect_type" => "1",
@@ -16540,8 +16936,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_csgf05.png"
             ],
             [
-                "id" => 1503,
-                "set_id" => 168,
+                "id" => 1539,
+                "set_id" => 171,
                 "slug" => "vo-than-huy",
                 "name" => "Võ Thần Huy",
                 "effect_type" => "1",
@@ -16551,8 +16947,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_csgf06.png"
             ],
             [
-                "id" => 1504,
-                "set_id" => 168,
+                "id" => 1540,
+                "set_id" => 171,
                 "slug" => "xich-thuy-dung",
                 "name" => "Xích Thủy Dung",
                 "effect_type" => "3",
@@ -16562,8 +16958,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_csgf07.png"
             ],
             [
-                "id" => 1505,
-                "set_id" => 168,
+                "id" => 1541,
+                "set_id" => 171,
                 "slug" => "huyet-phach-phat",
                 "name" => "Huyết Phách Phạt",
                 "effect_type" => "1",
@@ -16573,8 +16969,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_csgf08.png"
             ],
             [
-                "id" => 1506,
-                "set_id" => 168,
+                "id" => 1542,
+                "set_id" => 171,
                 "slug" => "ngung-han-boc-bien-chieu",
                 "name" => "Ngưng Hàn Bộc (Biến chiêu)",
                 "effect_type" => "1",
@@ -16584,8 +16980,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_csgf07_hide.png"
             ],
             [
-                "id" => 1507,
-                "set_id" => 169,
+                "id" => 1543,
+                "set_id" => 172,
                 "slug" => "am-hon-bat-tan",
                 "name" => "Âm Hồn Bất Tán",
                 "effect_type" => "1",
@@ -16595,8 +16991,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_jy_tmzh03.png"
             ],
             [
-                "id" => 1508,
-                "set_id" => 169,
+                "id" => 1544,
+                "set_id" => 172,
                 "slug" => "thien-ly-truy-hon",
                 "name" => "Thiên Lý Truy Hồn",
                 "effect_type" => "1",
@@ -16606,8 +17002,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_jy_tmzh05.png"
             ],
             [
-                "id" => 1509,
-                "set_id" => 169,
+                "id" => 1545,
+                "set_id" => 172,
                 "slug" => "co-hon-hoac-than",
                 "name" => "Cô Hồn Hoặc Thần",
                 "effect_type" => "1",
@@ -16617,8 +17013,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_jy_tmzh02.png"
             ],
             [
-                "id" => 1510,
-                "set_id" => 169,
+                "id" => 1546,
+                "set_id" => 172,
                 "slug" => "da-quy-trien-than",
                 "name" => "Dã Quỷ Triền Thân",
                 "effect_type" => "2",
@@ -16628,8 +17024,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_jy_tmzh04.png"
             ],
             [
-                "id" => 1511,
-                "set_id" => 169,
+                "id" => 1547,
+                "set_id" => 172,
                 "slug" => "quy-anh-hu-bo",
                 "name" => "Quỷ Ảnh Hư Bộ",
                 "effect_type" => "3",
@@ -16639,8 +17035,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_em0304.png"
             ],
             [
-                "id" => 1512,
-                "set_id" => 169,
+                "id" => 1548,
+                "set_id" => 172,
                 "slug" => "thien-ma-giang-the",
                 "name" => "Thiên Ma Giáng Thế",
                 "effect_type" => "1",
@@ -16650,8 +17046,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/wx_jy_tmzh01.png"
             ],
             [
-                "id" => 1513,
-                "set_id" => 170,
+                "id" => 1549,
+                "set_id" => 173,
                 "slug" => "thiet-kinh-cuong-quyen",
                 "name" => "Thiết Kính Cương Quyền",
                 "effect_type" => "1",
@@ -16661,8 +17057,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/skill_ss_01.png"
             ],
             [
-                "id" => 1514,
-                "set_id" => 170,
+                "id" => 1550,
+                "set_id" => 173,
                 "slug" => "mi-anh-kinh-hong",
                 "name" => "Mị Ảnh Kinh Hồng",
                 "effect_type" => "2",
@@ -16672,8 +17068,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/skill_ss_02.png"
             ],
             [
-                "id" => 1515,
-                "set_id" => 170,
+                "id" => 1551,
+                "set_id" => 173,
                 "slug" => "bach-cot-nhiep-hon",
                 "name" => "Bạch Cốt Nhiếp Hồn",
                 "effect_type" => "1",
@@ -16683,8 +17079,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/skill_ss_03.png"
             ],
             [
-                "id" => 1516,
-                "set_id" => 170,
+                "id" => 1552,
+                "set_id" => 173,
                 "slug" => "quy-phu-hon-trien",
                 "name" => "Quỷ Phụ Hồn Triền",
                 "effect_type" => "3",
@@ -16694,8 +17090,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/skill_ss_04.png"
             ],
             [
-                "id" => 1517,
-                "set_id" => 170,
+                "id" => 1553,
+                "set_id" => 173,
                 "slug" => "quy-trao-tham-u",
                 "name" => "Quỷ Trảo Thám U",
                 "effect_type" => "1",
@@ -16705,8 +17101,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/skill_ss_05.png"
             ],
             [
-                "id" => 1518,
-                "set_id" => 170,
+                "id" => 1554,
+                "set_id" => 173,
                 "slug" => "huyet-vu-tinh-phong",
                 "name" => "Huyết Vũ Tinh Phong",
                 "effect_type" => "1",
@@ -16716,8 +17112,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/skill_ss_06.png"
             ],
             [
-                "id" => 1519,
-                "set_id" => 170,
+                "id" => 1555,
+                "set_id" => 173,
                 "slug" => "dai-mac-co-hon",
                 "name" => "Đại Mạc Cô Hồn",
                 "effect_type" => "1",
@@ -16727,8 +17123,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/skill_ss_07.png"
             ],
             [
-                "id" => 1520,
-                "set_id" => 171,
+                "id" => 1556,
+                "set_id" => 174,
                 "slug" => "nguu-dau-dau-xoa",
                 "name" => "Ngưu Đầu Đầu Xoa",
                 "effect_type" => "1",
@@ -16738,8 +17134,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tm_ywt01.png"
             ],
             [
-                "id" => 1521,
-                "set_id" => 171,
+                "id" => 1557,
+                "set_id" => 174,
                 "slug" => "ma-dien-khieu-tam",
                 "name" => "Mã Diện Khiêu Tâm",
                 "effect_type" => "1",
@@ -16749,8 +17145,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tm_ywt02.png"
             ],
             [
-                "id" => 1522,
-                "set_id" => 171,
+                "id" => 1558,
+                "set_id" => 174,
                 "slug" => "vo-thuong-dau-sach",
                 "name" => "Vô Thường Đẩu Sách",
                 "effect_type" => "1",
@@ -16760,8 +17156,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tm_ywt03.png"
             ],
             [
-                "id" => 1523,
-                "set_id" => 171,
+                "id" => 1559,
+                "set_id" => 174,
                 "slug" => "sat-than-duong-dao",
                 "name" => "Sát Thần Đương Đạo",
                 "effect_type" => "0",
@@ -16771,8 +17167,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tm_ywt04.png"
             ],
             [
-                "id" => 1524,
-                "set_id" => 171,
+                "id" => 1560,
+                "set_id" => 174,
                 "slug" => "manh-ba-quan-thang",
                 "name" => "Mạnh Bà Quán Thang",
                 "effect_type" => "2",
@@ -16782,8 +17178,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tm_ywt05.png"
             ],
             [
-                "id" => 1525,
-                "set_id" => 171,
+                "id" => 1561,
+                "set_id" => 174,
                 "slug" => "oan-hon-trien-tuc",
                 "name" => "Oan Hồn Triền Túc",
                 "effect_type" => "0",
@@ -16793,8 +17189,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tm_ywt06.png"
             ],
             [
-                "id" => 1526,
-                "set_id" => 171,
+                "id" => 1562,
+                "set_id" => 174,
                 "slug" => "diem-vuong-trich-but",
                 "name" => "Diêm Vương Trịch Bút",
                 "effect_type" => "1",
@@ -16804,8 +17200,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tm_ywt07.png"
             ],
             [
-                "id" => 1527,
-                "set_id" => 171,
+                "id" => 1563,
+                "set_id" => 174,
                 "slug" => "phan-quan-phien-bac",
                 "name" => "Phán quan phiên bác",
                 "effect_type" => "0",
@@ -16815,8 +17211,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tm_ywt08.png"
             ],
             [
-                "id" => 1528,
-                "set_id" => 171,
+                "id" => 1564,
+                "set_id" => 174,
                 "slug" => "da-quy-kinh-hon",
                 "name" => "Dã Quỷ Kinh Hồn",
                 "effect_type" => "0",
@@ -16826,8 +17222,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tm_ywt09.png"
             ],
             [
-                "id" => 1529,
-                "set_id" => 171,
+                "id" => 1565,
+                "set_id" => 174,
                 "slug" => "vo-thuong-dau-sach-vo-ky",
                 "name" => "Vô Thường Đẩu Sách (Võ kỹ)",
                 "effect_type" => "1",
@@ -16837,8 +17233,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/461.png"
             ],
             [
-                "id" => 1530,
-                "set_id" => 171,
+                "id" => 1566,
+                "set_id" => 174,
                 "slug" => "sat-than-duong-dao-vo-ky",
                 "name" => "Sát Thần Đương Đạo (Võ kỹ)",
                 "effect_type" => "0",
@@ -16848,8 +17244,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/464.png"
             ],
             [
-                "id" => 1531,
-                "set_id" => 171,
+                "id" => 1567,
+                "set_id" => 174,
                 "slug" => "manh-ba-quan-thang-vo-ky",
                 "name" => "Mạnh Bà Quán Thang (Võ kỹ)",
                 "effect_type" => "2",
@@ -16859,8 +17255,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/462.png"
             ],
             [
-                "id" => 1532,
-                "set_id" => 171,
+                "id" => 1568,
+                "set_id" => 174,
                 "slug" => "oan-hon-trien-tuc-vo-ky",
                 "name" => "Oan Hồn Triền Túc (Võ kỹ)",
                 "effect_type" => "0",
@@ -16870,8 +17266,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/465.png"
             ],
             [
-                "id" => 1533,
-                "set_id" => 171,
+                "id" => 1569,
+                "set_id" => 174,
                 "slug" => "diem-vuong-trich-but-vo-ky",
                 "name" => "Diêm Vương Trịch Bút (Võ kỹ)",
                 "effect_type" => "1",
@@ -16881,8 +17277,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/463.png"
             ],
             [
-                "id" => 1534,
-                "set_id" => 172,
+                "id" => 1570,
+                "set_id" => 175,
                 "slug" => "van-quyen-luu-tinh",
                 "name" => "Vân Quyển Lưu Tinh",
                 "effect_type" => "1",
@@ -16892,8 +17288,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sj_syxz01.png"
             ],
             [
-                "id" => 1535,
-                "set_id" => 172,
+                "id" => 1571,
+                "set_id" => 175,
                 "slug" => "kim-ti-doan-hon",
                 "name" => "Kim Ti Đoạn Hồn",
                 "effect_type" => "2",
@@ -16903,8 +17299,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sj_syxz02.png"
             ],
             [
-                "id" => 1536,
-                "set_id" => 172,
+                "id" => 1572,
+                "set_id" => 175,
                 "slug" => "kim-cham-thuc-lac",
                 "name" => "Kim Châm Thức Lạc",
                 "effect_type" => "3",
@@ -16914,8 +17310,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sj_syxz03.png"
             ],
             [
-                "id" => 1537,
-                "set_id" => 172,
+                "id" => 1573,
+                "set_id" => 175,
                 "slug" => "than-cham-truy-menh",
                 "name" => "Thần Châm Truy Mệnh",
                 "effect_type" => "1",
@@ -16925,8 +17321,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sj_syxz04.png"
             ],
             [
-                "id" => 1538,
-                "set_id" => 172,
+                "id" => 1574,
+                "set_id" => 175,
                 "slug" => "phi-cham-dan-huyet",
                 "name" => "Phi Châm Dẫn Huyệt",
                 "effect_type" => "0",
@@ -16936,8 +17332,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sj_syxz05.png"
             ],
             [
-                "id" => 1539,
-                "set_id" => 172,
+                "id" => 1575,
+                "set_id" => 175,
                 "slug" => "thong-kinh-hoat-lac",
                 "name" => "Thông Kinh Hoạt Lạc",
                 "effect_type" => "0",
@@ -16947,8 +17343,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sj_syxz06.png"
             ],
             [
-                "id" => 1540,
-                "set_id" => 172,
+                "id" => 1576,
+                "set_id" => 175,
                 "slug" => "phong-cham-hoan-huyet",
                 "name" => "Phong Châm Hoán Huyết",
                 "effect_type" => "0",
@@ -16958,8 +17354,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sj_syxz07.png"
             ],
             [
-                "id" => 1541,
-                "set_id" => 172,
+                "id" => 1577,
+                "set_id" => 175,
                 "slug" => "thien-nu-tan-hoa",
                 "name" => "Thiên Nữ Tán Hoa",
                 "effect_type" => "0",
@@ -16969,8 +17365,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_sj_syxz08.png"
             ],
             [
-                "id" => 1542,
-                "set_id" => 172,
+                "id" => 1578,
+                "set_id" => 175,
                 "slug" => "kim-ti-doan-hon-vo-ky",
                 "name" => "Kim Ti Đoạn Hồn (Võ kỹ)",
                 "effect_type" => "2",
@@ -16980,19 +17376,19 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/526.png"
             ],
             [
-                "id" => 1543,
-                "set_id" => 172,
-                "slug" => "phi-cham-dan-huyet-vo-ky",
-                "name" => "Phi Châm Dẫn Huyệt (Võ kỹ)",
+                "id" => 1579,
+                "set_id" => 175,
+                "slug" => "phi-cham-dan-huyet-bien-chieu",
+                "name" => "Phi Châm Dẫn Huyệt (Biến chiêu)",
                 "effect_type" => "0",
                 "lock_flg" => "0",
                 "max_level" => 13,
-                "power" => 5,
-                "photo" => "wuji/527.png"
+                "power" => 0,
+                "photo" => "skill/cs_sj_syxz05.png"
             ],
             [
-                "id" => 1544,
-                "set_id" => 172,
+                "id" => 1580,
+                "set_id" => 175,
                 "slug" => "thien-nu-tan-hoa-vo-ky",
                 "name" => "Thiên Nữ Tán Hoa (Võ kỹ)",
                 "effect_type" => "0",
@@ -17002,8 +17398,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/528.png"
             ],
             [
-                "id" => 1545,
-                "set_id" => 173,
+                "id" => 1581,
+                "set_id" => 176,
                 "slug" => "dia-ho",
                 "name" => "Địa Hổ",
                 "effect_type" => "1",
@@ -17013,8 +17409,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_llt01.png"
             ],
             [
-                "id" => 1546,
-                "set_id" => 173,
+                "id" => 1582,
+                "set_id" => 176,
                 "slug" => "ban-dang",
                 "name" => "Bản Đẳng",
                 "effect_type" => "2",
@@ -17024,8 +17420,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_llt02.png"
             ],
             [
-                "id" => 1547,
-                "set_id" => 173,
+                "id" => 1583,
+                "set_id" => 176,
                 "slug" => "truong-tam",
                 "name" => "Trường Tam",
                 "effect_type" => "1",
@@ -17035,8 +17431,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_llt03.png"
             ],
             [
-                "id" => 1548,
-                "set_id" => 173,
+                "id" => 1584,
+                "set_id" => 176,
                 "slug" => "quy-nhan",
                 "name" => "Quý Nhân",
                 "effect_type" => "0",
@@ -17046,8 +17442,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_llt04.png"
             ],
             [
-                "id" => 1549,
-                "set_id" => 173,
+                "id" => 1585,
+                "set_id" => 176,
                 "slug" => "mai-hoa",
                 "name" => "Mai Hoa",
                 "effect_type" => "1",
@@ -17057,8 +17453,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_llt05.png"
             ],
             [
-                "id" => 1550,
-                "set_id" => 173,
+                "id" => 1586,
+                "set_id" => 176,
                 "slug" => "thien-vuong",
                 "name" => "Thiên Vương",
                 "effect_type" => "1",
@@ -17068,8 +17464,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_llt06.png"
             ],
             [
-                "id" => 1551,
-                "set_id" => 174,
+                "id" => 1587,
+                "set_id" => 177,
                 "slug" => "kinh-hon-nhiep-phach",
                 "name" => "Kinh Hồn Nhiếp Phách",
                 "effect_type" => "1",
@@ -17079,8 +17475,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jy_tdshs01.png"
             ],
             [
-                "id" => 1552,
-                "set_id" => 174,
+                "id" => 1588,
+                "set_id" => 177,
                 "slug" => "toa-hon-dang-phach",
                 "name" => "Tỏa Hồn Đãng Phách",
                 "effect_type" => "1",
@@ -17090,8 +17486,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jy_tdshs02.png"
             ],
             [
-                "id" => 1553,
-                "set_id" => 174,
+                "id" => 1589,
+                "set_id" => 177,
                 "slug" => "di-hon-hoan-anh",
                 "name" => "Di Hồn Hoán Ảnh",
                 "effect_type" => "1",
@@ -17101,8 +17497,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jy_tdshs03.png"
             ],
             [
-                "id" => 1554,
-                "set_id" => 174,
+                "id" => 1590,
+                "set_id" => 177,
                 "slug" => "am-vo-thien-nhat",
                 "name" => "Ám Vô Thiên Nhật",
                 "effect_type" => "2",
@@ -17112,8 +17508,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jy_tdshs04.png"
             ],
             [
-                "id" => 1555,
-                "set_id" => 174,
+                "id" => 1591,
+                "set_id" => 177,
                 "slug" => "thien-vong-khoi-khoi",
                 "name" => "Thiên Võng Khôi Khôi",
                 "effect_type" => "1",
@@ -17123,8 +17519,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jy_tdshs05.png"
             ],
             [
-                "id" => 1556,
-                "set_id" => 174,
+                "id" => 1592,
+                "set_id" => 177,
                 "slug" => "kinh-thien-vi-dia",
                 "name" => "Kinh Thiên Vĩ Địa",
                 "effect_type" => "3",
@@ -17134,8 +17530,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jy_tdshs06.png"
             ],
             [
-                "id" => 1557,
-                "set_id" => 174,
+                "id" => 1593,
+                "set_id" => 177,
                 "slug" => "phien-thien-phuc-dia",
                 "name" => "Phiên Thiên Phúc Địa",
                 "effect_type" => "1",
@@ -17145,8 +17541,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jy_tdshs07.png"
             ],
             [
-                "id" => 1558,
-                "set_id" => 174,
+                "id" => 1594,
+                "set_id" => 177,
                 "slug" => "so-nhi-bat-lau",
                 "name" => "Sơ Nhi Bất Lậu",
                 "effect_type" => "1",
@@ -17156,8 +17552,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jy_tdshs05_hide.png"
             ],
             [
-                "id" => 1559,
-                "set_id" => 175,
+                "id" => 1595,
+                "set_id" => 178,
                 "slug" => "diem-kiem-pha-thai-cuc",
                 "name" => "Điểm Kiếm Phá Thái Cực",
                 "effect_type" => "2",
@@ -17167,8 +17563,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_dfwfj01.png"
             ],
             [
-                "id" => 1560,
-                "set_id" => 175,
+                "id" => 1596,
+                "set_id" => 178,
                 "slug" => "duong-kiem-phong-luong-nghi",
                 "name" => "Dương Kiếm Phong Lưỡng Nghi",
                 "effect_type" => "1",
@@ -17178,8 +17574,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_dfwfj02.png"
             ],
             [
-                "id" => 1561,
-                "set_id" => 175,
+                "id" => 1597,
+                "set_id" => 178,
                 "slug" => "trung-kiem-khieu-tam-tai",
                 "name" => "Trùng Kiếm Khiêu Tam Tài",
                 "effect_type" => "1",
@@ -17189,8 +17585,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_dfwfj03.png"
             ],
             [
-                "id" => 1562,
-                "set_id" => 175,
+                "id" => 1598,
+                "set_id" => 178,
                 "slug" => "huy-kiem-tram-tu-tuong",
                 "name" => "Huy Kiếm Trảm Tứ Tướng",
                 "effect_type" => "1",
@@ -17200,8 +17596,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_dfwfj04.png"
             ],
             [
-                "id" => 1563,
-                "set_id" => 175,
+                "id" => 1599,
+                "set_id" => 178,
                 "slug" => "vu-kiem-tao-ngu-hanh",
                 "name" => "Vũ Kiếm Tảo Ngũ Hành",
                 "effect_type" => "1",
@@ -17211,8 +17607,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_dfwfj05.png"
             ],
             [
-                "id" => 1564,
-                "set_id" => 175,
+                "id" => 1600,
+                "set_id" => 178,
                 "slug" => "tuy-kiem-hoanh-luc-dao",
                 "name" => "Tùy Kiếm Hoành Lục Đạo",
                 "effect_type" => "3",
@@ -17222,8 +17618,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_dfwfj06.png"
             ],
             [
-                "id" => 1565,
-                "set_id" => 175,
+                "id" => 1601,
+                "set_id" => 178,
                 "slug" => "kinh-kiem-tiet-that-tinh",
                 "name" => "Kình Kiếm Tiệt Thất Tinh",
                 "effect_type" => "1",
@@ -17233,8 +17629,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_dfwfj07.png"
             ],
             [
-                "id" => 1566,
-                "set_id" => 175,
+                "id" => 1602,
+                "set_id" => 178,
                 "slug" => "ngu-kiem-bat-quai-binh",
                 "name" => "Ngự Kiếm Bát Quái Bình",
                 "effect_type" => "1",
@@ -17244,8 +17640,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_dfwfj08.png"
             ],
             [
-                "id" => 1567,
-                "set_id" => 176,
+                "id" => 1603,
+                "set_id" => 179,
                 "slug" => "pha-lang-kich",
                 "name" => "Phá Lãng Kích",
                 "effect_type" => "1",
@@ -17255,8 +17651,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_hyqj01.png"
             ],
             [
-                "id" => 1568,
-                "set_id" => 176,
+                "id" => 1604,
+                "set_id" => 179,
                 "slug" => "kinh-loi-sat",
                 "name" => "Kinh Lôi Sát",
                 "effect_type" => "2",
@@ -17266,8 +17662,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_hyqj02.png"
             ],
             [
-                "id" => 1569,
-                "set_id" => 176,
+                "id" => 1605,
+                "set_id" => 179,
                 "slug" => "cuong-phong-giao",
                 "name" => "Cuồng Phong Giảo",
                 "effect_type" => "1",
@@ -17277,8 +17673,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_hyqj03.png"
             ],
             [
-                "id" => 1570,
-                "set_id" => 176,
+                "id" => 1606,
+                "set_id" => 179,
                 "slug" => "liet-hoa-oanh",
                 "name" => "Liệt Hỏa Oanh",
                 "effect_type" => "1",
@@ -17288,8 +17684,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_hyqj04.png"
             ],
             [
-                "id" => 1571,
-                "set_id" => 176,
+                "id" => 1607,
+                "set_id" => 179,
                 "slug" => "thuong-khung-tieu",
                 "name" => "Thương Khung Tiếu",
                 "effect_type" => "0",
@@ -17299,8 +17695,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_hyqj05.png"
             ],
             [
-                "id" => 1572,
-                "set_id" => 176,
+                "id" => 1608,
+                "set_id" => 179,
                 "slug" => "quyen-van-trien",
                 "name" => "Quyển Vân Triền",
                 "effect_type" => "3",
@@ -17310,8 +17706,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_hyqj06.png"
             ],
             [
-                "id" => 1573,
-                "set_id" => 176,
+                "id" => 1609,
+                "set_id" => 179,
                 "slug" => "tat-dien-tram",
                 "name" => "Tật Điện Trảm",
                 "effect_type" => "1",
@@ -17321,8 +17717,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_hyqj07.png"
             ],
             [
-                "id" => 1574,
-                "set_id" => 176,
+                "id" => 1610,
+                "set_id" => 179,
                 "slug" => "quyen-van-trien-phan-thu-vi-cong-bien-chieu",
                 "name" => "Quyển Vân Triền (Phản thủ vi công) (Biến chiêu)",
                 "effect_type" => "1",
@@ -17332,8 +17728,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_hyqj06.png"
             ],
             [
-                "id" => 1575,
-                "set_id" => 177,
+                "id" => 1611,
+                "set_id" => 180,
                 "slug" => "lac-chi-yen-van",
                 "name" => "Lạc Chỉ Yên Vân",
                 "effect_type" => "1",
@@ -17343,8 +17739,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mwcq01.png"
             ],
             [
-                "id" => 1576,
-                "set_id" => 177,
+                "id" => 1612,
+                "set_id" => 180,
                 "slug" => "phuong-tro-loan-hoi",
                 "name" => "Phượng Trợ Loan Hồi",
                 "effect_type" => "1",
@@ -17354,8 +17750,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mwcq02.png"
             ],
             [
-                "id" => 1577,
-                "set_id" => 177,
+                "id" => 1613,
+                "set_id" => 180,
                 "slug" => "du-van-kinh-long",
                 "name" => "Du Vân Kinh Long",
                 "effect_type" => "1",
@@ -17365,8 +17761,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mwcq03.png"
             ],
             [
-                "id" => 1578,
-                "set_id" => 177,
+                "id" => 1614,
+                "set_id" => 180,
                 "slug" => "nhap-moc-tam-phan",
                 "name" => "Nhập Mộc Tam Phân",
                 "effect_type" => "3",
@@ -17376,8 +17772,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mwcq04.png"
             ],
             [
-                "id" => 1579,
-                "set_id" => 177,
+                "id" => 1615,
+                "set_id" => 180,
                 "slug" => "khat-ki-bon-tuyen",
                 "name" => "Khát Kí Bôn Tuyền",
                 "effect_type" => "1",
@@ -17387,8 +17783,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mwcq05.png"
             ],
             [
-                "id" => 1580,
-                "set_id" => 177,
+                "id" => 1616,
+                "set_id" => 180,
                 "slug" => "ngan-cau-sai-vi",
                 "name" => "Ngân Câu Sái Vĩ",
                 "effect_type" => "2",
@@ -17398,8 +17794,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mwcq06.png"
             ],
             [
-                "id" => 1581,
-                "set_id" => 177,
+                "id" => 1617,
+                "set_id" => 180,
                 "slug" => "phi-long-vu-phung",
                 "name" => "Phi Long Vũ Phụng",
                 "effect_type" => "1",
@@ -17409,8 +17805,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mwcq07.png"
             ],
             [
-                "id" => 1582,
-                "set_id" => 177,
+                "id" => 1618,
+                "set_id" => 180,
                 "slug" => "quan-hong-hi-hai",
                 "name" => "Quần Hồng Hí Hải",
                 "effect_type" => "0",
@@ -17420,8 +17816,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mwcq08.png"
             ],
             [
-                "id" => 1583,
-                "set_id" => 177,
+                "id" => 1619,
+                "set_id" => 180,
                 "slug" => "nhap-moc-tam-phan-bien-chieu",
                 "name" => "Nhập Mộc Tam Phân (Biến chiêu)",
                 "effect_type" => "0",
@@ -17431,8 +17827,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mwcq04_hide.png"
             ],
             [
-                "id" => 1584,
-                "set_id" => 177,
+                "id" => 1620,
+                "set_id" => 180,
                 "slug" => "khat-ki-bon-tuyen-bien-chieu",
                 "name" => "Khát Kí Bôn Tuyền (Biến chiêu)",
                 "effect_type" => "0",
@@ -17442,8 +17838,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mwcq05_hide.png"
             ],
             [
-                "id" => 1585,
-                "set_id" => 178,
+                "id" => 1621,
+                "set_id" => 181,
                 "slug" => "sac-thu-hon-du",
                 "name" => "Sắc Thụ Hồn Dữ",
                 "effect_type" => "1",
@@ -17453,8 +17849,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ymcxs01.png"
             ],
             [
-                "id" => 1586,
-                "set_id" => 178,
+                "id" => 1622,
+                "set_id" => 181,
                 "slug" => "hon-hao-than-tang",
                 "name" => "Hồn Háo Thần Tang",
                 "effect_type" => "1",
@@ -17464,8 +17860,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ymcxs02.png"
             ],
             [
-                "id" => 1587,
-                "set_id" => 178,
+                "id" => 1623,
+                "set_id" => 181,
                 "slug" => "cau-hon-thuc-cot",
                 "name" => "Câu Hồn Thực Cốt",
                 "effect_type" => "1",
@@ -17475,8 +17871,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ymcxs03.png"
             ],
             [
-                "id" => 1588,
-                "set_id" => 178,
+                "id" => 1624,
+                "set_id" => 181,
                 "slug" => "chieu-hon-tuc-phach",
                 "name" => "Chiêu Hồn Tục Phách",
                 "effect_type" => "3",
@@ -17486,8 +17882,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ymcxs04.png"
             ],
             [
-                "id" => 1589,
-                "set_id" => 178,
+                "id" => 1625,
+                "set_id" => 181,
                 "slug" => "truy-hon-doat-phach",
                 "name" => "Truy Hồn Đoạt Phách",
                 "effect_type" => "1",
@@ -17497,8 +17893,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ymcxs05.png"
             ],
             [
-                "id" => 1590,
-                "set_id" => 178,
+                "id" => 1626,
+                "set_id" => 181,
                 "slug" => "tan-ti-doan-phach",
                 "name" => "Tàn Ti Đoạn Phách",
                 "effect_type" => "2",
@@ -17508,8 +17904,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ymcxs06.png"
             ],
             [
-                "id" => 1591,
-                "set_id" => 178,
+                "id" => 1627,
+                "set_id" => 181,
                 "slug" => "huong-tieu-ngoc-toai",
                 "name" => "Hương Tiêu Ngọc Toái",
                 "effect_type" => "1",
@@ -17519,8 +17915,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ymcxs07.png"
             ],
             [
-                "id" => 1592,
-                "set_id" => 179,
+                "id" => 1628,
+                "set_id" => 182,
                 "slug" => "tuong-quan-lam-bac-hoang",
                 "name" => "Tướng Quân Lâm Bắc Hoang",
                 "effect_type" => "1",
@@ -17530,8 +17926,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_pjjt01.png"
             ],
             [
-                "id" => 1593,
-                "set_id" => 179,
+                "id" => 1629,
+                "set_id" => 182,
                 "slug" => "dai-quan-che-luc-hop",
                 "name" => "Đại Quân Chế Lục Hợp",
                 "effect_type" => "1",
@@ -17541,8 +17937,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_pjjt02.png"
             ],
             [
-                "id" => 1594,
-                "set_id" => 179,
+                "id" => 1630,
+                "set_id" => 182,
                 "slug" => "nhap-tran-pha-kieu-lo",
                 "name" => "Nhập Trận Phá Kiêu Lỗ",
                 "effect_type" => "2",
@@ -17552,8 +17948,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_pjjt05.png"
             ],
             [
-                "id" => 1595,
-                "set_id" => 179,
+                "id" => 1631,
+                "set_id" => 182,
                 "slug" => "chien-ma-nhuoc-long-ho",
                 "name" => "Chiến Mã Nhược Long Hổ",
                 "effect_type" => "3",
@@ -17563,8 +17959,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_pjjt04.png"
             ],
             [
-                "id" => 1596,
-                "set_id" => 179,
+                "id" => 1632,
+                "set_id" => 182,
                 "slug" => "nhat-xa-bach-ma-dao",
                 "name" => "Nhất Xạ Bách Mã Đảo",
                 "effect_type" => "1",
@@ -17574,8 +17970,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_pjjt03.png"
             ],
             [
-                "id" => 1597,
-                "set_id" => 179,
+                "id" => 1633,
+                "set_id" => 182,
                 "slug" => "dang-cao-vong-thien-son",
                 "name" => "Đăng Cao Vọng Thiên Sơn",
                 "effect_type" => "0",
@@ -17585,8 +17981,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_pjjt06.png"
             ],
             [
-                "id" => 1598,
-                "set_id" => 179,
+                "id" => 1634,
+                "set_id" => 182,
                 "slug" => "hung-no-bat-cam-dich",
                 "name" => "Hung Nô Bất Cảm Địch",
                 "effect_type" => "1",
@@ -17596,8 +17992,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_pjjt07.png"
             ],
             [
-                "id" => 1599,
-                "set_id" => 179,
+                "id" => 1635,
+                "set_id" => 182,
                 "slug" => "kiem-vu-duoc-du-dien",
                 "name" => "Kiếm Vũ Dược Du Điện",
                 "effect_type" => "1",
@@ -17607,8 +18003,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_pjjt08.png"
             ],
             [
-                "id" => 1600,
-                "set_id" => 180,
+                "id" => 1636,
+                "set_id" => 183,
                 "slug" => "kiem-pha-lau-lan",
                 "name" => "Kiếm Phá Lâu Lan",
                 "effect_type" => "1",
@@ -17618,8 +18014,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_kspzj01.png"
             ],
             [
-                "id" => 1601,
-                "set_id" => 180,
+                "id" => 1637,
+                "set_id" => 183,
                 "slug" => "li-ca-pha-tran",
                 "name" => "Li Ca Phá Trận",
                 "effect_type" => "2",
@@ -17629,8 +18025,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_kspzj02.png"
             ],
             [
-                "id" => 1602,
-                "set_id" => 180,
+                "id" => 1638,
+                "set_id" => 183,
                 "slug" => "co-thanh-lac-nhat",
                 "name" => "Cô Thành Lạc Nhật",
                 "effect_type" => "1",
@@ -17640,8 +18036,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_kspzj03.png"
             ],
             [
-                "id" => 1603,
-                "set_id" => 180,
+                "id" => 1639,
+                "set_id" => 183,
                 "slug" => "cong-thanh-cot-kho",
                 "name" => "Công Thành Cốt Khô",
                 "effect_type" => "0",
@@ -17651,8 +18047,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_kspzj04.png"
             ],
             [
-                "id" => 1604,
-                "set_id" => 180,
+                "id" => 1640,
+                "set_id" => 183,
                 "slug" => "khieu-dang-khan-kiem",
                 "name" => "Khiêu Đăng Khán Kiếm",
                 "effect_type" => "1",
@@ -17662,8 +18058,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_kspzj05.png"
             ],
             [
-                "id" => 1605,
-                "set_id" => 180,
+                "id" => 1641,
+                "set_id" => 183,
                 "slug" => "dich-thuy-duong-ki",
                 "name" => "Dịch Thủy Dương Kì",
                 "effect_type" => "3",
@@ -17673,8 +18069,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_kspzj06.png"
             ],
             [
-                "id" => 1606,
-                "set_id" => 180,
+                "id" => 1642,
+                "set_id" => 183,
                 "slug" => "bach-chien-cuong-sat",
                 "name" => "Bách Chiến Cuồng Sát",
                 "effect_type" => "1",
@@ -17684,8 +18080,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_kspzj07.png"
             ],
             [
-                "id" => 1607,
-                "set_id" => 180,
+                "id" => 1643,
+                "set_id" => 183,
                 "slug" => "kinh-huyen-phich-lich",
                 "name" => "Kinh Huyền Phích Lịch",
                 "effect_type" => "1",
@@ -17695,8 +18091,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_kspzj08.png"
             ],
             [
-                "id" => 1608,
-                "set_id" => 181,
+                "id" => 1644,
+                "set_id" => 184,
                 "slug" => "phong-tieu-van-duong",
                 "name" => "Phong Tiếu Vân Dương",
                 "effect_type" => "1",
@@ -17706,8 +18102,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yfjb01.png"
             ],
             [
-                "id" => 1609,
-                "set_id" => 181,
+                "id" => 1645,
+                "set_id" => 184,
                 "slug" => "phong-phien-van-khuynh",
                 "name" => "Phong Phiên Vân Khuynh",
                 "effect_type" => "2",
@@ -17717,8 +18113,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yfjb02.png"
             ],
             [
-                "id" => 1610,
-                "set_id" => 181,
+                "id" => 1646,
+                "set_id" => 184,
                 "slug" => "phong-quyen-van-han",
                 "name" => "Phong Quyển Vân Hàn",
                 "effect_type" => "1",
@@ -17728,8 +18124,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yfjb03.png"
             ],
             [
-                "id" => 1611,
-                "set_id" => 181,
+                "id" => 1647,
+                "set_id" => 184,
                 "slug" => "phong-khoi-van-ca",
                 "name" => "Phong Khởi Vân Ca",
                 "effect_type" => "1",
@@ -17739,8 +18135,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yfjb04.png"
             ],
             [
-                "id" => 1612,
-                "set_id" => 181,
+                "id" => 1648,
+                "set_id" => 184,
                 "slug" => "phong-minh-van-du",
                 "name" => "Phong Minh Vân Du",
                 "effect_type" => "1",
@@ -17750,8 +18146,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yfjb05.png"
             ],
             [
-                "id" => 1613,
-                "set_id" => 181,
+                "id" => 1649,
+                "set_id" => 184,
                 "slug" => "phong-xuy-van-lac",
                 "name" => "Phong Xuy Vân Lạc",
                 "effect_type" => "0",
@@ -17761,8 +18157,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yfjb06.png"
             ],
             [
-                "id" => 1614,
-                "set_id" => 181,
+                "id" => 1650,
+                "set_id" => 184,
                 "slug" => "phong-duong-van-hien",
                 "name" => "Phong Dương Vân Hiện",
                 "effect_type" => "3",
@@ -17772,8 +18168,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yfjb07_hide.png"
             ],
             [
-                "id" => 1615,
-                "set_id" => 181,
+                "id" => 1651,
+                "set_id" => 184,
                 "slug" => "doan-han-phong",
                 "name" => "Đoạn Hàn Phong",
                 "effect_type" => "1",
@@ -17783,8 +18179,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yfjb08.png"
             ],
             [
-                "id" => 1616,
-                "set_id" => 181,
+                "id" => 1652,
+                "set_id" => 184,
                 "slug" => "phong-khoi-van-ca",
                 "name" => "Phong Khởi Vân Ca",
                 "effect_type" => "1",
@@ -17794,8 +18190,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yfjb04_hide02.png"
             ],
             [
-                "id" => 1617,
-                "set_id" => 181,
+                "id" => 1653,
+                "set_id" => 184,
                 "slug" => "phong-dam-van-nhan-bien-chieu",
                 "name" => "Phong Đạm Vân Nhàn (Biến chiêu)",
                 "effect_type" => "1",
@@ -17805,8 +18201,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yfjb05_hide.png"
             ],
             [
-                "id" => 1618,
-                "set_id" => 181,
+                "id" => 1654,
+                "set_id" => 184,
                 "slug" => "phong-duong-van-hien-phan-thu-vi-cong-bien-chieu",
                 "name" => "Phong Dương Vân Hiện (Phản thủ vi công) (Biến chiêu)",
                 "effect_type" => "1",
@@ -17816,8 +18212,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yfjb07_hide.png"
             ],
             [
-                "id" => 1619,
-                "set_id" => 182,
+                "id" => 1655,
+                "set_id" => 185,
                 "slug" => "dong-dinh-yen-vu",
                 "name" => "Động Đình Yên Vũ",
                 "effect_type" => "1",
@@ -17827,8 +18223,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_xxsyp01.png"
             ],
             [
-                "id" => 1620,
-                "set_id" => 182,
+                "id" => 1656,
+                "set_id" => 185,
                 "slug" => "thien-quang-van-anh",
                 "name" => "Thiên Quang Vân Ảnh",
                 "effect_type" => "1",
@@ -17838,8 +18234,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_xxsyp02.png"
             ],
             [
-                "id" => 1621,
-                "set_id" => 182,
+                "id" => 1657,
+                "set_id" => 185,
                 "slug" => "thuy-tiep-thien-ngung",
                 "name" => "Thủy Tiếp Thiên Ngung",
                 "effect_type" => "1",
@@ -17849,8 +18245,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_xxsyp03.png"
             ],
             [
-                "id" => 1622,
-                "set_id" => 182,
+                "id" => 1658,
+                "set_id" => 185,
                 "slug" => "lang-quyen-phi-van",
                 "name" => "Lãng Quyển Phi Vân",
                 "effect_type" => "1",
@@ -17860,8 +18256,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_xxsyp04.png"
             ],
             [
-                "id" => 1623,
-                "set_id" => 182,
+                "id" => 1659,
+                "set_id" => 185,
                 "slug" => "thuy-thien-nhat-bich",
                 "name" => "Thủy Thiên Nhất Bích",
                 "effect_type" => "1",
@@ -17871,8 +18267,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_xxsyp05.png"
             ],
             [
-                "id" => 1624,
-                "set_id" => 182,
+                "id" => 1660,
+                "set_id" => 185,
                 "slug" => "han-giang-nguyet-lanh",
                 "name" => "Hàn Giang Nguyệt Lãnh",
                 "effect_type" => "3",
@@ -17882,8 +18278,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_xxsyp06.png"
             ],
             [
-                "id" => 1625,
-                "set_id" => 182,
+                "id" => 1661,
+                "set_id" => 185,
                 "slug" => "van-li-trung-ba",
                 "name" => "Vạn Lí Trừng Ba",
                 "effect_type" => "2",
@@ -17893,8 +18289,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_xxsyp07.png"
             ],
             [
-                "id" => 1626,
-                "set_id" => 182,
+                "id" => 1662,
+                "set_id" => 185,
                 "slug" => "anh-ham-van-tuong",
                 "name" => "Ảnh Hàm Vạn Tượng",
                 "effect_type" => "1",
@@ -17904,8 +18300,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_xxsyp08.png"
             ],
             [
-                "id" => 1627,
-                "set_id" => 183,
+                "id" => 1663,
+                "set_id" => 186,
                 "slug" => "trieu-ca-mo-huyen",
                 "name" => "Triều Ca Mộ Huyền",
                 "effect_type" => "1",
@@ -17915,8 +18311,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_tmby01.png"
             ],
             [
-                "id" => 1628,
-                "set_id" => 183,
+                "id" => 1664,
+                "set_id" => 186,
                 "slug" => "cai-truong-dich-dieu",
                 "name" => "Cải Trương Dịch Điều",
                 "effect_type" => "1",
@@ -17926,8 +18322,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_tmby02.png"
             ],
             [
-                "id" => 1629,
-                "set_id" => 183,
+                "id" => 1665,
+                "set_id" => 186,
                 "slug" => "me-hon-phieu-huong",
                 "name" => "Mê Hồn Phiêu Hương",
                 "effect_type" => "2",
@@ -17937,8 +18333,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_tmby03.png"
             ],
             [
-                "id" => 1630,
-                "set_id" => 183,
+                "id" => 1666,
+                "set_id" => 186,
                 "slug" => "cam-doan-chu-huyen",
                 "name" => "Cầm Đoạn Chu Huyền",
                 "effect_type" => "1",
@@ -17948,8 +18344,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_tmby04.png"
             ],
             [
-                "id" => 1631,
-                "set_id" => 183,
+                "id" => 1667,
+                "set_id" => 186,
                 "slug" => "toa-thuong-cam-tam",
                 "name" => "Tọa Thượng Cầm Tâm",
                 "effect_type" => "3",
@@ -17959,8 +18355,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_tmby07.png"
             ],
             [
-                "id" => 1632,
-                "set_id" => 183,
+                "id" => 1668,
+                "set_id" => 186,
                 "slug" => "thien-am-tan-phach",
                 "name" => "Thiên Âm Tán Phách",
                 "effect_type" => "1",
@@ -17970,8 +18366,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_tmby05.png"
             ],
             [
-                "id" => 1633,
-                "set_id" => 183,
+                "id" => 1669,
+                "set_id" => 186,
                 "slug" => "tinh-ha-dao-thi",
                 "name" => "Tinh Hà Đảo Thị",
                 "effect_type" => "0",
@@ -17981,8 +18377,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_tmby07_hide.png"
             ],
             [
-                "id" => 1634,
-                "set_id" => 183,
+                "id" => 1670,
+                "set_id" => 186,
                 "slug" => "ao-ma-kiem-am",
                 "name" => "Ảo Ma Kiếm Âm",
                 "effect_type" => "1",
@@ -17992,8 +18388,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_tmby08.png"
             ],
             [
-                "id" => 1635,
-                "set_id" => 183,
+                "id" => 1671,
+                "set_id" => 186,
                 "slug" => "thien-am-tan-phach-bien-chieu",
                 "name" => "Thiên Âm Tán Phách (Biến chiêu)",
                 "effect_type" => "1",
@@ -18003,8 +18399,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_tmby06.png"
             ],
             [
-                "id" => 1636,
-                "set_id" => 184,
+                "id" => 1672,
+                "set_id" => 187,
                 "slug" => "tien-vu-man-thien",
                 "name" => "Tiễn Vũ Mạn Thiên",
                 "effect_type" => "2",
@@ -18014,8 +18410,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ldg01.png"
             ],
             [
-                "id" => 1637,
-                "set_id" => 184,
+                "id" => 1673,
+                "set_id" => 187,
                 "slug" => "phong-kinh-cung-minh",
                 "name" => "Phong Kình Cung Minh",
                 "effect_type" => "1",
@@ -18025,8 +18421,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ldg02.png"
             ],
             [
-                "id" => 1638,
-                "set_id" => 184,
+                "id" => 1674,
+                "set_id" => 187,
                 "slug" => "le-bat-hu-phat",
                 "name" => "Lệ Bất Hư Phát",
                 "effect_type" => "1",
@@ -18036,8 +18432,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ldg03.png"
             ],
             [
-                "id" => 1639,
-                "set_id" => 184,
+                "id" => 1675,
+                "set_id" => 187,
                 "slug" => "loan-cung-pha-nguyet",
                 "name" => "Loan Cung Phá Nguyệt",
                 "effect_type" => "1",
@@ -18047,8 +18443,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ldg04.png"
             ],
             [
-                "id" => 1640,
-                "set_id" => 184,
+                "id" => 1676,
+                "set_id" => 187,
                 "slug" => "van-tien-xuyen-van",
                 "name" => "Vạn Tiễn Xuyên Vân",
                 "effect_type" => "1",
@@ -18058,8 +18454,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ldg05.png"
             ],
             [
-                "id" => 1641,
-                "set_id" => 184,
+                "id" => 1677,
+                "set_id" => 187,
                 "slug" => "lac-nhan-kinh-cung",
                 "name" => "Lạc Nhạn Kinh Cung",
                 "effect_type" => "3",
@@ -18069,8 +18465,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ldg06.png"
             ],
             [
-                "id" => 1642,
-                "set_id" => 184,
+                "id" => 1678,
+                "set_id" => 187,
                 "slug" => "thu-huyen-phuoc-anh",
                 "name" => "Thu Huyền Phược Ảnh",
                 "effect_type" => "1",
@@ -18080,8 +18476,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_ldg07.png"
             ],
             [
-                "id" => 1643,
-                "set_id" => 184,
+                "id" => 1679,
+                "set_id" => 187,
                 "slug" => "tien-vu-man-thien-vo-ky",
                 "name" => "Tiễn Vũ Mạn Thiên (Võ kỹ)",
                 "effect_type" => "2",
@@ -18091,8 +18487,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/177.png"
             ],
             [
-                "id" => 1644,
-                "set_id" => 184,
+                "id" => 1680,
+                "set_id" => 187,
                 "slug" => "phong-kinh-cung-minh-vo-ky-bien-chieu",
                 "name" => "Phong Kình Cung Minh (Võ kỹ) (Biến chiêu)",
                 "effect_type" => "1",
@@ -18102,8 +18498,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/175_1.png"
             ],
             [
-                "id" => 1645,
-                "set_id" => 184,
+                "id" => 1681,
+                "set_id" => 187,
                 "slug" => "van-tien-xuyen-van-vo-ky",
                 "name" => "Vạn Tiễn Xuyên Vân (Võ kỹ)",
                 "effect_type" => "1",
@@ -18113,8 +18509,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/176.png"
             ],
             [
-                "id" => 1646,
-                "set_id" => 185,
+                "id" => 1682,
+                "set_id" => 188,
                 "slug" => "do-co-xuyen-duong",
                 "name" => "Do Cơ Xuyên Dương",
                 "effect_type" => "1",
@@ -18124,8 +18520,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_sjjc01.png"
             ],
             [
-                "id" => 1647,
-                "set_id" => 185,
+                "id" => 1683,
+                "set_id" => 188,
                 "slug" => "tran-am-dam-tien",
                 "name" => "Trần Âm Đàm Tiễn",
                 "effect_type" => "1",
@@ -18135,8 +18531,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_sjjc05.png"
             ],
             [
-                "id" => 1648,
-                "set_id" => 185,
+                "id" => 1684,
+                "set_id" => 188,
                 "slug" => "vien-mon-trung-kich",
                 "name" => "Viên Môn Trung Kích",
                 "effect_type" => "2",
@@ -18146,8 +18542,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_sjjc03.png"
             ],
             [
-                "id" => 1649,
-                "set_id" => 185,
+                "id" => 1685,
+                "set_id" => 188,
                 "slug" => "du-hong-kinh-huyen",
                 "name" => "Du Hồng Kinh Huyền",
                 "effect_type" => "1",
@@ -18157,8 +18553,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_sjjc04.png"
             ],
             [
-                "id" => 1650,
-                "set_id" => 185,
+                "id" => 1686,
+                "set_id" => 188,
                 "slug" => "hung-cu-liep-ho",
                 "name" => "Hùng Cừ Liệp Hổ",
                 "effect_type" => "1",
@@ -18168,8 +18564,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_sjjc08.png"
             ],
             [
-                "id" => 1651,
-                "set_id" => 185,
+                "id" => 1687,
+                "set_id" => 188,
                 "slug" => "ki-xuong-quai-sat",
                 "name" => "Kỉ Xương Quải Sắt",
                 "effect_type" => "1",
@@ -18179,8 +18575,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_sjjc06.png"
             ],
             [
-                "id" => 1652,
-                "set_id" => 185,
+                "id" => 1688,
+                "set_id" => 188,
                 "slug" => "luu-tinh-phi-hoa",
                 "name" => "Lưu Tinh Phi Hỏa",
                 "effect_type" => "3",
@@ -18190,8 +18586,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_sjjc07.png"
             ],
             [
-                "id" => 1653,
-                "set_id" => 185,
+                "id" => 1689,
+                "set_id" => 188,
                 "slug" => "li-quang-xa-thach",
                 "name" => "Lí Quảng Xạ Thạch",
                 "effect_type" => "1",
@@ -18201,8 +18597,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_sjjc02.png"
             ],
             [
-                "id" => 1654,
-                "set_id" => 185,
+                "id" => 1690,
+                "set_id" => 188,
                 "slug" => "hau-nghe-lac-nhat",
                 "name" => "Hậu Nghệ Lạc Nhật",
                 "effect_type" => "1",
@@ -18212,8 +18608,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_sjjc09.png"
             ],
             [
-                "id" => 1655,
-                "set_id" => 185,
+                "id" => 1691,
+                "set_id" => 188,
                 "slug" => "tran-am-dam-tien-vo-ky",
                 "name" => "Trần Âm Đàm Tiễn (Võ kỹ)",
                 "effect_type" => "1",
@@ -18223,8 +18619,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/481.png"
             ],
             [
-                "id" => 1656,
-                "set_id" => 185,
+                "id" => 1692,
+                "set_id" => 188,
                 "slug" => "hung-cu-liep-ho-tren-khong-vo-ky",
                 "name" => "Hùng Cừ Liệp Hổ (Trên không) (Võ kỹ)",
                 "effect_type" => "1",
@@ -18234,8 +18630,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/482.png"
             ],
             [
-                "id" => 1657,
-                "set_id" => 185,
+                "id" => 1693,
+                "set_id" => 188,
                 "slug" => "ki-xuong-quai-sat-vo-ky",
                 "name" => "Kỉ Xương Quải Sắt (Võ kỹ)",
                 "effect_type" => "1",
@@ -18245,8 +18641,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/483.png"
             ],
             [
-                "id" => 1658,
-                "set_id" => 186,
+                "id" => 1694,
+                "set_id" => 189,
                 "slug" => "phi-thi-kinh-loi",
                 "name" => "Phi Thỉ Kinh Lôi",
                 "effect_type" => "1",
@@ -18256,8 +18652,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_lybj01.png"
             ],
             [
-                "id" => 1659,
-                "set_id" => 186,
+                "id" => 1695,
+                "set_id" => 189,
                 "slug" => "do-dieu-xuyen-lam",
                 "name" => "Độ Điểu Xuyên Lâm",
                 "effect_type" => "1",
@@ -18267,8 +18663,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_lybj02.png"
             ],
             [
-                "id" => 1660,
-                "set_id" => 186,
+                "id" => 1696,
+                "set_id" => 189,
                 "slug" => "bat-huyen-ngu-khi",
                 "name" => "Bát Huyền Ngự Khí",
                 "effect_type" => "2",
@@ -18278,8 +18674,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_lybj03.png"
             ],
             [
-                "id" => 1661,
-                "set_id" => 186,
+                "id" => 1697,
+                "set_id" => 189,
                 "slug" => "phan-van-quan-nhat",
                 "name" => "Phân Vân Quán Nhật",
                 "effect_type" => "1",
@@ -18289,8 +18685,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_lybj04.png"
             ],
             [
-                "id" => 1662,
-                "set_id" => 186,
+                "id" => 1698,
+                "set_id" => 189,
                 "slug" => "loan-vu-gia-thien",
                 "name" => "Loạn Vụ Già Thiên",
                 "effect_type" => "3",
@@ -18300,8 +18696,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_lybj05.png"
             ],
             [
-                "id" => 1663,
-                "set_id" => 186,
+                "id" => 1699,
+                "set_id" => 189,
                 "slug" => "trien-phong-long-anh",
                 "name" => "Triền Phong Lộng Ảnh",
                 "effect_type" => "1",
@@ -18311,8 +18707,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_lybj06.png"
             ],
             [
-                "id" => 1664,
-                "set_id" => 186,
+                "id" => 1700,
+                "set_id" => 189,
                 "slug" => "tieu-quang-dinh-tran",
                 "name" => "Tiêu Quang Định Trần",
                 "effect_type" => "1",
@@ -18322,8 +18718,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_lybj07.png"
             ],
             [
-                "id" => 1665,
-                "set_id" => 186,
+                "id" => 1701,
+                "set_id" => 189,
                 "slug" => "bao-vu-lien-chau",
                 "name" => "Bạo Vũ Liên Châu",
                 "effect_type" => "1",
@@ -18333,8 +18729,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_lybj08.png"
             ],
             [
-                "id" => 1666,
-                "set_id" => 186,
+                "id" => 1702,
+                "set_id" => 189,
                 "slug" => "loan-vu-gia-thien-bien-chieu",
                 "name" => "Loạn Vụ Già Thiên (Biến chiêu)",
                 "effect_type" => "1",
@@ -18344,8 +18740,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_lybj05_hide.png"
             ],
             [
-                "id" => 1667,
-                "set_id" => 187,
+                "id" => 1703,
+                "set_id" => 190,
                 "slug" => "thanh-minh-thuy-si",
                 "name" => "Thanh Minh Thùy Sí",
                 "effect_type" => "1",
@@ -18355,8 +18751,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mhz01.png"
             ],
             [
-                "id" => 1668,
-                "set_id" => 187,
+                "id" => 1704,
+                "set_id" => 190,
                 "slug" => "suu-hon-le-nhan",
                 "name" => "Sưu Hồn Lệ Nhẫn",
                 "effect_type" => "2",
@@ -18366,8 +18762,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mhz02.png"
             ],
             [
-                "id" => 1669,
-                "set_id" => 187,
+                "id" => 1705,
+                "set_id" => 190,
                 "slug" => "minh-minh-trung-tuyen",
                 "name" => "Minh Minh Trùng Tuyền",
                 "effect_type" => "1",
@@ -18377,8 +18773,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mhz03.png"
             ],
             [
-                "id" => 1670,
-                "set_id" => 187,
+                "id" => 1706,
+                "set_id" => 190,
                 "slug" => "tru-tam-ta-nghiep",
                 "name" => "Tru Tâm Tà Nghiệp",
                 "effect_type" => "1",
@@ -18388,8 +18784,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mhz05.png"
             ],
             [
-                "id" => 1671,
-                "set_id" => 187,
+                "id" => 1707,
+                "set_id" => 190,
                 "slug" => "oan-sat-doan-hon",
                 "name" => "Oán Sát Đoạn Hồn",
                 "effect_type" => "3",
@@ -18399,8 +18795,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mhz06.png"
             ],
             [
-                "id" => 1672,
-                "set_id" => 187,
+                "id" => 1708,
+                "set_id" => 190,
                 "slug" => "thoi-nhac-bang-thien",
                 "name" => "Thôi Nhạc Băng Thiên",
                 "effect_type" => "1",
@@ -18410,8 +18806,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mhz07.png"
             ],
             [
-                "id" => 1673,
-                "set_id" => 187,
+                "id" => 1709,
+                "set_id" => 190,
                 "slug" => "mang-loan-van-phu",
                 "name" => "Mãng Loạn Vân Phù",
                 "effect_type" => "1",
@@ -18421,8 +18817,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_mhz08.png"
             ],
             [
-                "id" => 1674,
-                "set_id" => 188,
+                "id" => 1710,
+                "set_id" => 191,
                 "slug" => "be-tam-tu-than",
                 "name" => "Bế Tâm Tự Thận",
                 "effect_type" => "1",
@@ -18432,8 +18828,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_hqxxp01.png"
             ],
             [
-                "id" => 1675,
-                "set_id" => 188,
+                "id" => 1711,
+                "set_id" => 191,
                 "slug" => "tu-giac-thien-ninh",
                 "name" => "Tự Giác Thiên Ninh",
                 "effect_type" => "1",
@@ -18443,8 +18839,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_hqxxp02.png"
             ],
             [
-                "id" => 1676,
-                "set_id" => 188,
+                "id" => 1712,
+                "set_id" => 191,
                 "slug" => "vien-can-tuong-an",
                 "name" => "Viễn Cận Tương An",
                 "effect_type" => "2",
@@ -18454,8 +18850,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_hqxxp03.png"
             ],
             [
-                "id" => 1677,
-                "set_id" => 188,
+                "id" => 1713,
+                "set_id" => 191,
                 "slug" => "tich-canh-vo-nhieu",
                 "name" => "Tịch Cảnh Vô Nhiễu",
                 "effect_type" => "1",
@@ -18465,8 +18861,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_hqxxp04.png"
             ],
             [
-                "id" => 1678,
-                "set_id" => 188,
+                "id" => 1714,
+                "set_id" => 191,
                 "slug" => "tieu-dao-tu-thi",
                 "name" => "Tiêu Dao Tự Thị",
                 "effect_type" => "3",
@@ -18476,8 +18872,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_hqxxp05.png"
             ],
             [
-                "id" => 1679,
-                "set_id" => 188,
+                "id" => 1715,
+                "set_id" => 191,
                 "slug" => "nguyet-da-phan-huong",
                 "name" => "Nguyệt Dạ Phần Hương",
                 "effect_type" => "1",
@@ -18487,8 +18883,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_hqxxp05_hide.png"
             ],
             [
-                "id" => 1680,
-                "set_id" => 188,
+                "id" => 1716,
+                "set_id" => 191,
                 "slug" => "tu-vong-khe-son",
                 "name" => "Tứ Vọng Khê Sơn",
                 "effect_type" => "1",
@@ -18498,8 +18894,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_hqxxp07.png"
             ],
             [
-                "id" => 1681,
-                "set_id" => 188,
+                "id" => 1717,
+                "set_id" => 191,
                 "slug" => "phong-khoi-van-dam",
                 "name" => "Phong Khởi Vân Đạm",
                 "effect_type" => "1",
@@ -18509,8 +18905,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_hqxxp08.png"
             ],
             [
-                "id" => 1682,
-                "set_id" => 188,
+                "id" => 1718,
+                "set_id" => 191,
                 "slug" => "be-tam-tu-than-vo-ky",
                 "name" => "Bế Tâm Tự Thận (Võ kỹ)",
                 "effect_type" => "1",
@@ -18520,8 +18916,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/561.png"
             ],
             [
-                "id" => 1683,
-                "set_id" => 188,
+                "id" => 1719,
+                "set_id" => 191,
                 "slug" => "tieu-dao-tu-thi",
                 "name" => "Tiêu Dao Tự Thị",
                 "effect_type" => "0",
@@ -18531,8 +18927,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_hqxxp06_hide.png"
             ],
             [
-                "id" => 1684,
-                "set_id" => 188,
+                "id" => 1720,
+                "set_id" => 191,
                 "slug" => "nguyet-da-phan-huong-bien-chieu",
                 "name" => "Nguyệt Dạ Phần Hương (Biến chiêu)",
                 "effect_type" => "0",
@@ -18542,8 +18938,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_hqxxp05_hide_1.png"
             ],
             [
-                "id" => 1685,
-                "set_id" => 188,
+                "id" => 1721,
+                "set_id" => 191,
                 "slug" => "tu-vong-khe-son-vo-ky",
                 "name" => "Tứ Vọng Khê Sơn (Võ kỹ)",
                 "effect_type" => "1",
@@ -18553,8 +18949,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/562.png"
             ],
             [
-                "id" => 1686,
-                "set_id" => 188,
+                "id" => 1722,
+                "set_id" => 191,
                 "slug" => "phong-khoi-van-dam-tren-khong-vo-ky",
                 "name" => "Phong Khởi Vân Đạm (Trên không) (Võ kỹ)",
                 "effect_type" => "1",
@@ -18564,8 +18960,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/563.png"
             ],
             [
-                "id" => 1687,
-                "set_id" => 189,
+                "id" => 1723,
+                "set_id" => 192,
                 "slug" => "to-the-doc-lap",
                 "name" => "Tô Thế Độc Lập",
                 "effect_type" => "1",
@@ -18575,8 +18971,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_ymchj01.png"
             ],
             [
-                "id" => 1688,
-                "set_id" => 189,
+                "id" => 1724,
+                "set_id" => 192,
                 "slug" => "bi-thu-lam-thu",
                 "name" => "Bi Thử Lẫm Thu",
                 "effect_type" => "2",
@@ -18586,8 +18982,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_ymchj02.png"
             ],
             [
-                "id" => 1689,
-                "set_id" => 189,
+                "id" => 1725,
+                "set_id" => 192,
                 "slug" => "nguyet-to-luu-quang",
                 "name" => "Nguyệt Tố Lưu Quang",
                 "effect_type" => "1",
@@ -18597,8 +18993,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_ymchj03.png"
             ],
             [
-                "id" => 1690,
-                "set_id" => 189,
+                "id" => 1726,
+                "set_id" => 192,
                 "slug" => "vien-ba-khong-thuy",
                 "name" => "Viễn Ba Không Thúy",
                 "effect_type" => "1",
@@ -18608,8 +19004,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_ymchj04.png"
             ],
             [
-                "id" => 1691,
-                "set_id" => 189,
+                "id" => 1727,
+                "set_id" => 192,
                 "slug" => "tac-tri-tam-nguyet",
                 "name" => "Tạc Trì Tẩm Nguyệt",
                 "effect_type" => "3",
@@ -18619,8 +19015,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_ymchj05.png"
             ],
             [
-                "id" => 1692,
-                "set_id" => 189,
+                "id" => 1728,
+                "set_id" => 192,
                 "slug" => "tinh-ly-can-khon",
                 "name" => "Tịnh Lý Càn Khôn",
                 "effect_type" => "1",
@@ -18630,8 +19026,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_ymchj06.png"
             ],
             [
-                "id" => 1693,
-                "set_id" => 189,
+                "id" => 1729,
+                "set_id" => 192,
                 "slug" => "hoa-nguyet-my-nhan",
                 "name" => "Hoa Nguyệt Mỹ Nhân",
                 "effect_type" => "0",
@@ -18641,8 +19037,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_ymchj07.png"
             ],
             [
-                "id" => 1694,
-                "set_id" => 189,
+                "id" => 1730,
+                "set_id" => 192,
                 "slug" => "nhat-tuy-thien-nhat",
                 "name" => "Nhất Túy Thiên Nhật",
                 "effect_type" => "1",
@@ -18652,8 +19048,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_ymchj08.png"
             ],
             [
-                "id" => 1695,
-                "set_id" => 189,
+                "id" => 1731,
+                "set_id" => 192,
                 "slug" => "tac-tri-tam-nguyet-vo-ky",
                 "name" => "Tạc Trì Tẩm Nguyệt (Võ kỹ)",
                 "effect_type" => "3",
@@ -18663,8 +19059,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/557.png"
             ],
             [
-                "id" => 1696,
-                "set_id" => 189,
+                "id" => 1732,
+                "set_id" => 192,
                 "slug" => "tinh-ly-can-khon-vo-ky",
                 "name" => "Tịnh Lý Càn Khôn (Võ kỹ)",
                 "effect_type" => "1",
@@ -18674,8 +19070,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/558.png"
             ],
             [
-                "id" => 1697,
-                "set_id" => 189,
+                "id" => 1733,
+                "set_id" => 192,
                 "slug" => "hoa-nguyet-my-nhan-vo-ky",
                 "name" => "Hoa Nguyệt Mỹ Nhân (Võ kỹ)",
                 "effect_type" => "0",
@@ -18685,8 +19081,8 @@ class Skill extends AbstractSeed
                 "photo" => "wuji/559.png"
             ],
             [
-                "id" => 1698,
-                "set_id" => 190,
+                "id" => 1734,
+                "set_id" => 193,
                 "slug" => "bach-nhat-chieu-chieu",
                 "name" => "Bạch Nhật Chiêu Chiêu",
                 "effect_type" => "1",
@@ -18696,8 +19092,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_syl01.png"
             ],
             [
-                "id" => 1699,
-                "set_id" => 190,
+                "id" => 1735,
+                "set_id" => 193,
                 "slug" => "sai-sai-linh-khong",
                 "name" => "Sái Sái Linh Không",
                 "effect_type" => "1",
@@ -18707,8 +19103,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_syl02_hide.png"
             ],
             [
-                "id" => 1700,
-                "set_id" => 190,
+                "id" => 1736,
+                "set_id" => 193,
                 "slug" => "ngu-hi-lanh-tuyen",
                 "name" => "Ngư Hí Lãnh Tuyền",
                 "effect_type" => "1",
@@ -18718,8 +19114,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_syl03.png"
             ],
             [
-                "id" => 1701,
-                "set_id" => 190,
+                "id" => 1737,
+                "set_id" => 193,
                 "slug" => "binh-da-thuong-thuy",
                 "name" => "Bình Dã Thương Thúy",
                 "effect_type" => "1",
@@ -18729,8 +19125,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_syl04.png"
             ],
             [
-                "id" => 1702,
-                "set_id" => 190,
+                "id" => 1738,
+                "set_id" => 193,
                 "slug" => "yeu-nguyet-ngon-sau",
                 "name" => "Yêu Nguyệt Ngôn Sầu",
                 "effect_type" => "3",
@@ -18740,8 +19136,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_syl05.png"
             ],
             [
-                "id" => 1703,
-                "set_id" => 190,
+                "id" => 1739,
+                "set_id" => 193,
                 "slug" => "loan-hong-phieu-thiet",
                 "name" => "Loạn Hồng Phiêu Thiết",
                 "effect_type" => "2",
@@ -18751,8 +19147,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_syl06.png"
             ],
             [
-                "id" => 1704,
-                "set_id" => 190,
+                "id" => 1740,
+                "set_id" => 193,
                 "slug" => "truc-ly-dang-lau",
                 "name" => "Trúc Lý Đăng Lâu",
                 "effect_type" => "0",
@@ -18762,8 +19158,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_syl07.png"
             ],
             [
-                "id" => 1705,
-                "set_id" => 190,
+                "id" => 1741,
+                "set_id" => 193,
                 "slug" => "nong-mac-hoan-the",
                 "name" => "Nồng Mặc Hoán Thể",
                 "effect_type" => "1",
@@ -18773,8 +19169,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_syl08.png"
             ],
             [
-                "id" => 1706,
-                "set_id" => 190,
+                "id" => 1742,
+                "set_id" => 193,
                 "slug" => "bach-nhat-chieu-chieu-hoan-the-bien-chieu",
                 "name" => "Bạch Nhật Chiêu Chiêu·Hoán Thể (Biến chiêu)",
                 "effect_type" => "1",
@@ -18784,8 +19180,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_syl01_hide.png"
             ],
             [
-                "id" => 1707,
-                "set_id" => 190,
+                "id" => 1743,
+                "set_id" => 193,
                 "slug" => "sai-sai-linh-khong-bien-chieu",
                 "name" => "Sái Sái Linh Không (Biến chiêu)",
                 "effect_type" => "1",
@@ -18795,8 +19191,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_syl02.png"
             ],
             [
-                "id" => 1708,
-                "set_id" => 190,
+                "id" => 1744,
+                "set_id" => 193,
                 "slug" => "ngu-hi-lanh-tuyen-bien-chieu",
                 "name" => "Ngư Hí Lãnh Tuyền (Biến chiêu)",
                 "effect_type" => "1",
@@ -18806,8 +19202,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_syl03_hide.png"
             ],
             [
-                "id" => 1709,
-                "set_id" => 190,
+                "id" => 1745,
+                "set_id" => 193,
                 "slug" => "binh-da-thuong-thuy-bien-chieu",
                 "name" => "Bình Dã Thương Thúy (Biến chiêu)",
                 "effect_type" => "1",
@@ -18817,8 +19213,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_syl04_hide.png"
             ],
             [
-                "id" => 1710,
-                "set_id" => 190,
+                "id" => 1746,
+                "set_id" => 193,
                 "slug" => "loan-hong-phieu-thiet-bien-chieu",
                 "name" => "Loạn Hồng Phiêu Thiết (Biến chiêu)",
                 "effect_type" => "2",
@@ -18828,8 +19224,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_syl06_hide.png"
             ],
             [
-                "id" => 1711,
-                "set_id" => 190,
+                "id" => 1747,
+                "set_id" => 193,
                 "slug" => "nong-mac-hoan-the-bien-chieu",
                 "name" => "Nồng Mặc Hoán Thể (Biến chiêu)",
                 "effect_type" => "1",
@@ -18839,8 +19235,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_kl_syl08_hide.png"
             ],
             [
-                "id" => 1712,
-                "set_id" => 191,
+                "id" => 1748,
+                "set_id" => 194,
                 "slug" => "phu-thien-thuong-hai",
                 "name" => "Phù Thiên Thương Hải",
                 "effect_type" => "1",
@@ -18850,8 +19246,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yszyq01.png"
             ],
             [
-                "id" => 1713,
-                "set_id" => 191,
+                "id" => 1749,
+                "set_id" => 194,
                 "slug" => "hai-ba-lien-thien",
                 "name" => "Hải Ba Liên Thiên",
                 "effect_type" => "1",
@@ -18861,8 +19257,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yszyq02.png"
             ],
             [
-                "id" => 1714,
-                "set_id" => 191,
+                "id" => 1750,
+                "set_id" => 194,
                 "slug" => "thu-tieu-mong-giac",
                 "name" => "Thu Tiêu Mộng Giác",
                 "effect_type" => "1",
@@ -18872,8 +19268,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yszyq03.png"
             ],
             [
-                "id" => 1715,
-                "set_id" => 191,
+                "id" => 1751,
+                "set_id" => 194,
                 "slug" => "khoai-y-hung-phong",
                 "name" => "Khoái Ý Hùng Phong",
                 "effect_type" => "1",
@@ -18883,8 +19279,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yszyq04.png"
             ],
             [
-                "id" => 1716,
-                "set_id" => 191,
+                "id" => 1752,
+                "set_id" => 194,
                 "slug" => "tuy-ngam-phong-nguyet",
                 "name" => "Túy Ngâm Phong Nguyệt",
                 "effect_type" => "1",
@@ -18894,8 +19290,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yszyq05.png"
             ],
             [
-                "id" => 1717,
-                "set_id" => 191,
+                "id" => 1753,
+                "set_id" => 194,
                 "slug" => "hu-vo-phieu-mieu",
                 "name" => "Hư Vô Phiêu Miễu",
                 "effect_type" => "0",
@@ -18905,8 +19301,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yszyq06.png"
             ],
             [
-                "id" => 1718,
-                "set_id" => 191,
+                "id" => 1754,
+                "set_id" => 194,
                 "slug" => "thuy-hong-thien-truong",
                 "name" => "Thùy Hồng Thiên Trượng",
                 "effect_type" => "2",
@@ -18916,8 +19312,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yszyq07.png"
             ],
             [
-                "id" => 1719,
-                "set_id" => 191,
+                "id" => 1755,
+                "set_id" => 194,
                 "slug" => "van-hai-tuong-vong",
                 "name" => "Vân Hải Tương Vọng",
                 "effect_type" => "3",
@@ -18927,8 +19323,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_jh_yszyq08.png"
             ],
             [
-                "id" => 1720,
-                "set_id" => 192,
+                "id" => 1756,
+                "set_id" => 195,
                 "slug" => "truong-ca-hoai-thai-vi",
                 "name" => "Trường Ca Hoài Thái Vi",
                 "effect_type" => "1",
@@ -18938,8 +19334,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tyhg_mwybj01.png"
             ],
             [
-                "id" => 1721,
-                "set_id" => 192,
+                "id" => 1757,
+                "set_id" => 195,
                 "slug" => "thu-ban-tuong-vi-tru",
                 "name" => "Thư Bạn Tường Vi Trú",
                 "effect_type" => "2",
@@ -18949,8 +19345,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tyhg_mwybj02.png"
             ],
             [
-                "id" => 1722,
-                "set_id" => 192,
+                "id" => 1758,
+                "set_id" => 195,
                 "slug" => "lac-but-cuu-thien-thuong",
                 "name" => "Lạc Bút Cửu Thiên Thượng",
                 "effect_type" => "3",
@@ -18960,8 +19356,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tyhg_mwybj03.png"
             ],
             [
-                "id" => 1723,
-                "set_id" => 192,
+                "id" => 1759,
+                "set_id" => 195,
                 "slug" => "sai-but-pho-phi-dieu",
                 "name" => "Sái Bút Phó Phi Điểu",
                 "effect_type" => "1",
@@ -18971,8 +19367,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tyhg_mwybj04.png"
             ],
             [
-                "id" => 1724,
-                "set_id" => 192,
+                "id" => 1760,
+                "set_id" => 195,
                 "slug" => "y-xuat-but-mac-ngoai",
                 "name" => "Ý Xuất Bút Mặc Ngoại",
                 "effect_type" => "1",
@@ -18982,8 +19378,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tyhg_mwybj05.png"
             ],
             [
-                "id" => 1725,
-                "set_id" => 192,
+                "id" => 1761,
+                "set_id" => 195,
                 "slug" => "nhan-dam-mong-lac-hoa",
                 "name" => "Nhàn Đàm Mộng Lạc Hoa",
                 "effect_type" => "1",
@@ -18993,8 +19389,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tyhg_mwybj06.png"
             ],
             [
-                "id" => 1726,
-                "set_id" => 192,
+                "id" => 1762,
+                "set_id" => 195,
                 "slug" => "thua-chau-mong-nhat-bien",
                 "name" => "Thừa Châu Mộng Nhật Biên",
                 "effect_type" => "1",
@@ -19004,8 +19400,8 @@ class Skill extends AbstractSeed
                 "photo" => "skill/cs_tyhg_mwybj07.png"
             ],
             [
-                "id" => 1727,
-                "set_id" => 192,
+                "id" => 1763,
+                "set_id" => 195,
                 "slug" => "tuu-nong-xuan-nhap-mong",
                 "name" => "Tửu Nồng Xuân Nhập Mộng",
                 "effect_type" => "1",
@@ -19014,7 +19410,95 @@ class Skill extends AbstractSeed
                 "power" => 6,
                 "photo" => "skill/cs_tyhg_mwybj08.png"
             ],
-        
+            [
+                "id" => 1764,
+                "set_id" => 196,
+                "slug" => "phong-xuy-van-ly",
+                "name" => "Phong Xuy Vạn Lý",
+                "effect_type" => "1",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 3,
+                "photo" => "skill/cs_jh_sfsj01.png"
+            ],
+            [
+                "id" => 1765,
+                "set_id" => 196,
+                "slug" => "nhan-tinh-phan-phuc",
+                "name" => "Nhân Tình Phản Phúc",
+                "effect_type" => "2",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 3,
+                "photo" => "skill/cs_jh_sfsj02.png"
+            ],
+            [
+                "id" => 1766,
+                "set_id" => 196,
+                "slug" => "du-sinh-dao-dao",
+                "name" => "Dư Sinh Dao Dao",
+                "effect_type" => "1",
+                "lock_flg" => "1",
+                "max_level" => 12,
+                "power" => 4,
+                "photo" => "skill/cs_jh_sfsj03.png"
+            ],
+            [
+                "id" => 1767,
+                "set_id" => 196,
+                "slug" => "lai-nhu-phong-vu",
+                "name" => "Lai Như Phong Vũ",
+                "effect_type" => "1",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 3,
+                "photo" => "skill/cs_jh_sfsj04.png"
+            ],
+            [
+                "id" => 1768,
+                "set_id" => 196,
+                "slug" => "khu-tu-vi-tran",
+                "name" => "Khứ Tự Vi Trần",
+                "effect_type" => "1",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 4,
+                "photo" => "skill/cs_jh_sfsj05.png"
+            ],
+            [
+                "id" => 1769,
+                "set_id" => 196,
+                "slug" => "phat-van-khinh-tieu",
+                "name" => "Phất Vân Khinh Tiêu",
+                "effect_type" => "1",
+                "lock_flg" => "1",
+                "max_level" => 12,
+                "power" => 5,
+                "photo" => "skill/cs_jh_sfsj06.png"
+            ],
+            [
+                "id" => 1770,
+                "set_id" => 196,
+                "slug" => "thien-menh-chieu-chieu",
+                "name" => "Thiên Mệnh Chiêu Chiêu",
+                "effect_type" => "3",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 3,
+                "photo" => "skill/cs_jh_sfsj07.png"
+            ],
+            [
+                "id" => 1771,
+                "set_id" => 196,
+                "slug" => "chung-huu-nhat-quy",
+                "name" => "Chung Hữu Nhất Quy",
+                "effect_type" => "0",
+                "lock_flg" => "0",
+                "max_level" => 12,
+                "power" => 3,
+                "photo" => "skill/cs_jh_sfsj08.png"
+            ],
+
         ];
         $table = $this->table("skill");
         $table->truncate();

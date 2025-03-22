@@ -54,6 +54,8 @@ export default function Home() {
       <div className="release-note text-white ml-10 mt-10">
         <span className="zdn-color">Release note:</span>
         <br />
+        2025/03/22: Cập nhật thông tin Võ công, Nội công, Kinh mạch cho phiên bản Đại Náo Cửu Âm.
+        <br />
         2024/04/05: Cập nhật thông tin Võ công, Nội công, Kinh mạch cho phiên bản Côn luân đại chiến.
         <br />
         2024/02/13: Thêm thông tin Võ công.

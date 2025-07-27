@@ -21,6 +21,6 @@ $errorMiddleware = new ErrorMiddleware(
 
 $app->add($errorMiddleware);
 
-// if ($_ENV["MODE"] == "production") {
+if ($_ENV["MODE"] == "production") {
     $errorMiddleware->setDefaultErrorHandler(new ZdnErrorHandler($app->getResponseFactory()));
-// }
+}

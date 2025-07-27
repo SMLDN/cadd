@@ -2,11 +2,12 @@
 
 use Zdn\Utility\ZdnString;
 use Zdn\Controller\HomeController;
-use Slim\Routing\RouteCollectorProxy;
-use Zdn\Controller\KinhMachController;
-use Zdn\Controller\NoiCongController;
 use Zdn\Controller\SchoolController;
+use Zdn\Controller\SearchController;
 use Zdn\Controller\VoCongController;
+use Slim\Routing\RouteCollectorProxy;
+use Zdn\Controller\NoiCongController;
+use Zdn\Controller\KinhMachController;
 
 $app->group("/api", function (RouteCollectorProxy $apiGroup) {
     $apiGroup->get("/", HomeController::class . ":index");
@@ -37,5 +38,9 @@ $app->group("/api", function (RouteCollectorProxy $apiGroup) {
         $vcGroup->group("/{voCong:" . ZdnString::SLUG_PATTERN . "}", function (RouteCollectorProxy $g) {
             $g->get("/{level:[0-9]*}", VoCongController::class . ":detail");
         });
+    });
+
+    $apiGroup->group("/search", function (RouteCollectorProxy $searchGroup) {
+        $searchGroup->get("", SearchController::class . ":searchByKeyword");
     });
 });

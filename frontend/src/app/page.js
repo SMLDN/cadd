@@ -31,12 +31,12 @@ export default function Home() {
         </div>
         <div className="item vo-cong">
           <div>
-            <a href="/vo-cong/phien-thien-phach-dia/20">
+            <a href="/vo-cong/vu-hoa-toa-son/16">
               <div className="vo-cong-btn"></div>
             </a>
           </div>
           <div className="text-content">
-            <a href="/vo-cong/phien-thien-phach-dia/20">Võ Công</a>
+            <a href="/vo-cong/vu-hoa-toa-son/16">Võ Công</a>
           </div>
         </div>
         <div className="item kinh-mach">
@@ -54,7 +54,7 @@ export default function Home() {
       <div className="release-note text-white ml-10 mt-10">
         <span className="zdn-color">Release note:</span>
         <br />
-        2025/07/27: Sữa lỗi không hiển thị Nội 6 các phái. Sửa lỗi không hiển thị một số bộ võ.
+        2025/07/27: Thêm chức năng Tìm kiếm. Sửa lỗi không hiển thị Nội 6 các phái. Sửa lỗi không hiển thị một số bộ võ.
         <br />
         2025/03/22: Cập nhật thông tin Võ công, Nội công, Kinh mạch cho phiên bản Đại Náo Cửu Âm.
         <br />

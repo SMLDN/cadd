@@ -11,7 +11,7 @@ class Set extends ZdnBaseModel
 
     public function initSkill()
     {
-        return $this->hasOne(Skill::class)->orderBy("id")->select("set_id", "slug", "name", "max_level");
+        return $this->hasOne(Skill::class)->orderBy("id")->select("set_id", "slug", "name", "max_level", "photo");
     }
 
     public function skillListAll()

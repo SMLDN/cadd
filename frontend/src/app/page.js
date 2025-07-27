@@ -54,6 +54,8 @@ export default function Home() {
       <div className="release-note text-white ml-10 mt-10">
         <span className="zdn-color">Release note:</span>
         <br />
+        2025/07/27: Sữa lỗi không hiển thị Nội 6 các phái. Sửa lỗi không hiển thị một số bộ võ.
+        <br />
         2025/03/22: Cập nhật thông tin Võ công, Nội công, Kinh mạch cho phiên bản Đại Náo Cửu Âm.
         <br />
         2024/04/05: Cập nhật thông tin Võ công, Nội công, Kinh mạch cho phiên bản Côn luân đại chiến.

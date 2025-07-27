@@ -19,984 +19,1040 @@ class Set extends AbstractSeed
         $data = [
             [
                 "id" => 1,
-                "name" => "Thái Tổ Trường Quyền",
+                "name" => "Thô Thiển Công Phu",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 2,
-                "name" => "La Hán Quyền",
+                "name" => "Thái Tổ Trường Quyền",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 3,
-                "name" => "Long Trảo Thủ (Cổ)",
+                "name" => "La Hán Quyền",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 4,
-                "name" => "Thái Cực Quyền (Cổ)",
+                "name" => "Long Trảo Thủ (Cổ)",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 5,
-                "name" => "Kim Đỉnh Miên Chưởng",
+                "name" => "Thái Cực Quyền (Cổ)",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 6,
-                "name" => "Phiêu Tuyết Xuyên Vân Chưởng",
+                "name" => "Kim Đỉnh Miên Chưởng",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 7,
-                "name" => "Tiêu Dao Thoái Pháp",
+                "name" => "Phiêu Tuyết Xuyên Vân Chưởng",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 8,
-                "name" => "Ưng Trảo Quyền",
+                "name" => "Tiêu Dao Thoái Pháp",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 9,
-                "name" => "Liên Hoa Chưởng",
+                "name" => "Ưng Trảo Quyền",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 10,
-                "name" => "Hủ Cốt Chưởng",
+                "name" => "Liên Hoa Chưởng",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 11,
-                "name" => "Ma Tâm Liên Hoàn Thủ",
+                "name" => "Hủ Cốt Chưởng",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 12,
-                "name" => "Cửu Âm Bạch Cốt Trảo",
+                "name" => "Ma Tâm Liên Hoàn Thủ",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 13,
-                "name" => "Thiên Sơn Lục Dương Chưởng",
+                "name" => "Cửu Âm Bạch Cốt Trảo",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 14,
-                "name" => "Đường Lang Quyền",
+                "name" => "Thiên Sơn Lục Dương Chưởng",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 15,
-                "name" => "Điêu Linh",
+                "name" => "Đường Lang Quyền",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 16,
-                "name" => "Thanh Vân Chưởng Pháp",
+                "name" => "Điêu Linh",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 17,
-                "name" => "Thái Cực Quyền",
+                "name" => "Thanh Vân Chưởng Pháp",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 18,
-                "name" => "Long Trảo Thủ",
+                "name" => "Thái Cực Quyền",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 19,
-                "name" => "Thiết Đầu Công",
+                "name" => "Long Trảo Thủ",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 20,
-                "name" => "Hàng Long Thập Ba Chưởng",
+                "name" => "Thiết Đầu Công",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 21,
-                "name" => "Khôi Tinh Thích Đấu",
+                "name" => "Hàng Long Thập Ba Chưởng",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 22,
-                "name" => "Dã Cầu Quyền",
+                "name" => "Khôi Tinh Thích Đấu",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 23,
-                "name" => "Hoa Thần Thất Thức",
+                "name" => "Dã Cầu Quyền",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 24,
-                "name" => "Túy Bát Tiên",
+                "name" => "Hoa Thần Thất Thức",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 25,
-                "name" => "Long Hổ Bá Vương Quyền",
+                "name" => "Túy Bát Tiên",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 26,
-                "name" => "Can Trại Liệt Hỏa Chưởng",
+                "name" => "Long Hổ Bá Vương Quyền",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 27,
-                "name" => "Toàn Phong Tảo Diệp Thoái",
+                "name" => "Can Trại Liệt Hỏa Chưởng",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 28,
-                "name" => "Hoa Thần Thất Thức(Vô Khuyết)",
+                "name" => "Toàn Phong Tảo Diệp Thoái",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 29,
-                "name" => "Phật Tâm Chưởng",
+                "name" => "Hoa Thần Thất Thức(Vô Khuyết)",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 30,
-                "name" => "Tham Hợp Chỉ",
+                "name" => "Phật Tâm Chưởng",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 31,
-                "name" => "Nam Dương Quyền Pháp",
+                "name" => "Tham Hợp Chỉ",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 32,
-                "name" => "Nam Nhân Kiến Bất Đắc",
+                "name" => "Nam Dương Quyền Pháp",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 33,
-                "name" => "Diện Mục Toàn Phi Cước",
+                "name" => "Nam Nhân Kiến Bất Đắc",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 34,
-                "name" => "Thiên Ma Vũ",
+                "name" => "Diện Mục Toàn Phi Cước",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 35,
-                "name" => "Thệ Thủy Quyết",
+                "name" => "Thiên Ma Vũ",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 36,
-                "name" => "Hàng Long Chưởng Pháp",
+                "name" => "Thệ Thủy Quyết",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 37,
-                "name" => "Thiên Thù Vạn Độc Thủ",
+                "name" => "Hàng Long Chưởng Pháp",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 38,
-                "name" => "Đại Từ Đại Bi Thiên Diệp Thủ",
+                "name" => "Thiên Thù Vạn Độc Thủ",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 39,
-                "name" => "Giáng Long Thập Bát Chưởng",
+                "name" => "Đại Từ Đại Bi Thiên Diệp Thủ",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 40,
-                "name" => "Hầu Quyền",
+                "name" => "Giáng Long Thập Bát Chưởng",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 41,
-                "name" => "Triền Hồn Cầm Nã Thủ",
+                "name" => "Hầu Quyền",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 42,
-                "name" => "Cửu Dương-Tuyệt Học",
+                "name" => "Triền Hồn Cầm Nã Thủ",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 43,
-                "name" => "Ngũ Linh Phổ",
+                "name" => "Cửu Dương-Tuyệt Học",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 44,
-                "name" => "Lưu Chuyển Huyết Thần Sát",
+                "name" => "Ngũ Linh Phổ",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 45,
-                "name" => "Hồn Ly Túy Mộng Công",
+                "name" => "Lưu Chuyển Huyết Thần Sát",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 46,
-                "name" => "Thánh Mai Bí Quyết",
+                "name" => "Hồn Ly Túy Mộng Công",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 47,
-                "name" => "Thánh Mai Bí Quyết (Cổ phổ)",
+                "name" => "Thánh Mai Bí Quyết",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 48,
-                "name" => "Uy Linh Thoái Pháp",
+                "name" => "Thánh Mai Bí Quyết (Cổ phổ)",
                 "type" => "cs_ks"
             ],
             [
                 "id" => 49,
-                "name" => "Tà Dương Kiếm Pháp",
-                "type" => "cs_dj"
+                "name" => "Uy Linh Thoái Pháp",
+                "type" => "cs_ks"
             ],
             [
                 "id" => 50,
-                "name" => "Thanh Phong Kiếm Pháp",
+                "name" => "Chiết Phong Kiếm Pháp",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 51,
-                "name" => "Thái Cực Kiếm",
+                "name" => "Tà Dương Kiếm Pháp",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 52,
-                "name" => "Lạc Anh Phi Hoa Kiếm",
+                "name" => "Thanh Phong Kiếm Pháp",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 53,
-                "name" => "Ngọc Tiêu Kiếm Pháp",
+                "name" => "Thái Cực Kiếm",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 54,
-                "name" => "Đoạt Mệnh Thập Tam Kiếm",
+                "name" => "Lạc Anh Phi Hoa Kiếm",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 55,
-                "name" => "Ngọc Nữ Kiếm Pháp",
+                "name" => "Ngọc Tiêu Kiếm Pháp",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 56,
-                "name" => "Lưu Sa",
+                "name" => "Đoạt Mệnh Thập Tam Kiếm",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 57,
-                "name" => "Tuyết Trai Kiếm Pháp",
+                "name" => "Ngọc Nữ Kiếm Pháp",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 58,
-                "name" => "Độc Cô Cửu Kiếm",
+                "name" => "Lưu Sa",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 59,
-                "name" => "Xung Linh Kiếm Pháp (F)",
+                "name" => "Tuyết Trai Kiếm Pháp",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 60,
-                "name" => "Xung Linh Kiếm Pháp (F)",
+                "name" => "Độc Cô Cửu Kiếm",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 61,
-                "name" => "Mi Lai Nhãn Khứ Kiếm",
+                "name" => "Xung Linh Kiếm Pháp (F)",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 62,
-                "name" => "Thần Long Bắc Võ Kiếm",
+                "name" => "Xung Linh Kiếm Pháp (F)",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 63,
-                "name" => "Mặc Tử Kiếm Pháp",
+                "name" => "Mi Lai Nhãn Khứ Kiếm",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 64,
-                "name" => "Tịch Tà Kiếm Pháp",
+                "name" => "Thần Long Bắc Võ Kiếm",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 65,
-                "name" => "Mị Ảnh Kiếm Pháp",
+                "name" => "Mặc Tử Kiếm Pháp",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 66,
-                "name" => "Bích Hải Triều Sinh Khúc",
+                "name" => "Tịch Tà Kiếm Pháp",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 67,
-                "name" => "Kim Xà Kiếm Pháp",
+                "name" => "Mị Ảnh Kiếm Pháp",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 68,
-                "name" => "Vân Tiêu Phi Kiếm",
+                "name" => "Bích Hải Triều Sinh Khúc",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 69,
-                "name" => "Tây Dương Kích Kiếm",
+                "name" => "Kim Xà Kiếm Pháp",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 70,
-                "name" => "Toàn Chân Kiếm Pháp",
+                "name" => "Vân Tiêu Phi Kiếm",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 71,
-                "name" => "Thái Huyền Tương Hoa Kiếm Phổ",
+                "name" => "Tây Dương Kích Kiếm",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 72,
-                "name" => "Ngọc Nữ Tố Tâm Kiếm",
+                "name" => "Toàn Chân Kiếm Pháp",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 73,
-                "name" => "Cù Chi Kiếm Pháp",
+                "name" => "Thái Huyền Tương Hoa Kiếm Phổ",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 74,
-                "name" => "Hoa Sơn Kiếm Pháp",
+                "name" => "Ngọc Nữ Tố Tâm Kiếm",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 75,
-                "name" => "Cuồng Phong Khoái Kiếm",
+                "name" => "Cù Chi Kiếm Pháp",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 76,
-                "name" => "Âm Dương Đại Bi Phú",
+                "name" => "Hoa Sơn Kiếm Pháp",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 77,
-                "name" => "Nhiễu Chỉ Nhu Kiếm",
+                "name" => "Cuồng Phong Khoái Kiếm",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 78,
-                "name" => "Thiên Nhiên Lý Tâm Lưu",
+                "name" => "Âm Dương Đại Bi Phú",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 79,
-                "name" => "Húc Nhật Kiếm Pháp",
+                "name" => "Nhiễu Chỉ Nhu Kiếm",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 80,
-                "name" => "Thiên Sơn Kiếm Pháp",
+                "name" => "Thiên Nhiên Lý Tâm Lưu",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 81,
-                "name" => "Cửu Nghi Kiếm Pháp",
+                "name" => "Húc Nhật Kiếm Pháp",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 82,
-                "name" => "Tiểu Thiên Tinh Kiếm Pháp",
+                "name" => "Thiên Sơn Kiếm Pháp",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 83,
-                "name" => "Phạn Hành Kiếm Pháp",
+                "name" => "Cửu Nghi Kiếm Pháp",
                 "type" => "cs_dj"
             ],
             [
                 "id" => 84,
-                "name" => "Vô Nhai Kiếm Pháp",
-                "type" => "cs_sj"
+                "name" => "Tiểu Thiên Tinh Kiếm Pháp",
+                "type" => "cs_dj"
             ],
             [
                 "id" => 85,
-                "name" => "Lưu Vân Kiếm Pháp",
-                "type" => "cs_sj"
+                "name" => "Phạn Hành Kiếm Pháp",
+                "type" => "cs_dj"
             ],
             [
                 "id" => 86,
-                "name" => "Cửu Cung Kiếm Pháp",
+                "name" => "Lưỡng Nghi Kiếm Pháp",
                 "type" => "cs_sj"
             ],
             [
                 "id" => 87,
-                "name" => "Thất Tinh Kiếm",
+                "name" => "Vô Nhai Kiếm Pháp",
                 "type" => "cs_sj"
             ],
             [
                 "id" => 88,
-                "name" => "Vũ Quỷ Lục",
+                "name" => "Lưu Vân Kiếm Pháp",
                 "type" => "cs_sj"
             ],
             [
                 "id" => 89,
-                "name" => "Thiên Tâm Kiếm Quyết",
+                "name" => "Cửu Cung Kiếm Pháp",
                 "type" => "cs_sj"
             ],
             [
                 "id" => 90,
-                "name" => "Tứ Tượng Kiếm Quyết",
+                "name" => "Thất Tinh Kiếm",
                 "type" => "cs_sj"
             ],
             [
                 "id" => 91,
-                "name" => "Ngũ Vĩ Kiếm Quyết",
+                "name" => "Vũ Quỷ Lục",
                 "type" => "cs_sj"
             ],
             [
                 "id" => 92,
-                "name" => "Thiên Nhạc Kiếm Pháp",
+                "name" => "Thiên Tâm Kiếm Quyết",
                 "type" => "cs_sj"
             ],
             [
                 "id" => 93,
-                "name" => "Vong Xuyên Kiếm Pháp",
+                "name" => "Tứ Tượng Kiếm Quyết",
                 "type" => "cs_sj"
             ],
             [
                 "id" => 94,
-                "name" => "Bàn Ẩn Kiếm Quyết",
+                "name" => "Ngũ Vĩ Kiếm Quyết",
                 "type" => "cs_sj"
             ],
             [
                 "id" => 95,
-                "name" => "Trạc Anh Kiếm Pháp",
+                "name" => "Thiên Nhạc Kiếm Pháp",
                 "type" => "cs_sj"
             ],
             [
                 "id" => 96,
-                "name" => "Tật Quỷ Đao",
-                "type" => "cs_dd"
+                "name" => "Vong Xuyên Kiếm Pháp",
+                "type" => "cs_sj"
             ],
             [
                 "id" => 97,
-                "name" => "Thất Hồn Đao Pháp",
-                "type" => "cs_dd"
+                "name" => "Bàn Ẩn Kiếm Quyết",
+                "type" => "cs_sj"
             ],
             [
                 "id" => 98,
-                "name" => "Đoạn Tình Thất Tuyệt",
-                "type" => "cs_dd"
+                "name" => "Trạc Anh Kiếm Pháp",
+                "type" => "cs_sj"
             ],
             [
                 "id" => 99,
-                "name" => "Viêm Dương Đao Pháp",
+                "name" => "Phi Quải Đao Pháp",
                 "type" => "cs_dd"
             ],
             [
                 "id" => 100,
-                "name" => "Huyết Sát Đao Pháp",
+                "name" => "Tật Quỷ Đao",
                 "type" => "cs_dd"
             ],
             [
                 "id" => 101,
-                "name" => "Cuồng Phong Đao Pháp",
+                "name" => "Thất Hồn Đao Pháp",
                 "type" => "cs_dd"
             ],
             [
                 "id" => 102,
-                "name" => "Hồ Gia Đao Pháp",
+                "name" => "Đoạn Tình Thất Tuyệt",
                 "type" => "cs_dd"
             ],
             [
                 "id" => 103,
-                "name" => "Tỉnh Trung Bát Pháp",
+                "name" => "Viêm Dương Đao Pháp",
                 "type" => "cs_dd"
             ],
             [
                 "id" => 104,
-                "name" => "Bát Quái Đao",
+                "name" => "Huyết Sát Đao Pháp",
                 "type" => "cs_dd"
             ],
             [
                 "id" => 105,
-                "name" => "Viên Nguyệt Loan Đao",
+                "name" => "Cuồng Phong Đao Pháp",
                 "type" => "cs_dd"
             ],
             [
                 "id" => 106,
-                "name" => "Khốn Thiên Đao Quyết",
+                "name" => "Hồ Gia Đao Pháp",
                 "type" => "cs_dd"
             ],
             [
                 "id" => 107,
-                "name" => "Huyết Hải Ma Đao Lục",
+                "name" => "Tỉnh Trung Bát Pháp",
                 "type" => "cs_dd"
             ],
             [
                 "id" => 108,
-                "name" => "Huyết Đao Quyết",
+                "name" => "Bát Quái Đao",
                 "type" => "cs_dd"
             ],
             [
                 "id" => 109,
-                "name" => "Ngạo Hàn Lục Quyết",
+                "name" => "Viên Nguyệt Loan Đao",
                 "type" => "cs_dd"
             ],
             [
                 "id" => 110,
-                "name" => "Khoáng Hải Thiên Toàn Trảm",
+                "name" => "Khốn Thiên Đao Quyết",
                 "type" => "cs_dd"
             ],
             [
                 "id" => 111,
-                "name" => "Minh Vương Đoạn Ảnh Đao",
+                "name" => "Huyết Hải Ma Đao Lục",
                 "type" => "cs_dd"
             ],
             [
                 "id" => 112,
-                "name" => "Thiên Anh Phá Trận Đao",
+                "name" => "Huyết Đao Quyết",
                 "type" => "cs_dd"
             ],
             [
                 "id" => 113,
-                "name" => "Đãng Khấu Đao",
+                "name" => "Ngạo Hàn Lục Quyết",
                 "type" => "cs_dd"
             ],
             [
                 "id" => 114,
-                "name" => "Quảng Võ Trưng Bá Đao",
+                "name" => "Khoáng Hải Thiên Toàn Trảm",
                 "type" => "cs_dd"
             ],
             [
                 "id" => 115,
-                "name" => "Tứ Hải Quy Đao Quyết",
+                "name" => "Minh Vương Đoạn Ảnh Đao",
                 "type" => "cs_dd"
             ],
             [
                 "id" => 116,
-                "name" => "Cuồng Phong Nhất Đao Trảm",
+                "name" => "Thiên Anh Phá Trận Đao",
                 "type" => "cs_dd"
             ],
             [
                 "id" => 117,
-                "name" => "Kinh Hồng Đao Pháp",
-                "type" => "cs_sd"
+                "name" => "Đãng Khấu Đao",
+                "type" => "cs_dd"
             ],
             [
                 "id" => 118,
-                "name" => "Uyên Ương Song Đao",
-                "type" => "cs_sd"
+                "name" => "Quảng Võ Trưng Bá Đao",
+                "type" => "cs_dd"
             ],
             [
                 "id" => 119,
-                "name" => "Tu La Đao",
-                "type" => "cs_sd"
+                "name" => "Tứ Hải Quy Đao Quyết",
+                "type" => "cs_dd"
             ],
             [
                 "id" => 120,
-                "name" => "Huyết Long Tà Phủ",
-                "type" => "cs_sd"
+                "name" => "Cuồng Phong Nhất Đao Trảm",
+                "type" => "cs_dd"
             ],
             [
                 "id" => 121,
-                "name" => "Kim Lộc Thần Đao",
+                "name" => "Truy Phong Đao",
                 "type" => "cs_sd"
             ],
             [
                 "id" => 122,
-                "name" => "Địa Ngục Nhiếp Hồn Đao",
+                "name" => "Kinh Hồng Đao Pháp",
                 "type" => "cs_sd"
             ],
             [
                 "id" => 123,
-                "name" => "Âm Dương Đảo Loạn Đao",
+                "name" => "Uyên Ương Song Đao",
                 "type" => "cs_sd"
             ],
             [
                 "id" => 124,
-                "name" => "Bát Môn Kim Tỏa",
+                "name" => "Tu La Đao",
                 "type" => "cs_sd"
             ],
             [
                 "id" => 125,
-                "name" => "Bát Hoang Đao Phổ",
+                "name" => "Huyết Long Tà Phủ",
                 "type" => "cs_sd"
             ],
             [
                 "id" => 126,
-                "name" => "Yến Vân Loạn Trần Đao",
+                "name" => "Kim Lộc Thần Đao",
                 "type" => "cs_sd"
             ],
             [
                 "id" => 127,
-                "name" => "Kim Xà Thích",
-                "type" => "cs_bs"
+                "name" => "Địa Ngục Nhiếp Hồn Đao",
+                "type" => "cs_sd"
             ],
             [
                 "id" => 128,
-                "name" => "Phân Quang Tróc Ảnh Thích",
-                "type" => "cs_bs"
+                "name" => "Âm Dương Đảo Loạn Đao",
+                "type" => "cs_sd"
             ],
             [
                 "id" => 129,
-                "name" => "Câu Hồn Thất Đoạt",
-                "type" => "cs_bs"
+                "name" => "Bát Môn Kim Tỏa",
+                "type" => "cs_sd"
             ],
             [
                 "id" => 130,
-                "name" => "Đoạt Phách Câu Tâm Thích",
-                "type" => "cs_bs"
+                "name" => "Bát Hoang Đao Phổ",
+                "type" => "cs_sd"
             ],
             [
                 "id" => 131,
-                "name" => "Ô Mặc Thước Pháp",
-                "type" => "cs_bs"
+                "name" => "Yến Vân Loạn Trần Đao",
+                "type" => "cs_sd"
             ],
             [
                 "id" => 132,
-                "name" => "Thần Phong Quyết",
+                "name" => "Vân Hà Thích",
                 "type" => "cs_bs"
             ],
             [
                 "id" => 133,
-                "name" => "Thánh Hỏa Lệnh (Cổ)",
+                "name" => "Kim Xà Thích",
                 "type" => "cs_bs"
             ],
             [
                 "id" => 134,
-                "name" => "Quỷ Vương Thích",
+                "name" => "Phân Quang Tróc Ảnh Thích",
                 "type" => "cs_bs"
             ],
             [
                 "id" => 135,
-                "name" => "Yên Chi Huyết",
+                "name" => "Câu Hồn Thất Đoạt",
                 "type" => "cs_bs"
             ],
             [
                 "id" => 136,
-                "name" => "Ẩn Không Nhẫn",
+                "name" => "Đoạt Phách Câu Tâm Thích",
                 "type" => "cs_bs"
             ],
             [
                 "id" => 137,
-                "name" => "Quang Ảnh Minh Diệt Thích",
+                "name" => "Ô Mặc Thước Pháp",
                 "type" => "cs_bs"
             ],
             [
                 "id" => 138,
-                "name" => "Loạn Thế Bát Mưu",
+                "name" => "Thần Phong Quyết",
                 "type" => "cs_bs"
             ],
             [
                 "id" => 139,
-                "name" => "Mị Khấp Thích",
+                "name" => "Thánh Hỏa Lệnh (Cổ)",
                 "type" => "cs_bs"
             ],
             [
                 "id" => 140,
-                "name" => "Thiên Tuyệt Địa Diệt Thích",
-                "type" => "cs_sc"
+                "name" => "Quỷ Vương Thích",
+                "type" => "cs_bs"
             ],
             [
                 "id" => 141,
-                "name" => "Nghê Thường Động",
-                "type" => "cs_sc"
+                "name" => "Yên Chi Huyết",
+                "type" => "cs_bs"
             ],
             [
                 "id" => 142,
-                "name" => "Thiên La Vũ",
-                "type" => "cs_sc"
+                "name" => "Ẩn Không Nhẫn",
+                "type" => "cs_bs"
             ],
             [
                 "id" => 143,
-                "name" => "Phá Liên Bát Trứ",
-                "type" => "cs_sc"
+                "name" => "Quang Ảnh Minh Diệt Thích",
+                "type" => "cs_bs"
             ],
             [
                 "id" => 144,
-                "name" => "Cô Tẩy Thích Quyết",
-                "type" => "cs_sc"
+                "name" => "Loạn Thế Bát Mưu",
+                "type" => "cs_bs"
             ],
             [
                 "id" => 145,
-                "name" => "Kinh Tuyết Thích",
-                "type" => "cs_sc"
+                "name" => "Mị Khấp Thích",
+                "type" => "cs_bs"
             ],
             [
                 "id" => 146,
-                "name" => "Khuynh Thành Thích",
+                "name" => "Ly Biệt Thích",
                 "type" => "cs_sc"
             ],
             [
                 "id" => 147,
-                "name" => "Cổ Nguyệt Tiên Hoàn Quyết",
+                "name" => "Thiên Tuyệt Địa Diệt Thích",
                 "type" => "cs_sc"
             ],
             [
                 "id" => 148,
-                "name" => "Thiên Ma Thích Quyết",
+                "name" => "Nghê Thường Động",
                 "type" => "cs_sc"
             ],
             [
                 "id" => 149,
-                "name" => "Kim Cang Ma Ngâm Chử",
+                "name" => "Thiên La Vũ",
                 "type" => "cs_sc"
             ],
             [
                 "id" => 150,
-                "name" => "Lưu Vân Tá Nguyệt Kiệp",
+                "name" => "Phá Liên Bát Trứ",
                 "type" => "cs_sc"
             ],
             [
                 "id" => 151,
-                "name" => "Đạt Ma Côn Pháp",
-                "type" => "cs_cg"
+                "name" => "Cô Tẩy Thích Quyết",
+                "type" => "cs_sc"
             ],
             [
                 "id" => 152,
-                "name" => "Ngũ Lang Bát Quái Côn",
-                "type" => "cs_cg"
+                "name" => "Kinh Tuyết Thích",
+                "type" => "cs_sc"
             ],
             [
                 "id" => 153,
-                "name" => "Cầu Bại Côn Pháp",
-                "type" => "cs_cg"
+                "name" => "Khuynh Thành Thích",
+                "type" => "cs_sc"
             ],
             [
                 "id" => 154,
-                "name" => "Võ Thánh Côn Pháp",
-                "type" => "cs_cg"
+                "name" => "Cổ Nguyệt Tiên Hoàn Quyết",
+                "type" => "cs_sc"
             ],
             [
                 "id" => 155,
-                "name" => "Bá Vương Thương Pháp",
-                "type" => "cs_cg"
+                "name" => "Thiên Ma Thích Quyết",
+                "type" => "cs_sc"
             ],
             [
                 "id" => 156,
-                "name" => "Nhạc Gia Thương Pháp",
-                "type" => "cs_cg"
+                "name" => "Kim Cang Ma Ngâm Chử",
+                "type" => "cs_sc"
             ],
             [
                 "id" => 157,
-                "name" => "Từ Hàng Phổ Độ Côn",
-                "type" => "cs_cg"
+                "name" => "Lưu Vân Tá Nguyệt Kiệp",
+                "type" => "cs_sc"
             ],
             [
                 "id" => 158,
-                "name" => "Phục Ma Côn Pháp",
+                "name" => "Vi Đà Côn Pháp",
                 "type" => "cs_cg"
             ],
             [
                 "id" => 159,
-                "name" => "Phong Ba Côn",
+                "name" => "Đạt Ma Côn Pháp",
                 "type" => "cs_cg"
             ],
             [
                 "id" => 160,
-                "name" => "Nhật Nguyệt Liên Hoàn Thương",
+                "name" => "Ngũ Lang Bát Quái Côn",
                 "type" => "cs_cg"
             ],
             [
                 "id" => 161,
-                "name" => "Cuồng Long Bát Tiếu",
+                "name" => "Cầu Bại Côn Pháp",
                 "type" => "cs_cg"
             ],
             [
                 "id" => 162,
-                "name" => "Vạn Thú Hoang Đằng Trảm",
+                "name" => "Võ Thánh Côn Pháp",
                 "type" => "cs_cg"
             ],
             [
                 "id" => 163,
-                "name" => "Tâm Nghiên Thiền Điển",
+                "name" => "Bá Vương Thương Pháp",
                 "type" => "cs_cg"
             ],
             [
                 "id" => 164,
+                "name" => "Nhạc Gia Thương Pháp",
+                "type" => "cs_cg"
+            ],
+            [
+                "id" => 165,
+                "name" => "Từ Hàng Phổ Độ Côn",
+                "type" => "cs_cg"
+            ],
+            [
+                "id" => 166,
+                "name" => "Phục Ma Côn Pháp",
+                "type" => "cs_cg"
+            ],
+            [
+                "id" => 167,
+                "name" => "Phong Ba Côn",
+                "type" => "cs_cg"
+            ],
+            [
+                "id" => 168,
+                "name" => "Nhật Nguyệt Liên Hoàn Thương",
+                "type" => "cs_cg"
+            ],
+            [
+                "id" => 169,
+                "name" => "Cuồng Long Bát Tiếu",
+                "type" => "cs_cg"
+            ],
+            [
+                "id" => 170,
+                "name" => "Vạn Thú Hoang Đằng Trảm",
+                "type" => "cs_cg"
+            ],
+            [
+                "id" => 171,
+                "name" => "Tâm Nghiên Thiền Điển",
+                "type" => "cs_cg"
+            ],
+            [
+                "id" => 172,
+                "name" => "Khốc Tang Bổng Pháp",
+                "type" => "cs_dg"
+            ],
+            [
+                "id" => 173,
                 "name" => "Linh Xà Bổng Pháp",
                 "type" => "cs_dg"
             ],
             [
-                "id" => 165,
+                "id" => 174,
                 "name" => "Đả Cẩu Bổng Pháp (Cổ)",
                 "type" => "cs_dg"
             ],
             [
-                "id" => 166,
+                "id" => 175,
                 "name" => "Phong Ma Trượng Pháp",
                 "type" => "cs_dg"
             ],
             [
-                "id" => 167,
+                "id" => 176,
                 "name" => "Đả Cẩu Bổng Pháp",
                 "type" => "cs_dg"
             ],
             [
-                "id" => 168,
+                "id" => 177,
                 "name" => "Phong Lôi Hàng Ma Trượng",
                 "type" => "cs_dg"
             ],
             [
-                "id" => 169,
+                "id" => 178,
                 "name" => "Thập Tự Truy Hồn Côn",
                 "type" => "cs_dg"
             ],
             [
-                "id" => 170,
+                "id" => 179,
                 "name" => "Nhất Dương Bi Thiếp Bổng Pháp",
                 "type" => "cs_dg"
             ],
             [
-                "id" => 171,
+                "id" => 180,
                 "name" => "Xích Sát Độc Võ Côn",
                 "type" => "cs_dg"
             ],
             [
-                "id" => 172,
+                "id" => 181,
+                "name" => "Mê Hồn Tiêu",
+                "type" => "cs_aq"
+            ],
+            [
+                "id" => 182,
                 "name" => "Thiên Ma Truy Hồn Đao",
                 "type" => "cs_aq"
             ],
             [
-                "id" => 173,
+                "id" => 183,
                 "name" => "Truy Hồn Trảo",
                 "type" => "cs_aq"
             ],
             [
-                "id" => 174,
+                "id" => 184,
                 "name" => "Diêm Vương Thiếp",
                 "type" => "cs_aq"
             ],
             [
-                "id" => 175,
+                "id" => 185,
                 "name" => "Tam Dương Huyền Châm",
                 "type" => "cs_aq"
             ],
             [
-                "id" => 176,
+                "id" => 186,
                 "name" => "Linh Lung Đầu",
                 "type" => "cs_aq"
             ],
             [
-                "id" => 177,
+                "id" => 187,
                 "name" => "Thiên Địa Sưu Hồn Tỏa",
                 "type" => "cs_aq"
             ],
             [
-                "id" => 178,
-                "name" => "Đông Phương Vô Phong Kiếm",
-                "type" => "cs_qmtaolu"
-            ],
-            [
-                "id" => 179,
-                "name" => "Vạn Tượng Thiên Nguyên Nhẫn",
-                "type" => "cs_qmtaolu"
-            ],
-            [
-                "id" => 180,
-                "name" => "Mặc Vũ Xuân Thu",
-                "type" => "cs_qmtaolu"
-            ],
-            [
-                "id" => 181,
-                "name" => "U Minh Tàn Hương Thức",
-                "type" => "cs_qmtaolu"
-            ],
-            [
-                "id" => 182,
-                "name" => "Tướng Quân Hành",
-                "type" => "cs_qmtaolu"
-            ],
-            [
-                "id" => 183,
-                "name" => "Cuồng Sát Phá Trận Kiếm",
-                "type" => "cs_qmtaolu"
-            ],
-            [
-                "id" => 184,
-                "name" => "Ngự Phong Cửu Biến",
-                "type" => "cs_qmtaolu"
-            ],
-            [
-                "id" => 185,
-                "name" => "Tiêu Tương Băng Vân Phổ",
-                "type" => "cs_qmtaolu"
-            ],
-            [
-                "id" => 186,
-                "name" => "Thiên Ma Bát Âm",
-                "type" => "cs_qmtaolu"
-            ],
-            [
-                "id" => 187,
-                "name" => "Lạc Nhạn Cung",
-                "type" => "cs_qmtaolu"
-            ],
-            [
                 "id" => 188,
-                "name" => "Thần Tiễn Cửu Sách",
+                "name" => "Quan Thương Đạo",
                 "type" => "cs_qmtaolu"
             ],
             [
                 "id" => 189,
-                "name" => "Liệt Vân Bát Tiễn",
+                "name" => "Đông Phương Vô Phong Kiếm",
                 "type" => "cs_qmtaolu"
             ],
             [
                 "id" => 190,
-                "name" => "Minh Lệ Nhẫn",
+                "name" => "Vạn Tượng Thiên Nguyên Nhẫn",
                 "type" => "cs_qmtaolu"
             ],
             [
                 "id" => 191,
-                "name" => "Hàn Tuyền Tẩy Tâm Phổ",
+                "name" => "Mặc Vũ Xuân Thu",
                 "type" => "cs_qmtaolu"
             ],
             [
                 "id" => 192,
-                "name" => "Minh Nguyệt Thương Hải Quyết",
+                "name" => "U Minh Tàn Hương Thức",
                 "type" => "cs_qmtaolu"
             ],
             [
                 "id" => 193,
-                "name" => "Tố U Lệnh",
+                "name" => "Tướng Quân Hành",
                 "type" => "cs_qmtaolu"
             ],
             [
                 "id" => 194,
-                "name" => "Xuân Thu Thiên Viễn Quyết",
+                "name" => "Cuồng Sát Phá Trận Kiếm",
                 "type" => "cs_qmtaolu"
             ],
             [
                 "id" => 195,
-                "name" => "Mộng Vi Bút Phổ",
+                "name" => "Ngự Phong Cửu Biến",
                 "type" => "cs_qmtaolu"
             ],
             [
                 "id" => 196,
+                "name" => "Tiêu Tương Băng Vân Phổ",
+                "type" => "cs_qmtaolu"
+            ],
+            [
+                "id" => 197,
+                "name" => "Thiên Ma Bát Âm",
+                "type" => "cs_qmtaolu"
+            ],
+            [
+                "id" => 198,
+                "name" => "Lạc Nhạn Cung",
+                "type" => "cs_qmtaolu"
+            ],
+            [
+                "id" => 199,
+                "name" => "Thần Tiễn Cửu Sách",
+                "type" => "cs_qmtaolu"
+            ],
+            [
+                "id" => 200,
+                "name" => "Liệt Vân Bát Tiễn",
+                "type" => "cs_qmtaolu"
+            ],
+            [
+                "id" => 201,
+                "name" => "Minh Lệ Nhẫn",
+                "type" => "cs_qmtaolu"
+            ],
+            [
+                "id" => 202,
+                "name" => "Hàn Tuyền Tẩy Tâm Phổ",
+                "type" => "cs_qmtaolu"
+            ],
+            [
+                "id" => 203,
+                "name" => "Minh Nguyệt Thương Hải Quyết",
+                "type" => "cs_qmtaolu"
+            ],
+            [
+                "id" => 204,
+                "name" => "Tố U Lệnh",
+                "type" => "cs_qmtaolu"
+            ],
+            [
+                "id" => 205,
+                "name" => "Xuân Thu Thiên Viễn Quyết",
+                "type" => "cs_qmtaolu"
+            ],
+            [
+                "id" => 206,
+                "name" => "Mộng Vi Bút Phổ",
+                "type" => "cs_qmtaolu"
+            ],
+            [
+                "id" => 207,
                 "name" => "Táp Phong Phiến Quyết",
                 "type" => "cs_qmtaolu"
             ],
+
         ];
 
         $table = $this->table("set");

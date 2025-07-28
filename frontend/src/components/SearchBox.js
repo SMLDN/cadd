@@ -44,7 +44,7 @@ export default function SearchBox() {
           href={slug}
           className="block m-0 mt-4 mb-4 search-result-item"
         >
-          <div className="flex items-center">
+          <div className="flex items-center min-w-52">
             <div className={border}>
               <Image
                 width={45}
@@ -72,7 +72,9 @@ export default function SearchBox() {
         return;
       }
     }
-    setMenuData([]);
+    setTimeout(() => {
+      setMenuData([]);
+    }, 100);
   };
 
   useEffect(() => {

@@ -72,9 +72,11 @@ class SearchController
                     "desc" => $item["desc"],
                     "photo" => $item["photo"],
                     "schoolName" => $item["school"]["name"],
+                    "score" => $innerRes["docScores"][$item["id"]]
                 ]);
             }
         }
+
 
         $this->engine->selectIndex("skill.index");
         $skillRes = $this->engine->search($params["q"], 5);
@@ -98,9 +100,14 @@ class SearchController
                     "slug" => $item["initSkill"]["slug"],
                     "maxLevel" => $item["initSkill"]["maxLevel"],
                     "photo" => $item["initSkill"]["photo"],
+                    "score" => $skillRes["docScores"][$item["id"]]
                 ]);
             }
         }
+
+        usort($ret, function ($a, $b) {
+            return $a["score"] < $b["score"];
+        });
 
         return $response->withJson($ret);
     }

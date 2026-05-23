@@ -111,7 +111,7 @@ export default function SearchBox() {
         onChange={handleInputChange}
         onBlur={resultBoxOnBlur}
         placeholder="Tìm kiếm..."
-        className="ml-10 m-0 p-1 pl-2 pr-2 -mt-1 text-slate-800 outline-none rounded-sm"
+        className="ml-10 m-0 p-1 pl-2 pr-2 -mt-1 text-slate-800 bg-white outline-none rounded-sm"
       />
       {hasItem && (
         <div className="absolute z-50 bg-stone-950 ml-10 mt-2 p-2 pl-2 pr-10 rounded-sm">

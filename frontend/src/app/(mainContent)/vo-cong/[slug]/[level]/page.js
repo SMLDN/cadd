@@ -16,7 +16,8 @@ async function getSkillDetail(slug, level) {
 }
 
 export async function generateMetadata({ params }) {
-  const skillDetail = await getSkillDetail(params.slug, params.level);
+  const { slug, level } = await params;
+  const skillDetail = await getSkillDetail(slug, level);
 
   if (skillDetail["Error"] != null) {
     return notFound();
@@ -37,9 +38,10 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function VoCongPage({ params }) {
+  const { slug, level } = await params;
   const [setList, skillDetail] = await Promise.all([
     getSetList(),
-    getSkillDetail(params.slug, params.level),
+    getSkillDetail(slug, level),
   ]);
   const switchTag = useSwitchTag("voCong");
 

@@ -1,3 +1,4 @@
+@import "tailwindcss";
 
 .inner-item {
     @apply pl-4;

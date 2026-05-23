@@ -17,7 +17,8 @@ async function getKinhMachDetail(slug, level) {
 }
 
 export async function generateMetadata({ params }) {
-  const kinhMach = await getKinhMachDetail(params.slug, params.level);
+  const { slug, level } = await params;
+  const kinhMach = await getKinhMachDetail(slug, level);
 
   if (kinhMach["Error"] != null) {
     return notFound();
@@ -38,8 +39,9 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function KinhMachPage({ params }) {
+  const { slug, level } = await params;
   const kinhMachList = await getKinhMachList();
-  const kinhMachDetail = await getKinhMachDetail(params.slug, params.level);
+  const kinhMachDetail = await getKinhMachDetail(slug, level);
 
   if (kinhMachDetail["Error"] != null) {
     notFound();

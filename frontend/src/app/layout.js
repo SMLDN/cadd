@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
         </head>
         <body className={inter.className}>
           {children}
-          <div className="text-right mr-10 text-white">ZDN@2025</div>
+          <div className="text-right mr-10 text-white">ZDN@2026</div>
         </body>
         <GoogleAnalytics gaId="G-7X3R39YR6Z" />
       </html>

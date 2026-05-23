@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 .kinh-mach-item {
   @apply pl-4;
   @apply text-sm;

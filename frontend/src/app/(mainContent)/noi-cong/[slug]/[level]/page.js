@@ -16,7 +16,8 @@ async function getInnerDetail(slug, level) {
 }
 
 export async function generateMetadata({ params }) {
-  const inner = await getInnerDetail(params.slug, params.level);
+  const { slug, level } = await params;
+  const inner = await getInnerDetail(slug, level);
 
   if (inner["Error"] != null) {
     return notFound();
@@ -37,9 +38,10 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function NoiCongPage({ params }) {
+  const { slug, level } = await params;
   const [schoolList, innerDetail] = await Promise.all([
     getSchoolInnerList(),
-    getInnerDetail(params.slug, params.level),
+    getInnerDetail(slug, level),
   ]);
   const switchTag = useSwitchTag("noiCong");
 
@@ -49,7 +51,7 @@ export default async function NoiCongPage({ params }) {
 
   const initSchool = schoolList.find((school) => {
     return school.innerList.find((inner) => {
-      return inner.slug === params.slug;
+      return inner.slug === slug;
     });
   });
 
@@ -57,7 +59,7 @@ export default async function NoiCongPage({ params }) {
     switchTag,
     <NoiCongSideBar
       initSchoolId={initSchool.id}
-      initInnerSlug={params.slug}
+      initInnerSlug={slug}
       schoolList={schoolList}
     />,
     <NoiCongInfo initInner={innerDetail} />,
